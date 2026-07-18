@@ -102,6 +102,10 @@
         "file": "Fallout-New-Vegas-in-fallout-4"
       },
       {
+        "slug": "Fallout-New-Vegas-mods",
+        "file": "Fallout-New-Vegas-mods"
+      },
+      {
         "slug": "Fallout-New-Vegas-nexus",
         "file": "Fallout-New-Vegas-nexus"
       },
@@ -122,6 +126,54 @@
       {
         "slug": "Fallout-New-Vegas-should-i-take-over-vegas",
         "file": "Fallout-New-Vegas-should-i-take-over-vegas"
+      }
+    ],
+    "remaster": [
+      {
+        "slug": "Fallout-New-Vegas-2",
+        "file": "Fallout-New-Vegas-2"
+      },
+      {
+        "slug": "Fallout-New-Vegas-ps5",
+        "file": "Fallout-New-Vegas-ps5"
+      },
+      {
+        "slug": "Fallout-New-Vegas-release-date",
+        "file": "Fallout-New-Vegas-release-date"
+      },
+      {
+        "slug": "Fallout-New-Vegas-remaster",
+        "file": "Fallout-New-Vegas-remaster"
+      },
+      {
+        "slug": "Fallout-New-Vegas-steam",
+        "file": "Fallout-New-Vegas-steam"
+      },
+      {
+        "slug": "Fallout-New-Vegas-ultimate-edition",
+        "file": "Fallout-New-Vegas-ultimate-edition"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "Fallout-New-Vegas-armor",
+        "file": "Fallout-New-Vegas-armor"
+      },
+      {
+        "slug": "Fallout-New-Vegas-best-weapons",
+        "file": "Fallout-New-Vegas-best-weapons"
+      },
+      {
+        "slug": "Fallout-New-Vegas-ncr-ranger-armor",
+        "file": "Fallout-New-Vegas-ncr-ranger-armor"
+      },
+      {
+        "slug": "Fallout-New-Vegas-power-armor",
+        "file": "Fallout-New-Vegas-power-armor"
+      },
+      {
+        "slug": "Fallout-New-Vegas-weapons",
+        "file": "Fallout-New-Vegas-weapons"
       }
     ]
   },
@@ -406,6 +458,10 @@
         "file": "Fallout-New-Vegas-in-fallout-4"
       },
       {
+        "slug": "Fallout-New-Vegas-mods",
+        "file": "Fallout-New-Vegas-mods"
+      },
+      {
         "slug": "Fallout-New-Vegas-nexus",
         "file": "Fallout-New-Vegas-nexus"
       },
@@ -427,10 +483,62 @@
         "slug": "Fallout-New-Vegas-should-i-take-over-vegas",
         "file": "Fallout-New-Vegas-should-i-take-over-vegas"
       }
+    ],
+    "remaster": [
+      {
+        "slug": "Fallout-New-Vegas-2",
+        "file": "Fallout-New-Vegas-2"
+      },
+      {
+        "slug": "Fallout-New-Vegas-ps5",
+        "file": "Fallout-New-Vegas-ps5"
+      },
+      {
+        "slug": "Fallout-New-Vegas-release-date",
+        "file": "Fallout-New-Vegas-release-date"
+      },
+      {
+        "slug": "Fallout-New-Vegas-remaster",
+        "file": "Fallout-New-Vegas-remaster"
+      },
+      {
+        "slug": "Fallout-New-Vegas-steam",
+        "file": "Fallout-New-Vegas-steam"
+      },
+      {
+        "slug": "Fallout-New-Vegas-ultimate-edition",
+        "file": "Fallout-New-Vegas-ultimate-edition"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "Fallout-New-Vegas-armor",
+        "file": "Fallout-New-Vegas-armor"
+      },
+      {
+        "slug": "Fallout-New-Vegas-best-weapons",
+        "file": "Fallout-New-Vegas-best-weapons"
+      },
+      {
+        "slug": "Fallout-New-Vegas-ncr-ranger-armor",
+        "file": "Fallout-New-Vegas-ncr-ranger-armor"
+      },
+      {
+        "slug": "Fallout-New-Vegas-power-armor",
+        "file": "Fallout-New-Vegas-power-armor"
+      },
+      {
+        "slug": "Fallout-New-Vegas-weapons",
+        "file": "Fallout-New-Vegas-weapons"
+      }
     ]
   },
   "ru": {
     "builds": [
+      {
+        "slug": "Fallout-New-Vegas-best-skills",
+        "file": "Fallout-New-Vegas-best-skills"
+      },
       {
         "slug": "Fallout-New-Vegas-best-starting-stats",
         "file": "Fallout-New-Vegas-best-starting-stats"
@@ -452,6 +560,10 @@
       {
         "slug": "Fallout-New-Vegas-benny",
         "file": "Fallout-New-Vegas-benny"
+      },
+      {
+        "slug": "Fallout-New-Vegas-boone",
+        "file": "Fallout-New-Vegas-boone"
       },
       {
         "slug": "Fallout-New-Vegas-companions",
@@ -508,12 +620,24 @@
     ],
     "mods": [
       {
+        "slug": "Fallout-New-Vegas-4gb-patcher",
+        "file": "Fallout-New-Vegas-4gb-patcher"
+      },
+      {
         "slug": "Fallout-New-Vegas-graphics-overhaul",
         "file": "Fallout-New-Vegas-graphics-overhaul"
       },
       {
+        "slug": "Fallout-New-Vegas-how-to-mod",
+        "file": "Fallout-New-Vegas-how-to-mod"
+      },
+      {
         "slug": "Fallout-New-Vegas-in-fallout-4",
         "file": "Fallout-New-Vegas-in-fallout-4"
+      },
+      {
+        "slug": "Fallout-New-Vegas-mods",
+        "file": "Fallout-New-Vegas-mods"
       },
       {
         "slug": "Fallout-New-Vegas-nexus",
@@ -536,6 +660,54 @@
       {
         "slug": "Fallout-New-Vegas-should-i-take-over-vegas",
         "file": "Fallout-New-Vegas-should-i-take-over-vegas"
+      }
+    ],
+    "remaster": [
+      {
+        "slug": "Fallout-New-Vegas-2",
+        "file": "Fallout-New-Vegas-2"
+      },
+      {
+        "slug": "Fallout-New-Vegas-ps5",
+        "file": "Fallout-New-Vegas-ps5"
+      },
+      {
+        "slug": "Fallout-New-Vegas-release-date",
+        "file": "Fallout-New-Vegas-release-date"
+      },
+      {
+        "slug": "Fallout-New-Vegas-remaster",
+        "file": "Fallout-New-Vegas-remaster"
+      },
+      {
+        "slug": "Fallout-New-Vegas-steam",
+        "file": "Fallout-New-Vegas-steam"
+      },
+      {
+        "slug": "Fallout-New-Vegas-ultimate-edition",
+        "file": "Fallout-New-Vegas-ultimate-edition"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "Fallout-New-Vegas-armor",
+        "file": "Fallout-New-Vegas-armor"
+      },
+      {
+        "slug": "Fallout-New-Vegas-best-weapons",
+        "file": "Fallout-New-Vegas-best-weapons"
+      },
+      {
+        "slug": "Fallout-New-Vegas-ncr-ranger-armor",
+        "file": "Fallout-New-Vegas-ncr-ranger-armor"
+      },
+      {
+        "slug": "Fallout-New-Vegas-power-armor",
+        "file": "Fallout-New-Vegas-power-armor"
+      },
+      {
+        "slug": "Fallout-New-Vegas-weapons",
+        "file": "Fallout-New-Vegas-weapons"
       }
     ]
   }

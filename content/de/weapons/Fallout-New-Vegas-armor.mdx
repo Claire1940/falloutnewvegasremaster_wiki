@@ -1,0 +1,210 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fallout New Vegas Rüstung: 2026 Beste Sets & Fundorte-Guide",
+  description: "Entdecke die besten Rüstungssets in Fallout New Vegas, einschließlich der Ranger-Kampfrüstung und Powerrüstung, mit Fundorten und Reparaturstrategien.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/e5e5e5?text=Fallout+New+Vegas+Armor+Guide",
+  date: "2026-07-18",
+  author: "Fallout New Vegas Wiki-Team",
+  keywords: "Fallout New Vegas, Rüstung, Ranger-Kampfrüstung, Powerrüstung, Schadensschwelle, Guide"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Beste Wahl**: Die **Ranger-Kampfrüstung** bleibt die ikonischste und ausgewogenste mittelschwere Rüstung für das Late-Game.
+- **Powerrüstung**: Suche nach der **Überreste-Powerrüstung** für die höchste Schadensschwelle (SW) im Mojave-Ödland.
+- **Frühe Strategie**: Erreiche den Ruf **Beliebt** bei der RNK, um den Schlüssel zum Ranger-Versteck für kostenlose High-Tier-Ausrüstung zu erhalten.
+- **Wartung**: Investiere 90 Punkte in **Reparieren**, um den Perk **Notbehelf** freizuschalten, was Tausende von Kronkorken bei Reparaturen spart.
+- **Fraktions-Warnung**: Das Tragen von Fraktionsrüstungen ändert deinen Ruf und kann dazu führen, dass neutrale NPCs dich sofort angreifen.
+</Callout>
+
+<Section icon={Map} title="Die ikonische Ranger-Kampfrüstung: Guide für frühen Zugriff">
+
+Die Ranger-Kampfrüstung ist wohl das begehrteste Set in der Mojave. Bekannt für ihre markante Gasmaske und den Staubmantel, bietet diese mittelschwere Rüstung exzellenten Schutz ohne die Bewegungsabzüge schwerer Plattenpanzer. Während sie normalerweise erst später im Spiel bei RNK-Veteran-Rangern auftaucht, können engagierte Spieler dieses Set durch gezieltes Ruf-Grinding oder taktische Eliminierungen viel früher sichern.
+
+**Video-Highlights:**
+- **Zwei Haupttypen**: Unterschied zwischen der Ranger-Patrouillenrüstung und der legendären Ranger-Kampfrüstung.
+- **Ruf-Methode**: So erhältst du Zugang zum RNK-Ranger-Versteck, indem du den Status „Beliebt“ erreichst.
+- **Die Kampf-Route**: Orte, an denen Veteran-Ranger nach Abschluss wichtiger Hauptquest-Meilensteine spawnen.
+- **Wartungsgeheimnisse**: Warum der Perk „Notbehelf“ essenziell ist, um seltene Rüstungen funktionstüchtig zu halten.
+
+<YouTubeEmbed videoId="9yHRQue6D0Q" title="Fallout New Vegas - Wie man die Ranger-Rüstung früh bekommt" />
+
+Um diese Rüstung zu erhalten, ohne die gesamte RNK gegen dich aufzubringen, konzentriere dich auf Quests im **Camp McCarran** und in **Boulder City**. Die friedliche Lösung der Geiselnahme der Groß-Khans ist einer der schnellsten Wege, dein Ansehen zu steigern. Sobald du bei der RNK beliebt bist, sprich mit Colonel James Hsu im Camp McCarran, um den Schlüssel zum Versteck zu erhalten.
+
+| Rüstungsname | SW | Gewicht | Effekte |
+| :--- | :--- | :--- | :--- |
+| **Ranger-Kampfrüstung** | 20 | 30 | Keine (Fraktion: RNK) |
+| **Ranger-Patrouillenrüstung** | 15 | 25 | Keine (Fraktion: RNK) |
+| **Wüsten-Ranger-Rüstung** | 22 | 30 | DLC: Honest Hearts, Fraktionslos |
+| **Elite-Kampfanzug** | 22 | 35 | DLC: Lonesome Road, +5 Krit, +1 CHR |
+
+<Callout type="success" title="Ruf-Tipp">
+Wenn du den friedlichen Weg wählst, findest du zwei Sätze Ranger-Rüstung im Versteck. Sie sind oft in schlechtem Zustand, bereite dich also darauf vor, Waffen-Reparaturkits zu verwenden oder einen hohen Reparatur-Skill bereitzuhalten.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Fortgeschrittener Schutz: Mechanik der Schadensschwelle">
+
+Um das Rüstungssystem in Fallout New Vegas zu verstehen, muss man das System der **Schadensschwelle (SW)** meistern. Im Gegensatz zur prozentualen Schadensresistenz (SR) in anderen RPGs subtrahiert die SW einen festen Wert vom eingehenden Schaden. Wenn ein Gegner dich für 25 Schaden trifft und du 20 SW hast, erleidest du nur 5 Schaden. Allerdings verursacht jeder Angriff immer mindestens 20 % seines ursprünglichen Schadens (die „Durchschlag-Mechanik“), unabhängig davon, wie hoch deine SW ist.
+
+<CardGrid cols={3}>
+  <Card title="Leichte Rüstung">
+    - **Hohe Mobilität**
+    - Kritische Treffer-Boni
+    - Niedrige SW (2 bis 12)
+    - Bestens für Stealth-Builds
+  </Card>
+  <Card title="Mittelschwere Rüstung">
+    - **Ausgewogene Stats**
+    - Moderate SW (12 bis 22)
+    - Vielseitig für die meisten Builds
+    - Ikonische Ranger-Varianten
+  </Card>
+  <Card title="Schwere Rüstung">
+    - **Maximaler Schutz**
+    - Hohe SW (20 bis 28)
+    - Verlangsamt Bewegung
+    - Erfordert Powerrüstungs-Training
+  </Card>
+</CardGrid>
+
+Die Wahl der richtigen Rüstung hängt stark von den Perks deines Charakters ab. Zum Beispiel ist der Perk **Leichte Berührung** nur aktiv, während du leichte Rüstung trägst, was die Chance auf kritische Treffer erheblich erhöht und die Chance gegnerischer kritischer Treffer gegen dich verringert.
+
+| Rüstungskategorie | Typischer SW-Bereich | Beste Verwendung | Wichtiger Perk |
+| :--- | :--- | :--- | :--- |
+| **Leicht** | 2 - 12 | Stealth, Scharfschütze, Tempo | Leichte Berührung |
+| **Mittel** | 13 - 22 | Allgemeiner Kampf, Quests | Notbehelf |
+| **Schwer** | 20 - 28 | Tanking, High-End Bosse | Powerrüstungs-Training |
+
+<Callout type="info" title="SW vs. SR">
+Während New Vegas sich auf die SW konzentriert, bieten einige Verbrauchsgüter wie Med-X immer noch SR. Die Kombination von Rüstung mit hoher SW und SR-steigernden Drogen macht deinen Charakter fast unbesiegbar gegen schnellfeuernde Waffen mit geringem Schaden wie Maschinenpistolen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Erstklassige Powerrüstung und wie man sie bekommt">
+
+Die Powerrüstung stellt den Gipfel der Vorkriegstechnologie dar. In der Mojave sind diese Anzüge selten und erfordern ein spezielles Training zur Bedienung. Du kannst dieses Training entweder durch Fortschreiten in der Questreihe der **Stählernen Bruderschaft** im Hidden Valley erhalten oder durch Abschluss der Quest **Für Auld Lang Syne** mit Arcade Gannon, um die Enklave-Überreste wieder zu vereinen.
+
+<Steps>
+  <Step num="1" title="Die Bruderschaft finden">
+    Reise zum Hidden Valley und finde den Bunker. Du musst mehrere Aufgaben für Ältester McNamara oder Oberpaladin Hardin erfüllen, um Zutritt zu erhalten.
+  </Step>
+  <Step num="2" title="Trainings-Quests abschließen">
+    Folge der Questreihe „Im Dunkel der Nacht“. Nach Abschluss erhältst du den Perk „Powerrüstungs-Training“ und eine T-45d Powerrüstung.
+  </Step>
+  <Step num="3" title="Die Überreste jagen">
+    Rekrutiere Arcade Gannon und aktiviere seine persönliche Quest. Dies führt zur Überreste-Powerrüstung, dem stärksten Verteidigungsset im Spiel.
+  </Step>
+</Steps>
+
+| Powerrüstungs-Set | SW | Gewicht | Spezialboni |
+| :--- | :--- | :--- | :--- |
+| **T-45d Powerrüstung** | 22 | 45 | +2 STR, -2 AGI, +10 Strahlenres. |
+| **T-51b Powerrüstung** | 25 | 40 | +1 STR, +25 Strahlenres. |
+| **Überreste-Powerrüstung** | 28 | 45 | +1 STR, -1 CHR, +15 Strahlenres. |
+| **Gannon-Familie-Tesla** | 26 | 35 | +10 Energiewaffen, +20 Strahlenres. |
+
+<Callout type="warning" title="Training erforderlich">
+Du kannst eine Powerrüstung nicht einfach ausrüsten, indem du sie plünderst. Ohne den Perk „Powerrüstungs-Training“ bleibt die Rüstung als schweres totes Gewicht in deinem Inventar. Plane deine Fraktionsbündnisse sorgfältig, um dies frühzeitig freizuschalten.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Wartung und der Perk „Notbehelf“">
+
+Eine der größten Herausforderungen bei High-End-Rüstungen in Fallout New Vegas sind die Wartungskosten. Eine Ranger-Kampfrüstung kann über 15.000 Kronkorken kosten, um sie bei einem Händler reparieren zu lassen, wenn sie in schlechtem Zustand ist. Für die meisten Spieler ist dies eine untragbare Ressourcenverschwendung.
+
+Die Lösung liegt im Perk **Notbehelf** (Jury Rigging), der weithin als der mächtigste Utility-Perk im Spiel gilt. Er ermöglicht es dir, Gegenstände mit anderen Gegenständen der gleichen allgemeinen Kategorie zu reparieren, anstatt mit genau dem gleichen Modell.
+
+| Reparaturmethode | Kosten | Anforderungen | Effizienz |
+| :--- | :--- | :--- | :--- |
+| **Händlerreparatur** | Sehr hoch | Nur Kronkorken | Sofort, aber teuer |
+| **Direkte Reparatur** | Kostenlos | Identisches Rüstungsset | Erfordert seltene Duplikate |
+| **Waffen-Reparaturkits** | Niedrig | Handwerksmaterialien | Nur Waffen, keine Rüstung |
+| **Notbehelf** | Kostenlos | 90 Reparieren, Level 14 | Nutze gewöhnliche Ausrüstung für seltene |
+
+Mit „Notbehelf“ kannst du deine seltene Ranger-Kampfrüstung (Mittel) mit einem gewöhnlichen Satz Legions-Zenturio-Rüstung oder sogar einer Standard-Kampfrüstung von Söldnern reparieren. Dies stellt sicher, dass deine beste Ausrüstung bei 100 % Zustand bleibt, ohne einen einzigen Kronkorken auszugeben.
+
+<Callout type="tip" title="Schneller Reparatur-Hack">
+Behalte einen „Reparatur-Anzug“ in deinem Inventar – jede Rüstung mit einem Reparatur-Bonus von +5 oder +10 –, um die 90-Punkte-Schwelle für „Notbehelf“ früher in deinem Spieldurchgang zu erreichen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Fraktionsrüstung und Schleichmechanik">
+
+Das Tragen von Fraktionsrüstung ist ein zweischneidiges Schwert. Während es dir ermöglicht, in feindliches Gebiet einzudringen, hebt es auch deinen persönlichen Ruf auf und ersetzt ihn durch das Ansehen der Fraktion. Wenn du eine Rüstung der Groß-Khans in einem RNK-Lager trägst, wirst du sofort beschossen, egal wie viele Quests du für die Republik erledigt hast.
+
+<CardGrid cols={2}>
+  <Card title="Vorteile von Fraktionsausrüstung">
+    - **Infiltration**: Betrete Sperrgebiete ohne Kampf.
+    - **Rollenspiel**: Passe dich optisch deiner gewählten Seite an.
+    - **Frühe Ausrüstung**: Plündere Rüstungen mit hoher SW von gefallenen Soldaten.
+  </Card>
+  <Card title="Risiken von Fraktionsausrüstung">
+    - **Aggro**: Neutrale Fraktionen können feindselig werden.
+    - **Ruf-Reset**: Dein persönlicher Ruhm ist verborgen, während du sie trägst.
+    - **Begleiter**: Einige Begleiter (wie Boone) verlassen dich, wenn du bestimmte Ausrüstung trägst.
+  </Card>
+</CardGrid>
+
+| Fraktion | Rüstungstyp | Feindselig gegenüber |
+| :--- | :--- | :--- |
+| **RNK** | Soldat/Ranger | Caesars Legion, Groß-Khans |
+| **Legion** | Rekrut/Zenturio | RNK, Stählerne Bruderschaft |
+| **Groß-Khans** | Einfach/Robust | RNK |
+| **Bruderschaft** | Powerrüstung | RNK (meistens), Caesars Legion |
+
+<Callout type="info" title="Tarnanzüge">
+Der **Tarnanzug Mk II** aus dem DLC „Old World Blues“ ist eine einzigartige mittelschwere Rüstung, die mit dem Spieler spricht und automatisch Med-X und Stimpacks injiziert. Er ist fraktionslos und somit in allen Gebieten sicher.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checkliste für die Rüstungssammlung">
+
+Um sicherzustellen, dass du für jede Situation in der Mojave den besten Schutz hast, solltest du versuchen, diese essenziellen Sets zu sammeln. Jedes dient einem bestimmten Zweck, vom riskanten Kampf bis zur heimlichen Infiltration.
+
+<Checklist
+  id="armor-collection"
+  title="Wichtige Rüstungs-Meilensteine:"
+  items={[
+    "Erhalte den Vault 13-Anzug (Frühes Spiel)",
+    "Sichere dir eine Kampfrüstung von den Van Graffs",
+    "Erwirb die Ranger-Kampfrüstung über das Versteck",
+    "Verdiene dir das Powerrüstungs-Training bei der Bruderschaft",
+    "Plündere die Überreste-Powerrüstung vom Deathclaw Promontory",
+    "Schalte den Elite-Kampfanzug in der Kluft frei (DLC)"
+  ]}
+/>
+
+<FAQ items={[
+  {
+    question: "Wo findet man die Ranger-Kampfrüstung am besten?",
+    answer: "Der zuverlässigste gewaltfreie Weg ist das RNK-Ranger-Versteck. Wenn du den Kampf bevorzugst: Veteran-Ranger erscheinen in Camp Golf und Long 15, sobald die Quests 'Königsschach' oder 'Gebt Caesar, was des Caesars ist' fortgeschritten sind."
+  },
+  {
+    question: "Kann ich Powerrüstung ohne die Stählerne Bruderschaft tragen?",
+    answer: "Ja, du kannst das Training durch Arcade Gannons Quest 'Für Auld Lang Syne' erhalten, indem du den Enklave-Überresten hilfst. Dies erfordert keinen Beitritt zur Bruderschaft."
+  },
+  {
+    question: "Beeinflusst das Rüstungsgewicht mein Schleichen?",
+    answer: "Ja, schwerere Rüstung erhöht die Geräusche, die du bei Bewegungen machst, was es schwieriger macht, unentdeckt zu bleiben. Leichte Rüstung ist für Stealth-Charaktere deutlich besser."
+  },
+  {
+    question: "Was ist die Rüstung mit der höchsten SW im Spiel?",
+    answer: "Die Überreste-Powerrüstung bietet die höchste Basis-Schadensschwelle von 28. In Kombination mit dem Perk 'Zähigkeit' und hoher Ausdauer kannst du eine SW von über 35 erreichen."
+  }
+]} />
+
+</Section>

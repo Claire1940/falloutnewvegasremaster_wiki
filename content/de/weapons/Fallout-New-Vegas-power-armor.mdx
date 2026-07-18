@@ -1,0 +1,202 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fallout New Vegas Powerrüstung: Training erhalten & die besten Rüstungen",
+  description: "Schalte das Powerrüstungs-Training in Fallout New Vegas frei. Erfahre Schritt für Schritt, wie du die Quests der Stählernen Bruderschaft und der Enklaven-Reste abschließt, um die beste Rüstung zu erhalten.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/2c3e50/fff?text=Power+Armor+Guide",
+  date: "2026-07-18",
+  author: "Fallout New Vegas Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- Die **Fallout New Vegas Powerrüstung** erfordert ein spezielles Training, bevor dein Charakter sie ausrüsten und von ihren Vorteilen profitieren kann.
+- Die **Stählerne Bruderschaft** bietet den frühesten Weg zum Training über die Quests im Hidden Valley Bunker an.
+- Die **Enklaven-Reste** bieten ein Training im späten Spielverlauf und die stärkste Rüstung über Arcade Gannons Quest an.
+- Die **RNK-Bergungs-Powerrüstung** ist die einzige Variante, die ohne Training getragen werden kann, allerdings fehlen ihr die Attributsboni.
+</Callout>
+
+<Section icon={Shield} title="Freischalten des Powerrüstungs-Trainings in Fallout New Vegas">
+
+Die Powerrüstung stellt die ultimative Verteidigungsausrüstung im Mojave-Ödland dar und bietet eine unvergleichliche Schadensschwelle (SS) sowie einzigartige Attributs-Boosts. Im Gegensatz zu früheren Titeln kannst du jedoch nicht einfach eine Rüstung aufheben und sofort anlegen. Du musst dir zuerst ein spezielles Training bei einer der wenigen Fraktionen sichern, die noch über militärisches Wissen aus der Vorkriegszeit verfügen.
+
+Es gibt zwei Hauptfraktionen, die dir den Umgang mit diesen schweren Maschinen beibringen können: die Stählerne Bruderschaft und die Enklaven-Reste. Jeder Pfad beinhaltet eine eigene Reihe von Quests, Fraktionszugehörigkeiten und moralischen Entscheidungen.
+
+**Video-Highlights:**
+- **Bruderschafts-Route**: Erfordert den Abschluss einer Reihe von Besorgungs-Quests für Ältester McNamara in Hidden Valley.
+- **Enklaven-Route**: Wird durch Arcade Gannons Gefährten-Quest „Ich vergaß zu vergessen“ gegen Ende des Spiels ausgelöst.
+- **Alternative Option**: Erfahre, wie du die RNK-Bergungs-Powerrüstung ohne Training nutzen kannst.
+
+<YouTubeEmbed videoId="q54P9lm0XAA" title="Fallout New Vegas - So erhältst du das POWERRÜSTUNGS-TRAINING (Stählerne Bruderschaft + Reste)" />
+
+Obwohl beide Wege denselben Perk gewähren, ist die Reise zu ihrer Freischaltung sehr unterschiedlich. Unten findest du einen kurzen Vergleich der im Spiel verfügbaren Trainingsmethoden, um dir bei der Entscheidung zu helfen, welche Route zu deinem aktuellen Build und deinen Rollenspiel-Präferenzen passt.
+
+| Fraktion | Ansprechpartner | Quest-Name | Belohnungs-Rüstung | Training erforderlich? |
+|-|-|-|-|-|
+| Stählerne Bruderschaft | Ältester McNamara | Im Dunkel der Geschichte | T-45d Powerrüstung | Ja |
+| Enklaven-Reste | Arcade Gannon | Ich vergaß zu vergessen | Reste-Powerrüstung | Ja |
+| Republik Neukalifornien | Major Elizabeth | Keine (Quartiermeister) | RNK-Bergungs-Rüstung | Nein |
+
+<Callout type="success" title="Gefährten-Abkürzung">
+Wenn du Veronica Santangelo am 188-Handelsposten rekrutierst, kannst du die feindseligen Sicherheitsmaßnahmen am Hidden Valley Bunker umgehen und dir die Sequenz mit dem erzwungenen Sprenghalsband ersparen.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Die Questreihe der Stählernen Bruderschaft">
+
+Die Stählerne Bruderschaft ist die am einfachsten zu erreichende Fraktion für das Training. Sie residiert im Hidden Valley Bunkerkomplex, östlich von Sloan. Das Gebiet ist von Sandstürmen und Rinden-Skorpionen umgeben, was die Navigation erschwert. Suche nach der Bunkertür, die mit „Ban the Bomb“-Graffiti markiert ist, um den richtigen Eingang zu finden.
+
+Wenn du ohne Veronica eintrittst, wird die Bruderschaft dich deiner Ausrüstung berauben und dir ein Sprenghalsband umlegen. Du wirst gezwungen sein, dich um einen RNK-Ranger zu kümmern, der in einem nahegelegenen Bunker stationiert ist. Sobald dies erledigt ist, oder wenn du Veronica dabei hast, erhältst du Zugang zu Ältester McNamara und beginnst die langwierige Quest „Im Dunkel der Geschichte“.
+
+<Steps>
+  <Step num="1" title="Vermisste Patrouillen finden">
+    Ältester McNamara wird dich beauftragen, drei vermisste Bruderschafts-Patrouillen zu lokalisieren. Du musst Holobänder von toten Paladinen bergen, die sich im REPCONN-Hauptquartier, nahe dem Pfad zum Black Mountain und in der Nähe von Camp Forlorn Hope befinden.
+  </Step>
+  <Step num="2" title="Späherberichte sammeln">
+    Nachdem du die Bänder zurückgebracht hast, musst du durch die Mojave reisen, um Feldberichte von drei versteckten Bruderschafts-Spähern zu sammeln. Diese Späher befinden sich in der Nähe wichtiger Fraktionszentren, darunter Camp McCarran, HELIOS One und die Nevada Highway Patrol Station.
+  </Step>
+  <Step num="3" title="Vault-Komponenten bergen">
+    Das Luftfiltersystem des Bunkers versagt. Du musst dich in drei gefährliche Vaults wagen, um Ersatzteile zu bergen: Vault 11 (Luftfilterpatronen), Vault 3 (Impulsgenerator) und Vault 22 (Diffusorpatronen). Sei bereit, gegen Sporenträger, Ghule und Sicherheitsroboter zu kämpfen.
+  </Step>
+  <Step num="4" title="Black Mountain Sender installieren">
+    Die letzte Aufgabe erfordert, dass du dich zum mutantenverseuchten Gipfel des Black Mountain begibst. Schleiche oder kämpfe dich in den zweiten Stock des Radiogebäudes vor, entsperre das Terminal und installiere das Fernüberwachungsgerät.
+  </Step>
+</Steps>
+
+Nach Abschluss dieser Aufgaben sprichst du mit Ältester McNamara. Er wird dich offiziell in die Stählerne Bruderschaft aufnehmen, dir den Perk „Powerrüstungs-Training“ gewähren und dir eine generalüberholte T-45d Powerrüstung schenken.
+
+| Vault-Standort | Hauptbedrohung | Benötigter Gegenstand | Empfohlenes Level |
+|-|-|-|-|
+| Vault 3 | Fiends / Motor-Runner | Impulsgenerator | 10+ |
+| Vault 11 | Sicherheitstürme / Wachbots | Diffusorpatronen | 15+ |
+| Vault 22 | Sporenträger / Mantis | Luftfilterpatronen | 8+ |
+
+<Callout type="warning" title="Die Hardin-Alternative">
+Während der Quest wird Paladin Hardin dich bitten, ihm zu helfen, Ältester McNamara zu stürzen. Es ist möglich, sich auf Hardins Seite zu schlagen, aber das verzögert dein Training. Hardin wird das Training erst gewähren, nachdem du seine persönliche Questreihe abgeschlossen hast, sobald er Ältester geworden ist.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Die Questreihe der Enklaven-Reste">
+
+Für Spieler, die die absolut beste Rüstung im Spiel suchen, ist der Weg über die Enklaven-Reste sehr zu empfehlen. Diese Route wird über Arcade Gannon freigeschaltet, einen Gefährten, der im Alten Mormon-Fort in Freeside zu finden ist. Um seine persönliche Quest „Ich vergaß zu vergessen“ auszulösen, musst du sein Vertrauen gewinnen und in der Hauptgeschichte weit genug fortgeschritten sein.
+
+Um Arcades Vertrauen zu gewinnen, musst du „Geschichtspunkte“ sammeln, indem du Orte besuchst, die Dialoge über seine Vergangenheit oder die Enklave auslösen. Hilfreiche Orte sind der abgestürzte Vertibird, HELIOS One und das Silver Rush in Freeside. Wähle Dialogoptionen, die eine unabhängige Entwicklung der Mojave begünstigen oder die Anhänger der Apokalypse unterstützen.
+
+<Steps>
+  <Step num="1" title="Arcade Gannon rekrutieren">
+    Besuche das Alte Mormon-Fort. Du kannst Arcade rekrutieren, wenn du einen hohen Wert in Sprache hast, den Perk „Bestätigter Junggeselle“ nutzt oder einen guten Ruf bei den Anhängern der Apokalypse hast.
+  </Step>
+  <Step num="2" title="Fortschritt in der Hauptquest">
+    Du musst die Hauptgeschichte bis zu dem Punkt vorantreiben, an dem die Schlacht um den Hoover-Staudamm unmittelbar bevorsteht. Das bedeutet, die Questreihen von Ja-Sager, Mr. House oder der RNK bis zu ihren Endphasen zu verfolgen. Beachte, dass Arcade diese Quest nicht auslöst, wenn du dich vollständig auf die Seite von Caesars Legion schlägst.
+  </Step>
+  <Step num="3" title="Die fünf Mitglieder der Reste rekrutieren">
+    Arcade wird dich bitten, fünf ehemalige Enklaven-Mitglieder zu finden und zu rekrutieren, die in der Wüste verstreut sind. Du musst jede Person besuchen und sie überzeugen, sich im Bunker der Reste zu treffen.
+  </Step>
+  <Step num="4" title="Den Bunker-Streit beilegen">
+    Sobald alle fünf im Bunker der Reste versammelt sind, musst du entscheiden, ob sie die RNK oder Caesars Legion am Hoover-Staudamm unterstützen sollen. Wenn du die RNK wählst, musst du Orion Moreno mit einem hohen Sprach-Check beruhigen oder ihn im Kampf besiegen.
+  </Step>
+</Steps>
+
+Nachdem der politische Streit im Bunker beigelegt ist, werden dir Judah Kreger oder Arcade Gannon den Perk „Powerrüstungs-Training“ verleihen. Zusätzlich erhältst du Daisy Whitmans alte Reste-Powerrüstung oder die begehrte Gannon-Familien-Tesla-Rüstung.
+
+| Mitglied der Reste | Standort im Ödland | Rekrutierungsbedingung |
+|-|-|-|
+| Daisy Whitman | Novac | Frage nach ihrer Vergangenheit als Vertibird-Pilotin |
+| Cannibal Johnson | Cannibal Johnsons Höhle | Respektiere seinen isolierten Lebensstil |
+| Judah Kreger | Westside | Überzeuge ihn, eine letzte Schlacht zu schlagen |
+| Orion Moreno | Moreno-Agrarfarm | Erinnere ihn an seine frühere Pflicht |
+| Dr. Henry | Jacobstown | Schließe zuerst die Quest „Rate mal, wen ich heute gesehen habe“ ab |
+
+<Callout type="tip" title="Auf der Seite der Legion">
+Wenn du dich auf die Seite von Caesars Legion schlagen, aber dennoch das Enklaven-Training erhalten möchtest, musst du Arcades Quest auslösen, bevor du dein endgültiges, unumkehrbares Bündnis mit Caesar eingehst. Konsultiere das offizielle Fallout-Wiki für fortgeschrittene Methoden zur Quest-Reihenfolge.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Beste Powerrüstungs-Sets und Statistiken">
+
+Sobald du dir das Training gesichert hast, wirst du nach dem bestmöglichen Schutz suchen wollen. Das Mojave-Ödland enthält mehrere verschiedene Modelle von Powerrüstungen, die jeweils auf unterschiedliche Spielstile und Charakter-Builds zugeschnitten sind.
+
+Die Reste-Powerrüstung bietet die absolut höchste Schadensschwelle im Basisspiel und macht dich praktisch unbesiegbar. Sie ist jedoch unglaublich schwer und nutzt sich schnell ab. Für Builds mit Energiewaffen ist die Gannon-Familien-Tesla-Rüstung die bessere Wahl, da sie einen massiven Bonus auf Energiewaffen-Fertigkeiten bietet und deutlich weniger wiegt.
+
+<CardGrid cols={3}>
+  <Card title="Reste-Powerrüstung">
+    - **Schadensschwelle**: 28
+    - **Gewicht**: 45 lbs
+    - **Boni**: +1 Stärke, +15 Strahlungsresistenz, -1 Charisma
+  </Card>
+  <Card title="Gannon-Familien-Tesla">
+    - **Schadensschwelle**: 26
+    - **Gewicht**: 35 lbs
+    - **Boni**: +1 Stärke, +20 Strahlungsresistenz, +10 Energiewaffen
+  </Card>
+  <Card title="T-51b Powerrüstung">
+    - **Schadensschwelle**: 25
+    - **Gewicht**: 40 lbs
+    - **Boni**: +1 Stärke, +25 Strahlungsresistenz
+  </Card>
+</CardGrid>
+
+Wenn du die langwierigen Questreihen für das Training nicht durchlaufen möchtest, ist die RNK-Bergungs-Powerrüstung eine brauchbare Übergangslösung. Die RNK hat die Gelenkmotoren und Mikrofusion-Packs aus erbeuteten Bruderschafts-Rüstungen entfernt und sie so in schwere Metallanzüge verwandelt, die kein Training erfordern. Durch diesen Prozess wurden jedoch alle Attributsboni entfernt und das Gesamtgewicht erhöht.
+
+| Rüstungsset | Schadensschwelle | Gewichtsklasse | Attributsmodifikatoren | Training erforderlich? |
+|-|-|-|-|-|
+| Reste-Powerrüstung | 28 | Schwer | +1 STR, +15 Rad-Res, -1 CHA | Ja |
+| Gannon-Familien-Tesla | 26 | Mittel | +1 STR, +20 Rad-Res, +10 Energie | Ja |
+| T-51b Powerrüstung | 25 | Schwer | +1 STR, +25 Rad-Res | Ja |
+| T-45d Powerrüstung | 22 | Schwer | +2 STR, +10 Rad-Res, -2 AGI | Ja |
+| RNK-Bergungs-Rüstung | 20 | Schwer | Keine | Nein |
+
+<Checklist
+  id="power-armor-hunt"
+  title="Checkliste zur Beschaffung der Powerrüstung:"
+  items={[
+    "Powerrüstungs-Training von der Bruderschaft oder der Enklave erhalten",
+    "Die Reste-Powerrüstung beim Todeskrallen-Vorgebirge finden",
+    "Den Reste-Helm in der Silver-Peak-Mine bergen",
+    "Ein T-51b Ersatz-Set in der Waffenkammer von Hidden Valley kaufen",
+    "Den Perk 'Notfall-Instandsetzung' erwerben, um schwere Rüstungen leicht zu reparieren"
+  ]}
+/>
+
+<Callout type="info" title="Gewichtsklassifizierung">
+Beachte, dass die Gannon-Familien-Tesla-Rüstung als mittlere Rüstung klassifiziert ist, wodurch du von Perks wie „Leichtes Gepäck“ und aktiven Geschwindigkeits-Boosts profitieren kannst, anders als bei den schweren Varianten.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Kann man das Powerrüstungs-Training in Fallout New Vegas erhalten, ohne der Bruderschaft beizutreten?",
+    answer: "Ja. Du kannst die Bruderschaft komplett umgehen, indem du Arcade Gannon rekrutierst und die Quest der Enklaven-Reste abschließt, die den Trainings-Perk gegen Ende des Spiels gewährt."
+  },
+  {
+    question: "Wo ist der beste Ort, um eine kostenlose Powerrüstung in der Mojave zu finden?",
+    answer: "Das beste kostenlose Set ist die Reste-Powerrüstung, die sich am nicht markierten Todeskrallen-Vorgebirge auf der anderen Seite des Colorado River, östlich des Cliffside-Prospektoren-Camps, befindet. Sei darauf vorbereitet, gegen Dutzende von Todeskrallen zu kämpfen."
+  },
+  {
+    question: "Erfordert die RNK-Bergungs-Powerrüstung ein Training?",
+    answer: "Nein. Bei der RNK-Bergungs-Powerrüstung wurden die motorisierten Gelenke entfernt, was bedeutet, dass sie wie eine normale schwere Rüstung funktioniert und keinen Powerrüstungs-Trainings-Perk zum Tragen benötigt."
+  },
+  {
+    question: "Kann ich das Training noch erhalten, wenn ich den Hidden Valley Bunker zerstöre?",
+    answer: "Wenn du den Hidden Valley Bunker sprengst, bevor du das Training von der Bruderschaft erhalten hast, ist deine einzige verbleibende Option, eine Standard-Powerrüstung zu tragen, der Abschluss von Arcade Gannons Quest mit den Enklaven-Resten."
+  }
+]} />
+
+<Callout type="success" title="Reparatur deiner Ausrüstung">
+Powerrüstungen sind bei Standardhändlern teuer im Unterhalt. Wenn du den Perk „Notfall-Instandsetzung“ auf Stufe 14 wählst, kannst du Powerrüstungen mit günstigen schweren Rüstungen wie Metallrüstungen reparieren, was dir tausende Kronkorken spart.
+</Callout>
+
+</Section>

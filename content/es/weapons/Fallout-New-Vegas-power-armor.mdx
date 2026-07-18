@@ -1,0 +1,203 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Servoarmadura de Fallout New Vegas: Cómo obtener entrenamiento y las mejores armaduras",
+  description: "Desbloquea el entrenamiento de servoarmadura en Fallout New Vegas. Aprende paso a paso las misiones de la Hermandad del Acero y los Remanentes del Enclave para conseguir la mejor armadura.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2c3e50/fff?text=Power+Armor+Guide",
+  date: "2026-07-18",
+  author: "Equipo de la Wiki de Fallout New Vegas",
+  keywords: "fallout new vegas, servoarmadura, entrenamiento, hermandad del acero, remanentes del enclave, armadura tesla"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **La servoarmadura de Fallout New Vegas** requiere un entrenamiento especializado antes de que tu personaje pueda equiparla y beneficiarse de ella.
+- **La Hermandad del Acero** ofrece la ruta de entrenamiento más temprana a través de las misiones del búnker de Hidden Valley.
+- **Los Remanentes del Enclave** proporcionan entrenamiento avanzado y la armadura más resistente mediante la misión de Arcade Gannon.
+- **La servoarmadura recuperada de la RNC** es la única variante que se puede usar sin entrenamiento, aunque carece de bonificaciones de estadísticas.
+</Callout>
+
+<Section icon={Shield} title="Desbloqueo del entrenamiento de servoarmadura en Fallout New Vegas">
+
+La servoarmadura representa el equipo defensivo definitivo en el Yermo de Mojave, ofreciendo un Umbral de Daño (UD) inigualable y mejoras de estadísticas únicas. Sin embargo, a diferencia de títulos anteriores, no puedes simplemente recoger un conjunto y usarlo de inmediato. Primero debes obtener entrenamiento especializado de una de las pocas facciones que aún conservan el conocimiento militar de la preguerra.
+
+Hay dos facciones principales capaces de enseñarte a operar esta maquinaria pesada: la Hermandad del Acero y los Remanentes del Enclave. Cada camino implica un conjunto distinto de misiones, alineaciones de facciones y elecciones morales.
+
+**Puntos clave del video:**
+- **Ruta de la Hermandad**: Requiere completar una serie de misiones de búsqueda para el Élder McNamara en Hidden Valley.
+- **Ruta del Enclave**: Se activa a través de la misión de compañero de Arcade Gannon, "Por los viejos tiempos", cerca del final del juego.
+- **Opción alternativa**: Aprende cómo utilizar la servoarmadura recuperada de la RNC sin necesidad de entrenamiento.
+
+<YouTubeEmbed videoId="q54P9lm0XAA" title="Fallout New Vegas - Cómo obtener ENTRENAMIENTO DE SERVOARMADURA (Hermandad del Acero + Remanentes)" />
+
+Aunque ambas rutas otorgan el mismo extra, el viaje para desbloquearlas es muy diferente. A continuación, se presenta una comparación rápida de los métodos de entrenamiento disponibles en el juego para ayudarte a decidir qué ruta se adapta mejor a tu personaje y preferencias de rol.
+
+| Facción | Contacto Clave | Nombre de la Misión | Armadura de Recompensa | ¿Entrenamiento Requerido? |
+|-|-|-|-|-|
+| Hermandad del Acero | Élder McNamara | Aún en la oscuridad | Servoarmadura T-45d | Sí |
+| Remanentes del Enclave | Arcade Gannon | Por los viejos tiempos | Servoarmadura de los Remanentes | Sí |
+| República de Nueva California | Mayor Elizabeth | Ninguna (Intendente) | Armadura recuperada de la RNC | No |
+
+<Callout type="success" title="Atajo con Compañero">
+Reclutar a Veronica Santangelo en el Puesto comercial 188 te permite saltarte las hostiles medidas de seguridad en el búnker de Hidden Valley, evitándote la secuencia forzada del collar explosivo.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="La línea de misiones de la Hermandad del Acero">
+
+La Hermandad del Acero es la facción más directa a la que acudir para obtener entrenamiento. Residen en el complejo del búnker de Hidden Valley, situado al este de Sloan. La zona está rodeada de tormentas de arena y escorpiones de corteza, lo que dificulta la navegación. Busca la puerta del búnker marcada con el grafiti "ban the bomb" para encontrar la entrada correcta.
+
+Si entras sin Veronica, la Hermandad te despojará de tu equipo y te colocará un collar explosivo en el cuello. Te verás obligado a lidiar con un Ranger de la RNC apostado en un búnker cercano. Una vez despejado, o si trajiste a Veronica, obtendrás acceso al Élder McNamara y comenzarás la extensa misión "Aún en la oscuridad".
+
+<Steps>
+  <Step num="1" title="Encuentra a las patrullas desaparecidas">
+    El Élder McNamara te encargará localizar tres patrullas de la Hermandad desaparecidas. Debes recuperar las holocintas de los paladines muertos situados en la sede de REPCONN, cerca del camino de Black Mountain y cerca del Campamento Forlorn Hope.
+  </Step>
+  <Step num="2" title="Reúne informes de exploradores">
+    Tras devolver las cintas, deberás viajar por el Mojave para recoger informes de campo de tres exploradores ocultos de la Hermandad. Estos exploradores están situados cerca de los principales centros de facciones, como el Campamento McCarran, HELIOS Uno y la Comisaría de patrulla de carreteras de Nevada.
+  </Step>
+  <Step num="3" title="Recupera componentes de los Refugios">
+    El sistema de filtración de aire del búnker está fallando. Debes aventurarte en tres refugios peligrosos para recuperar piezas de repuesto: Refugio 11 (cartuchos de filtro de aire), Refugio 3 (generador de pulsos) y Refugio 22 (cartuchos de difusor). Prepárate para luchar contra portadores de esporas, maniáticos y robots de seguridad.
+  </Step>
+  <Step num="4" title="Instala el transmisor de Black Mountain">
+    La tarea final requiere que te dirijas a la cima de Black Mountain, infestada de mutantes. Ábrete paso sigilosamente o luchando hasta el segundo piso del edificio de radio, desbloquea la terminal e instala el dispositivo de monitorización remota.
+  </Step>
+</Steps>
+
+Al completar estas tareas, habla con el Élder McNamara. Te admitirá oficialmente en la Hermandad del Acero, te otorgará el extra de Entrenamiento de servoarmadura y te regalará un conjunto reacondicionado de servoarmadura T-45d.
+
+| Ubicación del Refugio | Amenaza Principal | Objeto Requerido | Nivel Recomendado |
+|-|-|-|-|
+| Refugio 3 | Maniáticos / Motor-Runner | Generador de pulsos | 10+ |
+| Refugio 11 | Torretas de seguridad / Robots centinela | Cartuchos de difusor | 15+ |
+| Refugio 22 | Portadores de esporas / Mantis | Cartuchos de filtro de aire | 8+ |
+
+<Callout type="warning" title="La alternativa de Hardin">
+Durante la misión, el Paladín Hardin te pedirá que le ayudes a derrocar al Élder McNamara. Apoyar a Hardin es posible, pero retrasa tu entrenamiento. Hardin solo te otorgará el entrenamiento después de completar su línea de misiones personal una vez que se convierta en Élder.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="La línea de misiones de los Remanentes del Enclave">
+
+Para los jugadores que buscan la mejor armadura absoluta del juego, se recomienda encarecidamente la ruta de los Remanentes del Enclave. Esta ruta se desbloquea a través de Arcade Gannon, un compañero que se encuentra en el Antiguo Fuerte Mormón en Freeside. Para activar su misión personal, "Por los viejos tiempos", debes ganarte su confianza y progresar lo suficiente en la historia principal.
+
+Para ganarte la confianza de Arcade, necesitas acumular "puntos de historia" viajando a lugares que activen diálogos sobre su pasado o el Enclave. Los lugares útiles incluyen el Vertibird estrellado, HELIOS Uno y el Silver Rush en Freeside. Elige opciones de diálogo que favorezcan el progreso independiente del Mojave o apoyen a los Seguidores del Apocalipsis.
+
+<Steps>
+  <Step num="1" title="Recluta a Arcade Gannon">
+    Visita el Antiguo Fuerte Mormón. Puedes reclutar a Arcade teniendo una habilidad de Conversación alta, usando el extra de Soltero empedernido o teniendo una gran reputación con los Seguidores del Apocalipsis.
+  </Step>
+  <Step num="2" title="Progresa en la misión principal">
+    Debes avanzar en la historia principal hasta el punto en que la batalla por la Presa Hoover sea inminente. Esto significa progresar en las misiones de Servibot, el Sr. House o la RNC hasta sus etapas finales. Ten en cuenta que Arcade no activará esta misión si te pones totalmente del lado de la Legión de César.
+  </Step>
+  <Step num="3" title="Recluta a los cinco Remanentes">
+    Arcade te pedirá que localices y reclutes a cinco antiguos miembros del Enclave dispersos por el desierto. Debes visitar a cada individuo y convencerlos de que se reúnan en el búnker de los Remanentes.
+  </Step>
+  <Step num="4" title="Resuelve la disputa del búnker">
+    Una vez que los cinco estén reunidos en el búnker de los Remanentes, deberás decidir si deben apoyar a la RNC o a la Legión de César en la Presa Hoover. Si eliges a la RNC, deberás pacificar a Orion Moreno con un chequeo alto de Conversación o derrotarlo en combate.
+  </Step>
+</Steps>
+
+Tras resolver la disputa política en el búnker, Judah Kreger o Arcade Gannon te proporcionarán el extra de Entrenamiento de servoarmadura. Además, recibirás el antiguo traje de Daisy Whitman de servoarmadura de los Remanentes, o la muy codiciada armadura Tesla de la familia Gannon.
+
+| Miembro Remanente | Ubicación en el Yermo | Condición de Reclutamiento |
+|-|-|-|
+| Daisy Whitman | Novac | Pregúntale por su pasado como piloto de Vertibird |
+| Cannibal Johnson | Cueva de Cannibal Johnson | Respeta su estilo de vida aislado |
+| Judah Kreger | Westside | Convéncelo para luchar una última batalla |
+| Orion Moreno | Rancho agrícola de los Moreno | Recuérdale su antiguo deber |
+| Dr. Henry | Jacobstown | Completa primero la misión "¿Adivina quién he visto hoy?" |
+
+<Callout type="tip" title="Apoyar a la Legión">
+Si deseas ponerte del lado de la Legión de César pero aún quieres el entrenamiento del Enclave, debes activar la misión de Arcade antes de realizar tu alianza final e irreversible con César. Consulta la Wiki oficial para métodos avanzados de alteración de secuencias.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Las mejores servoarmaduras y estadísticas">
+
+Una vez que hayas obtenido el entrenamiento, querrás buscar la mejor protección posible. El Yermo de Mojave contiene varios modelos distintos de servoarmadura, cada uno adaptado a diferentes estilos de juego y construcciones de personajes.
+
+La servoarmadura de los Remanentes ofrece el Umbral de Daño más alto de todo el juego base, haciéndote virtualmente invulnerable. Sin embargo, es increíblemente pesada y se degrada rápidamente. Para construcciones de armas de energía, la armadura Tesla de la familia Gannon es la opción superior, ya que ofrece un aumento masivo de las habilidades de armas de energía pesando significativamente menos.
+
+<CardGrid cols={3}>
+  <Card title="Servoarmadura de los Remanentes">
+    - **Umbral de Daño**: 28
+    - **Peso**: 45 lbs
+    - **Bonificaciones**: +1 Fuerza, +15 Resistencia a la radiación, -1 Carisma
+  </Card>
+  <Card title="Tesla de la familia Gannon">
+    - **Umbral de Daño**: 26
+    - **Peso**: 35 lbs
+    - **Bonificaciones**: +1 Fuerza, +20 Resistencia a la radiación, +10 Armas de energía
+  </Card>
+  <Card title="Servoarmadura T-51b">
+    - **Umbral de Daño**: 25
+    - **Peso**: 40 lbs
+    - **Bonificaciones**: +1 Fuerza, +25 Resistencia a la radiación
+  </Card>
+</CardGrid>
+
+Si no quieres pasar por las largas líneas de misiones para obtener entrenamiento, la servoarmadura recuperada de la RNC es un sustituto decente. La RNC eliminó los servomotores de las articulaciones y los paquetes de microfusión de las armaduras capturadas de la Hermandad, convirtiéndolas en trajes de metal pesado que no requieren entrenamiento. Sin embargo, este proceso eliminó todas las bonificaciones de estadísticas y aumentó el peso total.
+
+| Conjunto de Armadura | Umbral de Daño | Clase de Peso | Modificadores de Atributos | ¿Entrenamiento Requerido? |
+|-|-|-|-|-|
+| Servoarmadura de los Remanentes | 28 | Pesada | +1 FUE, +15 Res Rad, -1 CAR | Sí |
+| Tesla de la familia Gannon | 26 | Media | +1 FUE, +20 Res Rad, +10 Energía | Sí |
+| Servoarmadura T-51b | 25 | Pesada | +1 FUE, +25 Res Rad | Sí |
+| Servoarmadura T-45d | 22 | Pesada | +2 FUE, +10 Res Rad, -2 AGI | Sí |
+| Armadura recuperada de la RNC | 20 | Pesada | Ninguno | No |
+
+<Checklist
+  id="power-armor-hunt"
+  title="Lista de verificación para la adquisición de servoarmaduras:"
+  items={[
+    "Obtener entrenamiento de servoarmadura de la Hermandad o del Enclave",
+    "Localizar la servoarmadura de los Remanentes en el Promontorio de los Alamuerte",
+    "Recuperar el casco de los Remanentes en la mina de Silver Peak",
+    "Comprar un conjunto T-51b de repuesto en la armería de Hidden Valley",
+    "Adquirir el extra Reparaciones improvisadas para reparar fácilmente armaduras pesadas"
+  ]}
+/>
+
+<Callout type="info" title="Clasificación de Peso">
+Ten en cuenta que la armadura Tesla de la familia Gannon está clasificada como armadura Media, lo que te permite beneficiarte de extras como Viaje ligero y aumentos de velocidad activa, a diferencia de las variantes pesadas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Se puede obtener el entrenamiento de servoarmadura de Fallout New Vegas sin unirse a la Hermandad?",
+    answer: "Sí. Puedes saltarte la Hermandad por completo reclutando a Arcade Gannon y completando la línea de misiones de los Remanentes del Enclave, que otorga el extra de entrenamiento cerca del final del juego."
+  },
+  {
+    question: "¿Cuál es el mejor lugar para encontrar una servoarmadura gratis en el Mojave?",
+    answer: "El mejor conjunto gratuito es la servoarmadura de los Remanentes, situada en el Promontorio de los Alamuerte (no marcado) cruzando el río Colorado, al este del campamento de buscadores de Cliffside. Prepárate para luchar contra docenas de Alamuerte."
+  },
+  {
+    question: "¿Requiere entrenamiento la servoarmadura recuperada de la RNC?",
+    answer: "No. A la servoarmadura recuperada de la RNC se le han quitado las articulaciones motorizadas, lo que significa que funciona como una armadura pesada estándar y no requiere el extra de Entrenamiento de servoarmadura para ser usada."
+  },
+  {
+    question: "¿Puedo obtener entrenamiento si destruyo el búnker de Hidden Valley?",
+    answer: "Si haces explotar el búnker de Hidden Valley antes de obtener el entrenamiento de la Hermandad, tu única opción restante para usar una servoarmadura estándar es completar la misión de Arcade Gannon con los Remanentes del Enclave."
+  }
+]} />
+
+<Callout type="success" title="Reparación de tu equipo">
+El mantenimiento de la servoarmadura es caro con los vendedores estándar. Tomar el extra Reparaciones improvisadas al nivel 14 te permite reparar la servoarmadura usando opciones de armadura pesada baratas, como la armadura de metal, ahorrándote miles de chapas.
+</Callout>
+
+</Section>

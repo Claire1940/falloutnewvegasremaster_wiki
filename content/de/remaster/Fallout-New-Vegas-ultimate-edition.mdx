@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fallout New Vegas Ultimate Edition: Modding- & Setup-Guide für 2026",
+  description: "Erfahre, wie du die Fallout New Vegas Ultimate Edition im Jahr 2026 mit den wichtigsten Mod-Paketen, Engine-Fixes und Erweiterungsinhalten für das beste RPG-Erlebnis optimierst.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/e2b007?text=Ultimate+Edition+Guide",
+  date: "2026-07-18",
+  author: "Fallout New Vegas Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- Die **Fallout New Vegas Ultimate Edition** ist die erforderliche Basis für alle modernen Modding-Projekte, da sie alle funktionalen DLCs und Assets enthält.
+- **Stabilität zuerst**: Moderne Setups priorisieren Engine-Fixes wie den 4GB-Patch und NVSE gegenüber visuellen Überarbeitungen, um Abstürze zu verhindern.
+- **Mod-Pakete**: Wähle zwischen **Viva New Vegas** für ein verfeinertes Vanilla-Erlebnis oder **New New Vegas** für ein riesiges Overhaul mit über 800 Mods.
+- **Neue Inhalte**: Erweiterungen wie **Nova Arizona** und **The Long 15** erweitern die Karte erheblich in die Territorien der Legion und der RNK (NCR).
+- **Performance**: Ein modernes, gemoddetes Setup benötigt je nach gewählten Textur-Paketen etwa 20 GB bis 100 GB zusätzlichen Festplattenspeicher.
+</Callout>
+
+<Section icon={Map} title="Der moderne Zustand der Fallout New Vegas Ultimate Edition">
+
+Die **Fallout New Vegas Ultimate Edition** bleibt auch im Jahr 2026 die definitive Art und Weise, das Meisterwerk von Obsidian Entertainment zu erleben. Obwohl das Hauptspiel bekanntlich in nur 18 Monaten entwickelt wurde, was zu einer Veröffentlichung voller technischer Hürden führte, hat die Community über fünfzehn Jahre damit verbracht, es in ein stabiles, modernes Meisterwerk zu verwandeln. Die Ultimate Edition ist besonders wichtig, da sie die notwendigen Skripte und Assets aus den DLCs Dead Money, Honest Hearts, Old World Blues und Lonesome Road bereitstellt, die eine zwingende Voraussetzung für fast jede größere Mod auf Nexus sind.
+
+Im Jahr 2026 ist die Modding-Szene produktiver denn je, angetrieben durch ein erneutes Interesse am Franchise nach hochkarätigen Medienadaptionen. Spieler beheben nicht mehr nur Fehler; sie beleben das Mojave-Ödland mit professioneller Synchronisation, fahrbaren Fahrzeugen und erweiterten Landmassen wieder, die der Größe des Originalspiels in nichts nachstehen.
+
+**Video-Highlights:**
+- Das Verständnis des 18-monatigen Entwicklungszyklus und dessen Auswirkungen auf die ursprüngliche Veröffentlichung.
+- Der Wandel von der „Fehlerbehebung“ zur „vollständigen Revitalisierung“ in der Modding-Ära 2025–2026.
+- Ein Vergleich zwischen leichtgewichtigen Stabilitäts-Guides und riesigen 100-GB-Mod-Sammlungen.
+- Demonstration moderner Schießmechaniken und Third-Person-Animationen.
+
+<YouTubeEmbed videoId="mk9uN5O4mUg" title="Fallout New Vegas in 2025/2026 Modding-Übersicht" />
+
+| Feature | Hauptspiel (2010) | Ultimate Edition Gemoddet (2026) |
+| :--- | :--- | :--- |
+| **Stabilität** | Häufige Abstürze, Speicherlecks | 4GB-kompatibel, Multi-Core-optimiert |
+| **Gunplay** | Klobige, steife Animationen | ADS (Zielen über Visier) für alle Waffen, Rückstoßmuster |
+| **Grafik** | Flache Beleuchtung, niedrig aufgelöste Texturen | PBR-Materialien, volumetrische Beleuchtung |
+| **Weltgröße** | Mojave-Ödland | Mojave + Arizona + Kalifornien |
+| **UI/UX** | Niedrige Auflösung, veraltetes 4:3-Format | Hochauflösende Vektor-UI, anpassbares HUD |
+
+<Callout type="tip" title="Profi-Tipp">
+Stelle immer sicher, dass dein Spiel außerhalb des Verzeichnisses „Programme“ (Program Files) installiert ist. Die internen Sicherheitsberechtigungen von Windows blockieren oft Mod-Manager daran, Spieldateien korrekt zu überschreiben, was während der Einrichtung zu „Zugriff verweigert“-Fehlern führt.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Wahl deines Modding-Pfads: Vanilla+ vs. Komplettüberarbeitung">
+
+Bei der Einrichtung deiner **Fallout New Vegas Ultimate Edition** musst du dich zwischen zwei grundlegenden Philosophien entscheiden. Einige Spieler bevorzugen den „Vanilla+“-Ansatz, der sich auf Stabilität, Fehlerbehebungen und kleinere Verbesserungen der Lebensqualität konzentriert, die die ursprüngliche Vision respektieren. Andere wollen eine „Komplettüberarbeitung“ (Total Overhaul), die das Spiel in einen modernen Shooter-RPG-Hybrid mit Hunderten von neuen Funktionen verwandelt.
+
+<CardGrid cols={2}>
+  <Card title="Viva New Vegas (Vanilla+)">
+    - **Fokus**: Stabilität, Performance und Balance.
+    - **Mod-Anzahl**: Ungefähr 114 kuratierte Mods.
+    - **Speicherplatz**: Benötigt ~19 GB zusätzlichen Speicherplatz.
+    - **Schwierigkeit**: Mittelschwere Einrichtung mit MO2.
+    - **Ideal für**: Neueinsteiger oder Puristen.
+  </Card>
+  <Card title="New New Vegas (Overhaul)">
+    - **Fokus**: Grafische Qualität und neue Mechaniken.
+    - **Mod-Anzahl**: Über 800 einzelne Mods.
+    - **Speicherplatz**: Benötigt über 100 GB zusätzlichen Speicherplatz.
+    - **Schwierigkeit**: Einfach über Nexus Premium/Vortex.
+    - **Ideal für**: Veteranen, die eine neue Erfahrung suchen.
+  </Card>
+</CardGrid>
+
+| Aspekt | Viva New Vegas | New New Vegas Overhaul |
+| :--- | :--- | :--- |
+| **Installationszeit** | 1–2 Stunden (Manuell/Geführt) | 3–5 Stunden (Automatisiert/Premium) |
+| **Engine-Fixes** | Umfassend (NVSE, NVTF, JIP) | Umfassend + Visuelle Erweiterungen |
+| **Neue Waffen** | Nur Lore-freundliche Ergänzungen | Hunderte von modernen/klassischen Assets |
+| **Spielstand-Kompatibilität** | Funktioniert mit vorhandenen Spielständen | Erfordert ein neues Spiel |
+| **Visueller Stil** | Verbessertes Vanilla | Realistischer/Remastered-Stil |
+
+<Callout type="warning" title="Hinweis zu Spielständen">
+Die „New New Vegas“-Sammlung und andere massive Overhauls verändern interne Skripte so tiefgreifend, dass sie **nicht** mit Vanilla-Spielständen kompatibel sind. Der Versuch, einen alten Spielstand zu laden, führt zu einem sofortigen Absturz oder fehlerhaften Quest-Triggern.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Installationsanleitung">
+
+Um das Beste aus der **Fallout New Vegas Ultimate Edition** herauszuholen, musst du eine bestimmte Installationsreihenfolge einhalten. Abweichungen von dieser Reihenfolge führen oft zum „unendlichen Ladebildschirm“ oder fehlerhaften Texturen (den gefürchteten roten Ausrufezeichen).
+
+<Steps>
+  <Step num="1" title="Saubere Neuinstallation">
+    Deinstalliere alle vorhandenen Versionen des Spiels. Lösche den verbleibenden Ordner in deinem Steam-Verzeichnis, um sicherzustellen, dass keine alten Mod-Dateien zurückbleiben. Installiere das Spiel in einem benutzerdefinierten Ordner wie `C:/Games/FNV` neu.
+  </Step>
+  <Step num="2" title="Der Utility-Kern">
+    Installiere **xNVSE** (New Vegas Script Extender), den **4GB-Patch** und den **Heap Replacer**. Diese Tools ermöglichen es dem Spiel, mehr als 2 GB RAM zu nutzen, und bieten das Framework für die Ausführung komplexer Mods.
+  </Step>
+  <Step num="3" title="Mod-Manager-Einrichtung">
+    Lade **Mod Organizer 2** (MO2) oder **Vortex** herunter. MO2 wird im Allgemeinen wegen seines „virtuellen Dateisystems“ bevorzugt, das deinen eigentlichen Spielordner sauber hält und eine einfache Fehlerbehebung ermöglicht.
+  </Step>
+  <Step num="4" title="Fehlerbehebungen und UI">
+    Installiere **YUP** (Yukichigai Unofficial Patch), um Tausende von verbleibenden Fehlern zu beheben. Folge dem mit dem **User Interface Organizer** (UIO) und einer modernen HUD-Mod wie **Consistent Pip-Boy Icons**.
+  </Step>
+  <Step num="5" title="Gameplay-Verbesserungen">
+    Füge Mechaniken wie **B42 Inject** für Stimpack-Animationen und **Enhanced Movement** für eine dedizierte Sprint-Taste und Lehn-Mechaniken hinzu.
+  </Step>
+</Steps>
+
+| Tool-Name | Zweck | Anforderungsstufe |
+| :--- | :--- | :--- |
+| **xNVSE** | Erweitert die Skripting-Fähigkeiten | Essenziell |
+| **4GB Patch** | Ermöglicht dem Spiel die Nutzung von 4 GB RAM | Essenziell |
+| **NVTF** | Behebt Mikroruckler und hohe FPS | Essenziell |
+| **JIP LN NVSE** | Fügt über 800 neue Skriptfunktionen hinzu | Sehr empfohlen |
+| **JohnnyGuitar** | Behebt Fehler und Limits auf Engine-Ebene | Sehr empfohlen |
+
+<Callout type="success" title="Performance-Erfolg">
+Durch die Verwendung des **New Vegas Tick Fix (NVTF)** und des **DirectX-Guides** können Spieler auf Windows 10 und 11 endlich mit hohen Bildwiederholraten (144Hz+) spielen, ohne dass die Spielphysik fehlerhaft wird oder sich die Engine beschleunigt.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Die Mojave erweitern: Neue Grenzen im Jahr 2026">
+
+Die **Fallout New Vegas Ultimate Edition** ist nicht mehr auf die Grenzen der Mojave beschränkt. Modder haben massive Erweiterungen in der Größe von offiziellen DLCs veröffentlicht, die sich nahtlos in die Hauptkarte integrieren. Diese Projekte bieten oft eine vollständige Sprachausgabe und verzweigte Questreihen, die das Fraktionssystem des Hauptspiels respektieren.
+
+### Wichtige Erweiterungsprojekte
+- **Nova Arizona**: Diese Mod erweitert die Karte nach Osten über den Colorado River in das von Caesars Legion kontrollierte Gebiet. Sie fügt mehrere neue Städte, Dungeons und Legion-spezifische Quests hinzu, was der östlichen Seite der Karte dringend benötigte Tiefe verleiht.
+- **The Long 15**: Eine gewaltige Erweiterung, die sich auf das Territorium der Republik Neu-Kalifornien (RNK) konzentriert. Sie ermöglicht es Spielern, weiter nach Westen zu reisen und die Versorgungslinien sowie die politischen Kämpfe innerhalb der Grenzen der Republik zu erkunden.
+- **A Tale of Two Wastelands (TTW)**: Dies ist vielleicht das ehrgeizigste Projekt in der Geschichte des Bethesda-Moddings. Es portiert das gesamte Fallout 3 in die Engine von Fallout New Vegas, sodass du beide Spiele mit einem einzigen Charakter und den überlegenen Mechaniken von New Vegas spielen kannst.
+
+| Erweiterung | Hauptfraktion | Hauptmerkmal | Sprachausgabe |
+| :--- | :--- | :--- | :--- |
+| **Nova Arizona** | Caesars Legion | Östliche Kartenerweiterung | Teilweise (textlastig) |
+| **The Long 15** | RNK (NCR) | Westliche Versorgungsrouten | Vollständig professionell |
+| **TTW** | Gemischt | Fallout 3 in der FNV-Engine | Original + Neu |
+| **The Frontier** | Verschiedene | Fahrbare Fahrzeuge, neue Stadt | Vollständig professionell |
+
+<Callout type="info" title="A Tale of Two Wastelands">
+Um TTW zu installieren, musst du legale, saubere Installationen sowohl der **Fallout New Vegas Ultimate Edition** als auch der **Fallout 3 Game of the Year Edition** besitzen. Das Installationsprogramm verbindet die beiden Spiele zu einer einzigen ausführbaren Datei.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Visuelle und kampftechnische Modernisierung">
+
+Eine der größten Beschwerden über die standardmäßige **Fallout New Vegas Ultimate Edition** ist das „schwammige“ Kampfsystem und die veralteten Charaktermodelle. Im Jahr 2026 wurden diese Probleme weitgehend durch Animations-Replacer und Schieß-Overhauls auf Engine-Ebene gelöst.
+
+**Wichtige visuelle Verbesserungen:**
+- **PBR-Texturen**: Physikbasiertes Rendering (PBR) ermöglicht es Oberflächen, realistisch auf Licht zu reagieren, sodass Metall wie Metall und Stein wie Stein aussieht.
+- **Atmosphärische Beleuchtung**: Mods wie **Desert Natural Weathers** entfernen den grellen Orangestich und ersetzen ihn durch dynamische Beleuchtung und realistische Skyboxen.
+- **Animations-Overhauls**: Die Reihe **Hitman's Season** ersetzt jede Waffenanimation im Spiel und sorgt für befriedigendes Nachladen und realistischen Rückstoß.
+
+<Checklist
+  id="visual-checklist"
+  title="Modernisierungs-Checkliste:"
+  items={[
+    "Installiere NVTF for flüssiges Gameplay bei hohen Bildraten",
+    "Wende ein modernes UI-Overhaul an (Stewie Tweaks ist ein Muss)",
+    "Aktiviere „True Shadows“ für dynamische Umgebungsbeleuchtung",
+    "Füge „B42 Descriptions“ für eine immersive Gegenstandsinspektion hinzu",
+    "Ersetze die Standard-Charakterköpfe durch High-Poly-Modelle"
+  ]}
+/>
+
+<Callout type="tip" title="Kampf-Tipp">
+Nutze die Mods fürs **Lehnen** und **Sprinten**, damit sich das Spiel wie ein moderner Taktik-Shooter anfühlt. Die Möglichkeit, in den Vaults oder im Sierra Madre um Ecken zu spähen, verändert den taktischen Fluss des Spiels erheblich.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Brauche ich wirklich die Ultimate Edition fürs Modding?",
+    answer: "Ja. Fast alle modernen Mods erfordern die Assets der vier großen DLCs. Wenn du nur das Hauptspiel besitzt, führen viele Mods beim Start zum Absturz, da Master-Dateien fehlen."
+  },
+  {
+    question: "Ist das Modding von Fallout New Vegas im Jahr 2026 schwierig?",
+    answer: "Dank der „Collections“ auf Nexus und „Wabbajack“-Listen ist es viel einfacher geworden. Diese Tools automatisieren den Download- und Installationsprozess, obwohl ein grundlegendes Verständnis von Dateipfaden weiterhin empfohlen wird."
+  },
+  {
+    question: "Kann ich über 800 Mods auf einem Mittelklasse-PC ausführen?",
+    answer: "Überraschenderweise ja. Da die Engine alt ist, kann selbst ein moderner Mittelklasse-PC Hunderte von Mods bewältigen. Der Hauptengpass ist das Speicherlimit der Engine, das durch den 4GB-Patch und den Heap Replacer behoben wird."
+  },
+  {
+    question: "Was ist die wichtigste Mod für Stabilität?",
+    answer: "Der 4GB-Patch ist am kritischsten. Ohne ihn kann das Spiel nur 2 GB RAM nutzen, was zu sofortigen Abstürzen führt, sobald hochauflösende Texturen oder komplexe Skripte hinzugefügt werden."
+  }
+]} />
+
+</Section>

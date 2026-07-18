@@ -1,0 +1,197 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Activity, Wifi } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fallout New Vegas PS5: Setup-Leitfaden & Performance-Test",
+  description: "Erfahren Sie, wie Sie Fallout New Vegas auf der PS5 über PS Plus Premium spielen. Entdecken Sie Performance-Spezifikationen, Streaming-Anforderungen und wichtige Überlebenstipps für 2026.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=Fallout+New+Vegas+PS5+Guide",
+  date: "2026-07-18",
+  author: "Fallout New Vegas Wiki-Team",
+  keywords: "Fallout New Vegas, PS5, PS Plus Premium, Streaming, Performance, Mojave, Guide"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Fallout New Vegas PS5 Zugriff**: Derzeit nur über **PlayStation Plus Premium** Cloud-Streaming verfügbar.
+- **Performance-Spezifikationen**: Läuft in einer nativen **720p-Auflösung**, fixiert auf **30 FPS**, was dem ursprünglichen PS3-Erlebnis entspricht.
+- **Netzwerkanforderungen**: Eine stabile Verbindung mit mindestens **30 Mbit/s Upload** und **100+ Mbit/s Download** wird für minimale Latenz empfohlen.
+- **Kern-Gameplay**: Enthält das volle Basisspiel-Erlebnis, einschließlich des komplexen **Karma-Systems** und verzweigter Erzählpfade.
+- **Wichtiger Rat**: Häufiges manuelles Speichern ist aufgrund der inhärenten Instabilität von Cloud-basierten Legacy-Titeln zwingend erforderlich.
+</Callout>
+
+<Section icon={Map} title="Fallout New Vegas auf der PS5 spielen: PS Plus Premium Streaming">
+
+Fallout New Vegas im Jahr 2026 auf der **PS5** zu spielen, bleibt ein einzigartiges Erlebnis, vor allem, weil das Spiel nicht als nativer Port verfügbar ist. Stattdessen müssen PlayStation 5-Nutzer über die PlayStation Plus Premium-Stufe auf den Titel zugreifen, die Cloud-Streaming-Technologie nutzt, um die ursprüngliche PlayStation 3-Version des Spiels auszuführen. Das bedeutet, dass Sie zwar auf moderner Hardware spielen, die Software selbst jedoch ein Relikt der siebten Konsolengeneration ist, das sowohl sein legendäres Writing als auch seine technischen Einschränkungen auf Ihren 4K-Bildschirm bringt.
+
+**Video-Highlights:**
+- **Streaming-Realität**: Detaillierter Blick auf das PS Plus Premium-Interface und wie das Spiel mit der Cloud-Übertragung umgeht.
+- **Visuelle Wiedergabetreue**: Analyse der 720p-Ausgabe und des Fehlens von modernem Anti-Aliasing.
+- **Gameplay-Fluss**: Ein Walkthrough der Eröffnungssequenz in Goodsprings und Kämpfe gegen die lokale Tierwelt.
+- **Technische Hürden**: Echtzeit-Demonstration von Eingabeverzögerungen und visuellen Artefakten, die durch Internetschwankungen verursacht werden.
+
+<YouTubeEmbed videoId="n5SMniPPwTc" title="Fallout New Vegas PS5 Gameplay Review [Playstation Plus]" />
+
+Das Streaming-Erlebnis hängt stark von Ihrer lokalen Netzwerkinfrastruktur ab. Da das Spiel auf einem entfernten Server verarbeitet und an Ihre Konsole gestrahlt wird, kann jedes Ruckeln in Ihrer Verbindung zu „Screen Tearing“ oder sichtbaren Linien in der Umgebung führen. Trotz dieser Hürden bleibt die erzählerische Tiefe des Mojave-Ödlands intakt und bietet Abonnenten hunderte Stunden RPG-Inhalt.
+
+| Feature | PS5 Streaming-Spezifikation |
+| :--- | :--- |
+| **Native Auflösung** | 720p (Hochskaliert durch PS5) |
+| **Bildrate** | 30 FPS Zielwert |
+| **Eingabemethode** | DualSense (Legacy Mapping) |
+| **Haptisches Feedback** | Nicht unterstützt |
+| **Ladezeiten** | Serverabhängig (Moderat) |
+
+<Callout type="warning" title="Abonnement-Anforderung">
+Sie können Fallout New Vegas nicht direkt im PS5 Store kaufen. Sie benötigen ein aktives **PS Plus Premium** (oder Deluxe in einigen Regionen) Abonnement, um auf die Streaming-Bibliothek zuzugreifen.
+</Callout>
+
+</Section>
+
+<Section icon={Activity} title="Technische Performance und visuelle Wiedergabetreue">
+
+Beim Starten von **Fallout New Vegas PS5** fällt den Spielern als Erstes die „zackige“ Natur der Grafik auf. Da auf den Stream kein modernes Anti-Aliasing (AA) angewendet wird, können die Wüstenlandschaften und Charaktermodelle auf modernen hochauflösenden Displays sehr grob erscheinen. Die Umgebung leidet oft unter niedrig aufgelösten Texturen, insbesondere bei fernen Felsformationen und Gebäuden wie dem Lucky 38.
+
+| Verbindungsmetrik | Mindestanforderung | Empfohlen für PS5 |
+| :--- | :--- | :--- |
+| **Download-Geschwindigkeit** | 15 Mbit/s | 100+ Mbit/s |
+| **Upload-Geschwindigkeit** | 5 Mbit/s | 30+ Mbit/s |
+| **Verbindungstyp** | Wi-Fi (2.4GHz) | Kabelgebundenes Ethernet / 5GHz |
+| **Latenz (Ping)** | < 50ms | < 20ms |
+
+Die Performance ist auf 30 Bilder pro Sekunde begrenzt, was sich im Vergleich zu modernen 60-FPS- oder 120-FPS-Titeln träge anfühlen kann. Das VATS (Vault-Tec Assisted Targeting System) hilft jedoch dabei, einen Teil des Frusts beim Zielen in einer Umgebung mit niedrigerer Bildrate zu mildern. Spieler sollten mit gelegentlichem „Ruckeln“ oder Frame-Drops bei intensiven Kämpfen oder beim Betreten dicht besiedelter Gebiete wie dem New Vegas Strip rechnen.
+
+<Callout type="tip" title="Netzwerk-Optimierung">
+Für das beste Erlebnis sollten Sie immer eine **kabelgebundene Ethernet-Verbindung** verwenden. Cloud-Streaming reagiert extrem empfindlich auf Paketverluste, die über Standard-WLAN häufig vorkommen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Kampfmechaniken und Ausrüstung für das frühe Spiel">
+
+Der Kampf in der Mojave ist eine Mischung aus traditionellem Echtzeit-Shooting und dem taktischen VATS-System. Auf der PS5 spiegeln die Steuerelemente das klassische Layout wider. Zu Beginn des Spiels erhalten Sie von Sunny Smiles in Goodsprings ein Varmint-Gewehr. Diese Waffe ist unerlässlich, um Geckos an den lokalen Brunnen auszuschalten und sich gegen die ersten Bedrohungen des Ödlands zu verteidigen.
+
+<CardGrid cols={3}>
+  <Card title="Varmint-Gewehr">
+    - **Typ**: Schusswaffen
+    - **Ideal für**: Fernschüsse
+    - **Munition**: 5.56mm
+  </Card>
+  <Card title="9mm-Pistole">
+    - **Typ**: Schusswaffen
+    - **Ideal für**: Nahkampf
+    - **Munition**: 9mm Patronen
+  </Card>
+  <Card title="Dynamit">
+    - **Typ**: Sprengstoffe
+    - **Ideal für**: Gegnergruppen
+    - **Munition**: Wurfwaffe
+  </Card>
+</CardGrid>
+
+Die Verwaltung Ihrer Ausrüstung ist lebenswichtig, da Waffen bei Gebrauch verschleißen. Eine Waffe in schlechtem Zustand verursacht deutlich weniger Schaden und kann in kritischen Momenten klemmen. Sie können Gegenstände mit ähnlichen Waffen reparieren oder NPCs dafür bezahlen, obwohl letzteres für einen neuen Kurier teuer sein kann.
+
+| Gegnertyp | Schwachstelle | Bedrohungsstufe |
+| :--- | :--- | :--- |
+| **Junger Gecko** | Kopf / Gliedmaßen | Niedrig |
+| **Chets Schläger** | Torso | Mittel |
+| **Todeskralle** | Beine (Krüppeln) | Extrem |
+| **Cazador** | Flügel | Hoch |
+
+<Callout type="success" title="Karma-System">
+Jede Aktion, die Sie ausführen, beeinflusst Ihr Karma. Das Bestehlen von NPCs oder das Ermorden von friedlichen Charakteren führt zu negativem Karma, während das Helfen von Siedlern und das Auslöschen von Monstern wie Geckos positives Karma bringt.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Navigation durch die Mojave: Ein Schritt-für-Schritt-Start">
+
+Die Reise des Kuriers beginnt mit einer Kugel im Kopf und einem flachen Grab. Sobald Sie von Doc Mitchell zusammengeflickt wurden, ist Ihr primäres Ziel, die Männer aufzuspüren, die versucht haben, Sie zu töten, und den Platin-Chip zurückzuerlangen. Der Hauptstraße südlich von Goodsprings zu folgen, ist die sicherste Route für neue Spieler, da der direkte Weg nach Norden Richtung Vegas Sie geradewegs in ein Nest von Todeskrallen führt.
+
+<Steps>
+  <Step num="1" title="Charaktererstellung">
+    Verteilen Sie Ihre **S.P.E.C.I.A.L.**-Punkte klug. Hohe Intelligenz gewährt mehr Fertigkeitspunkte pro Level, während Beweglichkeit Ihre Aktionspunkte für VATS verbessert.
+  </Step>
+  <Step num="2" title="Tutorial-Quests">
+    Schließen Sie „Wieder im Sattel“ mit Sunny Smiles ab. Dies vermittelt Ihnen grundlegende Überlebensfähigkeiten, Ihr erstes Gewehr und ein Gefühl für die Kampfmechaniken.
+  </Step>
+  <Step num="3" title="Der Weg nach Primm">
+    Reisen Sie nach Süden nach Primm. Hier treffen Sie auf die RNK (Republik Neukalifornien) und erfahren von den entflohenen Sträflingen, die das Casino der Stadt besetzt halten.
+  </Step>
+  <Step num="4" title="Verfolgung des Pakets">
+    Erkundigen Sie sich nach dem Auftrag des Mojave Express. Dies wird Sie nach Novac und schließlich zu den Neonlichtern von New Vegas selbst führen.
+  </Step>
+</Steps>
+
+Erkundung ist das Herzstück des Spiels. Auch wenn die Grafik im PS5-Stream verschwommen sein mag, ist die Welt dicht gepackt mit Umgebungs-Storytelling. Halten Sie Ausschau nach Wahrzeichen wie dem riesigen Dinosaurier in Novac oder den Statuen am Mojave-Außenposten.
+
+<Callout type="info" title="Schnellreise">
+Sobald Sie einen Ort entdeckt haben, können Sie über die Pip-Boy-Karte dorthin schnellreisen, sofern Sie sich nicht im Kampf oder in Innenräumen befinden. Dies spart erheblich Zeit, da es im Basisspiel keine eigene Sprint-Taste gibt.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Best Practices für das Überleben im gestreamten Gameplay">
+
+Da Sie einen Legacy-Titel über die Cloud spielen, ist die technische Stabilität Ihr größter Feind. Die PS3-Version des Spiels war berüchtigt für Abstürze, und obwohl die PS5-Hardware leistungsstark ist, bleibt die zugrunde liegende Software fragil. Die Implementierung einer strengen Speicherstrategie ist der einzige Weg, um sicherzustellen, dass Sie nicht stundenlangen Fortschritt durch einen Serverabbruch oder ein zufälliges Einfrieren des Spiels verlieren.
+
+| Speichertyp | Häufigkeit | Empfohlene Nutzung |
+| :--- | :--- | :--- |
+| **Schnellspeichern** | Alle 5-10 Min. | Vor dem Betreten neuer Gebäude |
+| **Manuelles Speichern** | Alle 30 Min. | Nach Abschluss wichtiger Quests |
+| **Auto-Speichern** | Beim Gebietswechsel | Standardmäßig aktiviert (nicht darauf verlassen) |
+| **Rotation** | 3-5 Slots | Immer mehrere rollierende Speicherstände halten |
+
+Eine weitere Einschränkung des **Fallout New Vegas PS5**-Erlebnisses ist das Fehlen moderner Quality-of-Life (QoL) Funktionen. Es gibt keine Sprint-Taste, wodurch sich das Durchqueren der riesigen Wüste langsam anfühlt. Zusätzlich kann die niedrige Auflösung es schwierig machen, Landminen oder kleine Gegenstände auf dem Boden zu entdecken. Nutzen Sie VATS häufig nicht nur für den Kampf, sondern als „Radar“, um nahegelegene Feinde oder Fallen zu erkennen, die durch den unscharfen Stream verdeckt sein könnten.
+
+<Callout type="warning" title="Speicherstand-Korruption">
+Vermeiden Sie es, sich ausschließlich auf eine einzige Speicherdatei zu verlassen. Legacy-Bethesda-Titel können gelegentlich unter „Save Bloat“ oder Korruption leiden. Es wird dringend empfohlen, mindestens drei separate manuelle Speicherplätze zu unterhalten.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Mojave-Checkliste für Vervollständiger und FAQ">
+
+Für diejenigen, die alles sehen wollen, was die Mojave zu bieten hat, ist ein strukturierter Ansatz notwendig. Das Spiel bietet mehrere Enden, je nachdem, auf welche Seite Sie sich schlagen: die RNK, Caesars Legion, Mr. House oder ein unabhängiges Vegas.
+
+<Checklist
+  id="new-vegas-goals"
+  title="Wichtige Meilensteine:"
+  items={[
+    "Den Platin-Chip von Benny zurückerlangen",
+    "Den New Vegas Strip erreichen und Mr. House treffen",
+    "Das Schicksal der Mojave am Hoover-Staudamm entscheiden",
+    "Alle 188 Handelsplatz-Standorte entdecken",
+    "Level 30 erreichen (oder 50 mit DLC, falls verfügbar)"
+  ]}
+/>
+
+<Callout type="tip" title="DLC-Verfügbarkeit">
+Beachten Sie, dass einige Streaming-Versionen des Spiels die DLC-Pakete (Dead Money, Honest Hearts, Old World Blues, Lonesome Road) möglicherweise nicht enthalten. Überprüfen Sie Ihre spezifische PS Plus-Bibliothek, um zu bestätigen, ob die „Ultimate Edition“ bereitgestellt wird.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Gibt es eine native Fallout New Vegas PS5-Version?",
+    answer: "Nein, es gibt keinen nativen PS5-Port. Das Spiel ist nur über PS Plus Premium Cloud-Streaming der ursprünglichen PS3-Version spielbar."
+  },
+  {
+    question: "Kann ich Mods auf der PS5-Version verwenden?",
+    answer: "Nein, Konsolenversionen von Fallout New Vegas unterstützen keine Mods. Dieses Feature ist exklusiv der PC-Version des Spiels vorbehalten."
+  },
+  {
+    question: "Warum sieht das Spiel auf meinem 4K-Fernseher unscharf aus?",
+    answer: "Das Spiel wird in einer nativen 720p-Auflösung gestreamt. Wenn dies auf einen 4K-Bildschirm ohne modernes Upscaling oder Anti-Aliasing gestreckt wird, führt dies zu einem zackigen und weichen Bild."
+  },
+  {
+    question: "Wie vermeide ich am besten Eingabeverzögerungen (Input Lag)?",
+    answer: "Die Verwendung einer kabelgebundenen Ethernet-Verbindung und das Sicherstellen, dass Ihr Fernseher im „Spielemodus“ ist, wird die Latenz zwischen Ihren Controller-Eingaben und der Aktion auf dem Bildschirm erheblich reduzieren."
+  }
+]} />
+
+</Section>
