@@ -1,4 +1,15 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki de Fallout: New Vegas Remaster - Misiones, Builds y Mods",
+      "description": "Explora las misiones, facciones, compañeros, builds, armas, el Modo Hardcore, mapas, finales y guías esenciales de modding de Fallout: New Vegas Remaster.",
+      "keywords": "Fallout New Vegas Remaster,misiones,builds,compañeros,armas,mods,finales",
+      "ogTitle": "Wiki de Fallout: New Vegas Remaster - Misiones, Builds y Mods",
+      "ogDescription": "Explora las misiones, facciones, compañeros, builds, armas, el Modo Hardcore, mapas, finales y guías esenciales de modding de Fallout: New Vegas Remaster.",
+      "twitterTitle": "Wiki de Fallout: New Vegas Remaster - Misiones, Builds y Mods",
+      "twitterDescription": "Explora las misiones, facciones, compañeros, builds, armas, el Modo Hardcore, mapas, finales y guías de modding de Fallout: New Vegas Remaster."
+    }
+  },
   "nav": {
     "guide": "Guía",
     "builds": "Builds",
@@ -8,5 +19,697 @@
     "mods": "Mods",
     "dlc": "DLC",
     "remaster": "Remaster"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Jugar en Steam",
+    "switchLanguage": "Cambiar idioma",
+    "switchTheme": "Cambiar tema",
+    "lightMode": "Modo claro",
+    "darkMode": "Modo oscuro",
+    "notFound": "Página no encontrada",
+    "notFoundDescription": "La página que buscas no existe.",
+    "backToHome": "Volver al inicio",
+    "relatedArticles": "Artículos relacionados",
+    "readMore": "Leer más",
+    "articlesComingSoon": "Próximamente nuevos artículos"
+  },
+  "hero": {
+    "badge": "Remaster de RPG postapocalíptico basado en decisiones",
+    "title": "Wiki de Fallout: New Vegas Remaster",
+    "description": "Regresa al Yermo de Mojave y forja su futuro a través de alianzas entre facciones, compañeros reclutables, misiones ramificadas y múltiples finales. Desarrolla builds de personaje únicas, enfrenta los desafíos del Modo Hardcore y decide quién controlará New Vegas.",
+    "getFreeCodesCTA": "Explorar guías",
+    "playOnSteamCTA": "Añadir a la lista de deseados en Steam",
+    "stats": {
+      "stat1": {
+        "value": "84",
+        "label": "Puntuación original de Metacritic"
+      },
+      "stat2": {
+        "value": "6",
+        "label": "Complementos oficiales"
+      },
+      "stat3": {
+        "value": "8",
+        "label": "Compañeros reclutables"
+      },
+      "stat4": {
+        "value": "50",
+        "label": "Nivel máximo"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de Fallout: New Vegas Remaster",
+    "description": "Regresa al Yermo de Mojave con gráficos mejorados, misiones de facción ramificadas, compañeros reclutables, configuraciones de personaje profundas y supervivencia en el Modo Hardcore a lo largo de un New Vegas expandido."
+  },
+  "tools": {
+    "title": "Fallout New Vegas Remaster",
+    "titleHighlight": "Guías",
+    "subtitle": "Todo lo que necesitas para sobrevivir en el Yermo de Mojave, desde tus primeros pasos en Goodsprings hasta la batalla final por la Presa Hoover.",
+    "cards": [
+      {
+        "icon": "GraduationCap",
+        "title": "Guía para principiantes",
+        "description": "SPECIAL, habilidades, extras, karma y prioridades iniciales"
+      },
+      {
+        "icon": "Compass",
+        "title": "Guía de misiones",
+        "description": "Misiones principales, de facción, de compañeros y secundarias"
+      },
+      {
+        "icon": "Crosshair",
+        "title": "Builds",
+        "description": "Builds de armas de fuego, energía, cuerpo a cuerpo, sigilo y Hardcore"
+      },
+      {
+        "icon": "Swords",
+        "title": "Armas y equipamiento",
+        "description": "Armas, armaduras, munición y equipamiento único"
+      },
+      {
+        "icon": "Users",
+        "title": "Compañeros",
+        "description": "Reclutamiento, extras y misiones personales"
+      },
+      {
+        "icon": "Flag",
+        "title": "Facciones",
+        "description": "RNC, la Legión de César, el Sr. House y Servibot"
+      },
+      {
+        "icon": "Wrench",
+        "title": "Mods",
+        "description": "Mods de estabilidad, rendimiento, visuales y de contenido"
+      },
+      {
+        "icon": "MapPin",
+        "title": "Ubicaciones",
+        "description": "Asentamientos, refugios, casinos y lugares de interés ocultos"
+      }
+    ]
+  },
+  "modules": {
+    "falloutBeginnerGuide": {
+      "title": "Guía para principiantes de Fallout New Vegas Remaster",
+      "displayType": "paso a paso",
+      "intro": "El viaje de cada Mensajero comienza en Goodsprings. Aprende cómo se conectan los atributos de SPECIAL, las habilidades, los extras, la reputación, el karma y los sistemas de supervivencia, y sigue una ruta inicial clara que te ayudará a evitar los errores más comunes del yermo.",
+      "steps": [
+        {
+          "title": "Crea a tu Mensajero con SPECIAL",
+          "description": "SPECIAL (Fuerza, Percepción, Resistencia, Carisma, Inteligencia, Agilidad, Suerte) define todo lo que tu personaje puede hacer. Elige los atributos que se adapten a tu estilo de juego, luego elige dos habilidades destacadas y hasta dos rasgos durante la creación del personaje en Goodsprings."
+        },
+        {
+          "title": "Sube de nivel tus habilidades en cada nivel",
+          "description": "Cada nivel otorga puntos de habilidad para gastar en combate, sigilo, ciencia, reparación, conversación y supervivencia. Los controles de habilidad limitan las opciones de diálogo, el hackeo, la ganzúa y la elaboración, por lo que una distribución equilibrada abre más el Mojave que una limitada."
+        },
+        {
+          "title": "Elige los extras adecuados cada dos niveles",
+          "description": "Los extras se obtienen cada dos niveles y cada uno tiene requisitos de habilidad o de nivel. Los extras iniciales fuertes como Entendido, Comprensión y Aprendizaje rápido aceleran tu poder a largo plazo, mientras que los extras de combate como Comando o Francotirador definen tu estilo de lucha."
+        },
+        {
+          "title": "Haz un seguimiento de la reputación y el karma",
+          "description": "La reputación mide cómo te ve cada facción, mientras que el Karma rastrea tu moralidad general. Las misiones, los robos y las decisiones clave de la historia alteran ambos, y afectan directamente a los precios de los vendedores, las reacciones de los compañeros y los finales disponibles."
+        },
+        {
+          "title": "Sobrevive al Modo Hardcore (Opcional)",
+          "description": "El Modo Hardcore añade deshidratación, hambre, falta de sueño, peso de la munición y curación más lenta. Recompensa la habilidad Supervivencia, la cocina y la planificación cuidadosa de recursos, y es necesario para el logro Hardcore."
+        },
+        {
+          "title": "Establece tus prioridades iniciales",
+          "description": "Una ruta inicial fiable sigue la misión principal desde Goodsprings pasando por Primm, Nipton, Novac y Boulder City para llegar al Strip de New Vegas. Por el camino, reúne chapas, recluta a un compañero y mejora tu equipo antes de comprometerte con una facción."
+        }
+      ],
+      "quickTips": [
+        "Usa el V.A.T.S. en los combates iniciales para asegurar impactos y estudiar los puntos débiles de los enemigos.",
+        "Guarda la partida a menudo y rota entre varios espacios de guardado antes de diálogos y decisiones de facción.",
+        "Repara armas y armaduras en los vendedores para mantener su daño y su umbral de daños elevados.",
+        "Invierte pronto en Elocuencia y Ganzúa para desbloquear opciones de diálogo adicionales, botín y rutas de misión.",
+        "Recoge y vende el botín inicial en Goodsprings y Primm para permitirte tus primeras mejoras de armas reales."
+      ]
+    },
+    "falloutQuestsWalkthrough": {
+      "title": "Guía de misiones de Fallout New Vegas Remaster",
+      "displayType": "accordion",
+      "intro": "El Mojave se basa en decisiones ramificadas. Esta guía organiza la misión principal, los cuatro arcos de las facciones principales, todas las historias de los compañeros y las misiones secundarias más importantes, con objetivos, pruebas de habilidad, recompensas que puedes perder y spoilers claramente marcados.",
+      "faqs": [
+        {
+          "question": "¿Cuál es la ruta de la misión principal hacia New Vegas?",
+          "answer": "La misión principal comienza en Goodsprings y pasa por Primm, Nipton, Novac y Boulder City antes de llegar al Strip de New Vegas. Una vez allí, ¡Ring-a-Ding-Ding! te reúne con Benny, tras lo cual la historia se ramifica en los cuatro arcos finales de facción."
+        },
+        {
+          "question": "¿Cómo funcionan las misiones de la facción de la RNC?",
+          "answer": "La línea de misiones de la República de Nueva California comienza a través del embajador Crocker o la coronel Moore. La misión culminante Por la República, por la democracia te encarga asegurar la Presa Hoover y eliminar a las facciones rivales, y tu reputación con la RNC determina las misiones y recompensas disponibles."
+        },
+        {
+          "question": "¿Qué ofrece la línea de misiones de la Legión de César?",
+          "answer": "La Legión de César se une a través de Vulpes Inculta o Lucius en El Fuerte. Dad al César lo que es del César te envía a una serie de conquistas al este y oeste del Colorado, terminando con Veni, Vidi, Vici en la Presa Hoover por un Mojave totalitario."
+        },
+        {
+          "question": "¿Cómo me pongo del lado de Mr. House?",
+          "answer": "Contactas con Mr. House tras conocerlo en el Lucky 38. La cadena La Casa siempre gana te pide neutralizar a la Hermandad del Acero y asegurar el ejército de Securitrones, culminando en Lo sabrás cuando pase y la defensa de la presa."
+        },
+        {
+          "question": "¿Cuál es la ruta independiente de Servibot?",
+          "answer": "Servibot desbloquea la cadena Comodín, permitiendo que el Mensajero tome el control de New Vegas sin ninguna de las facciones principales. Mejoras el ejército de Securitrones, neutralizas a los líderes rivales y terminas con Ni Dioses, ni patrones para un Mojave independiente."
+        },
+        {
+          "question": "¿Qué misiones de compañeros no debería perderme?",
+          "answer": "Cada compañero permanente tiene una misión personal que se activa al viajar con ellos: Uno por mi chica de Boone, Penas por doquier de Cassidy, Necrófago de la vieja escuela de Raul, Podría hacer que te importara de Veronica, Por los viejos tiempos de Arcade, los activadores silenciosos de Lily, ED-E, mi amor y No es más que un perro de Rex."
+        },
+        {
+          "question": "¿Cuáles son las misiones secundarias más gratificantes?",
+          "answer": "Más allá del menú en el Ultra-Luxe, Vuela conmigo en el Centro de pruebas de REPCONN, La leyenda de la estrella para conseguir chapas de Sunset Sarsaparilla y las misiones de defensa de Goodsprings y Novac son misiones secundarias valiosas con gran botín, chapas y reputación."
+        }
+      ]
+    },
+    "falloutBuilds": {
+      "title": "Builds de Fallout New Vegas Remaster",
+      "displayType": "tier-grid",
+      "intro": "Las builds en el Mojave se basan en la asignación de S.P.E.C.I.A.L., habilidades destacadas, rasgos y el orden de los extras. Estas builds recomendadas cubren todos los estilos de combate principales además de un especialista en supervivencia para el modo Hardcore, cada una con los atributos y progresión que las hacen funcionar.",
+      "builds": [
+        {
+          "name": "Francotirador (Armas de fuego)",
+          "tier": "S",
+          "special": "AG 8, PE 7, SU 7",
+          "description": "Francotirador de sigilo a larga distancia basado en Sigilo, Armas de fuego y extras de críticos como Mejores críticos y Francotirador. El fusil antimaterial y el All-American escalan mucho con disparos a la cabeza desde el sigilo."
+        },
+        {
+          "name": "Armas de energía",
+          "tier": "S",
+          "special": "IN 8, PE 6, SU 6",
+          "description": "Potencia de fuego de plasma y láser usando el modulador de materia Q-35, el lanzador de plasma y el Pew-Pew. La armadura de Tesla y el extra Comandante láser llevan el daño a niveles de final de juego."
+        },
+        {
+          "name": "Bruto cuerpo a cuerpo",
+          "tier": "A",
+          "special": "FUE 9, RES 8, SUE 6",
+          "description": "Un coloso del combate cuerpo a cuerpo con la Superalmadena, ¡Oh, cariño! y el extra Destructor. Su gran Fuerza y Resistencia potencian el daño, la salud y los extras Muro de piedra y Fuerza imparable."
+        },
+        {
+          "name": "Púgil desarmado",
+          "tier": "A",
+          "special": "FUE 8, RES 9, AGI 7",
+          "description": "Configuración con Puño balístico y Empujón con los extras Golpe penetrante y Destructor para derribos rápidos. Ninja y Fuerza imparable añaden sinergia de sigilo y control de masas."
+        },
+        {
+          "name": "Demoledor de explosivos",
+          "tier": "A",
+          "special": "PER 6, INT 8, SUE 6",
+          "description": "Lanzagranadas automático, Piedad y Annabelle con Experto en demoliciones y ¡Arriba!. Excelente contra enemigos agrupados y manadas de Sanguinarios."
+        },
+        {
+          "name": "Mensajero de sigilo y elocuencia",
+          "tier": "A",
+          "special": "CAR 8, INT 8, AGI 7",
+          "description": "Una configuración pacifista que acumula Elocuencia, Sigilo y Trueque para hablar y escabullirse en casi todas las misiones, ideal para partidas no letales y de rol."
+        },
+        {
+          "name": "Superviviente hardcore",
+          "tier": "B",
+          "special": "RES 8, INT 8, SUE 6",
+          "description": "Diseñado para el Modo Hardcore con alta Supervivencia para cocinar, Estómago de plomo y Resistencia a los productos químicos. Convierte la comida, el agua y las recetas de hoguera en un motor de progresión autosostenible."
+        },
+        {
+          "name": "Todoterreno",
+          "tier": "B",
+          "special": "INT 9, SUE 7, CAR 6",
+          "description": "Un generalista flexible que usa los extras Educado y Comprensión para mantener viables la mayoría de las habilidades, perfecto para una primera partida en la que se quiera probar cada misión y tipo de arma."
+        }
+      ]
+    },
+    "falloutWeaponsAndGear": {
+      "title": "Armas y equipo de Fallout New Vegas Remaster",
+      "displayType": "tabla",
+      "intro": "Compara las armas, armaduras, municiones y equipamiento único más fuertes del Mojave por daño, tipo de daño, requisitos y dónde encontrarlos. Usa estas recomendaciones para planificar equipamientos para el principio, mitad y final del juego.",
+      "rows": [
+        {
+          "name": "Fusil antimaterial",
+          "category": "Armas",
+          "stat": "Muy alto",
+          "notes": "Fusil de francotirador de calibre .50 MG, la opción de largo alcance más fuerte; cómpralo a los Contrabandistas o en las armerías de la RNC."
+        },
+        {
+          "name": "Fusil de caza",
+          "category": "Armas",
+          "stat": "Alto",
+          "notes": "Fusil de palanca del calibre .45-70 con un alto daño por disparo; excelente arma general para la mitad y el final del juego."
+        },
+        {
+          "name": "Lanzaplasma",
+          "category": "Armas de energía",
+          "stat": "Muy alto",
+          "notes": "Arma de plasma pesada con alto DPS; se combina con munición optimizada y de carga máxima."
+        },
+        {
+          "name": "¡Oh, cariño!",
+          "category": "Armas cuerpo a cuerpo",
+          "stat": "Muy alto",
+          "notes": "Súper almadena única encontrada en la cueva de Charleston en la montaña de Jacobstown."
+        },
+        {
+          "name": "Puño balístico",
+          "category": "Desarmado",
+          "stat": "Alto",
+          "notes": "Guantelete-escopeta para personajes de Desarmado; saqueado de legionarios y de la tienda de César."
+        },
+        {
+          "name": "Lanzagranadas automático",
+          "category": "Explosivos",
+          "stat": "Muy alto",
+          "notes": "Arma con daño de área para despejar zonas; vendida por los Contrabandistas y el intendente Bardon."
+        },
+        {
+          "name": "Servoarmadura T-51b",
+          "category": "Armadura",
+          "stat": "UD alto",
+          "notes": "Servoarmadura de primer nivel con un umbral de daño alto; requiere entrenamiento de servoarmadura."
+        },
+        {
+          "name": "Armadura de combate de ranger",
+          "category": "Armadura",
+          "stat": "UD medio",
+          "notes": "Icónica armadura de Ranger veterano de la RNC; gran equilibrio de protección sin necesidad de entrenamiento."
+        },
+        {
+          "name": "Munición .308 JSP",
+          "category": "Munición",
+          "stat": "Bonificación de daño",
+          "notes": "Munición recargada a mano para rifles de francotirador; aumenta el daño a costa de un desgaste más rápido."
+        },
+        {
+          "name": "Stealth Boy",
+          "category": "Equipo",
+          "stat": "Utilidad",
+          "notes": "Consumible que otorga invisibilidad; esencial para infiltraciones sigilosas y emboscadas."
+        }
+      ]
+    },
+    "falloutCompanions": {
+      "title": "Compañeros de Fallout New Vegas Remaster",
+      "displayType": "card-list",
+      "intro": "Hasta dos compañeros pueden viajar contigo a la vez, y cada uno aporta un extra único, un estilo de combate y una historia personal. Esta guía cubre a todos los compañeros permanentes, dónde reclutarlos y las decisiones que pueden cambiar su destino de forma permanente.",
+      "cards": [
+        {
+          "name": "Craig Boone",
+          "role": "Tirador",
+          "description": "Un afligido francotirador de la RNC reclutado en Novac tras resolver Uno para mi bebé. Su extra Observador marca a los enemigos en el V.A.T.S., y su misión desbloquea uno de tres finales distintos."
+        },
+        {
+          "name": "Rose of Sharon Cassidy",
+          "role": "Vagabunda",
+          "description": "Curtida dueña de caravanas reclutada en el Puesto de avanzada de Mojave tras saldar su deuda. Su extra Rosa con whisky aumenta el umbral de daño y elimina los efectos negativos del alcohol."
+        },
+        {
+          "name": "Raul Tejava",
+          "role": "Necrófago mecánico",
+          "description": "Un pistolero necrófago liberado de Black Mountain. Sus extras Mantenimiento regular y Mantenimiento completo ralentizan el desgaste de armas y armaduras, haciéndolo inestimable para expediciones largas."
+        },
+        {
+          "name": "Veronica Santangelo",
+          "role": "Escriba de la Hermandad",
+          "description": "Reclutada en el Puesto de intercambio 188. Su extra Asistente de escriba otorga acceso a bancos de trabajo en el terreno, y su misión Puedo hacer que te importe redefine sus lazos con la Hermandad."
+        },
+        {
+          "name": "---",
+          "role": "Arcade Gannon",
+          "description": "Médico de los Seguidores"
+        },
+        {
+          "name": "Un médico idealista de los Seguidores reclutado en la Fortaleza de los Antiguos Mormones. Su perk Informante médico potencia la curación, y su misión Por los viejos tiempos conecta directamente con una trama del Enclave al final del juego.",
+          "role": "Lily Bowen",
+          "description": "Nocturno"
+        },
+        {
+          "name": "Una amable abuela nocturna que se encuentra en Jacobstown. Su perk Chica sigilosa mejora los Stealth Boys y los ataques sigilosos cuerpo a cuerpo, y las decisiones sobre su medicación afectan permanentemente sus diálogos.",
+          "role": "ED-E",
+          "description": "Ojobot"
+        },
+        {
+          "name": "Un ojobot del Enclave reactivado y reclutado en Primm. Sus sensores y mejoras de combate se actualizan mediante ED-E, mi amor, y la facción elegida para la mejora cambia su perk final.",
+          "role": "Rex",
+          "description": "Ciberperro"
+        }
+      ]
+    },
+    "falloutFactions": {
+      "title": "El leal ciberperro de El Rey en Freeside, disponible tras No soy más que un perro de caza. Trasplantarle un cerebro nuevo cambia sus estadísticas de combate y su perk de Búsqueda y rescate relacionado con la misión.",
+      "displayType": "Facciones de Fallout New Vegas Remaster",
+      "intro": "card-list",
+      "cards": [
+        {
+          "name": "Quién controla New Vegas es la pregunta central del Mojave. Comprende las cuatro facciones principales y los poderes menores, cómo funciona la reputación, qué exige cada alianza y qué decisiones te bloquean los finales rivales.",
+          "role": "República de Nueva California (RNC)",
+          "description": "Facción principal"
+        },
+        {
+          "name": "Una extensa república democrática que lucha por restaurar el orden y reclamar la energía de la presa Hoover. Aliada a través del embajador Crocker o la coronel Moore, la RNC valora la ley, los impuestos y la expansión militar por todo el Mojave.",
+          "role": "Legión de César",
+          "description": "Facción principal"
+        },
+        {
+          "name": "Un brutal ejército de esclavos que se modela a semejanza de Roma, concentrándose al este del río Colorado. Se puede unir a través de El Fuerte; la Legión rechaza la tecnología y la democracia en favor de la conquista y el orden absoluto.",
+          "role": "Sr. House",
+          "description": "Facción principal"
+        },
+        {
+          "name": "El solitario tecnoautócrata que gobierna el Strip de New Vegas a través de su ejército de Securitrones. Ponerse del lado de House significa preservar su visión de una Vegas independiente y ordenada bajo su mando único.",
+          "role": "Servibot (Independiente)",
+          "description": "Facción principal"
+        },
+        {
+          "name": "Un Securitron reprogramado que permite al Mensajero tomar New Vegas personalmente. La cadena de misiones Comodín te libera de todas las facciones principales y termina con un Mojave independiente gobernado por tus decisiones.",
+          "role": "Grandes Khans",
+          "description": "Facción menor"
+        },
+        {
+          "name": "Una tribu guerrera nómada asentada en el cañón Red Rock, aliada con la Legión por las circunstancias. Tus acciones pueden redirigir su destino a través de varios finales vinculados a su comercio de drogas y su historia.",
+          "role": "Hermandad del Acero",
+          "description": "Facción menor"
+        },
+        {
+          "name": "Un capítulo remanente oculto en el búnker de Hidden Valley que acapara tecnología de antes de la guerra. Sus estrictos códigos y su aislamiento los convierten en aliados reacios o en un objetivo, dependiendo de tu camino de facción.",
+          "role": "Seguidores del Apocalipsis",
+          "description": "Facción menor"
+        },
+        {
+          "name": "Un grupo de investigación humanitaria que proporciona medicinas y educación desde la Fortaleza de los Antiguos Mormones. No poseen poder militar, pero moldean silenciosamente el Mojave a través del conocimiento y de Arcade Gannon.",
+          "role": "Boomers",
+          "description": "Facción menor"
+        }
+      ]
+    },
+    "falloutMods": {
+      "title": "Aislacionistas obsesionados con la artillería en la Base de la Fuerza Aérea de Nellis. Ganarse su confianza a través de ¡Volare! otorga acceso al apoyo de obuses y su ayuda en la batalla final por la presa.",
+      "displayType": "card-list",
+      "intro": "El modding mantiene el Mojave estable, hermoso y con una rejugabilidad infinita. Estas recomendaciones cubren las correcciones esenciales de estabilidad, mejoras de rendimiento y de interfaz, renovaciones visuales, expansiones de jugabilidad y los conceptos básicos del orden de carga que protegen tus partidas guardadas.",
+      "cards": [
+        {
+          "name": "New Vegas Script Extender (NVSE)",
+          "role": "Requisito principal",
+          "description": "La base de la que dependen la mayoría de los mods de New Vegas. Instálalo primero, ya que innumerables mods de jugabilidad y de interfaz requieren las funciones de script adicionales que proporciona NVSE."
+        },
+        {
+          "name": "New Vegas Anti-Crash (NVAC)",
+          "role": "Corrección de estabilidad",
+          "description": "Un parche de memoria y motor que evita los cuelgues aleatorios más comunes. Combínalo con el parche de 4 GB compatible con direcciones grandes (large-address-aware) para sesiones largas más fluidas."
+        },
+        {
+          "name": "YUP - Parche no oficial",
+          "role": "Correcciones de errores",
+          "description": "Un parche de corrección de errores mantenido por la comunidad que corrige miles de fallos de misiones, objetos y jugabilidad sin alterar el equilibrio ni el contenido original."
+        },
+        {
+          "name": "Mods de interfaz de usuario",
+          "role": "Mejora de interfaz",
+          "description": "Mods como Darnified UI, MTUI y Mod Configuration Menu limpian las fuentes, las listas y el acceso a los ajustes, haciendo que los menús sean legibles y las opciones de los mods estén accesibles."
+        },
+        {
+          "name": "Mods de texturas e iluminación",
+          "role": "Renovación visual",
+          "description": "NMC's Texture Pack, Poco Bueno y los ajustes preestablecidos de ENB o ReShade mejoran drásticamente el terreno, los edificios y la iluminación, al tiempo que mantienen el tono desaturado del yermo de Mojave."
+        },
+        {
+          "name": "Project Nevada",
+          "role": "Renovación de la jugabilidad",
+          "description": "Una renovación modular que añade esprint, tiempo de bala, visores, granadas e implantes reequilibrados. Cada módulo se puede activar o desactivar para ajustarse a cuánto quieres cambiar el juego base."
+        },
+        {
+          "name": "Mods de contenido y misiones",
+          "role": "Nuevo contenido",
+          "description": "Expansiones como The Someguy Series, New Vegas Bounties y New California añaden misiones con voces completas, compañeros y zonas del mapa que extienden el Mojave mucho más allá del juego base."
+        },
+        {
+          "name": "Mod Organizer 2",
+          "role": "Herramienta de orden de carga",
+          "description": "Un gestor de mods basado en perfiles que mantiene el orden de carga y las instalaciones aisladas por perfil, lo que te permite probar configuraciones de forma segura sin sobrescribir tus archivos de guardado limpios."
+        }
+      ]
+    },
+    "falloutLocations": {
+      "title": "Ubicaciones de Fallout New Vegas Remaster",
+      "displayType": "card-list",
+      "intro": "El Mojave está repleto de asentamientos, refugios, zonas militares, casinos y lugares de interés ocultos. Esta guía regional destaca las misiones, comerciantes, botín único, libros de habilidades y puntos de viaje rápido que te esperan en cada ubicación principal.",
+      "cards": [
+        {
+          "name": "El Strip de New Vegas",
+          "role": "Asentamiento",
+          "description": "El corazón brillante del Mojave, hogar de los casinos The Tops, Gomorra y Ultra-Luxe, el Lucky 38 y el Sr. House. Para entrar se requiere un pase, 2000 chapas o una prueba de Ciencia alta."
+        },
+        {
+          "name": "Goodsprings",
+          "role": "Pueblo inicial",
+          "description": "Tu asentamiento inicial y centro de tutoriales. El Doc Mitchell, la tienda de Chet y el manantial de Goodsprings están aquí, y defender el pueblo en Tiroteo en la ciudad fantasma definirá tu reputación inicial."
+        },
+        {
+          "name": "Presa Hoover",
+          "role": "Zona militar",
+          "description": "El premio estratégico del Mojave que abastece de energía a New Vegas y a la RNC. La presa alberga la batalla final para el desenlace de cada facción, además de armas pesadas y armaduras del intendente Bardon."
+        },
+        {
+          "name": "Refugio 22",
+          "role": "Refugio",
+          "description": "Un refugio cubierto de vegetación e invadido por plantas de esporas y portadores mutantes. La investigación de Keely y la misión Bleed Me Dry conducen aquí, y las armas incendiarias de su interior contrarrestan las amenazas de las esporas."
+        },
+        {
+          "name": "HELIOS One",
+          "role": "Instalación militar",
+          "description": "Una central de energía solar prebélica controlada por la RNC. That Lucky Old Sun te permite redirigir su energía y decidir el destino de la prueba del arma ARCHIMEMES."
+        },
+        {
+          "name": "El Fuerte",
+          "role": "Instalación militar",
+          "description": "El campamento fortificado de Caesar al otro lado del río Colorado, accesible desde Cottonwood Cove. Alberga el deteriorado refugio de Securitrones y la tienda de Caesar, fundamentales para la línea de misiones de la Legión."
+        },
+        {
+          "name": "Jacobstown",
+          "role": "Asentamiento",
+          "description": "Un complejo de montaña que sirve de refugio para supermutantes liderados por Marcus. Está vinculado al reclutamiento de Lily, al arma cuerpo a cuerpo única de Charleston Cave y a la misión de la cura para los Nightkin."
+        },
+        {
+          "name": "Black Mountain",
+          "role": "Instalación militar",
+          "description": "Un bastión de transmisión controlado por los supermutantes y Nightkin de Tabitha. Despejarlo permite reclutar a Raul Tejada y desbloquea las opciones de armas únicas más poderosas de la zona."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas",
+    "titleHighlight": "frecuentes",
+    "subtitle": "Todo lo que necesitas saber sobre Fallout New Vegas Remaster",
+    "questions": [
+      {
+        "question": "¿Qué es Fallout New Vegas Remaster?",
+        "answer": "Fallout New Vegas Remaster es la refinada edición moderna del RPG posapocalíptico de 2010 de Obsidian, que devuelve a los jugadores al Yermo de Mojave con gráficos mejorados y toda la profundidad de misiones, facciones, compañeros y mods del original."
+      },
+      {
+        "question": "¿A qué facciones puedes unirte en Fallout New Vegas Remaster?",
+        "answer": "Fallout New Vegas Remaster ofrece cuatro facciones principales: la RNC, la Legión de Caesar, Mr. House y la ruta independiente de Yes Man. Cada facción tiene su propia línea de misiones y un final diferente que se decide en la presa Hoover."
+      },
+      {
+        "question": "¿Incluye Fallout New Vegas Remaster el Modo Incondicional?",
+        "answer": "Sí. Fallout New Vegas Remaster mantiene el Modo Incondicional, añadiendo deshidratación, hambre, sueño y peso de la munición para los jugadores que buscan una experiencia de supervivencia más exigente y su logro correspondiente."
+      },
+      {
+        "question": "¿Cuántos compañeros hay en Fallout New Vegas Remaster?",
+        "answer": "Fallout New Vegas Remaster tiene dos compañeros permanentes, incluidos Boone, Cassidy, Raul, Veronica, Arcade, Lily, ED-E y Rex, cada uno con requisitos de reclutamiento, una misión personal y un extra único."
+      },
+      {
+        "question": "¿Son compatibles los mods con Fallout New Vegas Remaster?",
+        "answer": "Sí. Fallout New Vegas Remaster es compatible con el ecosistema de mods establecido, con correcciones de estabilidad, mejoras de la interfaz de usuario, mejoras visuales y mods de jugabilidad instalados a través de NVSE y Mod Organizer 2."
+      },
+      {
+        "question": "¿Dónde puedo conseguir Fallout New Vegas Remaster?",
+        "answer": "Fallout New Vegas Remaster está disponible a través de Steam y de los canales oficiales de Bethesda, con los complementos oficiales Dead Money, Honest Hearts, Old World Blues y Lonesome Road incluidos en la edición Ultimate."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para explorar el Yermo de Mojave?",
+    "description": "¡Únete a la comunidad de Fallout en Reddit para obtener guías, builds, consejos de modding y debates sobre Fallout: New Vegas Remaster!",
+    "joinCommunity": "Únete a la comunidad",
+    "joinGame": "Añadir a la lista de deseos en Steam"
+  },
+  "footer": {
+    "title": "Wiki de Fallout New Vegas Remaster",
+    "description": "Tu centro de recursos completo para misiones, facciones, compañeros, builds, armas, el Modo Incondicional y guías de modding de Fallout: New Vegas Remaster.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Sitio oficial",
+    "twitter": "Reddit",
+    "steamCommunity": "Comunidad de Steam",
+    "steamStore": "Tienda de Steam",
+    "about": "Acerca de",
+    "privacy": "Política de privacidad",
+    "terms": "Condiciones de servicio",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Fallout New Vegas Remaster Wiki. No afiliado con Bethesda Softworks ni con los desarrolladores de Fallout.",
+    "disclaimer": "Sitio web de recursos no oficial creado por fans."
+  },
+  "pages": {
+    "guide": {
+      "title": "Guía de Fallout New Vegas Remaster",
+      "description": "Guías completas de Fallout New Vegas Remaster que cubren mapas, refugios, guías de misiones, consejos para principiantes y entrenamiento de servoarmadura en el Yermo de Mojave.",
+      "metaTitle": "Guía de Fallout New Vegas Remaster: Guías paso a paso, mapas y consejos para principiantes",
+      "metaDescription": "Domina Fallout New Vegas Remaster con guías paso a paso completas, mapas de Mojave, ubicaciones de refugios, consejos para principiantes y guías de entrenamiento de servoarmadura.",
+      "categoryLabel": "GUÍA DEL JUEGO",
+      "whatIs": "¿Qué es la guía?",
+      "whatIsDescription": "Una base de conocimientos completa de Fallout New Vegas Remaster que cubre mapas interactivos, ubicaciones de refugios, guías paso a paso completas, consejos para principiantes y entrenamiento de servoarmadura. Todo lo que necesitas para navegar y conquistar el Yermo de Mojave.",
+      "why": "¿Por qué usar la guía?",
+      "whySteps": {
+        "step1Title": "Navega por el Mojave",
+        "step1Description": "Usa mapas detallados y ubicaciones de refugios para encontrar misiones, botín y puntos de viaje rápido",
+        "step2Title": "Sigue guías paso a paso probadas",
+        "step2Description": "Rutas de misiones paso a paso que mantendrán a tu Mensajero en el camino correcto desde el inicio hasta el final del juego",
+        "step3Title": "Aprende consejos esenciales",
+        "step3Description": "Domina los consejos para principiantes y el entrenamiento de servoarmadura para sobrevivir al yermo"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías"
+    },
+    "builds": {
+      "title": "Builds de Fallout New Vegas Remaster",
+      "description": "Domina las builds de S.P.E.C.I.A.L., rasgos, habilidades y extras para Fallout New Vegas Remaster con estadísticas iniciales optimizadas y guías de estilo de juego.",
+      "metaTitle": "Builds de Fallout New Vegas Remaster: S.P.E.C.I.A.L., extras, rasgos y habilidades",
+      "metaDescription": "Crea al Mensajero perfecto en Fallout New Vegas Remaster con guías de asignación de S.P.E.C.I.A.L., mejores estadísticas iniciales, rasgos, habilidades y orden de extras para cada estilo de juego.",
+      "categoryLabel": "BUILDS Y EXTRAS",
+      "whatIs": "¿Qué son las builds?",
+      "whatIsDescription": "Guías de atributos de S.P.E.C.I.A.L., mejores estadísticas iniciales, rasgos, habilidades y orden de extras. Crea personajes optimizados para armas de fuego, energía, cuerpo a cuerpo, sigilo y partidas en Modo Incondicional.",
+      "why": "¿Por qué planificar las builds?",
+      "whySteps": {
+        "step1Title": "Optimiza las estadísticas iniciales",
+        "step1Description": "Asigna los puntos de S.P.E.C.I.A.L. y habilidades destacadas para adaptarlos a tu estilo de juego preferido",
+        "step2Title": "Elige los rasgos adecuados",
+        "step2Description": "Elige rasgos y habilidades que se potencien mutuamente para el final del juego",
+        "step3Title": "Domina el orden de los extras",
+        "step3Description": "Planifica la selección de extras para el combate, el sigilo, la conversación y la elaboración"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías de builds"
+    },
+    "weapons": {
+      "title": "Armas de Fallout New Vegas Remaster",
+      "description": "Descubre las mejores armas, armaduras y Power Armor en Fallout New Vegas Remaster con estadísticas, ubicaciones y guías de equipamiento.",
+      "metaTitle": "Armas de Fallout New Vegas Remaster - Mejores armas, armaduras y Power Armor",
+      "metaDescription": "Encuentra las mejores armas y armaduras en Fallout New Vegas Remaster, incluyendo armas únicas, Power Armor y la armadura de Ranger de la NCR con ubicaciones y estadísticas.",
+      "categoryLabel": "ARMAS Y ARMADURAS",
+      "whatIs": "¿Qué son las armas?",
+      "whatIsDescription": "Guías completas de armas, armaduras, Power Armor y equipo único de Fallout New Vegas Remaster. Conoce estadísticas, ubicaciones y equipamientos óptimos para cada etapa del juego.",
+      "why": "¿Por qué consultar guías de armas?",
+      "whySteps": {
+        "step1Title": "Encuentra el mejor equipo",
+        "step1Description": "Descubre dónde saquear y comprar las armas y armaduras más fuertes",
+        "step2Title": "Domina la Power Armor",
+        "step2Description": "Aprende el entrenamiento de Power Armor y los mejores modelos del Mojave",
+        "step3Title": "Crea el equipamiento adecuado",
+        "step3Description": "Elige armas y armaduras que se ajusten a tu build y estilo de juego"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las armas"
+    },
+    "characters": {
+      "title": "Personajes de Fallout New Vegas Remaster",
+      "description": "Conoce a cada compañero y personaje clave en Fallout New Vegas Remaster con ubicaciones de reclutamiento, misiones personales y guías de lealtad.",
+      "metaTitle": "Personajes de Fallout New Vegas Remaster - Compañeros y NPCs clave",
+      "metaDescription": "Recluta a compañeros como Boone, Veronica y ED-E en Fallout New Vegas Remaster. Conoce ubicaciones de reclutamiento, misiones personales, extras y personajes clave como Benny y Joshua Graham.",
+      "categoryLabel": "PERSONAJES",
+      "whatIs": "¿Qué son los personajes?",
+      "whatIsDescription": "Guías de compañeros y NPCs clave de Fallout New Vegas Remaster. Aprende dónde reclutar compañeros, sus misiones personales, extras únicos y las historias de personajes como Benny, Veronica, Boone y Joshua Graham.",
+      "why": "¿Por qué reclutar compañeros?",
+      "whySteps": {
+        "step1Title": "Forma tu equipo",
+        "step1Description": "Encuentra y recluta compañeros con habilidades de combate, sigilo y utilidad",
+        "step2Title": "Completa misiones personales",
+        "step2Description": "Desbloquea misiones de lealtad de compañeros y mejoras de extras permanentes",
+        "step3Title": "Entiende a los NPCs clave",
+        "step3Description": "Conoce los motivos de Benny, Joshua Graham y los líderes de las facciones"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los personajes"
+    },
+    "quests": {
+      "title": "Misiones de Fallout New Vegas Remaster",
+      "description": "Completa las misiones de Fallout New Vegas Remaster con la lista completa de misiones, elecciones de facciones y todos los finales para el Mojave.",
+      "metaTitle": "Misiones de Fallout New Vegas Remaster - Lista de misiones, elecciones y finales",
+      "metaDescription": "Conquista Fallout New Vegas Remaster con la lista completa de misiones, tramas de facciones, elecciones clave y todos los finales, incluyendo la NCR, Legion, Mr. House y Yes Man.",
+      "categoryLabel": "MISIONES Y FINALES",
+      "whatIs": "¿Qué son las misiones?",
+      "whatIsDescription": "Guías de misiones principales, secundarias, tramas de facciones y finales de Fallout New Vegas Remaster. Conoce la lista de misiones, elecciones críticas y cómo apoderarte de New Vegas a través de la NCR, Caesar's Legion, Mr. House o Yes Man.",
+      "why": "¿Por qué seguir guías de misiones?",
+      "whySteps": {
+        "step1Title": "Rastrea cada misión",
+        "step1Description": "Usa la lista completa de misiones para encontrar y completar misiones principales y secundarias",
+        "step2Title": "Toma las decisiones correctas",
+        "step2Description": "Comprende los compromisos con las facciones y los resultados de las misiones ramificadas",
+        "step3Title": "Desbloquea todos los finales",
+        "step3Description": "Decide quién controla New Vegas y descubre todos los finales"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las misiones"
+    },
+    "mods": {
+      "title": "Fallout New Vegas Remaster Mods",
+      "description": "Instala los mejores mods de Fallout New Vegas Remaster con guías sobre NVSE, Mod Organizer 2, orden de carga y mejoras gráficas.",
+      "metaTitle": "Fallout New Vegas Remaster Mods - Mejores mods, NVSE y orden de carga",
+      "metaDescription": "Transforma Fallout New Vegas Remaster con los mejores mods. Aprende la configuración de NVSE, 4GB patcher, Mod Organizer 2, mejoras gráficas y el orden de carga correcto.",
+      "categoryLabel": "MODS Y HERRAMIENTAS",
+      "whatIs": "¿Qué son los mods?",
+      "whatIsDescription": "Guías para la modificación de Fallout New Vegas Remaster, incluyendo los mejores mods, el extensor de scripts NVSE, 4GB patcher, Mod Organizer 2, mejoras gráficas y orden de carga. Configura un juego modificado estable y de alto rendimiento.",
+      "why": "¿Por qué instalar mods?",
+      "whySteps": {
+        "step1Title": "Mejora los gráficos",
+        "step1Description": "Aplica mejoras gráficas y packs de texturas para un aspecto moderno",
+        "step2Title": "Corrige y optimiza",
+        "step2Description": "Usa el 4GB patcher y NVSE para obtener estabilidad y nuevas funciones",
+        "step3Title": "Gestiona el orden de carga",
+        "step3Description": "Organiza los mods con Mod Organizer 2 y el orden de carga correcto"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los mods"
+    },
+    "dlc": {
+      "title": "Fallout New Vegas Remaster DLC",
+      "description": "Explora cada DLC de Fallout New Vegas Remaster, incluyendo Dead Money, Honest Hearts, Old World Blues y Lonesome Road.",
+      "metaTitle": "Fallout New Vegas Remaster DLC - Todos los complementos y expansiones",
+      "metaDescription": "Completa cada DLC de Fallout New Vegas Remaster. Guías para Dead Money, Honest Hearts, Old World Blues y Lonesome Road con misiones, recompensas y desglose de la historia.",
+      "categoryLabel": "DLC Y COMPLEMENTOS",
+      "whatIs": "¿Qué es un DLC?",
+      "whatIsDescription": "Guías para los cuatro complementos de Fallout New Vegas Remaster: Dead Money, Honest Hearts, Old World Blues y Lonesome Road. Conoce las misiones, recompensas únicas, equipo e historia de cada expansión.",
+      "why": "¿Por qué jugar los DLC?",
+      "whySteps": {
+        "step1Title": "Vive nuevas historias",
+        "step1Description": "Explora cuatro expansiones distintas con entornos y personajes únicos",
+        "step2Title": "Gana recompensas poderosas",
+        "step2Description": "Colecciona armas, extras y equipo únicos de cada complemento",
+        "step3Title": "Completa el viaje",
+        "step3Description": "Une toda la historia del Mensajero a través de todos los DLC"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los DLC"
+    },
+    "remaster": {
+      "title": "Información de Fallout New Vegas Remaster",
+      "description": "Todo sobre Fallout New Vegas Remaster, incluyendo la fecha de lanzamiento, plataformas, Steam, PS5 y la Ultimate Edition.",
+      "metaTitle": "Fallout New Vegas Remaster - Fecha de lanzamiento, plataformas y Ultimate Edition",
+      "metaDescription": "Entérate de lo último sobre la fecha de lanzamiento de Fallout New Vegas Remaster, las plataformas PS5 y Steam, el contenido de la Ultimate Edition y qué esperar de la remasterización.",
+      "categoryLabel": "INFORMACIÓN DEL REMASTER",
+      "whatIs": "¿Qué es el Remaster?",
+      "whatIsDescription": "Guías de Fallout New Vegas Remaster que cubren la fecha de lanzamiento, plataformas compatibles como PS5 y Steam, el paquete Ultimate Edition y las mejoras que llevan el Mojave al hardware moderno.",
+      "why": "¿Por qué seguir el remaster?",
+      "whySteps": {
+        "step1Title": "Sigue el lanzamiento",
+        "step1Description": "Mantente al día con la fecha de lanzamiento y los detalles del estreno del remaster",
+        "step2Title": "Elige tu plataforma",
+        "step2Description": "Compara PS5, Steam y otras plataformas para elegir la mejor experiencia",
+        "step3Title": "Consigue el paquete completo",
+        "step3Description": "Descubre qué incluye la Ultimate Edition y si merece la pena"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Toda la info del Remaster"
+    }
   }
 }

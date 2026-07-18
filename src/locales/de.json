@@ -1,6 +1,17 @@
 {
+  "seo": {
+    "home": {
+      "title": "Fallout: New Vegas Remaster Wiki – Quests, Builds & Mods",
+      "description": "Erkunde Fallout: New Vegas Remaster-Quests, Fraktionen, Begleiter, Builds, Waffen, den Hardcore-Modus, Karten, Enden und essenzielle Modding-Guides.",
+      "keywords": "Fallout New Vegas Remaster,Quests,Builds,Begleiter,Waffen,Mods,Enden",
+      "ogTitle": "Fallout: New Vegas Remaster Wiki - Quests, Builds & Mods",
+      "ogDescription": "Erkunde Fallout: New Vegas Remaster-Quests, Fraktionen, Begleiter, Builds, Waffen, den Hardcore-Modus, Karten, Enden und essenzielle Modding-Guides.",
+      "twitterTitle": "Fallout: New Vegas Remaster Wiki - Quests, Builds und Mods",
+      "twitterDescription": "Erkunde Fallout: New Vegas Remaster-Quests, Fraktionen, Begleiter, Builds, Waffen, den Hardcore-Modus, Karten, Enden und Modding-Guides."
+    }
+  },
   "nav": {
-    "guide": "Leitfaden",
+    "guide": "Guide",
     "builds": "Builds",
     "weapons": "Waffen",
     "characters": "Charaktere",
@@ -8,5 +19,697 @@
     "mods": "Mods",
     "dlc": "DLC",
     "remaster": "Remaster"
+  },
+  "common": {
+    "home": "Startseite",
+    "more": "Mehr",
+    "playNow": "Auf Steam spielen",
+    "switchLanguage": "Sprache wechseln",
+    "switchTheme": "Design wechseln",
+    "lightMode": "Heller Modus",
+    "darkMode": "Dunkler Modus",
+    "notFound": "Seite nicht gefunden",
+    "notFoundDescription": "Die Seite, die du sucht, existiert nicht.",
+    "backToHome": "Zurück zur Startseite",
+    "relatedArticles": "Ähnliche Artikel",
+    "readMore": "Mehr lesen",
+    "articlesComingSoon": "Artikel folgen in Kürze"
+  },
+  "hero": {
+    "badge": "Postapokalyptisches, entscheidungsbasiertes RPG-Remaster",
+    "title": "Fallout: New Vegas Remaster Wiki",
+    "description": "Kehre in das Mojave-Ödland zurück und gestalte seine Zukunft durch Fraktionsbündnisse, rekrutierbare Begleiter, verzweigte Quests und mehrere Enden. Entwickle einzigartige Charakter-Builds, stelle dich den Herausforderungen des Hardcore-Modus und entscheide, wer die Kontrolle über New Vegas übernimmt.",
+    "getFreeCodesCTA": "Guides erkunden",
+    "playOnSteamCTA": "Auf Steam auf die Wunschliste setzen",
+    "stats": {
+      "stat1": {
+        "value": "84",
+        "label": "Ursprünglicher Metacritic-Score"
+      },
+      "stat2": {
+        "value": "6",
+        "label": "Offizielle Add-ons"
+      },
+      "stat3": {
+        "value": "8",
+        "label": "Rekrutierbare Begleiter"
+      },
+      "stat4": {
+        "value": "50",
+        "label": "Maximalstufe"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay von Fallout: New Vegas Remaster",
+    "description": "Kehre mit verbesserter Grafik, verzweigten Fraktionsquests, rekrutierbaren Begleitern, tiefgründigen Charakter-Builds und dem Überlebenskampf im Hardcore-Modus in einem erweiterten New Vegas ins Mojave-Ödland zurück."
+  },
+  "tools": {
+    "title": "Fallout New Vegas Remaster",
+    "titleHighlight": "Guides",
+    "subtitle": "Alles, was du zum Überleben im Mojave-Ödland brauchst – von deinen ersten Schritten in Goodsprings bis zur finalen Schlacht um den Hoover-Staudamm.",
+    "cards": [
+      {
+        "icon": "GraduationCap",
+        "title": "Einsteiger-Guide",
+        "description": "SPECIAL, Fertigkeiten, Extras, Karma und frühe Prioritäten"
+      },
+      {
+        "icon": "Compass",
+        "title": "Quest-Walkthroughs",
+        "description": "Haupt-, Fraktions-, Begleiter- und Nebenquests"
+      },
+      {
+        "icon": "Crosshair",
+        "title": "Builds",
+        "description": "Schusswaffen-, Energiewaffen-, Nahkampf-, Schleich- und Hardcore-Builds"
+      },
+      {
+        "icon": "Swords",
+        "title": "Waffen und Ausrüstung",
+        "description": "Waffen, Rüstung, Munition und einzigartige Ausrüstung"
+      },
+      {
+        "icon": "Users",
+        "title": "Begleiter",
+        "description": "Rekrutierung, Extras und persönliche Quests"
+      },
+      {
+        "icon": "Flag",
+        "title": "Fraktionen",
+        "description": "RNK, Caesars Legion, Mr. House und Ja-Sager"
+      },
+      {
+        "icon": "Wrench",
+        "title": "Mods",
+        "description": "MapPin"
+      },
+      {
+        "icon": "Orte",
+        "title": "Siedlungen, Vaults, Casinos und versteckte Wahrzeichen",
+        "description": "Einsteiger-Guide für Fallout New Vegas Remaster"
+      }
+    ]
+  },
+  "modules": {
+    "falloutBeginnerGuide": {
+      "title": "Schritt für Schritt",
+      "displayType": "Die Reise jedes Kuriers beginnt in Goodsprings. Erfahre, wie SPECIAL-Attribute, Fertigkeiten, Extras, Ruf, Karma und Überlebenssysteme zusammenhängen, und folge einer klaren Route für den Einstieg, die dir hilft, die häufigsten Fehler im Ödland zu vermeiden.",
+      "intro": "Erstelle deinen Kurier mit SPECIAL",
+      "steps": [
+        {
+          "title": "SPECIAL (Stärke, Wahrnehmung, Ausdauer, Charisma, Intelligenz, Beweglichkeit, Glück) bestimmt alles, was dein Charakter tun kann. Wähle Attribute, die zu deinem Spielstil passen, und entscheide dich dann bei der Charaktererstellung in Goodsprings für zwei Primärfertigkeiten und bis zu zwei Merkmale.",
+          "description": "Verbessere deine Fertigkeiten mit jedem Stufenaufstieg"
+        },
+        {
+          "title": "Mit jeder Stufe erhältst du Fertigkeitspunkte, die du für Kampf, Schleichen, Wissenschaft, Reparatur, Sprache und Überleben ausgeben kannst. Fertigkeitsprüfungen bestimmen Dialogoptionen, Hacken, Schlösserknacken und Handwerk, weshalb eine ausgewogene Verteilung dir mehr Wege in der Mojave eröffnet als eine zu einseitige.",
+          "description": "Wähle alle zwei Stufen die richtigen Extras"
+        },
+        {
+          "title": "Extras werden alle zwei Stufen freigeschaltet und erfordern bestimmte Fertigkeiten oder Stufen. Starke frühe Extras wie Gebildet, Verständnis und Schnelles Lernen beschleunigen deine langfristige Stärke, während Kampf-Extras wie Kommando oder Scharfschütze deinen Kampfstil definieren.",
+          "description": "Behalte Ruf und Karma im Auge"
+        },
+        {
+          "title": "Ruf und Karma nachverfolgen",
+          "description": "Der Ruf misst, wie jede Fraktion dich sieht, während Karma deine allgemeine Moral verfolgt. Quests, Diebstahl und wichtige Story-Entscheidungen beeinflussen beides und wirken sich direkt auf Händlerpreise, Reaktionen von Gefährten und die verfügbaren Enden aus."
+        },
+        {
+          "title": "Überlebe den Hardcore-Modus (Optional)",
+          "description": "Der Hardcore-Modus fügt Dehydrierung, Verhungern, Schlafmangel, Munitionsgewicht und langsamere Heilung hinzu. Er belohnt die Fertigkeit Überlebenskunst, Kochen sowie sorgfältige Ressourcenplanung und ist für den Erfolg „Hardcore“ erforderlich."
+        },
+        {
+          "title": "Setze deine frühen Prioritäten",
+          "description": "Eine verlässliche frühe Route folgt der Hauptquest von Goodsprings über Primm, Nipton, Novac und Boulder City bis zum New Vegas Strip. Sammle unterwegs Kronkorken, rekrutiere einen Gefährten und verbessere deine Ausrüstung, bevor du dich einer Fraktion verpflichtest."
+        }
+      ],
+      "quickTips": [
+        "Nutze V.A.T.S. in frühen Kämpfen, um zuverlässige Treffer zu landen und die Schwachstellen der Gegner zu studieren.",
+        "Speichere oft und nutze abwechselnd mehrere Speicherplätze vor Dialogen und Fraktionsentscheidungen.",
+        "Repariere Waffen und Rüstungen bei Händlern, um ihren Schaden und ihre Schadensschwelle hoch zu halten.",
+        "Investiere früh in Sprache und Schlossknacken, um zusätzliche Dialogoptionen, Beute und Questpfade freizuschalten.",
+        "Sammle und verkaufe frühe Beute in Goodsprings und Primm, um dir deine ersten echten Waffen-Upgrades leisten zu können."
+      ]
+    },
+    "falloutQuestsWalkthrough": {
+      "title": "Fallout New Vegas Remaster Quests Komplettlösung",
+      "displayType": "Akkordeon",
+      "intro": "Die Mojave ist um verzweigte Entscheidungen herum aufgebaut. Diese Komplettlösung organisiert die Hauptquest, die vier großen Fraktions-Handlungsstränge, jede Gefährten-Story und die wichtigsten Nebenquests, inklusive Zielen, Skill-Checks, verpassbaren Belohnungen und deutlich markierten Spoilern.",
+      "faqs": [
+        {
+          "question": "Welches ist der Hauptquest-Pfad nach New Vegas?",
+          "answer": "Die Hauptquest beginnt in Goodsprings und führt über Primm, Nipton, Novac und Boulder City, bis du den New Vegas Strip erreichst. Sobald du dort bist, führt „Ring-a-Ding-Ding!“ dich wieder mit Benny zusammen, wonach sich die Geschichte in die vier Fraktions-Endspiel-Zweige aufteilt."
+        },
+        {
+          "question": "Wie funktionieren die Fraktionsquests der NCR?",
+          "answer": "Die Questreihe der Republik Neukalifornien beginnt bei Botschafter Crocker oder Colonel Moore. Die finale Mission „Für die Republik, für die Demokratie“ beauftragt dich mit der Sicherung des Hoover-Staudamms und der Eliminierung rivalisierender Fraktionen; dein Ruf bei der NCR bestimmt die verfügbaren Missionen und Belohnungen."
+        },
+        {
+          "question": "Was bietet die Questreihe von Caesars Legion?",
+          "answer": "Caesars Legion schließt man sich über Vulpes Inculta oder Lucius im Fort an. „Gebt Caesar, was des Caesars ist“ schickt dich auf eine Reihe von Eroberungszügen östlich und westlich des Colorado und endet mit „Veni, Vidi, Vici“ am Hoover-Staudamm für eine totalitäre Mojave."
+        },
+        {
+          "question": "Wie schlage ich mich auf die Seite von Mr. House?",
+          "answer": "Mr. House wird kontaktiert, nachdem man ihn im Lucky 38 getroffen hat. Die Questreihe „Der House gewinnt immer“ verlangt die Neutralisierung der Stählernen Bruderschaft und die Sicherung der Securitron-Armee, was in „Du wirst wissen, wenn es passiert“ und der Verteidigung des Damms gipfelt."
+        },
+        {
+          "question": "Was ist die unabhängige Route mit Ja-Sager?",
+          "answer": "Ja-Sager schaltet die „Wildcard“-Reihe frei, die es dem Kurier erlaubt, die Kontrolle über New Vegas ohne eine der großen Fraktionen zu übernehmen. Du verbesserst die Securitron-Armee, neutralisierst rivalisierende Anführer und schließt mit „Keine Götter, keine Herren“ für eine unabhängige Mojave ab."
+        },
+        {
+          "question": "Welche Gefährtenquests sollte ich nicht verpassen?",
+          "answer": "Jeder permanente Gefährte hat eine persönliche Quest, die durch gemeinsames Reisen ausgelöst wird: Boones „Ich vergess dich nicht“, Cassidys „Herzschmerz nach Plan“, Rauls „Old School Ghul“, Veronicas „Dafür sorge ich schon“, Arcades „Für Auld Lang Syne“, Lilys stille Auslöser, „ED-E, mein Herzblatt“ und Rex’ „Nichts als ein Hundeleben“."
+        },
+        {
+          "question": "Was sind die lohnendsten Nebenquests?",
+          "answer": "„Fleisch ist mein Gemüse“ im Ultra-Luxe, „Flieg mit mir“ am REPCONN-Testgelände, „Die Legende des Sterns“ für Sunset-Sarsaparilla-Kronkorken sowie die Verteidigungsquests in Goodsprings und Novac sind allesamt hochwertige Nebenquests mit erstklassiger Beute, Kronkorken und Rufbelohnungen."
+        }
+      ]
+    },
+    "falloutBuilds": {
+      "title": "Fallout New Vegas Remaster Builds",
+      "displayType": "Tier-Grid",
+      "intro": "Charakter-Builds in der Mojave basieren auf der S.P.E.C.I.A.L.-Verteilung, Tag-Skills, Merkmalen und der Reihenfolge der Extras. Diese empfohlenen Builds decken jeden wichtigen Kampfstil sowie einen Hardcore-Überlebensexperten ab, jeweils mit den Attributen und dem Fortschritt, die sie effektiv machen.",
+      "builds": [
+        {
+          "name": "Schusswaffen-Scharfschütze",
+          "tier": "S",
+          "special": "BEW 8, WAHR 7, GLÜ 7",
+          "description": "Ein Fernkampf-Schleich-Scharfschütze, basierend auf Schleichen, Schusswaffen und Krit-Extras wie „Bessere kritische Treffer“ und „Scharfschütze“. Das Anti-Materiel-Gewehr und „All-American“ skalieren stark mit Kopfschüssen aus dem Hinterhalt."
+        },
+        {
+          "name": "Energiewaffen",
+          "tier": "S",
+          "special": "INT 8, WAHR 6, GLÜ 6",
+          "description": "Ein Plasma- und Laser-Kraftpaket, das den Q-35-Materiemodulator, den Plasmawerfer und „Pew-Pew“ nutzt. Tesla-Rüstung und „Laser-Kommandant“ heben den Schadensausstoß auf Endspiel-Niveau."
+        },
+        {
+          "name": "Nahkampf-Schläger",
+          "tier": "A",
+          "special": "STÄ 9, AUS 8, GLÜ 6",
+          "description": "Nahkampf-Juggernaut mit Superschlitten, Oh, Baby! und Schlächter. Hohe Stärke und Ausdauer fördern Schaden, Gesundheit sowie die Perks Steinmauer und Unaufhaltsame Kraft."
+        },
+        {
+          "name": "Waffenloser Schläger",
+          "tier": "A",
+          "special": "STÄ 8, AUS 9, BEW 7",
+          "description": "Build für Ballistische Faust und Heini mit Durchschlagender Schlag und Schlächter für schnelle Knockdowns. Ninja und Unaufhaltsame Kraft ergänzen Schleichen und Crowd-Control-Synergien."
+        },
+        {
+          "name": "Sprengstoff-Experte",
+          "tier": "A",
+          "special": "WAH 6, INT 8, GLÜ 6",
+          "description": "Granat-Maschinengewehr, Mercy und Annabelle mit Sprengstoff-Experte und Hau ruck!. Ideal gegen Gegnergruppen und Todeskrallen-Rudel."
+        },
+        {
+          "name": "Schleichen- und Sprache-Kurier",
+          "tier": "A",
+          "special": "CHA 8, INT 8, BEW 7",
+          "description": "Ein pazifistischer Build, der auf Sprache, Schleichen und Feilschen setzt, um fast jede Quest durch Reden oder Schleichen zu lösen – ideal für gewaltfreie Durchläufe und Rollenspiel."
+        },
+        {
+          "name": "Hardcore-Überlebender",
+          "tier": "B",
+          "special": "AUS 8, INT 8, GLÜ 6",
+          "description": "Optimiert für den Hardcore-Modus mit hohem Überlebenswert zum Kochen sowie den Perks Bleimagen und Chem-Resistenz. Macht Nahrung, Wasser und Lagerfeuer-Rezepte zu einem autarken Fortschrittssystem."
+        },
+        {
+          "name": "Allrounder",
+          "tier": "B",
+          "special": "INT 9, GLÜ 7, CHA 6",
+          "description": "Ein flexibler Generalist, der Gebildet und Verständnis nutzt, um die meisten Fertigkeiten nutzbar zu halten – perfekt für den ersten Spieldurchgang, um jede Quest und jeden Waffentyp auszuprobieren."
+        }
+      ]
+    },
+    "falloutWeaponsAndGear": {
+      "title": "Fallout New Vegas Remaster Waffen und Ausrüstung",
+      "displayType": "Tabelle",
+      "intro": "Vergleiche die stärksten Waffen, Rüstungen, Munitionsarten und einzigartige Ausrüstung in der Mojave nach Schaden, Schadensart, Anforderungen und Fundorten. Nutze diese Empfehlungen für die Planung deiner Ausrüstung im Early-, Mid- und Late-Game.",
+      "rows": [
+        {
+          "name": "Anti-Material-Gewehr",
+          "category": "Schusswaffen",
+          "stat": "Sehr hoch",
+          "notes": ".50 MG Scharfschützengewehr, die stärkste Option für den Fernkampf; zu kaufen bei den Waffenschiebern oder in RNK-Arsenalen."
+        },
+        {
+          "name": "Unterhebel-Jagdgewehr",
+          "category": "Schusswaffen",
+          "stat": "Hoch",
+          "notes": ".45-70 Unterhebelgewehr mit hohem Schaden pro Schuss; eine hervorragende Allzweckwaffe für die mittlere bis späte Spielphase."
+        },
+        {
+          "name": "Plasma-Werfer",
+          "category": "Energiewaffen",
+          "stat": "Sehr hoch",
+          "notes": "Schwere Plasmawaffe mit hohem Schaden pro Sekunde; harmoniert gut mit optimierter Munition und Max.-Ladung-Munition."
+        },
+        {
+          "name": "Oh, Baby!",
+          "category": "Nahkampfwaffen",
+          "stat": "Sehr hoch",
+          "notes": "Einzigartiger Superschlitten, zu finden in der Charleston-Höhle am Jacobstown-Berg."
+        },
+        {
+          "name": "Ballistische Faust",
+          "category": "Waffenlos",
+          "stat": "Hoch",
+          "notes": "Schrotflinten-Handschuh für waffenlose Builds; Beute von Legionären und aus Caesars Zelt."
+        },
+        {
+          "name": "Granatmaschinengewehr",
+          "category": "Sprengstoff",
+          "stat": "Sehr hoch",
+          "notes": "Flächenschaden-Waffe zur Gebietsbereinigung; verkauft von den Waffenschiebern und Quartiermeister Bardon."
+        },
+        {
+          "name": "T-51b-Powerrüstung",
+          "category": "Rüstung",
+          "stat": "Hohe SW",
+          "notes": "Erstklassige Powerrüstung mit hoher Schadensschwelle; erfordert Powerrüstungs-Training."
+        },
+        {
+          "name": "Ranger-Kampfrüstung",
+          "category": "Rüstung",
+          "stat": "Mittlere SW",
+          "notes": "Ikonische RNK-Veteranen-Ranger-Rüstung; bietet guten Schutz ohne erforderliches Training."
+        },
+        {
+          "name": ".308-JSP-Munition",
+          "category": "Munition",
+          "stat": "Bonus-Schaden",
+          "notes": "Handgeladene Munition für Scharfschützengewehre; erhöht den Schaden auf Kosten von schnellerem Verschleiß."
+        },
+        {
+          "name": "Stealth Boy",
+          "category": "Ausrüstung",
+          "stat": "Hilfsmittel",
+          "notes": "Verbrauchsgut, das Unsichtbarkeit verleiht; essenziell für heimliches Vorgehen und Hinterhalte."
+        }
+      ]
+    },
+    "falloutCompanions": {
+      "title": "Fallout New Vegas Remaster Begleiter",
+      "displayType": "card-list",
+      "intro": "Bis zu zwei Begleiter können dich gleichzeitig begleiten, und jeder bringt ein einzigartiges Extra, einen Kampfstil und eine persönliche Geschichte mit. Dieser Guide deckt alle permanenten Begleiter ab, wo man sie rekrutiert und welche Entscheidungen ihr Schicksal dauerhaft verändern können.",
+      "cards": [
+        {
+          "name": "Craig Boone",
+          "role": "Scharfschütze",
+          "description": "Ein trauernder RNK-Scharfschütze, der in Novac rekrutiert wird, nachdem man „Einer für meine Kleine“ abgeschlossen hat. Sein Extra „Beobachter“ markiert Gegner im V.A.T.S., und seine Quest schaltet eines von drei verschiedenen Enden frei."
+        },
+        {
+          "name": "Rose of Sharon Cassidy",
+          "role": "Drifterin",
+          "description": "Eine abgehärtete Karawanenbesitzerin, die am Mojave-Außenposten rekrutiert wird, nachdem ihre Schulden beglichen wurden. Ihr Extra „Whiskey-Rose“ erhöht die Schadensschwelle und entfernt die negativen Effekte von Alkohol."
+        },
+        {
+          "name": "Raul Tejava",
+          "role": "Ghul-Mechaniker",
+          "description": "Ein Ghul-Revolverheld, der vom Black Mountain befreit wurde. Seine Extras „Regelmäßige Wartung“ und „Vollständige Wartung“ verlangsamen den Verschleiß von Waffen und Rüstungen, was ihn für lange Expeditionen unersetzlich macht."
+        },
+        {
+          "name": "Veronica Santangelo",
+          "role": "Gelehrte der Bruderschaft",
+          "description": "Rekrutiert am 188-Handelsposten. Ihr Extra „Assistentin der Gelehrten“ gewährt Zugriff auf Werkbänke von unterwegs, und ihre Quest „Dafür könnte ich sorgen“ definiert ihre Bindung zur Bruderschaft neu."
+        },
+        {
+          "name": "Arcade Gannon",
+          "role": "Nachfolger-Arzt",
+          "description": "Ein idealistischer Arzt der Nachfolger, der im Alten Mormonen-Fort rekrutiert wird. Sein Extra „Medizinischer Informant“ verstärkt die Heilung, und seine Quest „Für die guten alten Zeiten“ ist direkt mit einem Endspiel-Handlungsstrang der Enklave verknüpft."
+        },
+        {
+          "name": "Lily Bowen",
+          "role": "Nachtvolk",
+          "description": "Eine sanftmütige Nachtvolk-Großmutter, die in Jacobstown zu finden ist. Ihr Extra „Stealth-Girl“ verstärkt Stealth Boys sowie Nahkampf-Schleichangriffe, und ihre Medikationsentscheidungen haben dauerhaften Einfluss auf ihre Dialoge."
+        },
+        {
+          "name": "ED-E",
+          "role": "Augenbot",
+          "description": "Ein reaktivierter Enklave-Augenbot, der in Primm rekrutiert wird. Seine Sensoren und Kampfverstärkungen werden durch die Quest „ED-E, mein Liebling“ verbessert, und die für das Upgrade gewählte Fraktion verändert sein finales Extra."
+        },
+        {
+          "name": "Rex",
+          "role": "Cyberhund",
+          "description": "Der treue Cyberhund des Kings in Freeside, verfügbar nach der Quest „Immer auf den Hund gekommen“. Die Transplantation eines neuen Gehirns verändert seine Kampfwerte und sein questbezogenes Extra „Suchen und Retten“."
+        }
+      ]
+    },
+    "falloutFactions": {
+      "title": "Fallout New Vegas Remaster Fraktionen",
+      "displayType": "card-list",
+      "intro": "Wer New Vegas kontrolliert, ist die zentrale Frage der Mojave. Verstehe die vier Hauptfraktionen und die kleineren Mächte, wie Ruf funktioniert, was jedes Bündnis verlangt und welche Entscheidungen dich von den Enden der Rivalen ausschließen.",
+      "cards": [
+        {
+          "name": "Republik Neu-Kalifornien (RNK)",
+          "role": "Hauptfraktion",
+          "description": "Eine weitläufige demokratische Republik, die bestrebt ist, die Ordnung wiederherzustellen und die Energie des Hoover-Staudamms für sich zu beanspruchen. Verbündet durch Botschafter Crocker oder Colonel Moore, schätzt die RNK Gesetz, Steuern und militärische Expansion in der gesamten Mojave."
+        },
+        {
+          "name": "Caesars Legion",
+          "role": "Hauptfraktion",
+          "description": "Eine brutale Sklavenarmee nach dem Vorbild Roms, die sich östlich des Colorado River sammelt. Verbündet über das Fort, lehnt die Legion Technologie und Demokratie zugunsten von Eroberung und absoluter Ordnung ab."
+        },
+        {
+          "name": "Mr. House",
+          "role": "Hauptfraktion",
+          "description": "Der zurückgezogene Techno-Autokrat, der den New Vegas Strip mit seiner Securitron-Armee beherrscht. Sich auf die Seite von House zu schlagen bedeutet, seine Vision eines unabhängigen, geordneten Vegas unter seiner alleinigen Kontrolle zu bewahren."
+        },
+        {
+          "name": "Ja-Sager (Unabhängig)",
+          "role": "Hauptfraktion",
+          "description": "Ein umprogrammierter Securitron, der es dem Kurier ermöglicht, New Vegas persönlich zu übernehmen. Die Wildcard-Questreihe befreit dich von allen Hauptfraktionen und endet mit einer unabhängigen Mojave, die von deinen Entscheidungen beherrscht wird."
+        },
+        {
+          "name": "Groß-Chane",
+          "role": "Nebenfraktion",
+          "description": "Ein nomadischer Kriegerstamm im Red Rock Canyon, der den Umständen entsprechend mit der Legion verbündet ist. Deine Handlungen können ihr Schicksal in mehreren Enden beeinflussen, die mit ihrem Drogenhandel und ihrer Geschichte verknüpft sind."
+        },
+        {
+          "name": "Stählerne Bruderschaft",
+          "role": "Nebenfraktion",
+          "description": "Ein im Hidden-Valley-Bunker verborgenes Kapitel der Bruderschaft, das Vorkriegstechnologie hortet. Ihre strengen Kodizes und ihre Isolation machen sie je nach deinem Fraktionsweg zu einem widerwilligen Verbündeten oder zu einem Ziel."
+        },
+        {
+          "name": "Nachfolger der Apokalypse",
+          "role": "Nebenfraktion",
+          "description": "Eine humanitäre Forschungsgruppe, die vom Alten Mormonen-Fort aus Medizin und Bildung bereitstellt. Sie besitzen keine militärische Macht, prägen aber im Stillen die Mojave durch Wissen und Arcade Gannon."
+        },
+        {
+          "name": "Rumser",
+          "role": "Nebenfraktion",
+          "description": "Artillerie-besessene Isolationisten auf der Nellis Air Force Base. Wenn du ihr Vertrauen durch die Quest „Volare!“ gewinnst, erhältst du Zugang zu Haubitzen-Unterstützung und ihrer Hilfe in der finalen Schlacht um den Staudamm."
+        }
+      ]
+    },
+    "falloutMods": {
+      "title": "Fallout New Vegas Remaster Mods",
+      "displayType": "card-list",
+      "intro": "Modding hält die Mojave stabil, schön und endlos wiederspielbar. Diese Empfehlungen decken die wichtigsten Stabilitäts-Fixes, Performance- und Interface-Upgrades, visuellen Overhauls, Gameplay-Erweiterungen und die Grundlagen der Ladereihenfolge ab, die deine Spielstände schützen.",
+      "cards": [
+        {
+          "name": "New Vegas Script Extender (NVSE)",
+          "role": "Grundvoraussetzung",
+          "description": "Das Fundament, auf dem die meisten New Vegas-Mods aufbauen. Installiere es zuerst, da unzählige Gameplay- und UI-Mods die zusätzlichen Skriptfunktionen benötigen, die NVSE bereitstellt."
+        },
+        {
+          "name": "New Vegas Anti-Crash (NVAC)",
+          "role": "Stabilitäts-Fix",
+          "description": "Ein Speicher- und Engine-Patch, der die häufigsten zufälligen Abstürze verhindert. Kombiniere ihn mit dem 4-GB-Large-Address-Aware-Patch für flüssigere, längere Spielesitzungen."
+        },
+        {
+          "name": "YUP - Unofficial Patch",
+          "role": "Fehlerbehebungen",
+          "description": "Ein von der Community gepflegter Bugfix-Patch, der Tausende von Quest-, Gegenstands- und Gameplay-Fehlern behebt, ohne die beabsichtigte Balance oder den Inhalt zu verändern."
+        },
+        {
+          "name": "Benutzeroberflächen-Mods",
+          "role": "UI-Upgrade",
+          "description": "Mods wie Darnified UI, MTUI und das Mod Configuration Menu bereinigen Schriftarten, Listen und den Zugriff auf Einstellungen, wodurch Menüs lesbarer und Mod-Optionen leichter erreichbar werden."
+        },
+        {
+          "name": "Textur- und Beleuchtungs-Mods",
+          "role": "Visuelle Überarbeitung",
+          "description": "NMC's Texture Pack, Poco Bueno und ENB- oder ReShade-Presets werten Gelände, Gebäude und Beleuchtung drastisch auf, während der entsättigte Ödland-Ton der Mojave erhalten bleibt."
+        },
+        {
+          "name": "Project Nevada",
+          "role": "Gameplay-Überarbeitung",
+          "description": "Eine modulare Überarbeitung, die Sprinten, Bullet-Time, Visiere, Granaten und neu ausbalancierte Implantate hinzufügt. Jedes Modul kann ein- oder ausgeschaltet werden, je nachdem, wie stark du das Hauptspiel verändern möchtest."
+        },
+        {
+          "name": "Inhalts- und Quest-Mods",
+          "role": "Neue Inhalte",
+          "description": "Erweiterungen wie The Someguy Series, New Vegas Bounties und New California fügen voll vertonte Quests, Begleiter und Kartenbereiche hinzu, die die Mojave weit über das Hauptspiel hinaus erweitern."
+        },
+        {
+          "name": "Mod Organizer 2",
+          "role": "Ladereihenfolge-Tool",
+          "description": "Ein profilbasierter Mod-Manager, der deine Ladereihenfolge und Installationen pro Profil isoliert hält, sodass du Setups sicher testen kannst, ohne deine sauberen Spielstände zu überschreiben."
+        }
+      ]
+    },
+    "falloutLocations": {
+      "title": "Fallout New Vegas Remaster Schauplätze",
+      "displayType": "card-list",
+      "intro": "Die Mojave ist dicht besiedelt mit Siedlungen, Vaults, Militärstützpunkten, Casinos und versteckten Orientierungspunkten. Dieser regionale Leitfaden hebt die Quests, Händler, einzigartige Beute, Fertigkeitsbücher und Schnellreisepunkte hervor, die an jedem wichtigen Ort auf dich warten.",
+      "cards": [
+        {
+          "name": "New Vegas Strip",
+          "role": "Siedlung",
+          "description": "Das glitzernde Herz der Mojave, Heimat der Casinos Tops, Gomorrah und Ultra-Luxe, des Lucky 38 und von Mr. House. Der Zutritt erfordert einen Pass, 2.000 Kronkorken oder eine hohe Wissenschaft-Herausforderung."
+        },
+        {
+          "name": "Goodsprings",
+          "role": "Startort",
+          "description": "Deine Startsiedlung und das Tutorial-Zentrum. Doc Mitchell, Chets Laden und die Goodsprings-Quelle sind hier, und die Verteidigung der Stadt in „Ghost Town Gunfight“ bestimmt deinen anfänglichen Ruf."
+        },
+        {
+          "name": "Hoover-Dam",
+          "role": "Militärstützpunkt",
+          "description": "Das strategische Juwel der Mojave, das New Vegas und die RNK mit Strom versorgt. Der Damm beherbergt die letzte Schlacht für das Endspiel jeder Fraktion, sowie schwere Waffen und Rüstungen von Quartiermeister Bardon."
+        },
+        {
+          "name": "Vault 22",
+          "role": "Vault",
+          "description": "Eine überwucherte Vault, die von mutierten Sporenpflanzen und Sporenträgern überrannt wurde. Keelys Forschung und die Quest „Bleed Me Dry“ führen hierher, und die Flammenwaffen im Inneren wirken der Sporenbedrohung entgegen."
+        },
+        {
+          "name": "HELIOS One",
+          "role": "Militärgelände",
+          "description": "Ein Solarkraftwerk aus der Vorkriegszeit, das von der NCR kontrolliert wird. „That Lucky Old Sun“ ermöglicht es dir, den Strom umzuleiten und über das Schicksal des ARCHIMEMES-Waffentests zu entscheiden."
+        },
+        {
+          "name": "Das Fort",
+          "role": "Militärgelände",
+          "description": "Caesars befestigtes Lager auf der anderen Seite des Colorado River, erreichbar über Cottonwood Cove. Es beherbergt die verwitterte Securitron-Vault und Caesars Zelt, die für die Questreihe der Legion von zentraler Bedeutung sind."
+        },
+        {
+          "name": "Jacobstown",
+          "role": "Siedlung",
+          "description": "Ein Zufluchtsort in einem Bergresort für Supermutanten unter der Führung von Marcus. Er hängt mit der Rekrutierung von Lily, der einzigartigen Nahkampfwaffe aus der Charleston Cave und der Quest zur Heilung der Nachtschatten zusammen."
+        },
+        {
+          "name": "Black Mountain",
+          "role": "Militärgelände",
+          "description": "Eine von Tabithas Supermutanten und Nachtschatten gehaltene Funkfestung. Das Säubern dieses Gebiets rekrutiert Raul Tejada und schaltet die stärksten einzigartigen Waffenoptionen in der Nähe frei."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Häufig gestellte",
+    "titleHighlight": "Fragen",
+    "subtitle": "Alles, was du über Fallout New Vegas Remaster wissen musst",
+    "questions": [
+      {
+        "question": "Was ist Fallout New Vegas Remaster?",
+        "answer": "Fallout New Vegas Remaster ist die verfeinerte moderne Edition von Obsidians postapokalyptischem RPG aus dem Jahr 2010. Sie führt Spieler mit verbesserter Grafik und der vollen Tiefe an Quests, Fraktionen, Begleitern und Modding des Originals zurück in das Mojave-Ödland."
+      },
+      {
+        "question": "Welchen Fraktionen kann man in Fallout New Vegas Remaster beitreten?",
+        "answer": "Fallout New Vegas Remaster bietet vier Hauptfraktionen: die NCR, Caesars Legion, Mr. House und den unabhängigen Weg mit Yes Man. Jede Fraktion hat ihre eigene Questreihe und ein eigenes Ende, das am Hoover Dam entschieden wird."
+      },
+      {
+        "question": "Enthält Fallout New Vegas Remaster den Hardcore-Modus?",
+        "answer": "Ja. Fallout New Vegas Remaster behält den Hardcore-Modus bei und fügt Dehydrierung, Verhungern, Schlaf und Munitionsgewicht für Spieler hinzu, die ein anspruchsvolleres Überlebenserlebnis und den dazugehörigen Erfolg suchen."
+      },
+      {
+        "question": "Wie viele Begleiter gibt es in Fallout New Vegas Remaster?",
+        "answer": "Fallout New Vegas Remaster hat acht permanente Begleiter, darunter Boone, Cassidy, Raul, Veronica, Arcade, Lily, ED-E und Rex, jeweils mit eigenen Rekrutierungsvoraussetzungen, einer persönlichen Quest und einem einzigartigen Extra."
+      },
+      {
+        "question": "Sind Mods mit Fallout New Vegas Remaster kompatibel?",
+        "answer": "Ja. Fallout New Vegas Remaster unterstützt das etablierte Modding-Ökosystem mit Stabilitäts-Fixes, UI-Upgrades, visuellen Überarbeitungen und Gameplay-Mods, die über NVSE und Mod Organizer 2 installiert werden."
+      },
+      {
+        "question": "Wo kann ich Fallout New Vegas Remaster bekommen?",
+        "answer": "Fallout New Vegas Remaster ist über Steam und offizielle Bethesda-Kanäle erhältlich, wobei die offiziellen Add-ons Dead Money, Honest Hearts, Old World Blues und Lonesome Road in der Ultimate Edition enthalten sind."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Bereit, das Mojave-Ödland zu erkunden?",
+    "description": "Tritt der Fallout-Community auf Reddit bei, um Guides, Builds, Modding-Tipps und Diskussionen über Fallout: New Vegas Remaster zu finden!",
+    "joinCommunity": "Tritt der Community bei",
+    "joinGame": "Auf die Steam-Wunschliste setzen"
+  },
+  "footer": {
+    "title": "Fallout New Vegas Remaster Wiki",
+    "description": "Deine vollständige Ressourcen-Anlaufstelle für Quests, Fraktionen, Begleiter, Builds, Waffen, den Hardcore-Modus und Modding-Guides zu Fallout: New Vegas Remaster.",
+    "resources": "Ressourcen",
+    "community": "Community",
+    "legal": "Rechtliches",
+    "discord": "Offizielle Website",
+    "twitter": "Reddit",
+    "steamCommunity": "Steam-Community",
+    "steamStore": "Steam-Store",
+    "about": "Über",
+    "privacy": "Datenschutzerklärung",
+    "terms": "Nutzungsbedingungen",
+    "copyrightNotice": "Copyright",
+    "copyright": "© 2026 Fallout New Vegas Remaster Wiki. Nicht mit Bethesda Softworks oder den Entwicklern von Fallout verbunden.",
+    "disclaimer": "Inoffizielle, von Fans erstellte Ressourcen-Website."
+  },
+  "pages": {
+    "guide": {
+      "title": "Fallout New Vegas Remaster-Guide",
+      "description": "Vollständige Fallout New Vegas Remaster-Guides über Karten, Vaults, Komplettlösungen, Einsteiger-Tipps und das Powerrüstungs-Training im gesamten Mojave-Ödland.",
+      "metaTitle": "Fallout New Vegas Remaster-Guide – Komplettlösung, Karten & Einsteiger-Tipps",
+      "metaDescription": "Meistere Fallout New Vegas Remaster mit vollständigen Komplettlösungen, Mojave-Karten, Vault-Standorten, Einsteiger-Tipps und Guides zum Powerrüstungs-Training.",
+      "categoryLabel": "SPIEL-GUIDE",
+      "whatIs": "Was ist der Guide?",
+      "whatIsDescription": "Eine vollständige Fallout New Vegas Remaster-Wissensdatenbank mit interaktiven Karten, Vault-Standorten, kompletten Komplettlösungen, Einsteiger-Tipps und dem Powerrüstungs-Training. Alles, was du brauchst, um das Mojave-Ödland zu durchqueren und zu erobern.",
+      "why": "Warum diesen Guide nutzen?",
+      "whySteps": {
+        "step1Title": "Navigiere durch die Mojave",
+        "step1Description": "Nutze detaillierte Karten und Vault-Standorte, um Quests, Beute und Schnellreisepunkte zu finden",
+        "step2Title": "Folge bewährten Komplettlösungen",
+        "step2Description": "Schritt-für-Schritt-Questrouten, die deinen Kurier vom Start bis zum Endgame auf dem richtigen Weg halten",
+        "step3Title": "Lerne wichtige Tipps",
+        "step3Description": "Meistere Einsteiger-Tipps und das Powerrüstungs-Training, um im Ödland zu überleben"
+      },
+      "featured": "Empfohlen & Essenziell",
+      "all": "Alle Guides"
+    },
+    "builds": {
+      "title": "Fallout New Vegas Remaster-Builds",
+      "description": "Meistere S.P.E.C.I.A.L.-Builds, Merkmale, Fertigkeiten und Extras für Fallout New Vegas Remaster mit optimierten Startwerten und Spielstil-Guides.",
+      "metaTitle": "Fallout New Vegas Remaster-Builds – S.P.E.C.I.A.L., Extras, Merkmale & Fertigkeiten",
+      "metaDescription": "Erschaffe den perfekten Kurier in Fallout New Vegas Remaster mit S.P.E.C.I.A.L.-Verteilung, den besten Startwerten, Merkmalen, Fertigkeiten und Guides zur Reihenfolge der Extras für jeden Spielstil.",
+      "categoryLabel": "BUILDS & EXTRAS",
+      "whatIs": "Was sind Builds?",
+      "whatIsDescription": "Guides zu S.P.E.C.I.A.L.-Attributen, den besten Startwerten, Merkmalen, Fertigkeiten und der Reihenfolge der Extras. Erstelle optimierte Charaktere für Schusswaffen, Energiewaffen, Nahkampf, Schleichen und Hardcore-Spieldurchgänge.",
+      "why": "Warum Builds planen?",
+      "whySteps": {
+        "step1Title": "Startwerte optimieren",
+        "step1Description": "Verteile S.P.E.C.I.A.L.-Punkte und wähle deine Grundfertigkeiten passend zu deinem bevorzugten Spielstil",
+        "step2Title": "Wähle die richtigen Merkmale",
+        "step2Description": "Wähle Merkmale und Fertigkeiten, die sich im Endgame optimal ergänzen",
+        "step3Title": "Meistere die Reihenfolge der Extras",
+        "step3Description": "Plane die Auswahl deiner Extras für Kampf, Schleichen, Sprache und Handwerk"
+      },
+      "featured": "Empfohlen & Essenziell",
+      "all": "Alle Build-Guides"
+    },
+    "weapons": {
+      "title": "Fallout New Vegas Remaster-Waffen",
+      "description": "Entdecke die besten Waffen, Rüstungen und Powerrüstungen in Fallout New Vegas Remaster mit Werten, Fundorten und Loadout-Guides.",
+      "metaTitle": "Fallout New Vegas Remaster Waffen – Die besten Schusswaffen, Rüstungen & Powerrüstungen",
+      "metaDescription": "Finde die besten Waffen und Rüstungen in Fallout New Vegas Remaster, einschließlich einzigartiger Schusswaffen, Powerrüstungen und der RNK-Ranger-Rüstung, mit Fundorten und Werten.",
+      "categoryLabel": "WAFFEN & RÜSTUNGEN",
+      "whatIs": "Was sind Waffen?",
+      "whatIsDescription": "Umfassende Guides zu den Waffen, Rüstungen, Powerrüstungen und der einzigartigen Ausrüstung in Fallout New Vegas Remaster. Erfahre alles über Werte, Fundorte und die optimalen Loadouts für jede Phase des Spiels.",
+      "why": "Warum Waffen-Guides nutzen?",
+      "whySteps": {
+        "step1Title": "Finde die beste Ausrüstung",
+        "step1Description": "Entdecke, wo du die stärksten Waffen und Rüstungen plündern und kaufen kannst",
+        "step2Title": "Meistere die Powerrüstung",
+        "step2Description": "Erfahre alles über das Powerrüstungs-Training und die besten Modelle in der Mojave",
+        "step3Title": "Erstelle das richtige Loadout",
+        "step3Description": "Wähle Waffen und Rüstungen, die zu deinem Build und Spielstil passen"
+      },
+      "featured": "Vorgestellt & Essenziell",
+      "all": "Alle Waffen"
+    },
+    "characters": {
+      "title": "Fallout New Vegas Remaster Charaktere",
+      "description": "Triff jeden Begleiter und Schlüsselcharakter in Fallout New Vegas Remaster mit Rekrutierungsorten, persönlichen Quests und Loyalitäts-Guides.",
+      "metaTitle": "Fallout New Vegas Remaster Charaktere – Begleiter & wichtige NPCs",
+      "metaDescription": "Rekrutiere Begleiter wie Boone, Veronica und ED-E in Fallout New Vegas Remaster. Erfahre mehr über Rekrutierungsorte, persönliche Quests, Extras und Schlüsselcharaktere wie Benny und Joshua Graham.",
+      "categoryLabel": "CHARAKTERE",
+      "whatIs": "Was sind Charaktere?",
+      "whatIsDescription": "Guides zu den Begleitern und wichtigen NPCs in Fallout New Vegas Remaster. Erfahre, wo du Begleiter rekrutierst, alles über ihre persönlichen Quests, einzigartigen Extras und die Geschichten von Charakteren wie Benny, Veronica, Boone und Joshua Graham.",
+      "why": "Warum Begleiter rekrutieren?",
+      "whySteps": {
+        "step1Title": "Stelle deine Crew zusammen",
+        "step1Description": "Finde und rekrutiere Begleiter mit Kampf-, Schleich- und Unterstützungsfähigkeiten",
+        "step2Title": "Schließe persönliche Quests ab",
+        "step2Description": "Schalte Loyalitätsmissionen der Begleiter und dauerhafte Extra-Verbesserungen frei",
+        "step3Title": "Verstehe wichtige NPCs",
+        "step3Description": "Erfahre die Motive von Benny, Joshua Graham und den Fraktionsanführern"
+      },
+      "featured": "Vorgestellt & Essenziell",
+      "all": "Alle Charaktere"
+    },
+    "quests": {
+      "title": "Fallout New Vegas Remaster Quests",
+      "description": "Schließe die Quests in Fallout New Vegas Remaster ab mit der vollständigen Questliste, Fraktionsentscheidungen und jedem Ende für die Mojave.",
+      "metaTitle": "Fallout New Vegas Remaster Quests – Questliste, Entscheidungen & Enden",
+      "metaDescription": "Bezwinge Fallout New Vegas Remaster mit der vollständigen Questliste, den Fraktions-Questreihen, Schlüsselentscheidungen und allen Enden, einschließlich RNK, Legion, Mr. House und Ja-Sager.",
+      "categoryLabel": "QUESTS & ENDEN",
+      "whatIs": "Was sind Quests?",
+      "whatIsDescription": "Guides zu den Hauptquests, Nebenquests, Fraktions-Questreihen und Enden in Fallout New Vegas Remaster. Erfahre alles über die Questliste, kritische Entscheidungen und wie du New Vegas über die RNK, Caesars Legion, Mr. House oder den Ja-Sager übernimmst.",
+      "why": "Warum Quest-Guides nutzen?",
+      "whySteps": {
+        "step1Title": "Verfolge jede Quest",
+        "step1Description": "Nutze die vollständige Quest-Liste, um Haupt- und Nebenquests zu finden und abzuschließen",
+        "step2Title": "Triff die richtigen Entscheidungen",
+        "step2Description": "Verstehe Fraktionsbindungen und verzweigte Quest-Ausgänge",
+        "step3Title": "Schalte jedes Ende frei",
+        "step3Description": "Entscheide, wer New Vegas kontrolliert, und erlebe alle Enden"
+      },
+      "featured": "Empfohlen & Essenziell",
+      "all": "Alle Quests"
+    },
+    "mods": {
+      "title": "Fallout New Vegas Remaster Mods",
+      "description": "Installiere die besten Fallout New Vegas Remaster Mods mit Anleitungen zu NVSE, Mod Organizer 2, Ladereihenfolge und Grafik-Overhauls.",
+      "metaTitle": "Fallout New Vegas Remaster Mods – Beste Mods, NVSE & Ladereihenfolge",
+      "metaDescription": "Verwandle Fallout New Vegas Remaster mit den besten Mods. Lerne die NVSE-Einrichtung, den 4GB Patcher, Mod Organizer 2, Grafik-Overhauls und die korrekte Ladereihenfolge kennen.",
+      "categoryLabel": "MODS & TOOLS",
+      "whatIs": "Was sind Mods?",
+      "whatIsDescription": "Anleitungen zum Modding von Fallout New Vegas Remaster, einschließlich der besten Mods, NVSE Script Extender, 4GB Patcher, Mod Organizer 2, Grafik-Overhauls und Ladereihenfolge. Richte ein stabiles, leistungsstarkes gemoddetes Spiel ein.",
+      "why": "Warum Mods installieren?",
+      "whySteps": {
+        "step1Title": "Grafik verbessern",
+        "step1Description": "Nutze Grafik-Overhauls und Textur-Packs für einen modernen Look",
+        "step2Title": "Reparieren und Optimieren",
+        "step2Description": "Verwende den 4GB Patcher und NVSE für Stabilität und neue Funktionen",
+        "step3Title": "Ladereihenfolge verwalten",
+        "step3Description": "Organisiere Mods mit Mod Organizer 2 und einer korrekten Ladereihenfolge"
+      },
+      "featured": "Empfohlen & Essenziell",
+      "all": "Alle Mods"
+    },
+    "dlc": {
+      "title": "Fallout New Vegas Remaster DLC",
+      "description": "Erkunde jeden Fallout New Vegas Remaster DLC, einschließlich Dead Money, Honest Hearts, Old World Blues und Lonesome Road.",
+      "metaTitle": "Fallout New Vegas Remaster DLC – Alle Add-ons & Erweiterungen",
+      "metaDescription": "Schließe jeden Fallout New Vegas Remaster DLC ab. Anleitungen für Dead Money, Honest Hearts, Old World Blues und Lonesome Road mit Quests, Belohnungen und Story-Analysen.",
+      "categoryLabel": "DLC & ADD-ONS",
+      "whatIs": "Was ist DLC?",
+      "whatIsDescription": "Anleitungen zu den vier Fallout New Vegas Remaster Add-ons: Dead Money, Honest Hearts, Old World Blues und Lonesome Road. Lerne die Quests, einzigartigen Belohnungen, Ausrüstungsgegenstände und die Geschichte jeder Erweiterung kennen.",
+      "why": "Warum die DLCs spielen?",
+      "whySteps": {
+        "step1Title": "Erlebe neue Geschichten",
+        "step1Description": "Erkunde vier verschiedene Erweiterungen mit einzigartigen Schauplätzen und Charakteren",
+        "step2Title": "Verdiene mächtige Belohnungen",
+        "step2Description": "Sammle einzigartige Waffen, Perks und Ausrüstung aus jedem Add-on",
+        "step3Title": "Vollende die Reise",
+        "step3Description": "Führe die gesamte Geschichte des Kuriers über alle DLCs hinweg zusammen"
+      },
+      "featured": "Empfohlen & Essenziell",
+      "all": "Alle DLC"
+    },
+    "remaster": {
+      "title": "Fallout New Vegas Remaster Info",
+      "description": "Alles über das Fallout New Vegas Remaster, einschließlich Release-Datum, Plattformen, Steam, PS5 und der Ultimate Edition.",
+      "metaTitle": "Fallout New Vegas Remaster – Release-Datum, Plattformen & Ultimate Edition",
+      "metaDescription": "Hol dir die neuesten Infos zum Release-Datum des Fallout New Vegas Remaster, den Plattformen PS5 und Steam, den Inhalten der Ultimate Edition und was dich im Remaster erwartet.",
+      "categoryLabel": "REMASTER-INFOS",
+      "whatIs": "Was ist das Remaster?",
+      "whatIsDescription": "Guides zum Fallout New Vegas Remaster über das Release-Datum, unterstützte Plattformen wie PS5 und Steam, das Ultimate Edition-Bundle und die Upgrades, die die Mojave auf moderne Hardware bringen.",
+      "why": "Warum das Remaster verfolgen?",
+      "whySteps": {
+        "step1Title": "Verfolge den Release",
+        "step1Description": "Bleib auf dem Laufenden über das Release-Datum und die Launch-Details des Remasters",
+        "step2Title": "Wähle deine Plattform",
+        "step2Description": "Vergleiche PS5, Steam und andere Plattformen, um das beste Erlebnis zu wählen",
+        "step3Title": "Hol dir das komplette Paket",
+        "step3Description": "Erfahre, was die Ultimate Edition enthält und ob sie sich lohnt"
+      },
+      "featured": "Vorgestellt & Essenziell",
+      "all": "Alle Remaster-Infos"
+    }
   }
 }
