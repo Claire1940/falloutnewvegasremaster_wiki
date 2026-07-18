@@ -28,6 +28,15 @@ export const iconRegistry: Record<string, LucideIcon> = {
   Gamepad2: LucideIcons.Gamepad2,
   TrendingUp: LucideIcons.TrendingUp,
 
+  // 首页 Tools Grid 导航图标（Fallout New Vegas Remaster）
+  GraduationCap: LucideIcons.GraduationCap,
+  Compass: LucideIcons.Compass,
+  Crosshair: LucideIcons.Crosshair,
+  Swords: LucideIcons.Swords,
+  Flag: LucideIcons.Flag,
+  Wrench: LucideIcons.Wrench,
+  MapPin: LucideIcons.MapPin,
+
   // UI 交互图标
   Sparkles: LucideIcons.Sparkles,
   ChevronDown: LucideIcons.ChevronDown,

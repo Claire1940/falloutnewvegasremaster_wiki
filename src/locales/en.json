@@ -52,696 +52,437 @@
     }
   },
   "gameFeature": {
-    "title": "Lucid Blocks Gameplay",
-    "description": "Explore surreal biomes, fuse items with Apotheosis, and survive strange creatures in this dreamlike voxel sandbox on Steam."
+    "title": "Fallout: New Vegas Remaster Gameplay",
+    "description": "Return to the Mojave Wasteland with refined visuals, branching faction quests, recruitable companions, deep character builds, and Hardcore Mode survival across an expanded New Vegas."
   },
   "tools": {
-    "title": "Lucid Blocks",
-    "titleHighlight": "Resources",
-    "subtitle": "Everything you need to explore, craft, and survive in Lucid Blocks",
+    "title": "Fallout New Vegas Remaster",
+    "titleHighlight": "Guides",
+    "subtitle": "Everything you need to survive the Mojave Wasteland, from your first steps in Goodsprings to the final battle for Hoover Dam.",
     "cards": [
       {
-        "icon": "BookOpen",
+        "icon": "GraduationCap",
         "title": "Beginner Guide",
-        "description": "First steps, exploration, and early progression"
+        "description": "SPECIAL, skills, perks, karma, and early priorities"
       },
       {
-        "icon": "Sparkles",
-        "title": "Apotheosis Crafting",
-        "description": "Freeform fusion system and early recipes"
+        "icon": "Compass",
+        "title": "Quests Walkthrough",
+        "description": "Main, faction, companion, and side quests"
       },
       {
-        "icon": "Hammer",
-        "title": "Tools and Weapons",
-        "description": "Frost Pick, Azrael, Hookshot, and more"
+        "icon": "Crosshair",
+        "title": "Builds",
+        "description": "Guns, energy, melee, stealth, and Hardcore builds"
       },
       {
-        "icon": "Package",
-        "title": "Storage and Inventory",
-        "description": "Cache Cubes, Cabinets, and Qualia storage"
+        "icon": "Swords",
+        "title": "Weapons and Gear",
+        "description": "Weapons, armor, ammo, and unique equipment"
       },
       {
-        "icon": "Home",
-        "title": "Qualia and Base Building",
-        "description": "Personal Qualia and home base setup"
+        "icon": "Users",
+        "title": "Companions",
+        "description": "Recruitment, perks, and personal quests"
       },
       {
-        "icon": "Eye",
-        "title": "World Regions",
-        "description": "Fog Meadow, Essence Morass, and more"
+        "icon": "Flag",
+        "title": "Factions",
+        "description": "NCR, Caesar's Legion, Mr. House, and Yes Man"
       },
       {
-        "icon": "AlertTriangle",
-        "title": "Creatures and Enemies",
-        "description": "Manikins, spiders, and how to survive"
+        "icon": "Wrench",
+        "title": "Mods",
+        "description": "Stability, performance, visual, and content mods"
       },
       {
-        "icon": "ArrowRight",
-        "title": "Mobility Gear",
-        "description": "Hookshot, Glider Glove, Bee Glider"
-      },
-      {
-        "icon": "TrendingUp",
-        "title": "Farming and Growth",
-        "description": "Seed progression and material farming"
-      },
-      {
-        "icon": "Star",
-        "title": "Best Early Unlocks",
-        "description": "Priority upgrades for the first hour"
-      },
-      {
-        "icon": "ClipboardCheck",
-        "title": "Achievement Tracker",
-        "description": "All 19 Steam achievements and conditions"
-      },
-      {
-        "icon": "MessageCircle",
-        "title": "Singleplayer FAQ",
-        "description": "Platform, price, co-op, and language questions"
-      },
-      {
-        "icon": "Gamepad2",
-        "title": "Steam Deck and Controller",
-        "description": "Proton 9.0.4 setup and controller tips"
-      },
-      {
-        "icon": "Settings",
-        "title": "Settings and Accessibility",
-        "description": "Hide hands, Vulkan, and display options"
-      },
-      {
-        "icon": "Clock",
-        "title": "Updates and Patch Notes",
-        "description": "Recent fixes and roadmap notes"
-      },
-      {
-        "icon": "Shield",
-        "title": "Crash Fix",
-        "description": "Vulkan check, logs path, and bug reporting"
+        "icon": "MapPin",
+        "title": "Locations",
+        "description": "Settlements, vaults, casinos, and hidden landmarks"
       }
     ]
   },
   "modules": {
-    "lucidBlocksBeginnerGuide": {
-      "title": "Lucid Blocks Beginner Guide",
-      "displayType": "steps",
-      "intro": "Start by learning how exploration, fusion, and progression connect. Lucid Blocks rewards experimentation, so early progress comes from gathering unusual materials, testing combinations, and unlocking your personal Qualia.",
+    "falloutBeginnerGuide": {
+      "title": "Fallout New Vegas Remaster Beginner Guide",
+      "displayType": "step-by-step",
+      "intro": "Every Courier's journey starts in Goodsprings. Learn how SPECIAL attributes, skills, perks, reputation, karma, and survival systems connect, and follow a clear early route that helps you avoid the most common wasteland mistakes.",
       "steps": [
         {
-          "title": "Explore Before You Commit",
-          "description": "Walk outward, mine common blocks, and keep any strange drops you find. Early progress is less about fixed quests and more about discovering what materials can become."
+          "title": "Build Your Courier with SPECIAL",
+          "description": "SPECIAL (Strength, Perception, Endurance, Charisma, Intelligence, Agility, Luck) defines everything your character can do. Pick attributes that match your playstyle, then choose two Tag Skills and up to two Traits during character creation in Goodsprings."
         },
         {
-          "title": "Unlock Your Personal Qualia Early",
-          "description": "Your personal Qualia is one of the most important early milestones. It gives you a reliable place to regroup and build around."
+          "title": "Level Up Skills Every Level",
+          "description": "Each level grants skill points to spend on combat, stealth, science, repair, speech, and survival skills. Skill checks gate dialogue options, hacking, lockpicking, and crafting, so a balanced spread opens more of the Mojave than a narrow one."
         },
         {
-          "title": "Use Osmium for Fast Early Progress",
-          "description": "Osmium is one of the most useful early materials. A popular early route is combining Osmium with sticks to make a Frost Pick for fast mining."
+          "title": "Pick the Right Perks Every Two Levels",
+          "description": "Perks are earned every two levels and each has skill or level requirements. Strong early perks like Educated, Comprehension, and Swift Learner accelerate your long-term power, while combat perks like Commando or Sniper define your fighting style."
         },
         {
-          "title": "Record Good Fusions",
-          "description": "Keep track of successful combinations in your journal. Lucid Blocks has many possible fusion paths, so writing down useful results saves a lot of time."
+          "title": "Track Reputation and Karma",
+          "description": "Reputation measures how each faction views you, while Karma tracks your overall morality. Quests, theft, and key story decisions shift both, and they directly affect vendor prices, companion reactions, and which endings remain available."
+        },
+        {
+          "title": "Survive Hardcore Mode (Optional)",
+          "description": "Hardcore Mode adds dehydration, starvation, sleep deprivation, ammo weight, and slower healing. It rewards the Survival skill, cooking, and careful resource planning, and is required for the Hard Core achievement."
+        },
+        {
+          "title": "Set Your Early Priorities",
+          "description": "A reliable early route follows the main quest from Goodsprings through Primm, Nipton, Novac, and Boulder City to reach the New Vegas Strip. Along the way, gather caps, recruit a companion, and upgrade your gear before committing to a faction."
         }
       ],
       "quickTips": [
-        "Apotheosis does not require a fixed recipe list.",
-        "Infinite world generation means moving higher or deeper can reveal completely different materials.",
-        "Movement tools and utility gear become a major quality-of-life boost once you start unlocking them.",
-        "Getting lost early is normal, but useful tools, storage, and movement options snowball fast once your first good fusions start working."
+        "Use VATS in early fights to land reliable hits and study enemy weak points.",
+        "Save often and rotate multiple save slots before dialogue and faction decisions.",
+        "Repair weapons and armor at vendors to keep their damage and damage threshold high.",
+        "Invest in Speech and Lockpick early to unlock extra dialogue options, loot, and quest routes.",
+        "Collect and sell early loot in Goodsprings and Primm to afford your first real weapon upgrades."
       ]
     },
-    "lucidBlocksApotheosisCrafting": {
-      "title": "Lucid Blocks Apotheosis Crafting",
-      "displayType": "cards",
-      "intro": "Apotheosis is the game's unrestricted fusion system. Instead of memorizing a traditional recipe book, you combine materials, watch the result, and build your own crafting knowledge over time.",
-      "cards": [
-        {
-          "name": "Freeform Fusion",
-          "description": "Apotheosis lets you fuse together different items without needing to follow a fixed recipe list."
-        },
-        {
-          "name": "Multiple Useful Outcomes",
-          "description": "Different materials often push toward certain results. Community discoveries show that similar inputs can still lead to practical tools, storage, or combat upgrades."
-        },
-        {
-          "name": "Journal-First Crafting",
-          "description": "The best way to learn Apotheosis is to track your successful combinations. Your journal quickly becomes your own crafting reference."
-        },
-        {
-          "name": "Community-Tested Early Fusions",
-          "description": "Popular early examples include Osmium plus Stick for a Frost Pick, Stick plus Tungsten Appendage for Azrael, and Azrael plus Magnetite for the Tendril Rapier."
-        }
-      ],
-      "milestones": [
-        "Fuse an item",
-        "Fuse a vermin",
-        "Fuse a divine artifact"
-      ]
-    },
-    "lucidBlocksToolsAndWeapons": {
-      "title": "Lucid Blocks Tools and Weapons",
-      "displayType": "itemCards",
-      "intro": "Lucid Blocks mixes official utility gear with community-discovered early weapons. The best setup is usually a blend of fast mining, safe traversal, and one dependable combat option.",
-      "items": [
-        {
-          "name": "Frost Pick",
-          "type": "Mining Tool",
-          "description": "A fast and affordable early pick made from Osmium and Stick. Players use it to speed up early material gathering."
-        },
-        {
-          "name": "Azrael",
-          "type": "Starter Weapon",
-          "description": "A practical early weapon route crafted from Stick and Tungsten Appendage."
-        },
-        {
-          "name": "Tendril Rapier",
-          "type": "Upgraded Weapon",
-          "description": "A stronger follow-up made by combining Azrael with Magnetite. It is one of the most useful early-mid combat paths shared by players."
-        },
-        {
-          "name": "Hookshot",
-          "type": "Mobility Tool",
-          "description": "An official traversal item that greatly improves movement and vertical exploration."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Mobility Tool",
-          "description": "An official movement item that helps cover space more safely and efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Weapon",
-          "description": "An official ranged utility item that expands your combat and puzzle options."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Traversal Gear",
-          "description": "An official utility item for reaching areas that would otherwise slow down exploration."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Officially highlighted as part of the core toolset and useful for breaking through threats or obstacles."
-        }
-      ]
-    },
-    "lucidBlocksStorageAndInventory": {
-      "title": "Lucid Blocks Storage and Inventory",
-      "displayType": "solutionCards",
-      "intro": "Inventory pressure starts early in Lucid Blocks, so building storage should be one of your first goals. Several real player-tested solutions already stand out.",
-      "solutions": [
-        {
-          "name": "Cache Cube",
-          "role": "Chest-Like Storage",
-          "description": "Cache Cubes are one of the earliest practical storage answers and are treated by players as the game's main chest-style container."
-        },
-        {
-          "name": "Cabinet",
-          "role": "Simple Base Storage",
-          "description": "Cabinets are another confirmed storage option. A shared early recipe uses 1 Cut Wood and 1 String."
-        },
-        {
-          "name": "Personal Qualia",
-          "role": "Long-Term Storage Hub",
-          "description": "Once unlocked, your personal Qualia becomes a natural place to organize materials, craft in peace, and expand your base setup."
-        },
-        {
-          "name": "Journal Tracking",
-          "role": "Inventory Efficiency",
-          "description": "Recording useful combinations in your journal reduces wasted materials and makes inventory management much easier."
-        }
-      ],
-      "managementTips": [
-        "Prioritize one dependable storage option before hoarding rare drops.",
-        "Build around your personal Qualia once it becomes available.",
-        "Keep crafting materials, combat tools, and movement gear separated so upgrades are easier to plan.",
-        "Use your journal as part of inventory management, not just crafting discovery."
-      ]
-    },
-    "lucidBlocksQualiaAndBaseBuilding": {
-      "title": "Lucid Blocks Qualia and Base Building",
-      "displayType": "cards",
-      "intro": "Qualia is one of the most important progression milestones in Lucid Blocks. It gives you a personal space to regroup, store materials, and gradually turn exploration progress into a real home base.",
-      "cards": [
-        {
-          "name": "Personal Qualia",
-          "description": "Unlocking a Qualia is an early milestone that gives you a more reliable place to return to while exploring the wider world."
-        },
-        {
-          "name": "Storage-First Building",
-          "description": "Many players start using their Qualia as a storage hub before turning it into a larger base with organized crafting and building space."
-        },
-        {
-          "name": "Creative Home Building",
-          "description": "Lucid Blocks supports creative building, and players are already using Qualia spaces to make houses and personalized layouts."
-        },
-        {
-          "name": "Progression Hub",
-          "description": "A strong base helps you separate exploration loot, crafting materials, seeds, tools, and mobility gear so your next upgrades are easier to plan."
-        }
-      ],
-      "highlights": [
-        "Enter a qualia",
-        "Store materials safely",
-        "Expand from utility to decoration",
-        "Use base space to support crafting and farming"
-      ]
-    },
-    "lucidBlocksWorldRegions": {
-      "title": "Lucid Blocks World Regions",
-      "displayType": "regionCards",
-      "intro": "Lucid Blocks uses infinite world generation, so players keep discovering new environments and structures. A few named places are already showing up in achievements and community discussions.",
-      "regions": [
-        {
-          "name": "Fog Meadow",
-          "type": "Community-Noted Area",
-          "description": "Fog Meadow is already known among players as a tense area associated with hidden threats and dangerous encounters."
-        },
-        {
-          "name": "Tiamana Leyline",
-          "type": "Discovery Landmark",
-          "description": "The tiamana leyline is important enough to have its own achievement milestone, making it one of the clearest named world discoveries so far."
-        },
-        {
-          "name": "Clonaqualia",
-          "type": "Build Space",
-          "description": "Players are already using Clonaqualia as a place to build houses, store materials, and experiment with more permanent layouts."
-        },
-        {
-          "name": "Essence Morass",
-          "type": "Farming Area",
-          "description": "Essence Morass is being shared by players as a useful farming location, especially for fighting slimes and gaining experience."
-        }
-      ]
-    },
-    "lucidBlocksCreaturesAndEnemies": {
-      "title": "Lucid Blocks Creatures and Enemies",
-      "displayType": "creatureCards",
-      "intro": "Lucid Blocks mixes surreal creatures with real danger. Official descriptions and community posts point to a world full of strange life, hostile threats, and a few standout encounters players remember quickly.",
-      "creatures": [
-        {
-          "name": "Manikins",
-          "role": "Hostile Enemy",
-          "description": "Manikins are one of the officially named foes in the world and part of the game's surreal threat roster."
-        },
-        {
-          "name": "Squishy Gels",
-          "role": "Hostile Enemy",
-          "description": "Squishy gels are another officially named enemy type and help define the game's strange biological style."
-        },
-        {
-          "name": "Higher-Dimensional Beings",
-          "role": "Hostile Enemy",
-          "description": "These beings are presented as part of the world's more abstract and unsettling enemy lineup."
-        },
-        {
-          "name": "Colossal Spiders",
-          "role": "Major Threat",
-          "description": "Spiders are one of the most immediately feared enemies in community discussions and are clearly a memorable danger."
-        },
-        {
-          "name": "Bubblebear",
-          "role": "Named Creature",
-          "description": "Bubblebear is notable enough to have its own achievement, which makes it one of the clearest named creature encounters in the game."
-        },
-        {
-          "name": "Cute Vermin",
-          "role": "Interactable Creature",
-          "description": "Vermin are not only part of fusion progression, they can also be renamed, giving them a more personal role than standard enemies."
-        },
-        {
-          "name": "Blasphemous Creature",
-          "role": "Elite Threat",
-          "description": "The blasphemous creature is tied to a dedicated combat achievement, marking it as a significant enemy encounter."
-        }
-      ]
-    },
-    "lucidBlocksMobilityGear": {
-      "title": "Lucid Blocks Mobility Gear",
-      "displayType": "itemCards",
-      "intro": "Movement upgrades are one of the biggest quality-of-life jumps in Lucid Blocks. Once you unlock your first traversal tools, exploration becomes faster, safer, and much more rewarding.",
-      "items": [
-        {
-          "name": "Hookshot",
-          "type": "Traversal Tool",
-          "description": "The hookshot is one of the clearest movement milestones in the game and has its own dedicated achievement."
-        },
-        {
-          "name": "Glider Glove",
-          "type": "Air Mobility",
-          "description": "The glider glove opens up much smoother travel and is another major progression milestone with its own achievement."
-        },
-        {
-          "name": "Bee Glider",
-          "type": "Traversal Tool",
-          "description": "Bee gliders are officially highlighted as part of the game's movement toolkit for covering space more efficiently."
-        },
-        {
-          "name": "Ball Wand",
-          "type": "Utility Gear",
-          "description": "Ball wands are one of the officially highlighted special tools and expand how you move through or interact with the world."
-        },
-        {
-          "name": "Scuba Diving Gear",
-          "type": "Exploration Gear",
-          "description": "Scuba diving gear is officially listed as part of the core utility set for reaching areas that would otherwise be harder to explore."
-        },
-        {
-          "name": "Explosives",
-          "type": "Utility Damage",
-          "description": "Explosives are both officially highlighted and linked to an achievement milestone, making them part of the game's core utility progression."
-        }
-      ],
-      "unlockMilestones": [
-        "Command a hookshot",
-        "Fly with the glider glove",
-        "Brandish a projectile wand",
-        "Brandish an explosive"
-      ]
-    },
-    "lucidBlocksFarmingAndGrowth": {
-      "title": "Lucid Blocks Farming and Growth",
-      "displayType": "mixedCards",
-      "intro": "Growth is part of real progression in Lucid Blocks. Farming is not only about planting and harvesting, but also about setting up repeatable material routes that keep your tools, weapons, and crafting options flowing.",
-      "sections": [
-        {
-          "name": "Seed Progression",
-          "description": "Planting and fertilizing seeds is a real milestone in the game, and harvesting a fully-grown nut is part of the same growth path."
-        },
-        {
-          "name": "Material Farming",
-          "description": "A practical early farming loop is creating Mercury Capsules, which spawn small slimes that drop Tendrils and goo for repeatable crafting materials."
-        },
-        {
-          "name": "Tool Sustain",
-          "description": "Resource farming becomes much stronger once you can consistently gather Osmium, glass shards, plants, and slime materials for follow-up crafts."
-        },
-        {
-          "name": "Base Routine",
-          "description": "The best farming setup supports more than food. It should feed your storage, movement tools, weapon upgrades, and future fusion experiments."
-        }
-      ],
-      "growthMilestones": [
-        "Fertilize a seed",
-        "Harvest a fully-grown nut",
-        "Create repeatable material loops",
-        "Turn farming into long-term progression"
-      ]
-    },
-    "lucidBlocksBestEarlyUnlocks": {
-      "title": "Lucid Blocks Best Early Unlocks",
-      "displayType": "priorityCards",
-      "intro": "The strongest early unlocks are the ones that improve safety, storage, and movement. In Lucid Blocks, a few practical upgrades can make the entire rest of the game much smoother.",
-      "priorities": [
-        {
-          "name": "Personal Qualia",
-          "priority": "Essential",
-          "description": "As soon as you get access to your personal Qualia, your run becomes much more stable. It acts as a reliable hub for storage, building, and regrouping."
-        },
-        {
-          "name": "Frost Pick",
-          "priority": "Very High",
-          "description": "A fast and cheap early mining tool made from Osmium and Stick. It is one of the most useful upgrades for accelerating early resource collection."
-        },
-        {
-          "name": "Cache Cube",
-          "priority": "Very High",
-          "description": "Storage pressure starts early, so getting your first dependable chest-style container is a major quality-of-life upgrade."
-        },
-        {
-          "name": "Hookshot",
-          "priority": "High",
-          "description": "The hookshot is one of the clearest movement milestones in the game and quickly makes exploration faster and safer."
-        },
-        {
-          "name": "Glider Glove",
-          "priority": "High",
-          "description": "The glider glove adds another major mobility boost and makes long-distance movement far more efficient."
-        },
-        {
-          "name": "Projectile Wand or Bombs",
-          "priority": "High",
-          "description": "A ranged tool or explosive option gives you a safer answer to dangerous enemies and trial-style encounters."
-        }
-      ]
-    },
-    "lucidBlocksAchievementTracker": {
-      "title": "Lucid Blocks Achievement Tracker",
-      "displayType": "achievementGrid",
-      "intro": "Lucid Blocks currently has 19 Steam achievements, and they naturally split into exploration, crafting, mobility, combat, and growth progression.",
-      "groups": [
-        {
-          "name": "Exploration",
-          "achievements": [
-            {
-              "title": "Angel α",
-              "description": "Enter a qualia."
-            },
-            {
-              "title": "Angel γ",
-              "description": "Discover a tiamana leyline."
-            },
-            {
-              "title": "Angel δ",
-              "description": "Overcome a tiamana challenge."
-            },
-            {
-              "title": "Angel ε",
-              "description": "Hidden achievement."
-            }
-          ]
-        },
-        {
-          "name": "Crafting and Summoning",
-          "achievements": [
-            {
-              "title": "Apotheosis α",
-              "description": "Fuse an item."
-            },
-            {
-              "title": "Apotheosis β",
-              "description": "Fuse a vermin."
-            },
-            {
-              "title": "Apotheosis γ",
-              "description": "Fuse a divine artifact."
-            },
-            {
-              "title": "Archangel β",
-              "description": "Summon your faith."
-            }
-          ]
-        },
-        {
-          "name": "Mobility and Utility",
-          "achievements": [
-            {
-              "title": "Virtue α",
-              "description": "Fly with the glider glove."
-            },
-            {
-              "title": "Virtue β",
-              "description": "Command a hookshot."
-            },
-            {
-              "title": "Archangel α",
-              "description": "Brandish a projectile wand."
-            },
-            {
-              "title": "Archangel γ",
-              "description": "Brandish an explosive."
-            }
-          ]
-        },
-        {
-          "name": "Combat and Creatures",
-          "achievements": [
-            {
-              "title": "Bubblebear Massacre",
-              "description": "Defeat innocent bubblebears."
-            },
-            {
-              "title": "Archangel δ",
-              "description": "Eliminate a blasphemous creature."
-            },
-            {
-              "title": "Angel β",
-              "description": "Die."
-            },
-            {
-              "title": "Dominion γ",
-              "description": "Rename a cute vermin."
-            }
-          ]
-        },
-        {
-          "name": "Growth and Farming",
-          "achievements": [
-            {
-              "title": "Dominion α",
-              "description": "Fertilize a seed."
-            },
-            {
-              "title": "Dominion β",
-              "description": "Harvest a fully-grown nut."
-            },
-            {
-              "title": "Dominion δ",
-              "description": "Hidden achievement."
-            }
-          ]
-        }
-      ]
-    },
-    "lucidBlocksSingleplayerAndPlatformFAQ": {
-      "title": "Lucid Blocks Singleplayer and Platform FAQ",
+    "falloutQuestsWalkthrough": {
+      "title": "Fallout New Vegas Remaster Quests Walkthrough",
       "displayType": "accordion",
-      "intro": "These are the core platform and access questions players keep asking before buying Lucid Blocks.",
+      "intro": "The Mojave is built around branching choices. This walkthrough organizes the main quest, the four major faction arcs, every companion storyline, and the most important side quests, with objectives, skill checks, missable rewards, and clearly marked spoilers.",
       "faqs": [
         {
-          "question": "Is Lucid Blocks singleplayer?",
-          "answer": "Yes. Lucid Blocks is a singleplayer game."
+          "question": "What is the main quest path to New Vegas?",
+          "answer": "The main quest starts in Goodsprings and runs through Primm, Nipton, Novac, and Boulder City before you reach the New Vegas Strip. Once inside, Ring-a-Ding-Ding! reunites you with Benny, after which the story branches into the four faction endgame arcs."
         },
         {
-          "question": "Is multiplayer or co-op planned?",
-          "answer": "No. Multiplayer is not planned for release or future updates."
+          "question": "How do the NCR faction quests work?",
+          "answer": "The New California Republic questline begins through Ambassador Crocker or Colonel Moore. The capstone mission For the Republic, for Democracy tasks you with securing Hoover Dam and eliminating rival factions, and your reputation with the NCR determines available missions and rewards."
         },
         {
-          "question": "Where can I play Lucid Blocks?",
-          "answer": "It is currently available on Steam for Windows."
+          "question": "What does the Caesar's Legion questline offer?",
+          "answer": "Caesar's Legion is joined through Vulpes Inculta or Lucius at The Fort. Render Unto Caesar sends you on a series of conquests east and west of the Colorado, ending with Veni, Vidi, Vici at Hoover Dam for a totalitarian Mojave."
         },
         {
-          "question": "How much does Lucid Blocks cost?",
-          "answer": "$9.99 on Steam."
+          "question": "How do I side with Mr. House?",
+          "answer": "Mr. House is contacted after meeting him in the Lucky 38. The House Always Wins chain asks you to neutralize the Brotherhood of Steel and secure the Securitron army, culminating in You'll Know It When It Happens and the defense of the dam."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the menus are not designed around it."
+          "question": "What is the Yes Man independent route?",
+          "answer": "Yes Man unlocks the Wild Card chain, letting the Courier seize control of New Vegas without any of the major factions. You upgrade the Securitron army, neutralize rival leaders, and finish with No Gods, No Masters for an independent Mojave."
         },
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 or 9.0.4 is the commonly recommended setup for Steam Deck."
+          "question": "Which companion quests should I not miss?",
+          "answer": "Every permanent companion has a personal quest triggered by travelling with them: Boone's One for My Baby, Cassidy's Heartache by the Number, Raul's Old School Ghoul, Veronica's I Could Make You Care, Arcade's For Auld Lang Syne, Lily's quiet triggers, ED-E My Love, and Rex's Nothin' But a Hound Dog."
         },
         {
-          "question": "Does Lucid Blocks work on Linux?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
-        },
-        {
-          "question": "Will Mac or Android be supported?",
-          "answer": "They may be supported in the future, but they are not current launch platforms."
-        },
-        {
-          "question": "Does Lucid Blocks have translations?",
-          "answer": "No. There are currently no translations planned."
-        },
-        {
-          "question": "Will Lucid Blocks keep getting updates?",
-          "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "question": "What are the most rewarding side quests?",
+          "answer": "Beyond the Beef at the Ultra-Luxe, Come Fly With Me at REPCONN Test Site, The Legend of the Star for Sunset Sarsaparilla caps, and the Goodsprings and Novac defense quests are all high-value side quests with strong loot, caps, and reputation rewards."
         }
       ]
     },
-    "lucidBlocksSteamDeckAndController": {
-      "title": "Lucid Blocks Steam Deck and Controller",
-      "displayType": "accordion",
-      "intro": "Lucid Blocks can run on Steam Deck, but the default setup may need adjustment. Keyboard and mouse remains the smoother option for menus and general play.",
-      "faqs": [
+    "falloutBuilds": {
+      "title": "Fallout New Vegas Remaster Builds",
+      "displayType": "tier-grid",
+      "intro": "Builds in the Mojave are driven by SPECIAL allocation, Tag Skills, Traits, and perk order. These recommended builds cover every major combat style plus a Hardcore survival specialist, each with the attributes and progression that make them work.",
+      "builds": [
         {
-          "question": "Does Lucid Blocks work on Steam Deck?",
-          "answer": "Yes. Proton 9.0 works well, and Proton 9.0.4 is a commonly shared fix for Steam Deck issues."
+          "name": "Guns Sniper",
+          "tier": "S",
+          "special": "AGI 8, PER 7, LCK 7",
+          "description": "Long-range stealth sniper built around Sneak, Guns, and crit perks like Better Criticals and Sniper. The Anti-Materiel Rifle and All-American scale hard with headshots from stealth."
         },
         {
-          "question": "What should I do if Steam Deck controls are not working?",
-          "answer": "Force compatibility and switch the game to Proton 9.0.4. The default configuration may not accept controller input correctly."
+          "name": "Energy Weapons",
+          "tier": "S",
+          "special": "INT 8, PER 6, LCK 6",
+          "description": "Plasma and laser powerhouse using the Q-35 Matter Modulator, Plasma Caster, and Pew-Pew. Tesla armor and Laser Commander push damage output to endgame levels."
         },
         {
-          "question": "Does Lucid Blocks support controllers?",
-          "answer": "Yes, but controller play is not recommended because the game's menus are not designed around it."
+          "name": "Melee Bruiser",
+          "tier": "A",
+          "special": "STR 9, END 8, LCK 6",
+          "description": "Close-quarters juggernaut with Super Sledge, Oh, Baby!, and Slayer. High Strength and Endurance feed damage, health, and the Stonewall and Unstoppable perks."
         },
         {
-          "question": "Is Linux support possible?",
-          "answer": "Yes. Proton 9.0 is reported to work well for Linux and Steam Deck."
+          "name": "Unarmed Brawler",
+          "tier": "A",
+          "special": "STR 8, END 9, AGI 7",
+          "description": "Ballistic Fist and Pushy build with Piercing Strike and Slayer for rapid knockdowns. Ninja and Unstoppable add stealth and crowd-control synergy."
         },
         {
-          "question": "What is the best input setup?",
-          "answer": "Keyboard and mouse is the smoothest option for menu navigation and general moment-to-moment play."
+          "name": "Explosives Demolitionist",
+          "tier": "A",
+          "special": "PER 6, INT 8, LCK 6",
+          "description": "Grenade Machine Gun, Mercy, and Annabelle with Demolition Expert and Heave, Ho!. Great against clustered enemies and Deathclaw packs."
+        },
+        {
+          "name": "Stealth and Speech Courier",
+          "tier": "A",
+          "special": "CHA 8, INT 8, AGI 7",
+          "description": "A pacifist-friendly build stacking Speech, Sneak, and Barter to talk and sneak through almost every quest, ideal for non-lethal and roleplay runs."
+        },
+        {
+          "name": "Hardcore Survivor",
+          "tier": "B",
+          "special": "END 8, INT 8, LCK 6",
+          "description": "Built for Hardcore Mode with high Survival for cooking, Lead Belly, and Chem Resistant. Turns food, water, and campfire recipes into a self-sustaining progression engine."
+        },
+        {
+          "name": "Jack-of-All-Trades",
+          "tier": "B",
+          "special": "INT 9, LCK 7, CHA 6",
+          "description": "A flexible generalist using Educated and Comprehension to keep most skills viable, perfect for a first playthrough that wants to sample every quest and weapon type."
         }
       ]
     },
-    "lucidBlocksSettingsAndAccessibility": {
-      "title": "Lucid Blocks Settings and Accessibility",
-      "displayType": "settingCards",
-      "intro": "Lucid Blocks already has a few practical settings and compatibility notes that matter immediately when players first launch the game.",
-      "settings": [
+    "falloutWeaponsAndGear": {
+      "title": "Fallout New Vegas Remaster Weapons and Gear",
+      "displayType": "table",
+      "intro": "Compare the strongest weapons, armor, ammunition, and unique equipment in the Mojave by damage, damage type, requirements, and where to find them. Use these recommendations to plan loadouts for early, mid, and late game.",
+      "rows": [
         {
-          "name": "Display Settings",
-          "type": "Comfort Option",
-          "description": "Display Settings includes an option that lets players hide the on-screen hands."
+          "name": "Anti-Materiel Rifle",
+          "category": "Guns",
+          "stat": "Very High",
+          "notes": ".50 MG sniper rifle, the strongest long-range option; buy from Gun Runners or NCR armories."
         },
         {
-          "name": "Graphics Compatibility",
-          "type": "System Requirement",
-          "description": "Vulkan support is required for the graphics to render properly. Systems without Vulkan can run into crashes and severe graphical glitches."
+          "name": "Brush Gun",
+          "category": "Guns",
+          "stat": "High",
+          "notes": ".45-70 lever-action rifle with high per-shot damage; great mid-to-late general weapon."
         },
         {
-          "name": "Input Preference",
-          "type": "Control Setup",
-          "description": "Controller support exists, but keyboard and mouse gives a smoother experience because menus are not built around controller use."
+          "name": "Plasma Caster",
+          "category": "Energy",
+          "stat": "Very High",
+          "notes": "Heavy plasma weapon with high DPS; pairs with Optimized and Max Charge ammo."
         },
         {
-          "name": "Language Support",
-          "type": "Localization",
-          "description": "The current setup is English-only, and no translations are planned right now."
+          "name": "Oh, Baby!",
+          "category": "Melee",
+          "stat": "Very High",
+          "notes": "Unique Super Sledge found in Charleston Cave on Jacobstown mountain."
+        },
+        {
+          "name": "Ballistic Fist",
+          "category": "Unarmed",
+          "stat": "High",
+          "notes": "Shotgun-gauntlet for unarmed builds; looted from Legionaries and Caesar's tent."
+        },
+        {
+          "name": "Grenade Machine Gun",
+          "category": "Explosive",
+          "stat": "Very High",
+          "notes": "Area-clearing splash weapon; sold by Gun Runners and Quartermaster Bardon."
+        },
+        {
+          "name": "T-51b Power Armor",
+          "category": "Armor",
+          "stat": "High DT",
+          "notes": "Top-tier power armor with high Damage Threshold; requires Power Armor Training."
+        },
+        {
+          "name": "Ranger Combat Armor",
+          "category": "Armor",
+          "stat": "Medium DT",
+          "notes": "Iconic NCR Veteran Ranger armor; great balance of protection without training."
+        },
+        {
+          "name": ".308 JSP Ammo",
+          "category": "Ammo",
+          "stat": "Bonus DMG",
+          "notes": "Hand-loaded ammo for sniper rifles; boosts damage at the cost of faster degradation."
+        },
+        {
+          "name": "Stealth Boy",
+          "category": "Gear",
+          "stat": "Utility",
+          "notes": "Consumable that grants invisibility; essential for stealth approaches and ambushes."
         }
       ]
     },
-    "lucidBlocksUpdatesAndPatchNotes": {
-      "title": "Lucid Blocks Updates and Patch Notes",
-      "displayType": "timeline",
-      "intro": "Lucid Blocks is already receiving quick post-launch fixes and small usability updates.",
-      "entries": [
+    "falloutCompanions": {
+      "title": "Fallout New Vegas Remaster Companions",
+      "displayType": "card-list",
+      "intro": "Up to two companions can travel with you at once, and each one brings a unique perk, combat style, and personal storyline. This guide covers every permanent companion, where to recruit them, and the choices that can permanently change their fate.",
+      "cards": [
         {
-          "title": "Update 2.8.2",
-          "type": "UI Update",
-          "description": "Renamed \"awaken\" to \"exit\" in the main menu."
+          "name": "Craig Boone",
+          "role": "Marksman",
+          "description": "A grieving NCR sniper recruited in Novac after solving One for My Baby. His Spotter perk tags enemies in VATS, and his quest unlocks one of three distinct endings."
         },
         {
-          "title": "Small Patch for Start-Up Crashes",
-          "type": "Hotfix",
-          "description": "A dedicated patch was released for players whose game was crashing on launch."
+          "name": "Rose of Sharon Cassidy",
+          "role": "Drifter",
+          "description": "Hardened caravan owner recruited at the Mojave Outpost after clearing her debt. Her Whiskey Rose perk boosts Damage Threshold and removes alcohol's negative effects."
         },
         {
-          "title": "Post-Launch Content Support",
-          "type": "Roadmap Note",
-          "description": "Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+          "name": "Raul Tejava",
+          "role": "Ghoul Mechanic",
+          "description": "A ghoul gunslinger freed from Black Mountain. His Regular Maintenance and Full Maintenance perks slow weapon and armor degradation, making him invaluable for long expeditions."
+        },
+        {
+          "name": "Veronica Santangelo",
+          "role": "Brotherhood Scribe",
+          "description": "Recruited at the 188 Trading Post. Her Scribe Assistant perk grants access to workbenches in the field, and her quest I Could Make You Care reshapes her ties to the Brotherhood."
+        },
+        {
+          "name": "Arcade Gannon",
+          "role": "Follower Doctor",
+          "description": "An idealistic Followers doctor recruited at the Old Mormon Fort. His Medical Informant perk boosts healing, and his quest For Auld Lang Syne ties directly into an Enclave endgame thread."
+        },
+        {
+          "name": "Lily Bowen",
+          "role": "Nightkin",
+          "description": "A gentle nightkin grandmother found in Jacobstown. Her Stealth Girl perk boosts Stealth Boys and melee sneak attacks, and her medication choices permanently affect her dialogue."
+        },
+        {
+          "name": "ED-E",
+          "role": "Eyebot",
+          "description": "A reactivated Enclave Eyebot recruited in Primm. Its sensors and combat buffs upgrade through ED-E My Love, and the chosen faction for the upgrade changes its final perk."
+        },
+        {
+          "name": "Rex",
+          "role": "Cyberdog",
+          "description": "The King's loyal cyberdog in Freeside, available after Nothin' But a Hound Dog. Transplanting a new brain changes his combat stats and quest-related Search and Rescue perk."
         }
       ]
     },
-    "lucidBlocksCrashFixAndTroubleshooting": {
-      "title": "Lucid Blocks Crash Fix and Troubleshooting",
-      "displayType": "steps",
-      "intro": "Most immediate launch and crash issues should be checked in a simple order: patch level, graphics support, platform compatibility, and logs.",
-      "steps": [
+    "falloutFactions": {
+      "title": "Fallout New Vegas Remaster Factions",
+      "displayType": "card-list",
+      "intro": "Who controls New Vegas is the central question of the Mojave. Understand the four major factions and the minor powers, how reputation works, what each alliance demands, and which decisions lock you out of rival endings.",
+      "cards": [
         {
-          "title": "Install the Latest Crash Hotfix",
-          "description": "If the game is crashing on start, update first and test again with the latest start-up crash patch."
+          "name": "New California Republic (NCR)",
+          "role": "Major Faction",
+          "description": "A sprawling democratic republic striving to restore order and claim Hoover Dam's power. Allied through Ambassador Crocker or Colonel Moore, the NCR values law, taxes, and military expansion across the Mojave."
         },
         {
-          "title": "Check Vulkan Support",
-          "description": "Lucid Blocks requires Vulkan support. Systems without Vulkan can suffer from crashes or major rendering problems."
+          "name": "Caesar's Legion",
+          "role": "Major Faction",
+          "description": "A brutal slave army modeling itself on Rome, massing east of the Colorado River. Joined through The Fort, the Legion rejects technology and democracy in favor of conquest and absolute order."
         },
         {
-          "title": "Use Proton 9.0.4 on Steam Deck",
-          "description": "If Steam Deck input or launch behavior is broken, force compatibility and switch to Proton 9.0.4."
+          "name": "Mr. House",
+          "role": "Major Faction",
+          "description": "The reclusive techno-autocrat who rules the New Vegas Strip through his Securitron army. Siding with House means preserving his vision of an independent, ordered Vegas under his singular control."
         },
         {
-          "title": "Collect Crash Logs",
-          "description": "Open Windows Run, paste %APPDATA%, go to lucid blocks/logs, and gather the .txt files for troubleshooting."
+          "name": "Yes Man (Independent)",
+          "role": "Major Faction",
+          "description": "A reprogrammed Securitron that lets the Courier seize New Vegas personally. The Wild Card chain frees you from every major faction and ends with an independent Mojave ruled by your decisions."
         },
         {
-          "title": "Report the Issue Properly",
-          "description": "Share the logs and device details through the official Discord bug-reports forum or on the Steam community page."
+          "name": "Great Khans",
+          "role": "Minor Faction",
+          "description": "A nomadic warrior tribe based at Red Rock Canyon, allied with the Legion by circumstance. Your actions can redirect their fate across several endings tied to their drug trade and history."
+        },
+        {
+          "name": "Brotherhood of Steel",
+          "role": "Minor Faction",
+          "description": "A remnant chapter hidden in the Hidden Valley bunker, hoarding pre-war technology. Their strict codes and isolation make them a reluctant ally or a target depending on your faction path."
+        },
+        {
+          "name": "Followers of the Apocalypse",
+          "role": "Minor Faction",
+          "description": "A humanitarian research group providing medicine and education from the Old Mormon Fort. They hold no military power but quietly shape the Mojave through knowledge and Arcade Gannon."
+        },
+        {
+          "name": "Boomers",
+          "role": "Minor Faction",
+          "description": "Artillery-obsessed isolationists at Nellis Air Force Base. Earning their trust through Volare! grants access to howitzer support and their aid in the final battle for the dam."
+        }
+      ]
+    },
+    "falloutMods": {
+      "title": "Fallout New Vegas Remaster Mods",
+      "displayType": "card-list",
+      "intro": "Modding keeps the Mojave stable, beautiful, and endlessly replayable. These recommendations cover the essential stability fixes, performance and interface upgrades, visual overhauls, gameplay expansions, and the load-order basics that protect your saves.",
+      "cards": [
+        {
+          "name": "New Vegas Script Extender (NVSE)",
+          "role": "Core Requirement",
+          "description": "The foundation that most New Vegas mods depend on. Install it first, as countless gameplay and UI mods require the extra script functions NVSE provides."
+        },
+        {
+          "name": "New Vegas Anti-Crash (NVAC)",
+          "role": "Stability Fix",
+          "description": "A memory and engine patch that prevents the most common random crashes. Pair it with the 4GB large-address-aware patch for smoother long sessions."
+        },
+        {
+          "name": "YUP - Unofficial Patch",
+          "role": "Bug Fixes",
+          "description": "A community-maintained bug-fix patch that corrects thousands of quest, item, and gameplay errors without changing the intended balance or content."
+        },
+        {
+          "name": "User Interface Mods",
+          "role": "UI Upgrade",
+          "description": "Mods like Darnified UI, MTUI, and the Mod Configuration Menu clean up fonts, lists, and settings access, making menus readable and mod options reachable."
+        },
+        {
+          "name": "Texture and Lighting Mods",
+          "role": "Visual Overhaul",
+          "description": "NMC's Texture Pack, Poco Bueno, and ENB or ReShade presets dramatically upgrade terrain, buildings, and lighting while keeping the Mojave's desaturated wasteland tone."
+        },
+        {
+          "name": "Project Nevada",
+          "role": "Gameplay Overhaul",
+          "description": "A modular overhaul adding sprint, bullet time, visors, grenades, and rebalanced implants. Each module can be toggled to match how much you want to change the base game."
+        },
+        {
+          "name": "Content and Quest Mods",
+          "role": "New Content",
+          "description": "Expansions like The Someguy Series, New Vegas Bounties, and New California add fully voiced quests, companions, and map areas that extend the Mojave far beyond the base game."
+        },
+        {
+          "name": "Mod Organizer 2",
+          "role": "Load Order Tool",
+          "description": "A profile-based mod manager that keeps your load order and installs isolated per profile, letting you test setups safely without overwriting your clean save files."
+        }
+      ]
+    },
+    "falloutLocations": {
+      "title": "Fallout New Vegas Remaster Locations",
+      "displayType": "card-list",
+      "intro": "The Mojave is dense with settlements, vaults, military sites, casinos, and hidden landmarks. This regional guide highlights the quests, vendors, unique loot, skill books, and fast-travel points waiting at each major location.",
+      "cards": [
+        {
+          "name": "New Vegas Strip",
+          "role": "Settlement",
+          "description": "The glittering heart of the Mojave, home to the Tops, Gomorrah, and the Ultra-Luxe casinos, the Lucky 38, and Mr. House. Entry requires a pass, 2,000 caps, or a high Science check."
+        },
+        {
+          "name": "Goodsprings",
+          "role": "Starting Town",
+          "description": "Your starting settlement and tutorial hub. Doc Mitchell, Chet's store, and the Goodsprings Source are here, and defending the town in Ghost Town Gunfight sets your early reputation tone."
+        },
+        {
+          "name": "Hoover Dam",
+          "role": "Military Site",
+          "description": "The strategic prize of the Mojave that powers New Vegas and the NCR. The dam hosts the final battle for every faction's endgame, plus heavy weapons and armor from Quartermaster Bardon."
+        },
+        {
+          "name": "Vault 22",
+          "role": "Vault",
+          "description": "An overgrown vault overrun by mutated spore plants and carriers. Keely's research and the quest Bleed Me Dry lead here, and the flame weapons inside counter its spore threats."
+        },
+        {
+          "name": "HELIOS One",
+          "role": "Military Site",
+          "description": "A pre-war solar power plant controlled by the NCR. That Lucky Old Sun lets you redirect its power and decide the fate of the ARCHIMEMES weapon test."
+        },
+        {
+          "name": "The Fort",
+          "role": "Military Site",
+          "description": "Caesar's fortified camp across the Colorado River, reachable by Cottonwood Cove. It houses the weathered Securitron vault and Caesar's tent, central to the Legion questline."
+        },
+        {
+          "name": "Jacobstown",
+          "role": "Settlement",
+          "description": "A mountain resort refuge for super mutants led by Marcus. It ties into Lily's recruitment, the Charleston Cave unique melee weapon, and the Nightkin cure quest."
+        },
+        {
+          "name": "Black Mountain",
+          "role": "Military Site",
+          "description": "A broadcasting stronghold held by Tabitha's super mutants and nightkin. Clearing it recruits Raul Tejada and unlocks the strongest unique weapon options nearby."
         }
       ]
     }
@@ -749,31 +490,31 @@
   "faq": {
     "title": "Frequently Asked",
     "titleHighlight": "Questions",
-    "subtitle": "Everything you need to know about Lucid Blocks",
+    "subtitle": "Everything you need to know about Fallout New Vegas Remaster",
     "questions": [
       {
-        "question": "Is Lucid Blocks a singleplayer game?",
-        "answer": "Yes. Lucid Blocks is a singleplayer-only game with no multiplayer or co-op planned."
+        "question": "What is Fallout New Vegas Remaster?",
+        "answer": "Fallout New Vegas Remaster is the refined modern edition of Obsidian's 2010 post-apocalyptic RPG, returning players to the Mojave Wasteland with upgraded visuals and the full quest, faction, companion, and modding depth of the original."
       },
       {
-        "question": "What is the Apotheosis system in Lucid Blocks?",
-        "answer": "Apotheosis is Lucid Blocks' freeform fusion crafting system. Instead of following fixed recipes, you combine materials and discover your own crafting paths."
+        "question": "Which factions can you join in Fallout New Vegas Remaster?",
+        "answer": "Fallout New Vegas Remaster offers four major factions: the NCR, Caesar's Legion, Mr. House, and the Yes Man independent route. Each faction has its own questline and a distinct ending decided at Hoover Dam."
       },
       {
-        "question": "Where can I play Lucid Blocks?",
-        "answer": "Lucid Blocks is currently available on Steam for Windows. Linux and Steam Deck support is available through Proton 9.0."
+        "question": "Does Fallout New Vegas Remaster include Hardcore Mode?",
+        "answer": "Yes. Fallout New Vegas Remaster keeps Hardcore Mode, adding dehydration, starvation, sleep, and ammo weight for players who want a more demanding survival experience and its dedicated achievement."
       },
       {
-        "question": "How much does Lucid Blocks cost?",
-        "answer": "Lucid Blocks costs $9.99 on Steam."
+        "question": "How many companions are in Fallout New Vegas Remaster?",
+        "answer": "Fallout New Vegas Remaster has eight permanent companions, including Boone, Cassidy, Raul, Veronica, Arcade, Lily, ED-E, and Rex, each with recruitment requirements, a personal quest, and a unique perk."
       },
       {
-        "question": "Does Lucid Blocks support controllers?",
-        "answer": "Yes, but controller play is not recommended because the menus are not designed around it. Keyboard and mouse is the smoother option."
+        "question": "Are mods compatible with Fallout New Vegas Remaster?",
+        "answer": "Yes. Fallout New Vegas Remaster supports the established modding ecosystem, with stability fixes, UI upgrades, visual overhauls, and gameplay mods installed through NVSE and Mod Organizer 2."
       },
       {
-        "question": "Will Lucid Blocks receive updates?",
-        "answer": "Yes. Some content updates are planned after release, but they are not intended to continue on an indefinite regular schedule."
+        "question": "Where can I get Fallout New Vegas Remaster?",
+        "answer": "Fallout New Vegas Remaster is available through Steam and official Bethesda channels, with the official add-ons Dead Money, Honest Hearts, Old World Blues, and Lonesome Road included in the Ultimate edition."
       }
     ]
   },
@@ -802,121 +543,121 @@
   },
   "pages": {
     "guides": {
-      "title": "Lucid Blocks Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced Apotheosis strategies. Master survival and crafting.",
-      "metaTitle": "Lucid Blocks Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Lucid Blocks guides covering beginner tips, Apotheosis system, survival strategies, and expert tactics for mastering the surreal sandbox.",
+      "title": "Fallout New Vegas Remaster Guides",
+      "description": "Complete gameplay guides from beginner basics to advanced faction strategies. Master the Mojave Wasteland.",
+      "metaTitle": "Fallout New Vegas Remaster Guides - Beginner to Advanced Strategies",
+      "metaDescription": "Complete Fallout New Vegas Remaster guides covering beginner tips, SPECIAL builds, faction choices, companion quests, and expert tactics for the Mojave.",
       "categoryLabel": "GAME GUIDES",
       "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, survival strategies, and the Apotheosis crafting system. Learn everything from first steps to advanced techniques.",
+      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, SPECIAL and skills, faction choices, and the Hardcore survival system. Learn everything from first steps to advanced techniques.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand the Apotheosis system and avoid common beginner mistakes",
+        "step1Description": "Understand SPECIAL, skills, perks, and reputation to avoid beginner mistakes",
         "step2Title": "Fast Progression",
-        "step2Description": "Follow proven paths to survive and thrive in the surreal world",
+        "step2Description": "Follow proven routes to survive and thrive across the Mojave",
         "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for exploration and crafting"
+        "step3Description": "Develop advanced tactics for quests, combat, and faction endings"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
     "crafting": {
-      "title": "Lucid Blocks Crafting",
-      "description": "Master the Apotheosis fusion system with essence mechanics, recipes, and crafting strategies for powerful items.",
-      "metaTitle": "Lucid Blocks Crafting - Apotheosis System & Recipes",
-      "metaDescription": "Master Lucid Blocks Apotheosis crafting system. Learn essence mechanics, fusion recipes, and strategies for creating powerful tools and weapons.",
+      "title": "Fallout New Vegas Remaster Crafting",
+      "description": "Master workbench, reloading bench, and campfire crafting with recipes, ammo types, and survival strategies.",
+      "metaTitle": "Fallout New Vegas Remaster Crafting - Recipes & Workbench Guide",
+      "metaDescription": "Master Fallout New Vegas Remaster crafting. Learn workbench recipes, hand-loaded ammo, campfire food, and strategies for powerful weapons and consumables.",
       "categoryLabel": "CRAFTING SYSTEM",
       "whatIs": "What is Crafting?",
-      "whatIsDescription": "The Apotheosis system is a unique essence-driven fusion mechanic where you combine up to six items to discover new recipes. No fixed crafting menus—experimentation is key.",
+      "whatIsDescription": "The crafting system spans workbenches for weapons, reloading benches for ammunition, and campfires for food and chems. Skill levels and perks unlock stronger recipes and materials.",
       "why": "Why master crafting?",
       "whySteps": {
         "step1Title": "Unlock Powerful Items",
-        "step1Description": "Discover essential tools, weapons, and mobility gear through fusion",
-        "step2Title": "Understand Essences",
-        "step2Description": "Learn how item essences combine to create predictable results",
+        "step1Description": "Craft weapon mods, hand-loaded ammo, and powerful consumables",
+        "step2Title": "Understand Materials",
+        "step2Description": "Learn how scrap, components, and ammo cases combine into useful gear",
         "step3Title": "Optimize Resources",
-        "step3Description": "Use dilution mechanics to maximize output from cheap materials"
+        "step3Description": "Turn junk and loot into sustainable caps, food, and combat supplies"
       },
       "featured": "Featured & Essential",
       "all": "All Crafting Guides"
     },
     "items": {
-      "title": "Lucid Blocks Items",
-      "description": "Detailed item guides covering tools, weapons, mobility gear, and storage solutions with crafting recipes and usage tips.",
-      "metaTitle": "Lucid Blocks Items - Tools, Weapons & Gear Guide",
-      "metaDescription": "Complete item database for Lucid Blocks including tools, weapons, mobility gear, and storage. Learn how to craft and use every item effectively.",
+      "title": "Fallout New Vegas Remaster Items",
+      "description": "Detailed item guides covering weapons, armor, ammo, consumables, and unique equipment with stats and usage tips.",
+      "metaTitle": "Fallout New Vegas Remaster Items - Weapons, Armor & Gear Guide",
+      "metaDescription": "Complete item database for Fallout New Vegas Remaster including weapons, armor, ammo, and unique gear. Learn where to find and how to use every item effectively.",
       "categoryLabel": "ITEMS & EQUIPMENT",
       "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for tools, weapons, mobility gear, and functional items. Learn crafting recipes, usage strategies, and optimal combinations.",
+      "whatIsDescription": "Comprehensive guides for weapons, armor, ammunition, consumables, and unique equipment. Learn stats, locations, and optimal loadouts for each stage of the game.",
       "why": "Why check item guides?",
       "whySteps": {
-        "step1Title": "Learn Crafting Recipes",
-        "step1Description": "Discover how to craft essential tools and weapons using Apotheosis",
+        "step1Title": "Find the Best Gear",
+        "step1Description": "Discover where to loot and buy the strongest weapons and armor",
         "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your playstyle and progression stage",
+        "step2Description": "Choose the best items for your build and progression stage",
         "step3Title": "Improve Survival",
-        "step3Description": "Equip mobility gear and weapons to navigate the dangerous world"
+        "step3Description": "Equip consumables, stealth gear, and armor to survive the wasteland"
       },
       "featured": "Featured & Essential",
       "all": "All Items"
     },
     "biomes": {
-      "title": "Lucid Blocks Biomes",
-      "description": "Explore world regions, environmental features, resource locations, and survival tips for each biome.",
-      "metaTitle": "Lucid Blocks Biomes - World Regions & Exploration",
-      "metaDescription": "Explore Lucid Blocks biomes including Tiamana Leylines, Fog Meadow, and surreal regions. Find resources, avoid dangers, and navigate the infinite world.",
-      "categoryLabel": "WORLD REGIONS",
-      "whatIs": "What are Biomes?",
-      "whatIsDescription": "Guides to different world regions, environmental features, resource distribution, and danger zones. Learn what to expect and how to prepare for each area.",
-      "why": "Why explore biomes?",
+      "title": "Fallout New Vegas Remaster Locations",
+      "description": "Explore Mojave regions, settlements, vaults, landmarks, and resource locations with survival tips.",
+      "metaTitle": "Fallout New Vegas Remaster Locations - Map, Vaults & Landmarks",
+      "metaDescription": "Explore Fallout New Vegas Remaster locations including the Strip, Hoover Dam, vaults, casinos, and hidden landmarks. Find quests, loot, and fast-travel points.",
+      "categoryLabel": "WORLD LOCATIONS",
+      "whatIs": "What are Locations?",
+      "whatIsDescription": "Guides to the Mojave's settlements, vaults, military sites, casinos, caves, and landmarks. Learn what quests, vendors, and loot to expect at each area.",
+      "why": "Why explore locations?",
       "whySteps": {
         "step1Title": "Find Resources",
-        "step1Description": "Locate rare materials and essences specific to each region",
+        "step1Description": "Locate skill books, unique weapons, and rare loot in each region",
         "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile creatures",
+        "step2Description": "Understand environmental hazards and hostile factions by area",
         "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right tools and gear for each biome type"
+        "step3Description": "Prepare the right gear and fast-travel routes for each zone"
       },
       "featured": "Featured & Essential",
-      "all": "All Biomes"
+      "all": "All Locations"
     },
     "building": {
-      "title": "Lucid Blocks Building",
-      "description": "Master Qualia personal dimensions, base building, storage management, and creative construction techniques.",
-      "metaTitle": "Lucid Blocks Building - Qualia & Base Construction",
-      "metaDescription": "Master Lucid Blocks building with Qualia personal dimensions, base construction, storage solutions, and creative building techniques.",
-      "categoryLabel": "BUILDING & BASES",
-      "whatIs": "What is Building?",
-      "whatIsDescription": "Guides to the Qualia personal dimension system, base construction, storage management, and creative building. Learn to create your safe haven in the surreal world.",
-      "why": "Why build bases?",
+      "title": "Fallout New Vegas Remaster Builds",
+      "description": "Master SPECIAL builds, Tag Skills, Traits, perks, and combat playstyles for every stage of the game.",
+      "metaTitle": "Fallout New Vegas Remaster Builds - SPECIAL, Perks & Playstyles",
+      "metaDescription": "Master Fallout New Vegas Remaster builds with SPECIAL allocation, Tag Skills, Traits, perks, and playstyle guides for guns, energy, melee, stealth, and Hardcore.",
+      "categoryLabel": "BUILDS & PERKS",
+      "whatIs": "What are Builds?",
+      "whatIsDescription": "Guides to SPECIAL attributes, Tag Skills, Traits, perk order, and combat playstyles. Learn to create optimized characters for guns, energy, melee, stealth, and Hardcore runs.",
+      "why": "Why plan builds?",
       "whySteps": {
-        "step1Title": "Create Safe Spaces",
-        "step1Description": "Establish secure bases for storage and crafting operations",
+        "step1Title": "Create Strong Characters",
+        "step1Description": "Allocate SPECIAL and Tag Skills to match your playstyle",
         "step2Title": "Manage Resources",
-        "step2Description": "Organize materials efficiently with storage solutions",
-        "step3Title": "Unlock Qualia",
-        "step3Description": "Access personal pocket dimensions for ultimate convenience"
+        "step2Description": "Choose perks that compound into endgame power",
+        "step3Title": "Master Playstyles",
+        "step3Description": "Specialize in combat, stealth, or speech for unique quest paths"
       },
       "featured": "Featured & Essential",
-      "all": "All Building Guides"
+      "all": "All Build Guides"
     },
     "support": {
-      "title": "Lucid Blocks Support",
-      "description": "Technical support, platform compatibility, performance optimization, and troubleshooting for common issues.",
-      "metaTitle": "Lucid Blocks Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Lucid Blocks including Steam Deck setup, crash fixes, performance optimization, and platform compatibility guides.",
+      "title": "Fallout New Vegas Remaster Support",
+      "description": "Technical support, platform setup, performance optimization, and modding troubleshooting for common issues.",
+      "metaTitle": "Fallout New Vegas Remaster Support - Tech Help & Mods",
+      "metaDescription": "Get technical support for Fallout New Vegas Remaster including NVSE setup, mod load order, crash fixes, performance optimization, and platform guides.",
       "categoryLabel": "TECHNICAL SUPPORT",
       "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, crash fixes, and common issues. Get help with Steam Deck, multiplayer questions, and settings.",
+      "whatIsDescription": "Technical guides covering platform setup, performance optimization, crash fixes, and modding. Get help with NVSE, Mod Organizer 2, load order, and settings.",
       "why": "Why check support?",
       "whySteps": {
         "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
+        "step1Description": "Resolve crashes, performance problems, and mod conflicts",
         "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for best experience on your platform",
+        "step2Description": "Configure settings and mods for the best experience on your platform",
         "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Steam Deck, controller support, and system requirements"
+        "step3Description": "Learn about Windows, Steam Deck, Linux, and controller setup"
       },
       "featured": "Featured & Essential",
       "all": "All Support Articles"
