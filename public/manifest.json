@@ -1,11 +1,11 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Fallout New Vegas Remaster Wiki - Quests, Builds & Mods",
+  "short_name": "Fallout NV Remaster",
+  "description": "Fallout: New Vegas Remaster Wiki covers quests, factions, companions, builds, weapons, Hardcore Mode, locations, endings, and modding guides for the Mojave Wasteland remaster.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
+  "theme_color": "#a7761b",
   "background_color": "#0a0a0a",
   "icons": [
     {
