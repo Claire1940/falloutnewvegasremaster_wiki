@@ -1,0 +1,185 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fallout New Vegas Script Extender: Installationsanleitung 2026",
+  description: "Erfahren Sie, wie Sie den Fallout New Vegas Script Extender (xNVSE) installieren und konfigurieren, um fortgeschrittene Mods zu aktivieren, die Stabilität zu verbessern und Ihr Spiel zu patchen.",
+  category: "Anleitung",
+  image: "https://placehold.co/800x400/1e293b/fff?text=NVSE+Setup+Guide",
+  date: "2026-07-18",
+  author: "Fallout New Vegas Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Kern-Utility**: Der **Fallout New Vegas Script Extender** (NVSE) erweitert die Scripting-Funktionen, sodass komplexe Mods ausgeführt werden können.
+- **Moderne Version**: Verwenden Sie den von der Community gepflegten **xNVSE**-Fork für aktuelle Kompatibilität und Fehlerbehebungen im Jahr 2026.
+- **Wichtige Voraussetzung**: Für eine ordnungsgemäße Funktion müssen Sie das **Visual C++ Redistributable** und den **4GB-Patch** installieren.
+- **Mod-Manager**: Die Verwendung von **Mod Organizer 2** wird dringend empfohlen, um Ihr gemoddetes Spiel zu verwalten und zu starten.
+- **Überprüfung**: Führen Sie im Spiel den Konsolenbefehl **GetNVSEVersion** aus, um zu bestätigen, dass die Installation aktiv ist.
+</Callout>
+
+<Section icon={Shield} title="Wichtige Voraussetzungen für die Installation">
+
+Das Modden von Bethesda-Spielen erfordert ein solides Fundament, um Abstürze zu verhindern und Kompatibilität zu gewährleisten. Die moderne, von der Community gepflegte Version des Script Extenders, bekannt als xNVSE, benötigt einige Hilfswerkzeuge, um korrekt zu funktionieren. Bevor Sie den Script Extender selbst herunterladen, müssen Sie die erforderlichen Archiv-Entpackungswerkzeuge und Systembibliotheken einrichten.
+
+**Video-Highlights:**
+- Erfahren Sie, wie Sie 7-Zip zum Entpacken von Mod-Archiven herunterladen und installieren.
+- Verstehen Sie die Notwendigkeit des Visual C++ Redistributable-Pakets.
+- Finden Sie heraus, wie Sie Ihre lokalen Spieldateien über Steam finden.
+- Sehen Sie sich den Prozess zur Anwendung des 4GB-Executable-Patches an.
+
+<YouTubeEmbed videoId="4zzTtdE9LII" title="Die ultimative Anleitung zur Installation von NVSE für Fallout New Vegas!" />
+
+Um Ihr System auf den **Fallout New Vegas Script Extender** vorzubereiten, müssen Sie drei primäre Abhängigkeiten herunterladen und installieren. Diese stellen sicher, dass Ihr Windows-Betriebssystem den vom Extender injizierten benutzerdefinierten Code ausführen kann.
+
+| Tool | Zweck | Quelltyp |
+| --- | --- | --- |
+| **7-Zip** | Entpackt komprimierte .7z- und .zip-Mod-Archive | Dienstprogramm |
+| **Visual C++ Redistributable** | Stellt Laufzeitbibliotheken bereit, die für das moderne xNVSE erforderlich sind | Systembibliothek |
+| **4GB-Patch** | Ermöglicht dem Spiel, 4 GB RAM anstelle von 2 GB zu nutzen | Ausführbarer Patch |
+
+Laden Sie zuerst 7-Zip herunter und installieren Sie es, um das Entpacken von Dateien zu ermöglichen. Laden Sie als Nächstes die neuesten Laufzeitbibliotheken herunter. Viele Benutzer erleben sofortige Abstürze, weil ihnen die erforderlichen Microsoft-Bibliotheken fehlen.
+
+<Callout type="warning" title="Systembibliothek-Anforderung">
+Sie müssen das [Microsoft Visual C++ Redistributable](https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist) installieren, bevor Sie den Script Extender starten. Ohne dieses Paket kann der Game Loader die benutzerdefinierten Skriptbibliotheken nicht in den Spielprozess injizieren, was zu einem Absturz ohne Fehlermeldung beim Start führt.
+</Callout>
+
+Laden Sie schließlich das 4GB-Patch-Dienstprogramm herunter. Moderne Betriebssysteme beschränken ältere 32-Bit-Anwendungen auf 2 GB virtuellen Speicher. Der Patch modifiziert die ausführbare Datei des Spiels, um 4 GB Adressraum zu verwalten, was Abstürze aufgrund von Speichermangel verhindert, wenn hochauflösende Texturen oder schwere Skript-Mods verwendet werden.
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Einrichtung des Fallout New Vegas Script Extenders">
+
+Sobald die erforderlichen Dateien bereitstehen, können Sie mit der manuellen Installation des **Fallout New Vegas Script Extenders** fortfahren. Der Installationsprozess beinhaltet das Platzieren der Dateien direkt im Stammverzeichnis Ihrer Spielinstallation und nicht im Data-Ordner, in dem sich Standard-Mods befinden.
+
+<Steps>
+  <Step num="1" title="Spielverzeichnis finden">
+    Öffnen Sie Ihren Game-Launcher (z. B. Steam). Klicken Sie mit der rechten Maustaste auf das Spiel in Ihrer Bibliothek, wählen Sie „Verwalten“ und klicken Sie auf „Lokale Dateien durchsuchen“. Dadurch wird der Stammordner geöffnet, der die Hauptdateien des Spiels enthält.
+  </Step>
+  <Step num="2" title="NVSE-Dateien entpacken">
+    Öffnen Sie das heruntergeladene Archiv des Script Extenders mit 7-Zip. Wählen Sie alle Dateien im Archiv aus (insbesondere die Loader- und DLL-Dateien) und ziehen Sie sie direkt in das Stammverzeichnis.
+  </Step>
+  <Step num="3" title="4GB-Patch anwenden">
+    Laden Sie das Dienstprogramm [FNV 4GB Patch](https://www.nexusmods.com/newvegas/mods/62552) herunter. Entpacken Sie die ausführbare Datei in dasselbe Stammverzeichnis. Klicken Sie mit der rechten Maustaste auf die Patch-Datei, wählen Sie „Als Administrator ausführen“ und drücken Sie eine beliebige Taste, wenn die Konsole bestätigt, dass der Patch abgeschlossen ist.
+  </Step>
+  <Step num="4" title="Launcher konfigurieren">
+    Der 4GB-Patch konfiguriert das Spiel automatisch so, dass der Script Extender beim Starten der Standard-EXE-Datei geladen wird. Sie müssen die alte Loader-Anwendung nicht verwenden, um das Spiel zu starten.
+  </Step>
+</Steps>
+
+Es ist wichtig, die Dateien im richtigen Verzeichnis zu platzieren. Beachten Sie die folgende Zuordnung der Verzeichnisstruktur, um sicherzustellen, dass Ihre Dateien korrekt platziert sind.
+
+| Dateiname | Zielverzeichnis | Dateityp |
+| --- | --- | --- |
+| **nvse_loader.exe** | Stammordner (wo sich FalloutNV.exe befindet) | Ausführbare Datei |
+| **nvse_1_4.dll** | Stammordner (wo sich FalloutNV.exe befindet) | Bibliothek |
+| **nvse_steam_loader.dll** | Stammordner (wo sich FalloutNV.exe befindet) | Bibliothek |
+| **FNVPatch.exe** | Stammordner (wo sich FalloutNV.exe befindet) | Ausführbarer Patcher |
+
+<Callout type="info" title="Verzeichnisüberprüfung">
+Stellen Sie sicher, dass die Dateien des Script Extenders im Hauptverzeichnis platziert sind, das die ausführbare Datei des Spiels enthält, und nicht im Data-Ordner. Das Platzieren dieser Dateien im Data-Ordner verhindert das Laden des Script Extenders.
+</Callout>
+
+Wenn Sie die GOG-Version des Spiels verwenden, ist die ausführbare Datei bereits so gepatcht, dass sie standardmäßig 4 GB RAM unterstützt. Es wird jedoch empfohlen, das manuelle Patcher-Dienstprogramm dennoch auszuführen, um sicherzustellen, dass sich der Loader des Script Extenders korrekt in die Startroutine einklinkt.
+
+</Section>
+
+<Section icon={Sparkles} title="Überprüfung der Installation und Einrichtung des Mod-Managers">
+
+Nach dem Kopieren der Dateien müssen Sie überprüfen, ob der Script Extender in der Spiel-Engine korrekt ausgeführt wird. Sie können dies überprüfen, indem Sie die Entwicklerkonsole öffnen. Darüber hinaus sollten Sie Ihren Mod-Manager so konfigurieren, dass er den Script Extender erkennt.
+
+Um die Installation zu überprüfen, starten Sie das Spiel und drücken Sie die Tilde-Taste (~) auf Ihrer Tastatur, um die Entwicklerkonsole zu öffnen. Geben Sie den Befehl `GetNVSEVersion` ein und drücken Sie die Eingabetaste. Die Konsole sollte die aktive Versionsnummer zurückgeben. Wenn ein Fehler ausgegeben wird, dass der Befehl nicht gefunden wurde, sind die Dateien nicht im richtigen Verzeichnis installiert.
+
+<CardGrid cols={3}>
+  <Card title="Mod Organizer 2">
+    - **Isoliertes virtuelles Dateisystem**
+    - Hält den Stammordner sauber
+    - Beste Wahl für komplexe Setups
+  </Card>
+  <Card title="Vortex Manager">
+    - **Hardlink-Bereitstellungssystem**
+    - Einsteigerfreundliche Benutzeroberfläche
+    - Gut für einfache Mod-Listen
+  </Card>
+  <Card title="Manuelle Verwaltung">
+    - **Keine virtuelle Dateiisolation**
+    - Hohes Risiko des Überschreibens von Dateien
+    - Für große Listen absolut nicht empfohlen
+  </Card>
+</CardGrid>
+
+Für die Verwaltung von Mods wird Mod Organizer 2 empfohlen. Er verwendet ein virtuelles Dateisystem, das Ihr Spielverzeichnis sauber hält und verhindert, dass Mods die Dateien des Basisspiels dauerhaft überschreiben.
+
+<Callout type="tip" title="Konfiguration von Mod Organizer 2">
+Wenn Sie Mod Organizer 2 verwenden, starten Sie das Spiel immer über die Option für die gepatchte ausführbare Datei, die im Manager konfiguriert ist. Stellen Sie sicher, dass der Programmpfad direkt auf die gepatchte ausführbare Datei im Stammverzeichnis verweist, um alle virtualisierten Mods und Skripterweiterungen zu laden.
+</Callout>
+
+Wenn Sie den Script Extender in Zukunft aktualisieren möchten, laden Sie die neueste Version aus dem [xNVSE Github-Repository](https://github.com/xNVSE/xnvse) herunter und überschreiben Sie die vorhandenen Dateien in Ihrem Stammverzeichnis. Dadurch werden die Bibliotheken aktualisiert, ohne dass sich dies auf Ihre installierten Mods oder Speicherstände auswirkt.
+
+</Section>
+
+<Section icon={Swords} title="Fehlerbehebung bei häufigen NVSE-Fehlern">
+
+Selbst bei sorgfältiger Installation können Konfigurationskonflikte oder fehlende Systemupdates Fehler verursachen. Zu verstehen, wie man diese Probleme diagnostiziert, hilft, die Spielstabilität aufrechtzuerhalten.
+
+| Fehlersymptom | Häufige Ursache | Lösung |
+| --- | --- | --- |
+| **Absturz beim Start** | Fehlende Visual C++ Redistributables | Installieren Sie die neuesten x86- und x64-Laufzeitumgebungen |
+| **Befehl nicht gefunden** | Dateien im falschen Ordner platziert | Verschieben Sie die Dateien von „Data“ in den Stammordner |
+| **Patcher startet nicht** | Eingeschränkte Administratorrechte | Klicken Sie mit der rechten Maustaste auf den Patcher und wählen Sie „Als Administrator ausführen“ |
+| **Steam-Overlay deaktiviert** | Dateien für die Steam-Integration fehlen | Überprüfen Sie, ob sich die Steam-Loader-DLL-Datei im Stammordner befindet |
+
+Um sicherzustellen, dass Ihr Spiel vollständig optimiert und stabil ist, gehen Sie diese Checkliste durch, bevor Sie einen neuen Spieldurchlauf starten.
+
+<Checklist
+  id="post-install-verification"
+  title="Checkliste nach der Installation:"
+  items={[
+    "Überprüfen, ob die Visual C++-Bibliotheken installiert sind",
+    "Bestätigen, dass die ausführbare Datei des 4GB-Patches erfolgreich ausgeführt wurde",
+    "Überprüfen, ob die Dateien im Stammverzeichnis und nicht im Data-Ordner platziert sind",
+    "GetNVSEVersion in der Konsole ausführen, um zu bestätigen, dass der Script Extender aktiv ist",
+    "Mod Organizer 2 so konfigurieren, dass das Spiel über die gepatchte ausführbare Datei gestartet wird"
+  ]}
+/>
+
+<Callout type="success" title="Überprüfung erfolgreich">
+Sobald die Konsole die korrekte Versionsnummer zurückgibt, ist die Installation abgeschlossen. Sie können nun fortgeschrittene Skript-Mods, UI-Überarbeitungen und Gameplay-Anpassungen installieren, die den Script Extender erfordern.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Häufig gestellte Fragen (FAQ)">
+
+Nachfolgend finden Sie die am häufigsten gestellten Fragen zur Installation, Konfiguration und Fehlerbehebung des Script Extenders.
+
+<FAQ items={[
+  {
+    question: "Muss ich das Spiel über nvse_loader.exe starten?",
+    answer: "Nein. Wenn Sie das 4GB-Patch-Dienstprogramm angewendet haben, modifiziert es die Haupt-EXE-Datei so, dass der Script Extender automatisch geladen wird. Sie können das Spiel über die Standard-EXE-Datei oder über Ihren Mod-Manager starten."
+  },
+  {
+    question: "Warum sagt die Konsole, dass GetNVSEVersion ein unbekannter Befehl ist?",
+    answer: "Dieser Fehler tritt auf, wenn die Dateien des Script Extenders nicht ausgeführt werden. Überprüfen Sie, ob sich die DLL- und Loader-Dateien im Stammverzeichnis neben der Haupt-EXE-Datei befinden, und stellen Sie sicher, dass Sie das Visual C++ Redistributable installiert haben."
+  },
+  {
+    question: "Kann ich den Fallout New Vegas Script Extender mit Vortex oder Mod Organizer 2 installieren?",
+    answer: "Nein. Die Dateien des Script Extenders müssen manuell im Stammordner des Spiels installiert werden. Mod-Manager können keine Dateien außerhalb des Data-Ordners installieren, daher ist für dieses spezielle Dienstprogramm ein manuelles Drag-and-Drop erforderlich."
+  },
+  {
+    question: "Wird ein Update meines Spiels den Script Extender unbrauchbar machen?",
+    answer: "Das Spiel erhält keine offiziellen Updates mehr, daher bleibt Ihre Installation stabil. Wenn Sie die Spieldateien manuell aktualisieren oder über Steam überprüfen, müssen Sie das 4GB-Patch-Dienstprogramm möglicherweise erneut ausführen."
+  }
+]} />
+
+<Callout type="warning" title="Sicherheit der Spielstände">
+Sichern Sie immer Ihre Spielstände, bevor Sie skriptlastige Dienstprogramme installieren oder aktualisieren. Obwohl der Script Extender selbst sicher ist, kann das Entfernen von Skript-Mods mitten im Spieldurchlauf Ihre Spielstände beschädigen.
+</Callout>
+
+</Section>

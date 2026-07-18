@@ -10,7 +10,16 @@
       "twitterDescription": "Explore Fallout: New Vegas Remaster quests, factions, companions, builds, weapons, Hardcore Mode, maps, endings, and modding guides."
     }
   },
-  "nav": {},
+  "nav": {
+    "guide": "Guide",
+    "builds": "Builds",
+    "weapons": "Weapons",
+    "characters": "Characters",
+    "quests": "Quests",
+    "mods": "Mods",
+    "dlc": "DLC",
+    "remaster": "Remaster"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -542,125 +551,165 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Fallout New Vegas Remaster Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced faction strategies. Master the Mojave Wasteland.",
-      "metaTitle": "Fallout New Vegas Remaster Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Fallout New Vegas Remaster guides covering beginner tips, SPECIAL builds, faction choices, companion quests, and expert tactics for the Mojave.",
-      "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, SPECIAL and skills, faction choices, and the Hardcore survival system. Learn everything from first steps to advanced techniques.",
-      "why": "Why read guides?",
+    "guide": {
+      "title": "Fallout New Vegas Remaster Guide",
+      "description": "Complete Fallout New Vegas Remaster guides covering maps, vaults, walkthroughs, beginner tips, and Power Armor training across the Mojave Wasteland.",
+      "metaTitle": "Fallout New Vegas Remaster Guide - Walkthrough, Maps & Beginner Tips",
+      "metaDescription": "Master Fallout New Vegas Remaster with complete walkthroughs, Mojave maps, vault locations, beginner tips, and Power Armor training guides.",
+      "categoryLabel": "GAME GUIDE",
+      "whatIs": "What is the Guide?",
+      "whatIsDescription": "A complete Fallout New Vegas Remaster knowledge base covering interactive maps, vault locations, full walkthroughs, beginner tips, and Power Armor training. Everything you need to navigate and conquer the Mojave Wasteland.",
+      "why": "Why use the guide?",
       "whySteps": {
-        "step1Title": "Learn Core Mechanics",
-        "step1Description": "Understand SPECIAL, skills, perks, and reputation to avoid beginner mistakes",
-        "step2Title": "Fast Progression",
-        "step2Description": "Follow proven routes to survive and thrive across the Mojave",
-        "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for quests, combat, and faction endings"
+        "step1Title": "Navigate the Mojave",
+        "step1Description": "Use detailed maps and vault locations to find quests, loot, and fast-travel points",
+        "step2Title": "Follow Proven Walkthroughs",
+        "step2Description": "Step-by-step quest routes that keep your Courier on track from start to endgame",
+        "step3Title": "Learn Essential Tips",
+        "step3Description": "Master beginner tips and Power Armor training to survive the wasteland"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Fallout New Vegas Remaster Crafting",
-      "description": "Master workbench, reloading bench, and campfire crafting with recipes, ammo types, and survival strategies.",
-      "metaTitle": "Fallout New Vegas Remaster Crafting - Recipes & Workbench Guide",
-      "metaDescription": "Master Fallout New Vegas Remaster crafting. Learn workbench recipes, hand-loaded ammo, campfire food, and strategies for powerful weapons and consumables.",
-      "categoryLabel": "CRAFTING SYSTEM",
-      "whatIs": "What is Crafting?",
-      "whatIsDescription": "The crafting system spans workbenches for weapons, reloading benches for ammunition, and campfires for food and chems. Skill levels and perks unlock stronger recipes and materials.",
-      "why": "Why master crafting?",
-      "whySteps": {
-        "step1Title": "Unlock Powerful Items",
-        "step1Description": "Craft weapon mods, hand-loaded ammo, and powerful consumables",
-        "step2Title": "Understand Materials",
-        "step2Description": "Learn how scrap, components, and ammo cases combine into useful gear",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Turn junk and loot into sustainable caps, food, and combat supplies"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Crafting Guides"
-    },
-    "items": {
-      "title": "Fallout New Vegas Remaster Items",
-      "description": "Detailed item guides covering weapons, armor, ammo, consumables, and unique equipment with stats and usage tips.",
-      "metaTitle": "Fallout New Vegas Remaster Items - Weapons, Armor & Gear Guide",
-      "metaDescription": "Complete item database for Fallout New Vegas Remaster including weapons, armor, ammo, and unique gear. Learn where to find and how to use every item effectively.",
-      "categoryLabel": "ITEMS & EQUIPMENT",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for weapons, armor, ammunition, consumables, and unique equipment. Learn stats, locations, and optimal loadouts for each stage of the game.",
-      "why": "Why check item guides?",
-      "whySteps": {
-        "step1Title": "Find the Best Gear",
-        "step1Description": "Discover where to loot and buy the strongest weapons and armor",
-        "step2Title": "Optimize Equipment",
-        "step2Description": "Choose the best items for your build and progression stage",
-        "step3Title": "Improve Survival",
-        "step3Description": "Equip consumables, stealth gear, and armor to survive the wasteland"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Items"
-    },
-    "biomes": {
-      "title": "Fallout New Vegas Remaster Locations",
-      "description": "Explore Mojave regions, settlements, vaults, landmarks, and resource locations with survival tips.",
-      "metaTitle": "Fallout New Vegas Remaster Locations - Map, Vaults & Landmarks",
-      "metaDescription": "Explore Fallout New Vegas Remaster locations including the Strip, Hoover Dam, vaults, casinos, and hidden landmarks. Find quests, loot, and fast-travel points.",
-      "categoryLabel": "WORLD LOCATIONS",
-      "whatIs": "What are Locations?",
-      "whatIsDescription": "Guides to the Mojave's settlements, vaults, military sites, casinos, caves, and landmarks. Learn what quests, vendors, and loot to expect at each area.",
-      "why": "Why explore locations?",
-      "whySteps": {
-        "step1Title": "Find Resources",
-        "step1Description": "Locate skill books, unique weapons, and rare loot in each region",
-        "step2Title": "Avoid Dangers",
-        "step2Description": "Understand environmental hazards and hostile factions by area",
-        "step3Title": "Plan Exploration",
-        "step3Description": "Prepare the right gear and fast-travel routes for each zone"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Locations"
-    },
-    "building": {
+    "builds": {
       "title": "Fallout New Vegas Remaster Builds",
-      "description": "Master SPECIAL builds, Tag Skills, Traits, perks, and combat playstyles for every stage of the game.",
-      "metaTitle": "Fallout New Vegas Remaster Builds - SPECIAL, Perks & Playstyles",
-      "metaDescription": "Master Fallout New Vegas Remaster builds with SPECIAL allocation, Tag Skills, Traits, perks, and playstyle guides for guns, energy, melee, stealth, and Hardcore.",
+      "description": "Master SPECIAL builds, Traits, Skills, and Perks for Fallout New Vegas Remaster with optimized starting stats and playstyle guides.",
+      "metaTitle": "Fallout New Vegas Remaster Builds - SPECIAL, Perks, Traits & Skills",
+      "metaDescription": "Build the perfect Courier in Fallout New Vegas Remaster with SPECIAL allocation, best starting stats, Traits, Skills, and perk order guides for every playstyle.",
       "categoryLabel": "BUILDS & PERKS",
       "whatIs": "What are Builds?",
-      "whatIsDescription": "Guides to SPECIAL attributes, Tag Skills, Traits, perk order, and combat playstyles. Learn to create optimized characters for guns, energy, melee, stealth, and Hardcore runs.",
+      "whatIsDescription": "Guides to SPECIAL attributes, best starting stats, Traits, Skills, and perk order. Create optimized characters for guns, energy, melee, stealth, and Hardcore runs.",
       "why": "Why plan builds?",
       "whySteps": {
-        "step1Title": "Create Strong Characters",
-        "step1Description": "Allocate SPECIAL and Tag Skills to match your playstyle",
-        "step2Title": "Manage Resources",
-        "step2Description": "Choose perks that compound into endgame power",
-        "step3Title": "Master Playstyles",
-        "step3Description": "Specialize in combat, stealth, or speech for unique quest paths"
+        "step1Title": "Optimize Starting Stats",
+        "step1Description": "Allocate SPECIAL and Tag Skills to match your preferred playstyle",
+        "step2Title": "Choose the Right Traits",
+        "step2Description": "Pick Traits and Skills that compound into endgame power",
+        "step3Title": "Master Perk Order",
+        "step3Description": "Plan perk selection for combat, stealth, speech, and crafting paths"
       },
       "featured": "Featured & Essential",
       "all": "All Build Guides"
     },
-    "support": {
-      "title": "Fallout New Vegas Remaster Support",
-      "description": "Technical support, platform setup, performance optimization, and modding troubleshooting for common issues.",
-      "metaTitle": "Fallout New Vegas Remaster Support - Tech Help & Mods",
-      "metaDescription": "Get technical support for Fallout New Vegas Remaster including NVSE setup, mod load order, crash fixes, performance optimization, and platform guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform setup, performance optimization, crash fixes, and modding. Get help with NVSE, Mod Organizer 2, load order, and settings.",
-      "why": "Why check support?",
+    "weapons": {
+      "title": "Fallout New Vegas Remaster Weapons",
+      "description": "Discover the best weapons, armor, and Power Armor in Fallout New Vegas Remaster with stats, locations, and loadout guides.",
+      "metaTitle": "Fallout New Vegas Remaster Weapons - Best Guns, Armor & Power Armor",
+      "metaDescription": "Find the best weapons and armor in Fallout New Vegas Remaster including unique guns, Power Armor, and the NCR Ranger armor with locations and stats.",
+      "categoryLabel": "WEAPONS & ARMOR",
+      "whatIs": "What are Weapons?",
+      "whatIsDescription": "Comprehensive guides to Fallout New Vegas Remaster weapons, armor, Power Armor, and unique gear. Learn stats, locations, and optimal loadouts for every stage of the game.",
+      "why": "Why check weapon guides?",
       "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and mod conflicts",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings and mods for the best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Windows, Steam Deck, Linux, and controller setup"
+        "step1Title": "Find the Best Gear",
+        "step1Description": "Discover where to loot and buy the strongest weapons and armor",
+        "step2Title": "Master Power Armor",
+        "step2Description": "Learn Power Armor training and the best frames in the Mojave",
+        "step3Title": "Build the Right Loadout",
+        "step3Description": "Choose weapons and armor that match your build and playstyle"
       },
       "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Weapons"
+    },
+    "characters": {
+      "title": "Fallout New Vegas Remaster Characters",
+      "description": "Meet every companion and key character in Fallout New Vegas Remaster with recruitment locations, personal quests, and loyalty guides.",
+      "metaTitle": "Fallout New Vegas Remaster Characters - Companions & Key NPCs",
+      "metaDescription": "Recruit companions like Boone, Veronica, and ED-E in Fallout New Vegas Remaster. Learn recruitment locations, personal quests, perks, and key characters like Benny and Joshua Graham.",
+      "categoryLabel": "CHARACTERS",
+      "whatIs": "What are Characters?",
+      "whatIsDescription": "Guides to Fallout New Vegas Remaster companions and key NPCs. Learn where to recruit companions, their personal quests, unique perks, and the stories of characters like Benny, Veronica, Boone, and Joshua Graham.",
+      "why": "Why recruit companions?",
+      "whySteps": {
+        "step1Title": "Build Your Crew",
+        "step1Description": "Find and recruit companions with combat, stealth, and utility skills",
+        "step2Title": "Complete Personal Quests",
+        "step2Description": "Unlock companion loyalty missions and permanent perk upgrades",
+        "step3Title": "Understand Key NPCs",
+        "step3Description": "Learn the motives of Benny, Joshua Graham, and faction leaders"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Characters"
+    },
+    "quests": {
+      "title": "Fallout New Vegas Remaster Quests",
+      "description": "Complete Fallout New Vegas Remaster quests with the full quest list, faction choices, and every ending for the Mojave.",
+      "metaTitle": "Fallout New Vegas Remaster Quests - Quest List, Choices & Endings",
+      "metaDescription": "Conquer Fallout New Vegas Remaster with the full quest list, faction questlines, key choices, and all endings including NCR, Legion, Mr. House, and Yes Man.",
+      "categoryLabel": "QUESTS & ENDINGS",
+      "whatIs": "What are Quests?",
+      "whatIsDescription": "Guides to Fallout New Vegas Remaster main quests, side quests, faction questlines, and endings. Learn the quest list, critical choices, and how to take over New Vegas through the NCR, Caesar's Legion, Mr. House, or Yes Man.",
+      "why": "Why follow quest guides?",
+      "whySteps": {
+        "step1Title": "Track Every Quest",
+        "step1Description": "Use the complete quest list to find and finish main and side quests",
+        "step2Title": "Make the Right Choices",
+        "step2Description": "Understand faction commitments and branching quest outcomes",
+        "step3Title": "Unlock Every Ending",
+        "step3Description": "Decide who controls New Vegas and see all endings"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Quests"
+    },
+    "mods": {
+      "title": "Fallout New Vegas Remaster Mods",
+      "description": "Install the best Fallout New Vegas Remaster mods with guides on NVSE, Mod Organizer 2, load order, and graphics overhauls.",
+      "metaTitle": "Fallout New Vegas Remaster Mods - Best Mods, NVSE & Load Order",
+      "metaDescription": "Transform Fallout New Vegas Remaster with the best mods. Learn NVSE setup, 4GB patcher, Mod Organizer 2, graphics overhauls, and proper load order.",
+      "categoryLabel": "MODS & TOOLS",
+      "whatIs": "What are Mods?",
+      "whatIsDescription": "Guides to Fallout New Vegas Remaster modding including the best mods, NVSE script extender, 4GB patcher, Mod Organizer 2, graphics overhauls, and load order. Set up a stable, high-performance modded game.",
+      "why": "Why install mods?",
+      "whySteps": {
+        "step1Title": "Enhance Graphics",
+        "step1Description": "Apply graphics overhauls and texture packs for a modern look",
+        "step2Title": "Fix and Optimize",
+        "step2Description": "Use the 4GB patcher and NVSE for stability and new features",
+        "step3Title": "Manage Load Order",
+        "step3Description": "Organize mods with Mod Organizer 2 and correct load order"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Mods"
+    },
+    "dlc": {
+      "title": "Fallout New Vegas Remaster DLC",
+      "description": "Explore every Fallout New Vegas Remaster DLC including Dead Money, Honest Hearts, Old World Blues, and Lonesome Road.",
+      "metaTitle": "Fallout New Vegas Remaster DLC - All Add-ons & Expansions",
+      "metaDescription": "Complete every Fallout New Vegas Remaster DLC. Guides for Dead Money, Honest Hearts, Old World Blues, and Lonesome Road with quests, rewards, and story breakdowns.",
+      "categoryLabel": "DLC & ADD-ONS",
+      "whatIs": "What is DLC?",
+      "whatIsDescription": "Guides to the four Fallout New Vegas Remaster add-ons: Dead Money, Honest Hearts, Old World Blues, and Lonesome Road. Learn the quests, unique rewards, gear, and story of each expansion.",
+      "why": "Why play the DLC?",
+      "whySteps": {
+        "step1Title": "Experience New Stories",
+        "step1Description": "Explore four distinct expansions with unique settings and characters",
+        "step2Title": "Earn Powerful Rewards",
+        "step2Description": "Collect unique weapons, perks, and gear from each add-on",
+        "step3Title": "Complete the Journey",
+        "step3Description": "Tie together the Courier's full story across all DLC"
+      },
+      "featured": "Featured & Essential",
+      "all": "All DLC"
+    },
+    "remaster": {
+      "title": "Fallout New Vegas Remaster Info",
+      "description": "Everything about the Fallout New Vegas Remaster including release date, platforms, Steam, PS5, and the Ultimate Edition.",
+      "metaTitle": "Fallout New Vegas Remaster - Release Date, Platforms & Ultimate Edition",
+      "metaDescription": "Get the latest on the Fallout New Vegas Remaster release date, PS5 and Steam platforms, Ultimate Edition contents, and what to expect from the remaster.",
+      "categoryLabel": "REMASTER INFO",
+      "whatIs": "What is the Remaster?",
+      "whatIsDescription": "Guides to the Fallout New Vegas Remaster covering the release date, supported platforms like PS5 and Steam, the Ultimate Edition bundle, and the upgrades that bring the Mojave to modern hardware.",
+      "why": "Why follow the remaster?",
+      "whySteps": {
+        "step1Title": "Track the Release",
+        "step1Description": "Stay current on the remaster release date and launch details",
+        "step2Title": "Choose Your Platform",
+        "step2Description": "Compare PS5, Steam, and other platforms to pick the best experience",
+        "step3Title": "Get the Full Package",
+        "step3Description": "Learn what the Ultimate Edition includes and whether it is worth it"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Remaster Info"
     }
   }
 }

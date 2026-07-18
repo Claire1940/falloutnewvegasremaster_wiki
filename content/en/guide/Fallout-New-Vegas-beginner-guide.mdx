@@ -1,0 +1,204 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fallout New Vegas beginner guide: Essential Starter Tips & Builds",
+  description: "Master the Mojave with our Fallout New Vegas beginner guide. Learn about SPECIAL stats, skills, factions, and survival strategies for 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2d2e27/ffcc00?text=Mojave+Survival+Guide",
+  date: "2026-07-18",
+  author: "Fallout New Vegas Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Fallout New Vegas beginner guide**: Focus on **Intelligence** and **Luck** during character creation for maximum skill points and critical hits.
+- **SPECIAL System**: Your attributes are permanent foundations; choose **Endurance** if you want more cybernetic implants later.
+- **Faction Reputation**: Your actions in the Mojave have lasting consequences; **Reputation** is often more important than Karma.
+- **Hardcore Mode**: Manage dehydration, starvation, and sleep while dealing with weighted ammunition for a realistic challenge.
+- **Starting Route**: Avoid heading straight north to Vegas; follow the southern road through **Primm** and **Novac** to survive.
+</Callout>
+
+<Section icon={Map} title="Mastering the SPECIAL System">
+
+Entering the Mojave Wasteland for the first time can be overwhelming. This **Fallout New Vegas beginner guide** starts exactly where your journey begins: Doc Mitchell’s house in Goodsprings. The most critical decision you will make is allocating your **SPECIAL** points. Unlike later entries in the series, these attributes are difficult to increase once the game begins, making your initial choices foundational to your entire playthrough.
+
+| Attribute | Primary Combat/Game Benefit | Key Skills Affected | Recommended Value |
+| :--- | :--- | :--- | :--- |
+| **Strength** | Carry weight, Melee damage, Weapon requirements | Melee, Weapons | 5-7 |
+| **Perception** | Compass red markers, Explosive damage | Energy Weapons, Lockpick | 5-6 |
+| **Endurance** | Total HP, Radiation resistance, **Implants** | Survival, Unarmed | 7-9 |
+| **Charisma** | Companion nerve (damage/armor) | Barter, Speech | 1 |
+| **Intelligence** | **Skill points earned per level** | Medicine, Science, Repair | 9 |
+| **Agility** | Action Points (VATS), Draw/Reload speed | Guns, Sneak | 6-7 |
+| **Luck** | **Critical hit chance**, Gambling success | All Skills (minor boost) | 7-9 |
+
+<Callout type="warning" title="The Endurance Rule">
+In the Mojave, your **Endurance** stat determines how many physical implants your body can handle. Each point of Endurance allows for one implant (purchasable at the New Vegas Medical Clinic). If you want to boost all your SPECIAL stats later, you need high base Endurance.
+</Callout>
+
+After setting your attributes, you must select two **Traits**. These provide a unique benefit paired with a specific drawback. Choosing the right traits can define your early-game experience.
+
+<CardGrid cols={3}>
+  <Card title="Small Frame">
+    - **Benefit**: +1 Agility
+    - **Drawback**: Limbs break 25% more easily
+    - **Verdict**: Excellent for VATS builds.
+  </Card>
+  <Card title="Good Natured">
+    - **Benefit**: +5 to Speech, Medicine, Repair, Science, Barter
+    - **Drawback**: -5 to all combat skills
+    - **Verdict**: Perfect for pacifist or diplomatic runs.
+  </Card>
+  <Card title="Built to Destroy">
+    - **Benefit**: +3% Critical Hit chance
+    - **Drawback**: Equipment decays 15% faster
+    - **Verdict**: High risk, high reward for snipers.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Character Progression: Skills and Perks">
+
+Once you leave Goodsprings, your progression is governed by **Skills** and **Perks**. You gain skill points every time you level up, and you choose a new Perk every even-numbered level (2, 4, 6, etc.). Because the level cap is 50, you have plenty of room to grow, but early specialization is the key to survival.
+
+<Steps>
+  <Step num="1" title="Tag Your Core Skills">
+    Choose three skills to receive an immediate +15 bonus. For beginners, **Guns**, **Speech**, and **Lockpick** are highly recommended to ensure you can fight, talk your way out of trouble, and find extra loot.
+  </Step>
+  <Step num="2" title="Prioritize Utility">
+    Don't just focus on damage. Raising **Repair** to 90 allows you to take the *Jury Rigging* perk, which lets you fix expensive gear with cheap items. Raising **Science** and **Lockpick** unlocks lore and shortcuts.
+  </Step>
+  <Step num="3" title="Select Synergistic Perks">
+    Perks have SPECIAL and Skill requirements. Plan ahead. If you want *Finesse* (+5% Crit) at level 10, ensure your Luck is high enough.
+  </Step>
+</Steps>
+
+| Skill Tier | Recommended Skills | Why it matters |
+| :--- | :--- | :--- |
+| **S-Tier** | Speech, Lockpick, Repair | Opens the most quest paths and saves caps. |
+| **A-Tier** | Guns, Science, Medicine | Essential for combat and healing efficiency. |
+| **B-Tier** | Barter, Sneak, Survival | Useful for Hardcore mode and economy. |
+| **C-Tier** | Melee, Unarmed, Explosives | Niche combat styles requiring specific builds. |
+
+<Callout type="tip" title="The Power of Speech">
+In New Vegas, **Speech** is arguably the most powerful skill. Many major conflicts, including the final boss battle, can be resolved entirely through dialogue if your Speech skill is high enough (usually 100).
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Factions and the Reputation System">
+
+The Mojave is a political powderkeg. Your standing with various groups is tracked via the **Reputation** system. Unlike Karma (which is a general "good vs. evil" meter), Reputation is faction-specific. Being "Idolized" by one group might make you "Vilified" by their rivals.
+
+| Faction | Philosophy | Reward for Alliance |
+| :--- | :--- | :--- |
+| **NCR** | Democracy and Bureaucracy | Emergency radio support, safehouse access. |
+| **Caesar's Legion** | Autocracy and Conquest | Lucky Shades (+1 Luck), safehouse loot. |
+| **Mr. House** | Technocracy and Autonomy | Luxury suite in the Lucky 38, Securitron aid. |
+| **Yes Man** | Independent Vegas | Complete freedom to shape the Mojave's end. |
+
+<Callout type="info" title="Disguises and Danger">
+Wearing the armor of a specific faction (like an NCR Trooper uniform) acts as a disguise. This can help you sneak into hostile territory, but beware: guard dogs and high-ranking officers can see through your ruse and will attack on sight.
+</Callout>
+
+Navigating these alliances is the heart of any **Fallout New Vegas beginner guide**. It is often wise to remain neutral as long as possible to complete the maximum number of quests before "The Point of No Return" in the main storyline.
+
+</Section>
+
+<Section icon={Sparkles} title="Survival and Hardcore Mode Basics">
+
+For players seeking the "true" wasteland experience, **Hardcore Mode** adds layers of resource management. In this mode, healing is not instantaneous, and you must maintain your biological needs. Even if you aren't playing on Hardcore, understanding these mechanics helps you manage your inventory better.
+
+| Need | Effect of Neglect | Best Recovery Items |
+| :--- | :--- | :--- |
+| **Dehydration** | Reduced Perception, Endurance, and Agility | Purified Water, Cactus Water |
+| **Starvation** | Reduced Strength and Charisma | Maize, Grilled Mantis, BlamCo Mac |
+| **Sleep Deprivation** | Reduced Intelligence and Agility | Beds, Atomic Cocktail (temporary) |
+| **Weight** | Ammunition now has weight | Pack Rat Perk, High Strength |
+
+<Callout type="success" title="Doctor's Bags">
+In Hardcore Mode, Stimpaks do not heal crippled limbs. You must use a **Doctor's Bag**, sleep in an owned bed, or visit a literal doctor to fix broken bones. Always carry at least two Doctor's Bags in your inventory.
+</Callout>
+
+<Checklist
+  id="early-game-kit"
+  title="Mojave Survival Essentials:"
+  items={[
+    "Obtain the Varmint Rifle from Sunny Smiles",
+    "Collect at least 10 Stimpaks before leaving Goodsprings",
+    "Find or buy a Shovel for grave digging (loot)",
+    "Recruit ED-E in Primm for early combat support",
+    "Keep at least 3 Purified Waters for emergencies"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Combat Tactics and Equipment">
+
+Combat in the Mojave is a mix of real-time shooting and the **Vault-Tec Assisted Targeting System (VATS)**. Understanding damage thresholds (DT) and ammunition types is crucial for taking down tougher enemies like Deathclaws or Brotherhood of Steel Paladins.
+
+- **Damage Threshold (DT)**: This is a flat reduction in damage. If an enemy has 10 DT and you hit for 12, they only take 2 damage.
+- **Armor Piercing (AP) Ammo**: Use this against heavily armored targets to bypass their DT.
+- **Hollow Point (HP) Ammo**: Use this against unarmored targets (animals, raiders) for massive bonus damage.
+
+<Callout type="tip" title="VATS and Accuracy">
+Your accuracy in VATS is determined by your Skill level, the weapon's effective range, and your **Agility**. If you find yourself missing 95% shots, check if your weapon is in poor condition; weapon health directly affects accuracy and damage.
+</Callout>
+
+| Weapon Type | Best Early Option | Location |
+| :--- | :--- | :--- |
+| **Guns** | Service Rifle | Quest reward from NCR at Mojave Outpost |
+| **Energy** | Laser Pistol | Bright Follower corpses near Novac |
+| **Melee** | Chance's Knife | Grave near Tribal Village (Danger: Cazadores) |
+| **Unarmed** | Love and Hate | Bonnie Springs (on Viper Leader) |
+
+</Section>
+
+<Section icon={Trophy} title="The Ideal Starting Route">
+
+Many new players make the mistake of heading directly North from Goodsprings toward the New Vegas lights. This path is blocked by **Deathclaws** and **Cazadores**, which will easily kill a low-level character. The intended path is a large "U" shape that introduces you to the world's mechanics and factions.
+
+1.  **Goodsprings**: Complete "Tutorial" quests with Sunny Smiles.
+2.  **Primm**: Help the NCR, deal with the convicts, and recruit ED-E.
+3.  **Mojave Outpost**: Pick up NCR quests and trade for better gear.
+4.  **Nipton**: Witness the aftermath of Caesar's Legion's brutality.
+5.  **Novac**: Meet Boone (a top-tier companion) and resolve the "Come Fly With Me" quest.
+6.  **Boulder City**: Resolve the confrontation between the NCR and Great Khals.
+7.  **Freeside/New Vegas**: Finally enter the strip and begin the mid-game.
+
+<Callout type="warning" title="Cazador Alert">
+If you see large, fast-moving insects with orange wings, **turn back**. Cazadores are the most dangerous enemies in the early game due to their poison and extreme speed. Do not engage them without plenty of Antivenom and a high-DPS weapon.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Can I change my SPECIAL stats after leaving Goodsprings?",
+    answer: "You get one final chance to rebuild your character completely when you leave the Goodsprings area. After that, you can only increase stats via the Intense Training perk or expensive implants at the Medical Clinic."
+  },
+  {
+    question: "Who is the best companion for a Fallout New Vegas beginner guide?",
+    answer: "Craig Boone (found in Novac) is widely considered the best combat companion due to his sniper skills. Pairing him with ED-E (the robot from Primm) allows you to spot enemies from a massive distance."
+  },
+  {
+    question: "How do I get into the New Vegas Strip for free?",
+    answer: "You normally need 2,000 caps for a credit check. However, you can bypass this by getting a Science skill of 80 to hack the Securitron, or by earning a high enough reputation with the NCR to use their monorail at Camp McCarran."
+  },
+  {
+    question: "Is there a level cap in Fallout New Vegas?",
+    answer: "The base game cap is 30, but with all DLCs installed (which is standard for the Remaster), the maximum level is 50. You gain a perk every two levels, for a total of 25 perks."
+  }
+]} />
+
+</Section>

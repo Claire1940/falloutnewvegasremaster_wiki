@@ -1,0 +1,207 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fallout New Vegas Boone: Reclutamiento y guía de misión",
+  description: "Domina el reclutamiento de Craig Boone en Fallout New Vegas. Aprende cómo activar la misión 'I Forgot to Remember to Forget' y la línea de misiones de Bitter Springs.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/ffffff?text=Fallout+New+Vegas+Boone+Guide",
+  date: "2026-07-18",
+  author: "Equipo de la Wiki de Fallout New Vegas"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Boone en Fallout New Vegas** es un antiguo francotirador del 1.er Reconocimiento de la RNC que se encuentra en el pueblo de Novac.
+- **El reclutamiento** requiere completar la misión "One for My Baby" identificando a la persona que vendió a su esposa.
+- **La activación de la misión** personal de Boone depende de un sistema oculto de "Puntos de Historia" vinculado a matar miembros de la Legión.
+- **Las recompensas finales** incluyen conjuntos de armadura únicos del 1.er Reconocimiento que varían según tus elecciones de diálogo en Bitter Springs.
+- **La ventaja de compañero** proporciona la habilidad "Observador", que resalta a todos los enemigos en rojo mientras apuntas.
+</Callout>
+
+<Section icon={Map} title="Reclutar a Craig Boone en Novac">
+
+Craig Boone es considerado ampliamente como uno de los compañeros más poderosos en el Yermo de Mojave. Antiguo francotirador de élite del 1.er Batallón de Reconocimiento de la RNC, ahora pasa sus noches vigilando el pueblo de Novac desde la boca de Dinky el Dinosaurio. Para reclutarlo, primero debes navegar por su trágico pasado y ayudarlo a encontrar justicia por la desaparición de su esposa, Carla.
+
+**Aspectos destacados del video:**
+- La oscura verdad detrás de la masacre de Bitter Springs y su impacto en Boone.
+- Cómo navegar por la misión "One for My Baby" en Novac.
+- Guía paso a paso de la misión de compañero "I Forgot to Remember to Forget".
+- Análisis de los dos conjuntos de armadura únicos de final de juego de Boone.
+
+<YouTubeEmbed videoId="EpMEzSHEUEg" title="La agonía de Boone: La historia completa de la masacre de Bitter Springs" />
+
+Para comenzar el proceso de reclutamiento, habla con Boone dentro del dinosaurio por la noche. Él te encargará averiguar quién vendió a su esposa a la Legión de César. Debes investigar a los residentes de Novac, buscando específicamente pruebas en la caja fuerte del suelo detrás del mostrador de recepción del motel Dino Dee-lite.
+
+| Requisito | Detalle |
+| :--- | :--- |
+| **Ubicación** | Novac, dentro del nido de francotirador de Dinky el Dinosaurio (solo de noche) |
+| **Misión** | One for My Baby |
+| **Prueba clave** | Factura de venta encontrada en la caja fuerte del motel |
+| **Culpable** | Jeannie May Crawford |
+| **Señal** | Usa la boina de Boone frente al dinosaurio |
+
+<Callout type="warning" title="Elección crítica">
+Si llevas a la persona equivocada frente al dinosaurio o no le muestras a Boone la prueba (la Factura de venta) después de que se haya hecho el acto, se volverá hostil o se negará a unirse a ti. Asegura siempre la prueba primero.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mecánicas de combate y la ventaja Observador">
+
+Una vez reclutado, Boone ofrece un apoyo de fuego inigualable. Está equipado con un rifle de caza con mira telescópica único y posee una percepción excepcional. Su presencia cambia fundamentalmente cómo te involucras en el combate, especialmente en el desierto abierto donde puede eliminar objetivos antes de que siquiera entren en tu rango visual.
+
+<CardGrid cols={3}>
+  <Card title="Ventaja Observador">
+    - **Ayuda visual**: Los enemigos se resaltan en rojo al apuntar.
+    - **Detección**: Aumenta enormemente tu capacidad para ver objetivos sigilosos.
+    - **Sinergia**: Funciona perfectamente con configuraciones de largo alcance.
+  </Card>
+  <Card title="Armamento">
+    - **Principal**: Rifle de caza con mira (.308).
+    - **Secundario**: Machete para combate cuerpo a cuerpo.
+    - **Mejora**: Dale un rifle antimaterial para obtener el máximo daño.
+  </Card>
+  <Card title="Tácticas">
+    - **Agresividad**: Boone es muy agresivo contra la Legión.
+    - **Posicionamiento**: Manténlo en "Esperar" en un terreno elevado para vigilancia.
+    - **Enfrentamiento**: Disparará a cualquier miembro de la Legión a la vista.
+  </Card>
+</CardGrid>
+
+| Atributo | Valor base | Rol de combate |
+| :--- | :--- | :--- |
+| **Fuerza** | 7 | Manejo de rifles pesados |
+| **Percepción** | 8 | Detección de largo alcance |
+| **Agilidad** | 7 | Recarga y movimiento rápidos |
+| **Habilidades destacadas** | Armas, Cuerpo a cuerpo, Sigilo | Francotirador / Infiltrador |
+
+<Callout type="tip" title="Consejo profesional">
+La ventaja "Observador" de Boone permanece activa incluso si está esperando a distancia, siempre que siga siendo tu compañero activo. Esto lo hace esencial para personajes basados en el sigilo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Activar I Forgot to Remember to Forget">
+
+El aspecto más complejo de **Boone en Fallout New Vegas** es su misión personal, "I Forgot to Remember to Forget". A diferencia de otros compañeros que activan misiones basadas en diálogos o ubicaciones, Boone requiere un número específico de "Puntos de Historia". Debes ganar 5 puntos realizando acciones que se alineen con su odio hacia la Legión de César mientras está en tu grupo.
+
+| Acción | Puntos | Ubicación |
+| :--- | :--- | :--- |
+| **Matar a Vulpes Inculta** | 1 | Nipton o el Strip |
+| **Matar a Silus** | 1 | Campamento McCarran (Interrogatorio) |
+| **Matar a César** | 2 | El Fuerte |
+| **Eliminar Nelson** | 2 | Nelson |
+| **Matar a Mar Muerto** | 1 | Nelson |
+| **Rescatar esclavos** | 2 | Cottonwood Cove |
+| **Matar a Aurelius de Phoenix** | 1 | Cottonwood Cove |
+
+<Steps>
+  <Step num="1" title="Acumular puntos">
+    Viaja con Boone y participa en las actividades enumeradas anteriormente. Sabrás que estás progresando cuando inicie un diálogo sobre su pasado.
+  </Step>
+  <Step num="2" title="Progresión del diálogo">
+    Después de alcanzar ciertos umbrales de puntos, habla con Boone sobre Bitter Springs. Inicialmente se mostrará reacio, pero finalmente pedirá visitar el lugar de la masacre.
+  </Step>
+  <Step num="3" title="Visitar Bitter Springs">
+    Viaja al campamento de refugiados de Bitter Springs. Boone sugerirá ir a Coyote Tail Ridge, el punto de observación donde estuvo estacionado durante la masacre.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Nota sobre los puntos">
+Puedes ganar más de 5 puntos, pero 5 es el mínimo necesario para desbloquear la opción de diálogo final que lleva a la visita a Bitter Springs.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Historia de la masacre de Bitter Springs">
+
+La tragedia en Bitter Springs es el momento definitorio en la vida de Boone. Durante la expansión de la RNC en el Mojave, se ordenó al 1.er Batallón de Reconocimiento interceptar a los "guerreros" de la Gran Khan que huían de una batalla. Sin embargo, debido a un fallo en la comunicación, los "guerreros" resultaron ser mujeres, niños y ancianos. Los francotiradores de la RNC recibieron la orden de disparar hasta agotar su munición.
+
+**Figuras clave en la masacre:**
+- **Capitana Gilles**: Comandante actual del campamento de refugiados de Bitter Springs.
+- **Oscar Velasco**: Un superviviente de los Grandes Khan que busca venganza disparando a los refugiados.
+- **Bitter-Root**: Otro francotirador del 1.er Reconocimiento que en realidad era un niño de los Grandes Khan salvado durante la masacre.
+- **Mayor Dhatri**: El oficial que siente una inmensa culpa por los eventos.
+
+| Perspectiva | Postura sobre Bitter Springs |
+| :--- | :--- |
+| **Oficial de la RNC** | Un "error de comunicación" que resultó en un trágico daño colateral. |
+| **Grandes Khan** | Una masacre a sangre fría destinada a acabar con su cultura. |
+| **Craig Boone** | Un pecado personal que nunca podrá ser completamente perdonado u olvidado. |
+
+<Callout type="warning" title="Advertencia de facción">
+Llevar a Boone a Red Rock Canyon (el hogar de los Grandes Khan) resultará en comentarios hostiles de los Khan, ya que lo reconocen como uno de los "asesinos" de Bitter Springs.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Finalización de la misión y recompensas de armadura">
+
+Al concluir la misión en Bitter Springs, debes defender el campamento de una partida de asalto de la Legión. Después de la batalla, tu diálogo con Boone determinará su perspectiva psicológica y la armadura única que recibe. Esta elección es permanente y refleja si Boone encuentra la paz o permanece consumido por la venganza.
+
+<CardGrid cols={2}>
+  <Card title="El camino de la redención">
+    Anima a Boone a superar su culpa y darse cuenta de que todavía puede hacer el bien.
+    - **Recompensa**: Armadura de supervivencia del 1.er Reconocimiento.
+    - **Visual**: Patrón de camuflaje marrón/bronceado.
+    - **Estadísticas**: Aumenta Supervivencia y Resistencia.
+  </Card>
+  <Card title="El camino de la venganza">
+    Dile a Boone que sus acciones fueron solo parte de la guerra y que debería aceptar su papel como asesino.
+    - **Recompensa**: Armadura de asalto del 1.er Reconocimiento.
+    - **Visual**: Patrón táctico negro/gris oscuro.
+    - **Estadísticas**: Aumenta Armas y Probabilidad de crítico.
+  </Card>
+</CardGrid>
+
+<Checklist
+  id="boone-loyalty-checklist"
+  title="Lista de verificación de finalización de Boone:"
+  items={[
+    "Completar 'One for My Baby' con la prueba de la Factura de venta",
+    "Ganar al menos 5 Puntos de Historia luchando contra la Legión",
+    "Escuchar la confesión completa de Boone sobre su esposa, Carla",
+    "Defender Bitter Springs del asalto final de la Legión",
+    "Elegir entre los conjuntos de armadura de Supervivencia o Asalto",
+    "Opcional: Recuperar la boina de Boone para obtener una bonificación permanente de PER +1 y Crítico +5%"
+  ]}
+/>
+
+<Callout type="success" title="Recomendación de resultado">
+La **Armadura de asalto del 1.er Reconocimiento** se considera generalmente superior para estilos de juego centrados en el combate debido a las bonificaciones de golpe crítico, aunque la Armadura de supervivencia se ajusta a un arco de personaje más moral.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes sobre Boone en Fallout New Vegas">
+
+<FAQ items={[
+  {
+    question: "¿Por qué Boone no quiere hablar conmigo sobre su misión?",
+    answer: "Probablemente no hayas ganado suficientes Puntos de Historia. Viaja a Cottonwood Cove o Nelson con él y mata a los líderes de la Legión allí para activar su diálogo."
+  },
+  {
+    question: "¿Puedo mantener a Boone si me pongo del lado de la Legión de César?",
+    answer: "No. Boone es ferozmente leal a la RNC. Si tu reputación con la Legión es demasiado alta o realizas acciones contra la RNC, abandonará tu grupo e incluso puede volverse hostil."
+  },
+  {
+    question: "¿Qué le pasó a la esposa de Boone, Carla?",
+    answer: "Carla fue vendida como esclava por Jeannie May Crawford. Boone finalmente la rastreó hasta una subasta de esclavos en Cottonwood Cove. Al darse cuenta de que no podía rescatarla de los cientos de legionarios, realizó un acto de misericordia disparándole él mismo para ahorrarle una vida de tortura."
+  },
+  {
+    question: "¿Qué armadura es mejor: Supervivencia o Asalto?",
+    answer: "La Armadura de asalto (camino de venganza) proporciona mejores estadísticas ofensivas, específicamente para golpes críticos. La Armadura de supervivencia (camino de redención) es mejor para jugadores que priorizan la resistencia al daño y la curación."
+  }
+]} />
+
+<Callout type="info" title="Nota final">
+Boone es un héroe trágico cuya historia representa la ambigüedad moral del Mojave. Ya sea que lo lleves hacia la redención o más profundamente hacia las sombras de la guerra, sigue siendo el apoyo de largo alcance más fiable en *Fallout: New Vegas*.
+</Callout>
+
+</Section>

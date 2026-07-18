@@ -1,0 +1,166 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fallout New Vegas Veronica: Quest Guide & Best Perks",
+  description: "Optimize your Fallout New Vegas Veronica build. Discover how to unlock her companion quest, choose the best perks, and find her a dress.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=Veronica+Companion+Guide",
+  date: "2026-07-18",
+  author: "Fallout New Vegas Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Companion**: Recruit **Fallout New Vegas veronica** at the 188 Trading Post to gain a highly durable melee companion.
+- **Unique Perk**: Her Scribe Assistant perk provides a portable workbench, allowing you to craft ammo and items anywhere in the Mojave.
+- **Quest Trigger**: Visit three specific historical hotspots across the Mojave to unlock her personal quest, "I Could Make You Care."
+- **Critical Choice**: Decide whether Veronica stays with the Brotherhood of Steel for defensive bonuses or leaves for offensive combat upgrades.
+- **Hidden Teachings**: Give Veronica a formal dress to unlock the Scribe Counter, a powerful unarmed combat technique for your character.
+</Callout>
+
+<Section icon={Map} title="Fallout New Vegas Veronica: Recruitment & Base Stats">
+
+Recruiting the right companions determines your survival rate in the Mojave Wasteland, and few allies offer the utility and raw power of **Fallout New Vegas veronica** Santangelo. As a procurement specialist for the Brotherhood of Steel, Veronica brings a unique perspective on the Mojave's technological stagnation, combined with a devastating unarmed combat style. You can find her waiting at the 188 Trading Post, located directly north of the El Dorado Dry Lake at the intersection of Highway 95 and Highway 93.
+
+**Video Highlights:**
+- **Location Details**: How to locate Veronica at the 188 Trading Post.
+- **Character Background**: Understanding her role as a Brotherhood of Steel scribe.
+- **Dialogue Triggers**: How to recruit her without hostile responses.
+
+<YouTubeEmbed videoId="Nm8ImzAjXzQ" title="Veronica - The Loneliest Girl in the Mojave - Fallout New Vegas Lore" />
+
+To recruit Veronica, approach her at the trading post. Avoid expressing immediate hostility toward the Brotherhood of Steel during your initial conversation. If you openly state that you shoot Brotherhood members on sight, she will refuse to speak with you permanently. Instead, maintain a neutral or curious attitude regarding the faction. Once she joins your party, she grants the Scribe Assistant perk, turning her into a mobile workbench.
+
+| Statistic | Value | Notes |
+| :--- | :--- | :--- |
+| Base Health | 220 to 240 | Scales dynamically with player level |
+| Primary Skill | Unarmed (100) | Exceptional close-range combatant |
+| Secondary Skill | Energy Weapons | Competent with laser and plasma pistols |
+| Default Weapon | Pneumatic Gauntlet | High armor penetration and knockdown |
+| Default Armor | Scribe Robes | Low damage threshold, upgrade recommended |
+
+<Callout type="tip" title="Scribe Assistant Utility">
+Take advantage of the Scribe Assistant perk to break down recovered ammunition and craft weapon modifications in the field without returning to player housing.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Triggering the Companion Quest">
+
+To initiate Veronica's personal quest, "I Could Make You Care," you must expose her to the realities of the Mojave Wasteland. She wants to observe how other factions adapt, survive, and build societies without relying on the strict, isolationist doctrines of the Brotherhood of Steel. You must visit three specific historical hotspots with Veronica actively in your party to trigger her unique dialogue prompts.
+
+| Location | Specific Trigger Spot | Dialogue Topic |
+| :--- | :--- | :--- |
+| Camp McCarran | Terminal building main concourse | NCR military strength and overwhelming numbers |
+| Vault 3 | Outside the main entrance | Fiends managing without advanced technology |
+| Cottonwood Cove | Near the docks or main camp | Legion's low-tech expansion success |
+| Silver Rush | Inside the energy weapon shop | Brotherhood's monopoly on energy weapons |
+| REPCONN HQ | Main lobby area | Pre-war corporate technology hoarding |
+
+<CardGrid cols={3}>
+  <Card title="The Pulse Gun Path">
+    - **Location**: Vault 34 Armory
+    - **Advantage**: Highly effective against power armor
+    - **Difficulty**: High radiation and feral ghoul encounters
+  </Card>
+  <Card title="The Euclid's C-Finder Path">
+    - **Location**: Freeside / Helios One
+    - **Advantage**: Unlocks a massive orbital strike weapon
+    - **Difficulty**: Requires specific power routing choices
+  </Card>
+  <Card title="The Farming Data Path">
+    - **Location**: Vault 22 Science Terminals
+    - **Advantage**: Focuses on agricultural self-sufficiency
+    - **Difficulty**: Spore carrier enemies and navigation hazards
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Quest Progression Lockouts">
+If you have already completed the quest "There Stands the Grass" and deleted the research data in Vault 22, or if you permanentely disabled the Archimedes system at Helios One, those specific paths will be unavailable. The Pulse Gun in Vault 34 remains the most reliable fallback option.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Step-by-Step Quest Walkthrough">
+
+Once you trigger three dialogue events, Veronica will request to return to the Hidden Valley Bunker to speak with Elder McNamara. This begins the core sequence of "I Could Make You Care."
+
+<Steps>
+  <Step num="1" title="Consult Elder McNamara">
+    Travel to the Hidden Valley Bunker. With Veronica in your party, you bypass the security protocols. Speak with Elder McNamara on the second basement level. Veronica will attempt to argue for a change in the Brotherhood's isolationist codex, but the Elder will dismiss her concerns.
+  </Step>
+  <Step num="2" title="Access Elijah's Terminal">
+    Leave the bunker and head west toward an abandoned shack near Helios One. Access Father Elijah's hidden terminal inside to download his research notes. This reveals three potential technologies that could convince the Elder to reconsider his position.
+  </Step>
+  <Step num="3" title="Retrieve the Pulse Gun">
+    Acquire the key to the secure cabinet from Colonel Blackwell's quarters at Nellis Air Force Base. Travel to Vault 34, navigate the flooded corridors, and unlock the armory. Retrieve the prototype Pulse Gun from the locked gun case.
+  </Step>
+  <Step num="4" title="Present the Technology">
+    Return to Hidden Valley and present the Pulse Gun to Elder McNamara. Despite the weapon's ability to easily disable power armor, the Elder refuses to alter the codex, leaving Veronica disillusioned.
+  </Step>
+</Steps>
+
+At this point, you must guide Veronica through her life-defining choice: stay with her family in the Brotherhood of Steel, or leave the faction to build a new life with the Followers of the Apocalypse.
+
+| Ending Choice | Perk Gained | Perk Effect | Story Outcome |
+| :--- | :--- | :--- | :--- |
+| Stay with Brotherhood | Bonds of Steel | +4 Damage Threshold | Remains a Scribe; faces internal isolation |
+| Leave Brotherhood | Causeless Rebel | +30% Unarmed Attack Rate | Followers outpost is destroyed; she wanders |
+
+<Callout type="warning" title="The Paladin Ambush">
+Regardless of your choice, rogue Brotherhood Paladins will confront you upon leaving the bunker or arriving at the Followers outpost. If Veronica leaves the faction, these Paladins will slaughter the innocent researchers at the outpost. Be prepared for a high-difficulty combat encounter.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Unlocking the Scribe Counter and Best Builds">
+
+Beyond her main quest, you can unlock a secret combat technique from Veronica by appealing to her love for pre-war fashion. Veronica frequently mentions her desire for a beautiful, stylish dress to wear instead of her bulky scribe robes.
+
+To unlock this hidden interaction, place a piece of pre-war formal wear into her inventory. Eligible items include the Formal Wear from the Ultra-Luxe, the Chiffon Dress from Vault 21, or Vera's Outfit from the Dead Money DLC. Upon receiving the dress, she will excitedly offer to teach you the Scribe Counter, a unique unarmed move that allows you to execute a quick, staggering counter-attack immediately after successfully blocking an enemy strike.
+
+| Gear Slot | Recommended Item | Location / Source | Combat Benefit |
+| :--- | :--- | :--- | :--- |
+| Weapon | Pushy | Ruby Hill Mine | High damage with a powerful knockback effect |
+| Alternative Weapon | Ballistic Fist | Major weapon merchants | Massive single-hit damage on contact |
+| Power Armor | T-51b Power Armor | Hidden Valley Safehouse | Elevates her DT to survive endgame encounters |
+| Helmet | Scribe Hood | Default equipment | Retains her signature aesthetic |
+
+<Callout type="success" title="Scribe Counter Requirement">
+You do not need to complete her companion quest to unlock the Scribe Counter. You can perform this exchange immediately after recruitment by purchasing a dress from Sarah Weintraub in the Vault 21 gift shop.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Where can I find the primary keyword target Fallout New Vegas veronica if she disappears?",
+    answer: "If Veronica disappears from your party, check her default recruitment location at the 188 Trading Post or her personal room inside the L-2 level of the Hidden Valley Bunker. You can also use the companion dismissal terminals located at the Lucky 38 or Gun Runners to reset her position."
+  },
+  {
+    question: "Can I complete her quest if I destroy the Brotherhood of Steel?",
+    answer: "No. If you choose to blow up the Hidden Valley Bunker or eliminate the Brotherhood of Steel leadership before completing 'I Could Make You Care', her quest will fail immediately. Additionally, destroying the faction will cause Veronica to permanently hostile or leave your party."
+  },
+  {
+    question: "Does the Scribe Counter work with melee weapons?",
+    answer: "No, the Scribe Counter is strictly an unarmed technique. It requires your character to be fighting empty-handed or using unarmed weapons like brass knuckles, power fists, or ballistic fists to execute the counter-attack after a block."
+  },
+  {
+    question: "How does Veronica react to the events of the Dead Money DLC?",
+    answer: "If you bring Father Elijah's message from the Sierra Madre back to the Mojave, you can present the holotape to Veronica. This unlocks a unique perk that boosts her unarmed damage or your melee critical damage, depending on how you present the information."
+  }
+]} />
+
+<Callout type="info" title="Sierra Madre Connections">
+To fully appreciate Veronica's backstory, pay close attention to the dialogue regarding Father Elijah and Christine Royce. Both characters play major roles in the Dead Money DLC, bridging the gap between Veronica's past and the broader lore of the Mojave.
+</Callout>
+
+</Section>

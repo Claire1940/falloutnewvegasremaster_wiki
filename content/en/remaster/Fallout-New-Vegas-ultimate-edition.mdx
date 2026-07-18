@@ -1,0 +1,196 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fallout New Vegas Ultimate Edition: 2026 Modding & Setup Guide",
+  description: "Learn how to optimize Fallout New Vegas Ultimate Edition in 2026 with essential mod packs, engine fixes, and expansion content for the best RPG experience.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/e2b007?text=Ultimate+Edition+Guide",
+  date: "2026-07-18",
+  author: "Fallout New Vegas Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Fallout New Vegas Ultimate Edition** is the required baseline for all modern modding projects as it includes all functional DLCs and assets.
+- **Stability First**: Modern setups prioritize engine fixes like the 4GB Patch and NVSE over visual overhauls to prevent crashes.
+- **Mod Packs**: Choose between **Viva New Vegas** for a refined vanilla experience or **New New Vegas** for a massive 800+ mod overhaul.
+- **New Content**: Expansions like **Nova Arizona** and **The Long 15** significantly extend the map into Legion and NCR territories.
+- **Performance**: A modern modded setup requires roughly 20GB to 100GB of additional drive space depending on the chosen texture packs.
+</Callout>
+
+<Section icon={Map} title="The Modern State of Fallout New Vegas Ultimate Edition">
+
+The **Fallout New Vegas Ultimate Edition** remains the definitive way to experience Obsidian Entertainment's magnum opus in 2026. While the base game was famously developed in just 18 months, leading to a launch filled with technical hurdles, the community has spent over fifteen years transforming it into a stable, modern masterpiece. The Ultimate Edition is particularly crucial because it provides the necessary scripts and assets found in the Dead Money, Honest Hearts, Old World Blues, and Lonesome Road DLCs, which are hard requirements for nearly every major mod on the Nexus.
+
+In 2026, the modding scene is more prolific than ever, driven by a renewed interest in the franchise following high-profile media adaptations. Players are no longer just fixing bugs; they are revitalizing the Mojave with professional-grade voice acting, drivable vehicles, and expanded landmasses that rival the size of the original game.
+
+**Video Highlights:**
+- Understanding the 18-month development cycle and its impact on the original release.
+- The shift from "bug fixing" to "total revitalization" in the 2025-2026 modding era.
+- A comparison between lightweight stability guides and massive 100GB mod collections.
+- Demonstration of modern shooting mechanics and third-person animations.
+
+<YouTubeEmbed videoId="mk9uN5O4mUg" title="Fallout New Vegas in 2025/2026 Modding Overview" />
+
+| Feature | Base Game (2010) | Ultimate Edition Modded (2026) |
+| :--- | :--- | :--- |
+| **Stability** | Frequent crashes, memory leaks | 4GB aware, multi-core optimized |
+| **Gunplay** | Clunky, stiff animations | ADS for all guns, recoil patterns |
+| **Visuals** | Flat lighting, low-res textures | PBR materials, volumetric lighting |
+| **World Size** | Mojave Wasteland | Mojave + Arizona + California |
+| **UI/UX** | Low resolution, 4:3 legacy | High-def vector UI, customizable HUD |
+
+<Callout type="tip" title="Pro Tip">
+Always ensure your game is installed outside of the "Program Files" directory. Windows' internal security permissions often block mod managers from correctly overwriting game files, leading to "permission denied" errors during setup.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Choosing Your Modding Path: Vanilla+ vs. Total Overhaul">
+
+When setting up your **Fallout New Vegas Ultimate Edition**, you must decide between two primary philosophies. Some players prefer the "Vanilla+" approach, which focuses on stability, bug fixes, and minor quality-of-life improvements that respect the original vision. Others want a "Total Overhaul" that transforms the game into a modern shooter-RPG hybrid with hundreds of new features.
+
+<CardGrid cols={2}>
+  <Card title="Viva New Vegas (Vanilla+)">
+    - **Focus**: Stability, performance, and balance.
+    - **Mod Count**: Approximately 114 curated mods.
+    - **Storage**: Requires ~19GB of extra space.
+    - **Difficulty**: Moderate setup using MO2.
+    - **Best For**: First-time players or purists.
+  </Card>
+  <Card title="New New Vegas (Overhaul)">
+    - **Focus**: Visual fidelity and new mechanics.
+    - **Mod Count**: 800+ individual mods.
+    - **Storage**: Requires 100GB+ of extra space.
+    - **Difficulty**: Easy via Nexus Premium/Vortex.
+    - **Best For**: Veterans seeking a new experience.
+  </Card>
+</CardGrid>
+
+| Aspect | Viva New Vegas | New New Vegas Overhaul |
+| :--- | :--- | :--- |
+| **Installation Time** | 1-2 Hours (Manual/Guided) | 3-5 Hours (Automated/Premium) |
+| **Engine Fixes** | Comprehensive (NVSE, NVTF, JIP) | Comprehensive + Visual Extenders |
+| **New Weapons** | Lore-friendly additions only | Hundreds of modern/classic assets |
+| **Save Compatibility** | Works with existing saves | Requires a fresh New Game |
+| **Visual Style** | Enhanced Vanilla | Realistic/Remastered style |
+
+<Callout type="warning" title="Save Game Notice">
+The "New New Vegas" collection and other massive overhauls change internal scripts so deeply that they are **not** compatible with vanilla save files. Attempting to load an old save will result in an immediate crash or corrupted quest triggers.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Installation Guide">
+
+To get the most out of the **Fallout New Vegas Ultimate Edition**, you must follow a specific installation order. Deviating from this sequence often results in the "infinite loading screen" or broken textures (the dreaded red exclamation marks).
+
+<Steps>
+  <Step num="1" title="Clean Slate Installation">
+    Uninstall any existing versions of the game. Delete the remaining folder in your Steam directory to ensure no old mod files remain. Reinstall the game to a custom folder like `C:/Games/FNV`.
+  </Step>
+  <Step num="2" title="The Utility Core">
+    Install the **xNVSE** (New Vegas Script Extender), the **4GB Patch**, and **Heap Replacer**. These tools allow the game to utilize more than 2GB of RAM and provide the framework for complex mods to run.
+  </Step>
+  <Step num="3" title="Mod Manager Setup">
+    Download **Mod Organizer 2** (MO2) or **Vortex**. MO2 is generally preferred for its "virtual file system," which keeps your actual game folder clean and allows for easy troubleshooting.
+  </Step>
+  <Step num="4" title="Bug Fixes and UI">
+    Install **YUP** (Yukichigai Unofficial Patch) to fix thousands of lingering bugs. Follow this with **User Interface Organizer** (UIO) and a modern HUD mod like **Consistent Pip-Boy Icons**.
+  </Step>
+  <Step num="5" title="Gameplay Enhancements">
+    Add mechanics like **B42 Inject** for stimpack animations and **Enhanced Movement** for a dedicated sprint button and leaning mechanics.
+  </Step>
+</Steps>
+
+| Tool Name | Purpose | Requirement Level |
+| :--- | :--- | :--- |
+| **xNVSE** | Expands scripting capabilities | Essential |
+| **4GB Patch** | Enables the game to use 4GB RAM | Essential |
+| **NVTF** | Fixes micro-stutter and high FPS | Essential |
+| **JIP LN NVSE** | Adds 800+ new scripting functions | Highly Recommended |
+| **JohnnyGuitar** | Fixes engine-level bugs and limits | Highly Recommended |
+
+<Callout type="success" title="Performance Success">
+By using the **New Vegas Tick Fix (NVTF)** and **DirectX Guide**, players on Windows 10 and 11 can finally play at high refresh rates (144Hz+) without the game physics breaking or the engine speeding up.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Expanding the Mojave: New Frontiers in 2026">
+
+The **Fallout New Vegas Ultimate Edition** is no longer confined to the borders of the Mojave. Modders have released massive "DLC-sized" expansions that seamlessly integrate with the main map. These projects often include full voice acting and branching questlines that respect the faction system of the base game.
+
+### Major Expansion Projects
+- **Nova Arizona**: This mod expands the map eastward across the Colorado River into territory controlled by Caesar's Legion. It adds several new towns, dungeons, and Legion-specific quests, providing much-needed depth to the Eastern side of the map.
+- **The Long 15**: A massive expansion focusing on the New California Republic (NCR) territory. It allows players to travel further West, exploring the supply lines and political struggles within the republic's borders.
+- **A Tale of Two Wastelands (TTW)**: This is perhaps the most ambitious project in Bethesda modding history. It ports the entirety of Fallout 3 into the Fallout New Vegas engine, allowing you to play both games with one character, using New Vegas's superior mechanics.
+
+| Expansion | Primary Faction | Key Feature | Voice Acting |
+| :--- | :--- | :--- | :--- |
+| **Nova Arizona** | Caesar's Legion | Eastern map expansion | Partial (Text-heavy) |
+| **The Long 15** | NCR | Western supply routes | Full Professional |
+| **TTW** | Mixed | Fallout 3 in FNV Engine | Original + New |
+| **The Frontier** | Various | Drivable vehicles, New City | Full Professional |
+
+<Callout type="info" title="A Tale of Two Wastelands">
+To install TTW, you must own legal, clean installations of both **Fallout New Vegas Ultimate Edition** and **Fallout 3 Game of the Year Edition**. The installer will bridge the two games into a single executable.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Visual and Combat Modernization">
+
+One of the biggest complaints about the base **Fallout New Vegas Ultimate Edition** is the "floaty" combat and dated character models. In 2026, these issues have been largely solved through animation replacements and engine-level shooting overhauls.
+
+**Key Visual Improvements:**
+- **PBR Textures**: Physics-Based Rendering allows surfaces to react realistically to light, making metal look like metal and stone look like stone.
+- **Atmospheric Lighting**: Mods like **Desert Natural Weathers** remove the harsh orange tint and replace it with dynamic lighting and realistic skyboxes.
+- **Animation Overhauls**: The **Hitman's Season** series replaces every weapon animation in the game, providing satisfying reloads and realistic recoil.
+
+<Checklist
+  id="visual-checklist"
+  title="Modernization Checklist:"
+  items={[
+    "Install NVTF for smooth high-frame-rate gameplay",
+    "Apply a modern UI overhaul (Stewie Tweaks is a must)",
+    "Enable 'True Shadows' for dynamic environmental lighting",
+    "Add 'B42 Descriptions' for immersive item inspection",
+    "Replace vanilla character heads with high-poly models"
+  ]}
+/>
+
+<Callout type="tip" title="Combat Tip">
+Use the **Leaning** and **Sprinting** mods to make the game feel like a modern tactical shooter. Being able to peak around corners in the Vaults or the Sierra Madre changes the tactical flow of the game significantly.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Do I really need the Ultimate Edition for modding?",
+    answer: "Yes. Almost all modern mods require the assets from the four major DLCs. If you only have the base game, many mods will cause your game to crash on startup due to missing master files."
+  },
+  {
+    question: "Is modding Fallout New Vegas difficult in 2026?",
+    answer: "It has become much easier thanks to 'Collections' on Nexus and 'Wabbajack' lists. These tools automate the download and installation process, though a basic understanding of file paths is still recommended."
+  },
+  {
+    question: "Can I run 800+ mods on a mid-range PC?",
+    answer: "Surprisingly, yes. Because the engine is old, even a mid-range modern PC can handle hundreds of mods. The main bottleneck is the engine's memory limit, which is solved by the 4GB Patch and Heap Replacer."
+  },
+  {
+    question: "What is the most essential mod for stability?",
+    answer: "The 4GB Patch is the most critical. Without it, the game can only use 2GB of RAM, which leads to immediate crashes once you start adding high-resolution textures or complex scripts."
+  }
+]} />
+
+</Section>

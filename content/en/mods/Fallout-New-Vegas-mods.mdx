@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fallout New Vegas Mods: Gunplay Overhaul Setup Guide",
+  description: "Transform your combat experience with this step-by-step Fallout New Vegas mods setup guide for realistic gunplay, animations, and sound overhauls.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Gunplay+Overhaul+Guide",
+  date: "2026-07-18",
+  author: "Fallout New Vegas Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary Overhaul**: Modernize your combat using vanilla-friendly **Fallout New Vegas mods** for realistic gunplay.
+- **Enhanced Physics**: Combine weapon inertia, realistic recoil, and ragdoll mechanics to eliminate janky engine movement.
+- **Immersive Audio**: Upgrade to high-fidelity soundscapes that deliver directional feedback and distinct weapon signatures.
+- **Essential Fixes**: Apply stability patches and configuration tweaks to guarantee a smooth, crash-free gameplay experience.
+</Callout>
+
+<Section icon={Sparkles} title="Fallout New Vegas Mods: Animation and Movement Overhauls">
+
+Modernizing the combat mechanics of Obsidian's classic RPG is easier than ever when utilizing the right selection of Fallout New Vegas mods. While the original release featured revolutionary storytelling, the gunplay and character movement often felt rigid, janky, and unresponsive. By overhauling the core animations and movement physics, you can transform the game into a smooth, dynamic first-person shooter without sacrificing its role-playing identity. 
+
+To achieve a seamless combat feel, you must replace the outdated vanilla weapon handling. Combining modern animation frameworks creates a fluid system where weapons carry believable weight, recoil feels natural, and transitions between aiming down sights are completely seamless.
+
+**Video Highlights:**
+- **Vanilla-Friendly Focus**: Enhancing gunplay without turning the wasteland into a modern military shooter.
+- **Animation Synergy**: How to combine different animation packs to eliminate clipping and reload bugs.
+- **Physics Integration**: Adding inertia and weapon bobbing to simulate realistic movement.
+- **Audio & Visual Feedback**: Utilizing high-fidelity soundscapes and particle effects for satisfying impacts.
+
+<YouTubeEmbed videoId="NKZW1OeRVlU" title="How GUNPLAY Should've Been in Fallout New Vegas (Vanilla-Friendly Mods)" />
+
+To build this setup, begin with the core animation overhauls. Combining the Anniversary Animations Pack with FNV Clean Animations provides a comprehensive refresh of the game's firearms. This combination preserves the base game's weapon balance while correcting clipping errors and reload cancellation issues.
+
+| Mod Name | Category | Primary Feature |
+| :--- | :--- | :--- |
+| Anniversary Animations | Weapon | Overhauls firing and handling animations |
+| FNV Clean Animations | Weapon | Fixes clipping and reload canceling issues |
+| View Model Recoil | Physics | Adds visual kickback to automatic weapons |
+| B42 Weapon Inertia | Physics | Introduces camera-movement sway and weight |
+| Smooth True Iron Sights | Camera | Patches transitions when aiming down sights |
+
+Movement physics also require adjustment to prevent the character from feeling like they are sliding across the terrain. Walking Inertia and Dramatic Inertia add natural weight to first-person and third-person movement, ensuring transitions between running, stopping, and turning feel predictable.
+
+<Callout type="tip" title="Pro Tip">
+Enable the slide-prevention option inside the Stewie Tweaks configuration menu. This setting stops your character from slipping forward after you release the movement keys, drastically improving precision during tight firefights.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Visual Effects and Impact Realism">
+
+Visual feedback is crucial for satisfying gunplay. When firing a weapon, you need immediate visual confirmation of bullet trajectory, impact locations, and environmental destruction. The base engine lacks these dynamics, but a dedicated suite of visual mods on [Nexus Mods](https://www.nexusmods.com/newvegas) corrects these limitations.
+
+<CardGrid cols={3}>
+  <Card title="Visual Feedback">
+    Upgrades particle effects, laser beams, plasma bolts, and muzzle flashes to make every shot visually distinct.
+  </Card>
+  <Card title="Impact Realism">
+    Generates realistic dust, sparks, and caliber-specific bullet decals on hit surfaces.
+  </Card>
+  <Card title="Weapon Mechanics">
+    Adds physical magazine drops and dynamic lighting to energy projectiles in dark environments.
+  </Card>
+</CardGrid>
+
+By replacing standard particle textures with high-definition alternatives, combat becomes much more urgent. Bullet Tracers for New Vegas adds visible trajectories to all ballistic weapons, allowing you to track your shots and identify where hostile NPCs are firing from.
+
+| Mod Name | Visual Effect | Gameplay Impact |
+| :--- | :--- | :--- |
+| Effect Textures Enhanced | HD particles, lasers, plasma | Cleaner, more intense explosions |
+| Impact | Caliber-specific decals | Realistic bullet marks on surfaces |
+| Bullet Tracers | Ballistic tracers | Easier to track shots and enemy positions |
+| B42 Drop Mag | Physical magazine debris | Dropped magazines bounce on terrain |
+
+These enhancements make every shootout feel dangerous. When bullets hit cover, they kick up debris and sparks, forcing you to utilize tactical movement and respect enemy positions.
+
+<Callout type="info" title="Visual Tip">
+If you use mods that darken the game's nights, combine them with New Vegas Energy Visuals Plus 2. This ensures that firing plasma weapons or launching explosives will dynamically illuminate the surrounding environment.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Audio Design and Soundscapes">
+
+Auditory feedback provides critical tactical data. A robust soundscape allows you to determine the weapon type, distance, and direction of incoming fire. Upgrading the audio engine transforms the quiet, flat vanilla gunshots into a powerful, echo-filled warzone.
+
+The primary driver for this transformation is the JSRS Sound Mod 2, which introduces nearly 600 new high-definition sounds for vanilla weaponry. It features dynamic environment scaling, meaning gunfire indoors sounds tight and claustrophobic, while shots fired in the open wasteland echo across the valleys.
+
+| Mod Name | Audio Focus | Key Improvement |
+| :--- | :--- | :--- |
+| JSRS Sound Mod 2 | Ballistic weapons | Dynamic indoor/outdoor reverb and echo |
+| MNTL | Energy weapons | Punchy, high-tech discharge soundscapes |
+| Bullet Snap Redux | Sonic snaps | Clear audio cues when bullets miss your head |
+| ADS SFX | Weapon handling | Adds subtle mechanical sounds when aiming |
+
+With JSRS and Bullet Snap Redux installed, you can immediately identify when you are the target of incoming fire. The distinct sonic snaps and whistling bullets provide immediate feedback, prompting you to seek cover.
+
+<Callout type="warning" title="Audio Warning">
+JSRS Sound Mod 2 significantly increases the dynamic range of weapon sounds. Ensure you adjust your master audio levels in-game to avoid sudden volume spikes during intense, multi-faction skirmishes.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Hit Feedback and Ragdoll Physics">
+
+In the vanilla game, enemies rarely show physical reactions to being shot, outside of stiff, pre-baked stagger animations. This lack of feedback makes weapons feel weak. Introducing physics-based ragdolls and locational force resolves this issue entirely.
+
+Mad A's Ragdolls Mod is essential for establishing realistic death reactions and hit momentum. When an NPC is shot, their body reacts dynamically based on the caliber of the weapon used and the specific limb that was struck.
+
+| Mod Name | System | Core Feature |
+| :--- | :--- | :--- |
+| Mad A's Ragdolls | Physics | Locational force and realistic death momentum |
+| Dramatic Staggering | Animation | Smooth, physics-aligned stagger reactions |
+| Dismember Tweaks | Mechanics | Limits limb dismemberment to high-caliber weapons |
+| Custom Hit Markers | User Interface | Audio cues for body, head, and critical hits |
+
+To prevent cartoonish violence, Dismember Tweaks restricts limb loss to high-powered weapons. Small-caliber pistols will no longer cleanly sever limbs, making high-caliber rifles and shotguns feel uniquely devastating.
+
+<Callout type="success" title="Feedback Success">
+Combining locational ragdoll physics with custom hit marker sounds provides perfect combat feedback. You will immediately know if you landed a headshot at long range without needing to check the enemy's health bar.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Gameplay Mechanics Overhaul">
+
+To tie your visual, audio, and animation mods together, you must overhaul the underlying combat mechanics. The base game relies heavily on the VATS system to compensate for poor real-time shooting mechanics. By introducing modern recoil, ballistics, and slow-motion targeting, you can make real-time gunplay engaging and skill-based.
+
+Installing Immersive Recoil 2 adds physical recoil patterns to every weapon, requiring active mouse control to stay on target. This works in tandem with Physics-Based Ballistics, which adds bullet drop and travel velocity to all projectiles.
+
+<Steps>
+  <Step num="1" title="Install Just Assorted Mods (JAM)">
+    This framework replaces the static VATS system with a dynamic, real-time Bullet Time mechanic. It drains your Action Points (AP) while slowing down time, allowing for precise, manual aiming during chaotic encounters.
+  </Step>
+  <Step num="2" title="Configure Immersive Recoil 2">
+    Open the in-game Mod Configuration Menu (MCM) and adjust the recoil recovery speed to match your personal preference. Ensure 'Crosshair Return' is enabled for a smoother transition back to center.
+  </Step>
+  <Step num="3" title="Apply Realistic Movement Fixes">
+    Activate Realistic Movement to eliminate the erratic, instant dodging behavior of hostile NPCs. This ensures enemies move at believable speeds, making manual aiming fair and rewarding.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Gameplay Tip">
+To assist with aiming on high-resolution monitors, enable the Soft Lock Aim Assist option. This subtle feature helps guide your crosshair to targets when aiming close to their hitboxes, smoothing out the engine's natural aiming jank.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Essential Bug Fixes and Stability Checklist">
+
+An extensive load order of combat and visual mods requires a solid foundation of stability patches. Without proper engine fixes, adding complex script-heavy mods like physical ballistics or custom camera transitions will lead to performance degradation and frequent crashes.
+
+Before launching your newly modded game, verify that your installation meets all modern stability requirements. This ensures the game engine can handle the increased load of custom animations, particles, and script wrappers.
+
+<Checklist
+  id="stability-milestones"
+  title="Gunplay Stability Checklist:"
+  items={[
+    "Install the latest version of xNVSE (New Vegas Script Extender)",
+    "Apply the 4GB Patch to allow the game engine to utilize more system memory",
+    "Install Stewie Tweaks to unlock essential engine-level fixes and custom gameplay toggles",
+    "Configure Faster Pip-Boy Animations to prevent game freezes when opening menus during intense combat"
+  ]}
+/>
+
+<Callout type="warning" title="Compatibility Warning">
+Always use a modern mod manager like Mod Organizer 2 or Vortex. Never install these mods directly into your game directory, as overwriting vanilla files makes troubleshooting conflicts nearly impossible.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Do these Fallout New Vegas mods disable achievements?",
+    answer: "Using xNVSE and mod managers does not natively disable Steam achievements. However, using the standard in-game developer console will disable achievements for that specific play session."
+  },
+  {
+    question: "How do I fix weapon clipping issues with custom animations?",
+    answer: "Ensure FNV Clean Animations is loaded after the Anniversary Animations Pack in your mod manager. This allows the clean-up scripts to overwrite the base animation files correctly."
+  },
+  {
+    question: "Will these gunplay mods impact my frame rate?",
+    answer: "Most animation and sound mods have zero impact on performance. However, heavy particle mods like EXE or high-resolution impact decals can cause minor frame drops on lower-end systems during massive explosions."
+  }
+]} />
+
+</Section>

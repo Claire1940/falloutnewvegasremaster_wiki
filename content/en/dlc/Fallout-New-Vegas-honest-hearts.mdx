@@ -1,0 +1,188 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fallout New Vegas Honest Hearts: Caravan Walkthrough & Tips",
+  description: "Prepare for the Happy Trails Expedition in Fallout New Vegas Honest Hearts. Learn weight limit tricks, NPC choices, and Zion survival strategies.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a202c/ffffff?text=Honest+Hearts+Walkthrough",
+  date: "2026-07-18",
+  author: "Fallout New Vegas Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Start Location**: Locate the Northern Passage cave in the northern hills of the Mojave Wasteland to begin the adventure.
+- **Weight Management**: Keep your inventory under 75 pounds, or up to 100 pounds by passing skill checks with Ricky.
+- **Scripted Ambush**: Expect all caravan members to die immediately upon entering Zion Canyon during a scripted ambush.
+- **DLC Progression**: Secure a map of Zion to return to the Mojave, as fast travel is disabled until completion.
+</Callout>
+
+<Section icon={Map} title="Starting the Happy Trails Expedition">
+
+The journey begins north of the Vegas strip. A new radio broadcast appears on your Pip-Boy: the Happy Trails Expedition Broadcast. Led by caravan boss Jed Masterson, the Happy Trails Caravan Company is looking for experienced guards, prospectors, and couriers to guide an expedition north into the untouched wilderness of Zion National Park in Utah. 
+
+**Video Highlights:**
+- **Northern Passage Location**: Hidden behind a dirt path in the mountains north of Vegas.
+- **Caravan Briefing**: Jed Masterson explains the route, payment terms, and the mystery surrounding New Canaan.
+- **Weight Limit Restriction**: Understanding why you must pack light before leaving the Mojave.
+
+<YouTubeEmbed videoId="YkCH629xa00" title="Honest Hearts 01: The Happy Trails Caravan - Fallout New Vegas Lore" />
+
+To find the starting point, follow the dirt path behind a rickety shack in the northern hills. You will spot a rock marked with graffiti reading "The Sun is killing me" and a nearby hollowed-out rock containing random loot. Just outside the entrance to the Northern Passage is an unmarked grave that can be excavated for ammunition.
+
+Inside the dimly lit cavern, you meet Jed Masterson. He offers 25 caps per day, with bonuses upon reaching Zion and New Canaan. However, he issues a strict warning: do not mention the name of Joshua Graham, the legendary "Burned Man" and former Legate of Caesar, as the topic terrifies the local tribals and deeply discomforts the New Canaanites.
+
+The caravan cannot take standard routes like Interstate 80 or go through Ogden because the NCR Rangers are heavily deployed in the Mojave, leaving the northern roads completely unprotected from brutal raider gangs like the 80s. Reestablishing trade with New Canaan is the company's last hope to avoid bankruptcy.
+
+| Caravan Detail | Requirement / Information |
+| :--- | :--- |
+| **Starting Location** | Northern Passage (Northern Mojave) |
+| **Default Weight Limit** | 75 Pounds (Maximum) |
+| **Base Pay** | 25 Caps per day (plus location bonuses) |
+| **Primary Goal** | Reestablish trade with New Canaan in Zion |
+| **Companion Rule** | Solo only (Mojave companions must be dismissed) |
+
+<Callout type="warning" title="Stash Your Gear">
+The 75-pound weight limit is strict. Use the metal crate inside the Northern Passage cave to store your excess weapons, armor, and aid items. Your belongings will remain perfectly safe until you return from Zion.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Caravan Companion Analysis & Skill Checks">
+
+Before departing, you can interact with the unique crew members assembled for the trip. Each character brings distinct background lore and mechanical benefits that can help you bypass the strict inventory limitations of the expedition.
+
+<CardGrid cols={3}>
+  <Card title="Jed Masterson">
+    - **Role**: Caravan Leader
+    - **Origin**: Sacramento (Sac Town)
+    - **Insight**: Provides essential lore on the New Canaanites, the regional raider factions, and the dangerous White Legs tribe.
+  </Card>
+  <Card title="Stella">
+    - **Role**: Caravan Guard
+    - **Origin**: New Reno / Caliente
+    - **Insight**: Former sheriff with extensive combat experience fighting the 80s and protecting northern trade routes.
+  </Card>
+  <Card title="Ricky">
+    - **Role**: Scout / Imposter
+    - **Origin**: Dayglow (NCR)
+    - **Insight**: Wears a looted Vault 22 suit and lies about killing Deathclaws. Can be manipulated to increase your weight limit.
+  </Card>
+</CardGrid>
+
+Ricky is particularly noteworthy. He claims to be a legendary marksman named "Deadeye Ricky" who once killed four "death jaws" and defeated a Brotherhood of Steel Paladin with an imaginary 11mm submachine gun. You can expose his lies using various skill checks. 
+
+If you have power armor training, you can point out that Brotherhood helmet eye slits are bulletproof. Alternatively, a Guns check reveals that 11mm submachine guns do not exist. If you diagnose his erratic behavior as Psycho withdrawal using Medicine, you can sell him your spare drugs for a high price.
+
+Most importantly, you can convince Ricky to carry some of your gear, which successfully raises your starting weight limit from 75 pounds to 100 pounds.
+
+| Skill Check Type | Requirement | Reward / Outcome |
+| :--- | :--- | :--- |
+| **Guns Check** | Guns 45 | Exposes Ricky's lies about his fictional weaponry |
+| **Science Check** | Science 55 | Reveals his Pip-Boy screen is locked and broken |
+| **Medicine Check** | Medicine 50 | Identifies his Psycho addiction; allows selling chems |
+| **Barter Check** | Barter 50 | Pay 100 caps to raise your weight limit to 100 lbs |
+| **Speech Check** | Speech 55 | Convinces Ricky to carry gear, raising limit to 100 lbs |
+
+<Callout type="tip" title="Bypassing the Limit">
+If you lack the Barter or Speech skills to convince Ricky, you can use the Black Widow perk during dialogue to mock his claims, which yields a similar inventory expansion option.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Entering Zion and the Scripted Ambush">
+
+Once you confirm your readiness to Jed Masterson, the caravan departs. The journey takes several weeks, bringing you deep into the breathtaking red rock country of Zion Canyon. However, the serene landscape quickly turns deadly.
+
+As the caravan navigates a narrow slot canyon, Jed senses danger. Within seconds, an explosive ambush is launched by the hostile White Legs tribe. The White Legs are a vicious tribal group from the Great Salt Lake area, known for their brutality and their desire to impress Caesar's Legion by wiping out the New Canaanites.
+
+During this encounter, all caravan members—including Jed, Stella, and the guards—are killed in a scripted sequence. Many players waste valuable ammunition and stimpaks trying to keep Stella or Jed alive, but their deaths are hard-coded to progress the narrative. 
+
+| Faction | Leader | Disposition | Combat Style |
+| :--- | :--- | :--- | :--- |
+| **Happy Trails** | Jed Masterson | Friendly (Deceased) | Standard firearms, defensive |
+| **White Legs** | Salt-Upon-Wounds | Highly Hostile | Submachine guns, war clubs, fire bombs |
+| **New Canaanites** | Daniel / Joshua Graham | Friendly | High-grade pistols, tactical survival |
+
+After defeating the initial wave of ambushers, you must cross a wooden rope bridge. At the far side, a final White Leg tribal will attempt to ambush you from above. Before he can strike, a friendly tribal named Follows-Chalk shoots him, saving your life.
+
+<Callout type="info" title="Do Not Shoot the Friendly Tribal">
+In the chaos of the ambush, it is incredibly easy to mistake Follows-Chalk for an enemy. If you shoot him, the entire tribal population of Zion turns hostile, failing all story quests and forcing you into the emergency escape quest, "Chaos in Zion."
+</Callout>
+
+Without a guide or a caravan, you are trapped in Zion. The bridges across the Virgin River have been systematically destroyed by the White Legs. Your only hope of returning to the Mojave Wasteland is to cooperate with Follows-Chalk, meet the legendary Burned Man, and secure a map of the surrounding territory.
+</Section>
+
+<Section icon={Target} title="Step-by-Step Preparation and Goals">
+
+To ensure a smooth transition into the DLC, follow this structured preparation sequence.
+
+<Steps>
+  <Step num="1" title="Leveling and Gear Selection">
+    Reach at least level 15 before starting. Choose lightweight, high-durability weapons like Paciencia, Ratslayer, or a Marksman Carbine to stay under the 75-pound limit.
+  </Step>
+  <Step num="2" title="Inventory Purge">
+    Travel to the Northern Passage. Drop all heavy armor, excess ammunition, and heavy heavy weapons into the safe metal container inside the cave.
+  </Step>
+  <Step num="3" title="Manipulate Ricky">
+    Speak to Ricky inside the cave. Use your Barter, Speech, or Medicine skills to secure the inventory weight bonus, bringing your allowance to 100 pounds.
+  </Step>
+  <Step num="4" title="Confirm Departure">
+    Speak to Jed, confirm you are ready to leave, and watch the opening cinematic as the caravan travels to Utah.
+  </Step>
+</Steps>
+
+Before you depart, review your inventory against this essential checklist to maximize your survival chances in the canyon.
+
+<Checklist
+  id="honest-hearts-prep"
+  title="Pre-Departure Checklist:"
+  items={[
+    "Verify total weight is under 75 lbs (or 100 lbs with Ricky's help)",
+    "Pack at least 20 Stimpaks and 5 Doctor's Bags",
+    "Bring a shovel for excavating graves along the trail",
+    "Dismiss any active Mojave companions to the Lucky 38",
+    "Ensure you have lightweight armor with high Damage Threshold (DT)"
+  ]}
+/>
+
+<Callout type="success" title="Ready for Zion">
+By entering the canyon with a optimized, lightweight loadout, you leave plenty of inventory space to collect the incredibly powerful unique weapons and armor sets scattered throughout Zion, such as the Desert Ranger Combat Armor and the Survivalist's Rifle.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+To help you get the most out of your experience with the **Fallout New Vegas honest hearts** expansion, we have compiled answers to the most common community questions regarding the Happy Trails Caravan.
+
+<FAQ items={[
+  {
+    question: "Can I save Jed, Stella, or Ricky during the initial ambush in Fallout New Vegas honest hearts?",
+    answer: "No. The deaths of all Happy Trails caravan members are scripted. Even if you use console commands to make them essential, they are programmed to die or disappear to advance the storyline of the DLC."
+  },
+  {
+    question: "What happens to my gear stored in the Northern Passage crate?",
+    answer: "Your gear is completely safe. The container is non-respawning, meaning your items will never disappear. You can retrieve them immediately upon returning from Zion."
+  },
+  {
+    question: "Can I bring Mojave companions like Cass or Boone to Zion?",
+    answer: "No. Jed Masterson strictly prohibits bringing companions because of the narrow passes and limited supplies. You must dismiss them before you can initiate the DLC."
+  },
+  {
+    question: "How do I return to the Mojave Wasteland once the DLC starts?",
+    answer: "You cannot return to the Mojave until you complete the main questline of Honest Hearts. You must either complete the story with Joshua Graham and Daniel, or complete the 'Chaos in Zion' quest by killing the tribal leaders."
+  }
+]} />
+
+<Callout type="tip" title="DLC Completion Reward">
+Once you complete the main story of the expansion, you can return to Zion at any time. A reward trunk containing the unique gear of the faction leaders will spawn near the Southern Passage exit.
+</Callout>
+
+</Section>

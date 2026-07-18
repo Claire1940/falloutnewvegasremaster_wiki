@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fallout New Vegas 4gb patcher: Guía de instalación para la estabilidad del sistema",
+  description: "Aprende a instalar Fallout New Vegas 4gb patcher para aumentar el uso de RAM, evitar cuelgues y habilitar el modding avanzado en 2026.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/2d2d2d/ffce00?text=4GB+Patcher+Guide",
+  date: "2026-07-18",
+  author: "Equipo de la Wiki de Fallout New Vegas"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Palabra clave principal**: El **Fallout New Vegas 4gb patcher** es esencial para la estabilidad del sistema moderno.
+- **Mecánica clave**: Habilita la bandera **Large Address Aware** (LAA) en el ejecutable del juego.
+- **Mejor estrategia**: Instala siempre el **New Vegas Script Extender** (NVSE) antes de aplicar el parche.
+- **Consejo crítico**: Establece tus **archivos INI** como de solo lectura para evitar que el lanzador de Steam los restablezca.
+- **La mejor opción**: Se prefiere el **parcheador ejecutable** sobre las versiones anteriores basadas en cargadores por su facilidad de uso.
+</Callout>
+
+<Section icon={Map} title="La base del modding moderno">
+
+El **Fallout New Vegas 4gb patcher** es sin duda la utilidad más crítica para cualquier jugador que quiera experimentar el yermo de Mojave en 2026. Por defecto, el juego es una aplicación de 32 bits, lo que limita su espacio de direcciones virtuales a solo 2 GB de RAM. En un entorno de juego moderno donde las texturas de alta resolución y los mods de scripts complejos son la norma, esta limitación provoca frecuentes cuelgues por "Falta de memoria" (Out of Memory) y tirones (stuttering). Este parcheador modifica el ejecutable del juego para que reconozca hasta 4 GB de RAM, duplicando eficazmente los recursos disponibles para que los utilice el motor.
+
+**Aspectos destacados del video:**
+- Descarga de la variante correcta del parcheador desde Nexus Mods.
+- Gestión de los archivos del New Vegas Script Extender (NVSE).
+- Ubicación correcta en el directorio dentro de las carpetas de Steam o GOG.
+- Ejecución del parcheador con privilegios de administrador.
+- Configuración de los archivos INI para asegurar que los ajustes persistan a través del lanzador de Steam.
+
+<YouTubeEmbed videoId="x3I-w64080k" title="Cómo instalar 4GB Patcher + NVSE: Tutorial de Fallout New Vegas 2019" />
+
+<Callout type="info" title="Contexto técnico">
+Aunque los sistemas modernos suelen tener 16 GB o 32 GB de RAM, el software de 32 bits no puede acceder de forma nativa a más de 4 GB. El parcheador garantiza que el juego utilice el límite máximo posible para su arquitectura.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Proceso de instalación de Fallout New Vegas 4gb patcher">
+
+Instalar el **Fallout New Vegas 4gb patcher** es un proceso sencillo, pero requiere precisión en cuanto a la ubicación de los archivos. A diferencia de muchos mods que residen en la carpeta "Data", esta utilidad debe colocarse en el directorio raíz donde se encuentra el ejecutable principal del juego (`FalloutNV.exe`).
+
+<Steps>
+  <Step num="1" title="Descargar los archivos requeridos">
+    Visita la página de Nexus Mods y descarga el 4GB Patcher. Además, descarga la última versión estable del **New Vegas Script Extender** (NVSE). Utiliza una herramienta como 7-Zip o WinRAR para extraer los archivos comprimidos.
+  </Step>
+  <Step num="2" title="Desplegar NVSE">
+    Abre la carpeta de NVSE y copia todos los archivos `.dll` y `.exe`. Dirígete al directorio de tu juego (normalmente `Steam/steamapps/common/Fallout New Vegas`) y pega estos archivos directamente en la carpeta raíz.
+  </Step>
+  <Step num="3" title="Aplicar el parche de 4GB">
+    Copia el archivo `FalloutNVpatch.exe` de tus descargas y pégalo en el mismo directorio raíz. Haz clic derecho en el archivo y selecciona **Ejecutar como administrador**. Aparecerá una ventana de comandos indicando si el parche se aplicó correctamente.
+  </Step>
+  <Step num="4" title="Verificación">
+    Una vez que el parcheador confirme que el ejecutable ha sido parcheado, puedes presionar cualquier tecla para salir. El juego ahora es capaz de utilizar 4 GB de RAM y cargará automáticamente NVSE cada vez que inicies el juego a través de Steam.
+  </Step>
+</Steps>
+
+| Requisito | Descripción | Estado |
+| :--- | :--- | :--- |
+| **Versión del juego** | Steam, GOG o Epic Games | Requerido |
+| **Permisos** | Acceso de administrador | Obligatorio |
+| **Herramientas** | 7-Zip o WinRAR | Recomendado |
+| **Dependencia** | NVSE (última versión estable) | Esencial |
+
+<Callout type="success" title="Instalación exitosa">
+Si ves el mensaje "FalloutNV.exe successfully patched", el proceso ha terminado. No necesitas volver a ejecutar el parcheador a menos que reinstales el juego.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Optimización de los archivos del juego para lanzadores de Steam">
+
+Un problema común que enfrentan los jugadores después de usar el **Fallout New Vegas 4gb patcher** es que el lanzador de Steam sobrescriba los archivos de configuración personalizados. El lanzador tiende a "desordenar" tus ajustes INI, lo que puede desactivar características importantes de modding o mejoras gráficas. Para evitar esto, debes proteger manualmente tus archivos de configuración.
+
+| Nombre del archivo | Ubicación | Cambio de atributo |
+| :--- | :--- | :--- |
+| **fallout.ini** | Documents/My Games/FalloutNV | Establecer como solo lectura |
+| **falloutprefs.ini** | Documents/My Games/FalloutNV | Establecer como solo lectura |
+| **fallout_default.ini** | Directorio raíz del juego | Establecer como solo lectura |
+
+<Callout type="warning" title="Advertencia importante">
+Si necesitas cambiar la resolución o los ajustes gráficos en el futuro, debes desmarcar "Solo lectura", realizar los cambios y luego volver a activar la protección.
+</Callout>
+
+Al establecer estos archivos como solo lectura, te aseguras de que el motor del juego respete tus modificaciones personalizadas y mejoras de rendimiento, independientemente de cómo inicies la aplicación.
+
+</Section>
+
+<Section icon={Sparkles} title="Impacto en el rendimiento y métricas de estabilidad">
+
+Los beneficios inmediatos del **Fallout New Vegas 4gb patcher** son visibles tanto en la estabilidad como en el rendimiento bruto. Los jugadores que utilicen paquetes de texturas en alta definición o mods complejos con gran carga de scripts como "Project Nevada" o "JSawyer Ultimate" notarán una reducción significativa de los microtirones (micro-stuttering) y de los cuelgues durante las transiciones de celdas.
+
+<CardGrid cols={3}>
+  <Card title="Expansión de memoria">
+    Aumenta el espacio de direcciones de **2 GB a 4 GB**, lo que permite cargar elementos más grandes sin alcanzar los límites de memoria.
+  </Card>
+  <Card title="Integración de NVSE">
+    El parcheador moderno carga automáticamente **NVSE**, eliminando la necesidad de usar un ejecutable de carga independiente.
+  </Card>
+  <Card title="Estabilidad del motor">
+    Reduce la frecuencia de **CTD** (cuelgues al escritorio) específicamente relacionados con errores de desbordamiento de memoria.
+  </Card>
+</CardGrid>
+
+| Métrica | Juego original (Vanilla) | Juego parcheado |
+| :--- | :--- | :--- |
+| **Uso de RAM** | Límite estricto de 2048 MB | Límite flexible de 4096 MB |
+| **Nivel de estabilidad** | Moderado/Bajo | Alto |
+| **Soporte de mods** | Mods ligeros/Vainilla | Modificaciones pesadas/completas |
+| **Velocidad de carga** | Estándar | Mejorada (con SSD) |
+
+<Callout type="tip" title="Consejo profesional">
+Para obtener los mejores resultados, combina el parcheador de 4 GB con **New Vegas Anti-Crash** (NVAC) y **New Vegas Stutter Remover** (o Tick Fix) para crear una base sólida como una roca.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Conflictos comunes de mods y soluciones">
+
+Aunque el **Fallout New Vegas 4gb patcher** es altamente compatible, ciertos casos particulares pueden causar problemas, especialmente con diferentes versiones de tiendas del juego. La versión de GOG, por ejemplo, a menudo viene pre-parcheada con las banderas Large Address Aware, aunque volver a ejecutar la utilidad no causa ningún daño.
+
+<FAQ items={[
+  {
+    question: "¿Necesito ejecutar el parcheador de 4 GB cada vez que juego?",
+    answer: "No. Solo necesitas ejecutar el Fallout New Vegas 4gb patcher una vez. Modifica permanentemente el archivo ejecutable hasta que sea reemplazado o reinstalado."
+  },
+  {
+    question: "¿Cómo puedo verificar que el parche realmente está funcionando?",
+    answer: "Abre el juego y abre la consola con la tecla de la tilde (~). Escribe 'GetNVSEVersion'. Si devuelve un número de versión y el juego no se ha colgado en zonas pesadas, es probable que el parche esté activo."
+  },
+  {
+    question: "¿Funciona esto con la versión de Epic Games Store?",
+    answer: "Sí, pero puede requerir una versión específica del parcheador o una utilidad adicional 'Epic Games Patcher' para eludir las restricciones únicas del lanzador."
+  },
+  {
+    question: "¿Me banearán de Steam por esto?",
+    answer: "No. Modificar juegos de un solo jugador como Fallout: New Vegas no resulta en baneos de Steam, ya que el juego no utiliza Valve Anti-Cheat (VAC)."
+  }
+]} />
+
+<Callout type="info" title="Consejo de expertos">
+Si el parcheador no se ejecuta, asegúrate de tener instalados los paquetes **C++ Redistributable** en tu sistema Windows, ya que el parcheador depende de estas librerías para funcionar.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Verificación final y mantenimiento">
+
+Antes de regresar al yermo, asegúrate de haber completado todas las tareas posteriores a la instalación. Mantener un juego con mods estable requiere comprobaciones ocasionales, especialmente después de actualizaciones del juego o validaciones de archivos.
+
+<Checklist
+  id="post-install-nv"
+  title="Lista de verificación de la configuración final:"
+  items={[
+    "Verificar que FalloutNV.exe haya sido modificado recientemente",
+    "Confirmar que los scripts de NVSE estén presentes en la carpeta raíz",
+    "Establecer los tres archivos INI principales como solo lectura",
+    "Iniciar el juego a través de Steam para probar la carga automática",
+    "Comprobar si hay errores de 'Falta de memoria' en áreas pesadas como Freeside"
+  ]}
+/>
+
+<Callout type="success" title="Listo para el Mojave">
+Con el **Fallout New Vegas 4gb patcher** correctamente instalado, tu juego ahora está optimizado para los mods más exigentes disponibles en 2026. Disfruta de una experiencia más fluida y confiable en todo el Mojave.
+</Callout>
+
+| Tarea | Frecuencia | Prioridad |
+| :--- | :--- | :--- |
+| **Parchear ejecutable** | Una vez por instalación | Crítica |
+| **Actualizar NVSE** | Cada 6 meses | Media |
+| **Comprobar estado de INI** | Después de actualizaciones de Steam | Alta |
+| **Copia de seguridad del EXE del juego** | Antes de parchear | Baja |
+
+</Section>

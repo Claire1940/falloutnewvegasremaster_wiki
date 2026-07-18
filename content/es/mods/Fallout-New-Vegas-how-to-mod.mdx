@@ -1,0 +1,180 @@
+import { Map, Shield, Zap, List, Layout, HelpCircle, Settings, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Cómo instalar mods en Fallout New Vegas: Guía de configuración paso a paso 2026",
+  description: "Aprende a instalar mods en Fallout New Vegas en 2026. Esta guía cubre la instalación de NVSE, parches de 4GB, gestores de mods y correcciones de estabilidad esenciales para principiantes.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1a202c/fff?text=Fallout+New+Vegas+Modding+Guide",
+  date: "2026-07-18",
+  author: "Equipo de la Wiki de Fallout New Vegas",
+  keywords: "Fallout New Vegas, mods, guía, NVSE, 4GB Patcher, estabilidad, tutorial"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Cómo instalar mods en Fallout New Vegas**: Comienza con una instalación limpia del juego base y ejecútalo una vez antes de añadir cualquier archivo.
+- **Requisito Fundamental**: Instala el New Vegas Script Extender (NVSE) y el 4GB Patcher para evitar cierres inesperados.
+- **Herramientas de Gestión**: Usa Vortex o Mod Organizer 2 para gestionar la sobrescritura de archivos y el orden de carga automáticamente.
+- **Estabilidad Primero**: Prioriza correcciones del motor como NVTF y YUP sobre los paquetes de texturas de alta resolución para asegurar una experiencia fluida.
+- **Verificación**: Usa siempre la consola del juego para comprobar si el script extender está funcionando correctamente.
+</Callout>
+
+<Section icon={Settings} title="Primeros pasos con el Modding de Fallout New Vegas">
+
+Entender **cómo instalar mods en Fallout New Vegas** es esencial para cualquier jugador que quiera experimentar el Yermo de Mojave sin la amenaza constante de errores del motor o partidas guardadas corruptas. Antes de descargar tu primer paquete de texturas o mod de armas, debes establecer una base estable. El motor del juego tiene casi dos décadas, lo que significa que requiere software "intermediario" específico para manejar el hardware moderno y los complejos scripts creados por la comunidad.
+
+**Puntos clave del vídeo:**
+- **Lanzamiento Vanilla**: Ejecuta siempre el juego una vez a través de Steam para generar los archivos .ini necesarios.
+- **Instalación Manual**: Las herramientas esenciales como NVSE deben colocarse directamente en la carpeta del juego, no a través de un gestor.
+- **Extracción de Archivos**: Usa 7-Zip para manejar eficazmente los archivos de mods comprimidos.
+- **Validación**: Cómo usar la tecla de tilde (~) para verificar el estado de tu instalación.
+
+<YouTubeEmbed videoId="Hjix2h9kW8s" title="Cómo instalar mods en Fallout New Vegas para principiantes (Edición 2026)" />
+
+<Callout type="warning" title="Requisito Crítico">
+No instales Fallout New Vegas en el directorio "Program Files (x86)". Los ajustes de seguridad de Windows en esta carpeta a menudo bloquean a los gestores de mods al mover archivos, lo que provoca errores de "Acceso denegado" durante el proceso.
+</Callout>
+
+| Requisito | Propósito | Importancia |
+| :--- | :--- | :--- |
+| **Instalación Limpia** | Asegura que no queden archivos de intentos previos de modding | **Alta** |
+| **7-Zip** | Extrae archivos .7z, .rar y .zip usados por los modders | **Alta** |
+| **Cuenta de Nexus** | Necesaria para descargar el 99% del contenido de la comunidad | **Media** |
+| **Versión de Steam** | La versión más compatible para los script extenders | **Alta** |
+
+</Section>
+
+<Section icon={Shield} title="Los Pilares de la Estabilidad: NVSE y 4GB Patcher">
+
+El paso más importante al aprender **cómo instalar mods en Fallout New Vegas** es instalar el New Vegas Script Extender (NVSE). Esta herramienta expande las capacidades de scripting del juego, permitiendo que funcionen mods complejos. Sin ella, la mayoría de los mods modernos simplemente no cargarán. Tras el NVSE, el 4GB Patcher no es negociable; permite que el juego utilice 4GB de RAM en lugar de los 2GB por defecto, reduciendo drásticamente los errores de "Memoria Insuficiente".
+
+| Nombre de la Herramienta | Función Principal | Método de Instalación |
+| :--- | :--- | :--- |
+| **xNVSE** | Rama moderna del script extender con correcciones de errores | Arrastrar y soltar manualmente a la carpeta raíz |
+| **4GB Patcher** | Actualiza el .exe para que sea compatible con Large Address Aware | Ejecutar el .exe dentro de la carpeta del juego |
+| **HEAPS** | Asignación de memoria optimizada para el motor del juego | Plugin para NVSE |
+| **NVTF** | New Vegas Tick Fix para un juego fluido a altos FPS | Instalación mediante gestor de mods |
+
+<Callout type="tip" title="Consejo Pro: Verificación">
+Una vez que hayas instalado NVSE, inicia el juego, abre la consola con la tecla `~` y escribe `GetNVSEVersion`. Si la consola devuelve un número de versión, has completado con éxito la parte más difícil de la configuración.
+</Callout>
+
+</Section>
+
+<Section icon={Layout} title="Eligiendo tu Gestor de Mods">
+
+Aunque la instalación manual está bien para las correcciones básicas del motor, deberías usar un gestor dedicado para todo lo demás. Un gestor de mods mantiene limpio el directorio del juego y te permite activar y desactivar mods sin borrar archivos. En 2026, dos opciones principales dominan la escena.
+
+<CardGrid cols={2}>
+  <Card title="Vortex (Fácil de usar)">
+    - **Integración con Nexus**: Descargas con un solo clic directamente desde el sitio web.
+    - **Ordenación Automática**: Utiliza el algoritmo LOOT para gestionar el orden de carga.
+    - **Diseño de Interfaz**: Interfaz moderna que es fácil de navegar para principiantes.
+    - **Ideal para**: Jugadores que quieren una experiencia de "instalar y olvidar".
+  </Card>
+  <Card title="Mod Organizer 2 (Avanzado)">
+    - **Sistema de Archivos Virtual**: Mantiene la carpeta del juego 100% limpia.
+    - **Soporte de Perfiles**: Crea diferentes listas de mods para diferentes personajes.
+    - **Control Granular**: Resuelve manualmente cada conflicto de archivos con facilidad.
+    - **Ideal para**: Usuarios que planean instalar más de 200 mods o revisiones personalizadas.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Configuración del Gestor">
+Al configurar Vortex o MO2, asegúrate de que la "Carpeta de Despliegue de Mods" (Mod Staging Folder) esté en la misma unidad que la instalación de tu juego. Esto permite que el gestor use "Hardlinks", lo que ahorra espacio en el disco y mejora la velocidad de carga.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Proceso de Instalación Paso a Paso">
+
+Sigue estos pasos para asegurar que tu entorno esté listo para modificaciones avanzadas del juego. Esta secuencia está diseñada para prevenir los errores más comunes que encuentran los nuevos modders.
+
+<Steps>
+  <Step num="1" title="Limpieza Inicial del Juego">
+    Desinstala el juego y borra la carpeta "Fallout New Vegas" en SteamApps/common. Reinstala para asegurar una base 100% limpia. Inicia el juego una vez hasta el menú principal y luego sal.
+  </Step>
+  <Step num="2" title="Despliegue Manual de Herramientas">
+    Descarga xNVSE y el 4GB Patcher. Extrae los archivos de xNVSE en la carpeta que contiene FalloutNV.exe. Mueve el .exe del Patcher a la misma carpeta y ejecútalo como administrador.
+  </Step>
+  <Step num="3" title="Configuración del Gestor de Mods">
+    Instala Vortex o MO2. Vincula tu cuenta de Nexus Mods en los ajustes. Dirige el gestor a la ruta de instalación de Fallout New Vegas si no se detecta automáticamente.
+  </Step>
+  <Step num="4" title="Corrección de Errores Esenciales">
+    Descarga e instala "Yukichigai Unofficial Patch (YUP)" a través de tu gestor de mods. Este mod corrige miles de errores dejados por los desarrolladores originales sin cambiar el equilibrio del juego.
+  </Step>
+  <Step num="5" title="Despliegue y Prueba">
+    Haz clic en "Desplegar" (Deploy) en tu gestor. Inicia el juego usando el acceso directo de "New Vegas" (el parche de 4GB hace que ya no necesites un acceso directo especial de NVSE) y verifica la estabilidad.
+  </Step>
+</Steps>
+
+<Callout type="success" title="¡Éxito!">
+Si tu juego se inicia en el menú principal sin cerrarse y tu consola muestra la versión de NVSE, has dominado los conceptos básicos de cómo instalar mods en el juego.
+</Callout>
+
+</Section>
+
+<Section icon={List} title="Categorías de Mods Esenciales para 2026">
+
+Una vez establecida la base, puedes empezar a añadir contenido. Sin embargo, no todos los mods son iguales. Usa la siguiente tabla para priorizar qué categorías explorar primero para obtener el mejor equilibrio entre visuales y rendimiento.
+
+| Categoría | Mod Recomendado | Impacto |
+| :--- | :--- | :--- |
+| **Interfaz de Usuario** | **The Living Desert** | Alto / Añade vida al yermo |
+| **Estabilidad** | **New Vegas Anti-Crash (NVAC)** | Crítico / Previene cierres al escritorio |
+| **Gráficos** | **NMC's Texture Pack** | Medio / Reemplaza texturas borrosas |
+| **Iluminación** | **Desert Natural Weathers** | Alto / Moderniza la iluminación y el cielo |
+| **Utilidad de UI** | **User Interface Organizer (UIO)** | Crítico / Gestiona conflictos de mods de interfaz |
+
+<Checklist
+  id="modding-etiquette"
+  title="Lista de Verificación para un Modding Seguro:"
+  items={[
+    "Lee siempre la pestaña 'Requirements' en Nexus Mods antes de descargar.",
+    "Nunca desinstales un mod con scripts en mitad de una partida.",
+    "Revisa la sección 'Posts' en la página de un mod para ver informes de errores recientes.",
+    "Mantén tu orden de carga ordenado usando LOOT o las herramientas integradas del gestor.",
+    "Haz una copia de seguridad de tu carpeta 'Saves' ubicada en Documentos/My Games/FalloutNV."
+  ]}
+/>
+
+<Callout type="tip" title="Lógica del Orden de Carga">
+Generalmente, los mods de revisión más grandes (overhauls) deben estar en la parte superior de tu orden de carga, mientras que los pequeños ajustes y parches deben estar en la parte inferior para que puedan sobrescribir los archivos más grandes.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Solución de Problemas y Preguntas Frecuentes">
+
+Incluso con una configuración perfecta, pueden surgir problemas. La mayoría de los problemas en **cómo instalar mods en Fallout New Vegas** provienen de archivos en conflicto o dependencias faltantes. Usa las preguntas frecuentes a continuación para resolver obstáculos comunes rápidamente.
+
+<FAQ items={[
+  {
+    question: "¿Por qué mi juego se cierra en cuanto cargo una partida?",
+    answer: "Esto suele deberse a que falta un archivo 'Maestro' (.esm). Revisa tu gestor de mods para ver si hay iconos de advertencia rojos que indiquen que a un mod le falta su archivo padre requerido."
+  },
+  {
+    question: "¿Puedo usar mods con la versión de Epic Games Store?",
+    answer: "Sí, pero requiere una herramienta adicional llamada 'Epic Games Patcher' para hacerlo compatible con NVSE, ya que la versión de Epic tiene una estructura de archivos diferente a la de Steam."
+  },
+  {
+    question: "¿Cuántos mods puedo instalar de forma segura?",
+    answer: "El juego tiene un límite estricto de 255 plugins (.esp/.esm). Sin embargo, por estabilidad, se recomienda mantenerse por debajo de 150 a menos que estés usando una herramienta de fusión de mods."
+  },
+  {
+    question: "¿Necesito empezar una nueva partida después de instalar mods?",
+    answer: "Para mods de estabilidad y texturas, no. Sin embargo, para grandes revisiones de jugabilidad o mods de misiones, se recomienda encarecidamente empezar una nueva partida para evitar errores de script."
+  }
+]} />
+
+<Callout type="warning" title="Advertencia Final">
+Evita los "Mod Packs" o "Colecciones" que no se hayan actualizado en más de dos años. La escena del modding de New Vegas avanza rápido, y los paquetes antiguos a menudo contienen plugins obsoletos que causan cierres en sistemas modernos.
+</Callout>
+
+</Section>

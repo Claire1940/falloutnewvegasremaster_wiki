@@ -1,0 +1,179 @@
+import { Map, Shield, Zap, List, Layout, HelpCircle, Settings, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fallout New Vegas modden: Schritt-für-Schritt-Anleitung für 2026",
+  description: "Erfahre, wie du Fallout New Vegas im Jahr 2026 moddest. Diese Anleitung deckt die NVSE-Installation, 4GB-Patches, Mod-Manager und wichtige Stabilitäts-Fixes für Anfänger ab.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1a202c/fff?text=Fallout+New+Vegas+Modding+Guide",
+  date: "2026-07-18",
+  author: "Fallout New Vegas Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Fallout New Vegas modden**: Starte mit einer sauberen Vanilla-Installation und führe das Spiel einmal aus, bevor du Dateien hinzufügst.
+- **Kernanforderung**: Installiere den New Vegas Script Extender (NVSE) und den 4GB Patcher, um Abstürze zu verhindern.
+- **Verwaltungstools**: Verwende Vortex oder Mod Organizer 2, um Datei-Überschreibungen und die Ladefolge automatisch zu verwalten.
+- **Stabilität zuerst**: Priorisiere Engine-Fixes wie NVTF und YUP gegenüber hochauflösenden Texturpaketen, um ein flüssiges Spielerlebnis zu gewährleisten.
+- **Überprüfung**: Verwende immer die In-Game-Konsole, um zu überprüfen, ob dein Script Extender korrekt läuft.
+</Callout>
+
+<Section icon={Settings} title="Erste Schritte beim Modden von Fallout New Vegas">
+
+Zu verstehen, wie man **Fallout New Vegas moddet**, ist unerlässlich für jeden Spieler, der das Mojave-Ödland ohne die ständige Bedrohung durch Engine-Abstürze oder beschädigte Spielstände erleben möchte. Bevor du dein erstes Texturpaket oder deine erste Waffen-Mod herunterlädst, musst du ein stabiles Fundament schaffen. Die Spiel-Engine ist fast zwei Jahrzehnte alt, was bedeutet, dass sie spezielle „Schnittstellen-Software“ benötigt, um mit moderner Hardware und komplexen, von der Community erstellten Skripten umzugehen.
+
+**Video-Highlights:**
+- **Vanilla-Start**: Starte das Spiel immer einmal über Steam, um die erforderlichen .ini-Dateien zu generieren.
+- **Manuelle Installation**: Essenzielle Tools wie NVSE müssen direkt im Spielordner platziert werden, nicht über einen Manager.
+- **Archiventpackung**: Verwende 7-Zip, um komprimierte Mod-Dateien effektiv zu entpacken.
+- **Validierung**: So verwendest du die Tilde-Taste (~), um deinen Installationsstatus zu überprüfen.
+
+<YouTubeEmbed videoId="Hjix2h9kW8s" title="Fallout New Vegas modden für Anfänger (Edition 2026)" />
+
+<Callout type="warning" title="Kritische Anforderung">
+Installiere Fallout New Vegas nicht im Verzeichnis „Program Files (x86)“. Die Windows-Sicherheitseinstellungen in diesem Ordner blockieren oft Mod-Manager beim Verschieben von Dateien, was während des Modding-Prozesses zu „Zugriff verweigert“-Fehlern führt.
+</Callout>
+
+| Anforderung | Zweck | Wichtigkeit |
+| :--- | :--- | :--- |
+| **Saubere Installation** | Stellt sicher, dass keine Dateireste von früheren Modding-Versuchen vorhanden sind | **Hoch** |
+| **7-Zip** | Entpackt .7z-, .rar- und .zip-Dateien, die von Moddern verwendet werden | **Hoch** |
+| **Nexus-Konto** | Erforderlich, um 99 % der von der Community erstellten Inhalte herunterzuladen | **Mittel** |
+| **Steam-Version** | Die kompatibelste Version für Script Extender | **Hoch** |
+
+</Section>
+
+<Section icon={Shield} title="Die Säulen der Stabilität: NVSE und 4GB Patcher">
+
+Der wichtigste Schritt beim Lernen, wie man **Fallout New Vegas moddet**, ist die Installation des New Vegas Script Extender (NVSE). Dieses Tool erweitert die Skriptfunktionen des Spiels und ermöglicht das Funktionieren komplexer Mods. Ohne dieses Tool lassen sich die meisten modernen Mods schlichtweg nicht laden. Nach NVSE ist der 4GB Patcher unverzichtbar; er ermöglicht es dem Spiel, 4 GB RAM anstelle der standardmäßigen 2 GB zu nutzen, was „Out of Memory“-Abstürze drastisch reduziert.
+
+| Tool-Name | Hauptfunktion | Installationsmethode |
+| :--- | :--- | :--- |
+| **xNVSE** | Moderner Zweig des Script Extenders mit Fehlerbehebungen | Manuelles Drag-and-Drop in den Hauptordner |
+| **4GB Patcher** | Aktualisiert die .exe-Datei, um „Large Address Aware“ zu sein | Führe die .exe-Datei im Spielordner aus |
+| **HEAPS** | Optimierte Speicherzuweisung für die Spiel-Engine | Plugin für NVSE |
+| **NVTF** | New Vegas Tick Fix für flüssiges Spielen bei hohen Bildraten | Mod-Manager-Installation |
+
+<Callout type="tip" title="Profi-Tipp: Überprüfung">
+Sobald du NVSE installiert hast, starte das Spiel, öffne die Konsole mit der Taste `~` und gib `GetNVSEVersion` ein. Wenn die Konsole eine Versionsnummer zurückgibt, hast du den schwierigsten Teil der Einrichtung erfolgreich abgeschlossen.
+</Callout>
+
+</Section>
+
+<Section icon={Layout} title="Wahl deines Mod-Managers">
+
+Während eine manuelle Installation für grundlegende Engine-Fixes in Ordnung ist, solltest du für alles andere einen dedizierten Manager verwenden. Ein Mod-Manager hält dein Spielverzeichnis sauber und ermöglicht es dir, Mods ein- und auszuschalten, ohne Dateien löschen zu müssen. Im Jahr 2026 dominieren zwei Hauptoptionen die Szene.
+
+<CardGrid cols={2}>
+  <Card title="Vortex (Benutzerfreundlich)">
+    - **Nexus-Integration**: Downloads mit einem Klick direkt von der Website.
+    - **Automatische Sortierung**: Verwendet den LOOT-Algorithmus zur Verwaltung der Ladefolge.
+    - **UI-Design**: Moderne Benutzeroberfläche, die für Anfänger leicht zu bedienen ist.
+    - **Ideal für**: Spieler, die eine unkomplizierte „Einrichten und Vergessen“-Erfahrung wünschen.
+  </Card>
+  <Card title="Mod Organizer 2 (Fortgeschritten)">
+    - **Virtuelles Dateisystem**: Hält deinen Spielordner zu 100 % sauber.
+    - **Profil-Unterstützung**: Erstelle verschiedene Mod-Listen für unterschiedliche Charaktere.
+    - **Granulare Kontrolle**: Löse jeden Dateikonflikt ganz einfach manuell.
+    - **Ideal für**: Benutzer, die planen, mehr als 200 Mods oder benutzerdefinierte Overhauls zu installieren.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Manager-Einrichtung">
+Stelle bei der Einrichtung von Vortex oder MO2 sicher, dass sich der „Mod-Bereitstellungsordner“ (Mod Staging Folder) auf demselben Laufwerk wie deine Spielinstallation befindet. Dies ermöglicht dem Manager die Verwendung von „Hardlinks“, was Speicherplatz spart und die Ladezeiten verkürzt.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Schritt-für-Schritt-Installationsprozess">
+
+Befolge diese Schritte, um sicherzustellen, dass deine Umgebung für fortgeschrittene Gameplay-Modifikationen bereit ist. Diese Reihenfolge soll die häufigsten Fehler verhindern, die neuen Moddern unterlaufen.
+
+<Steps>
+  <Step num="1" title="Erste Bereinigung des Spiels">
+    Deinstalliere das Spiel und lösche den Ordner „Fallout New Vegas“ in SteamApps/common. Installiere es neu, um einen absolut sauberen Zustand zu gewährleisten. Starte das Spiel einmal bis zum Hauptmenü und beende es dann.
+  </Step>
+  <Step num="2" title="Manuelle Tool-Bereitstellung">
+    Lade xNVSE und den 4GB Patcher herunter. Entpacke die xNVSE-Dateien in den Ordner, der die FalloutNV.exe enthält. Verschiebe die Patcher-.exe in denselben Ordner und führe sie als Administrator aus.
+  </Step>
+  <Step num="3" title="Konfiguration des Mod-Managers">
+    Installiere Vortex oder MO2. Verknüpfe dein Nexus-Mods-Konto in den Einstellungen. Verweise den Manager auf deinen Fallout New Vegas-Installationspfad, falls dieser nicht automatisch erkannt wird.
+  </Step>
+  <Step num="4" title="Wichtige Fehlerbehebungen">
+    Lade den „Yukichigai Unofficial Patch (YUP)“ über deinen Mod-Manager herunter und installiere ihn. Diese Mod behebt Tausende von Fehlern, die von den ursprünglichen Entwicklern hinterlassen wurden, ohne die Spielbalance zu verändern.
+  </Step>
+  <Step num="5" title="Bereitstellung und Testen">
+    Klicke in deinem Manager auf „Bereitstellen“ (Deploy). Starte das Spiel über die „New Vegas“-Verknüpfung (der 4GB Patcher sorgt dafür, dass du keine spezielle NVSE-Verknüpfung mehr benötigst) und überprüfe die Stabilität.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Erfolgreich!">
+Wenn dein Spiel ohne Absturz bis zum Hauptmenü startet und deine Konsole die NVSE-Version anzeigt, hast du die Grundlagen des Moddens dieses Spiels gemeistert.
+</Callout>
+
+</Section>
+
+<Section icon={List} title="Wichtige Mod-Kategorien für 2026">
+
+Sobald das Fundament steht, kannst du mit dem Hinzufügen von Inhalten beginnen. Allerdings sind nicht alle Mods gleichwertig. Nutze die folgende Tabelle, um zu priorisieren, welche Kategorien du zuerst erkunden solltest, um die beste Balance zwischen Optik und Leistung zu erzielen.
+
+| Kategorie | Empfohlene Mod | Auswirkung |
+| :--- | :--- | :--- |
+| **Benutzeroberfläche** | **The Living Desert** | Hoch / Bringt Leben ins Ödland |
+| **Stabilität** | **New Vegas Anti-Crash (NVAC)** | Kritisch / Verhindert Abstürze zum Desktop (CTDs) |
+| **Grafik** | **NMC's Texture Pack** | Mittel / Ersetzt verschwommene Texturen |
+| **Beleuchtung** | **Desert Natural Weathers** | Hoch / Modernisiert Beleuchtung und Himmel |
+| **UI-Hilfsprogramm** | **User Interface Organizer (UIO)** | Kritisch / Verwaltet Konflikte zwischen UI-Mods |
+
+<Checklist
+  id="modding-etiquette"
+  title="Checkliste für sicheres Modden:"
+  items={[
+    "Lies vor dem Herunterladen immer den Reiter „Requirements“ (Anforderungen) auf Nexus Mods.",
+    "Deinstalliere niemals eine skriptbasierte Mod mitten in einem Spieldurchgang.",
+    "Suche im Bereich „Posts“ auf einer Mod-Seite nach aktuellen Fehlerberichten.",
+    "Halte deine Ladefolge mithilfe von LOOT oder integrierten Manager-Tools sortiert.",
+    "Erstelle ein Backup deines „Saves“-Ordners unter Dokumente/My Games/FalloutNV."
+  ]}
+/>
+
+<Callout type="tip" title="Logik der Ladefolge">
+Im Allgemeinen sollten größere Overhaul-Mods weiter oben in deiner Ladefolge stehen, während kleine Anpassungen und Patches ganz unten platziert werden sollten, damit sie die größeren Dateien überschreiben können.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Fehlerbehebung und FAQ">
+
+Selbst bei einer perfekten Einrichtung können Probleme auftreten. Die meisten Probleme beim **Modden von Fallout New Vegas** resultieren aus Dateikonflikten oder fehlenden Abhängigkeiten. Nutze die folgende FAQ, um häufige Hürden schnell zu überwinden.
+
+<FAQ items={[
+  {
+    question: "Warum stürzt mein Spiel ab, sobald ich einen Spielstand lade?",
+    answer: "Dies wird normalerweise durch eine fehlende „Master“-Datei (.esm) verursacht. Überprüfe deinen Mod-Manager auf rote Warnsymbole, die darauf hinweisen, dass einer Mod die erforderliche übergeordnete Datei fehlt."
+  },
+  {
+    question: "Kann ich Mods mit der Version aus dem Epic Games Store verwenden?",
+    answer: "Ja, aber dafür ist ein zusätzliches Tool namens „Epic Games Patcher“ erforderlich, um es mit NVSE kompatibel zu machen, da die Epic-Version eine andere Dateistruktur als Steam hat."
+  },
+  {
+    question: "Wie viele Mods kann ich bedenkenlos installieren?",
+    answer: "Das Spiel hat ein hartes Limit von 255 Plugins (.esp/.esm). Aus Stabilitätsgründen wird jedoch empfohlen, unter 150 zu bleiben, es sei denn, du verwendest ein Tool zum Zusammenführen von Mods (Mod Merging)."
+  },
+  {
+    question: "Muss ich nach dem Modden ein neues Spiel starten?",
+    answer: "Für Stabilitäts-Mods und Texturen nicht. Bei großen Gameplay-Overhauls oder Quest-Mods wird jedoch dringend empfohlen, einen neuen Spielstand zu beginnen, um Skriptfehler zu vermeiden."
+  }
+]} />
+
+<Callout type="warning" title="Letzte Warnung">
+Vermeide „Mod-Pakete“ oder „Kollektionen“, die seit über zwei Jahren nicht mehr aktualisiert wurden. Die Modding-Szene für New Vegas entwickelt sich schnell weiter, und ältere Pakete enthalten oft veraltete Plugins, die auf modernen Systemen zu Abstürzen führen.
+</Callout>
+
+</Section>

@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Rasgos de Fallout New Vegas: Tier List y Guía de Selección de Builds",
+  description: "Domina la creación de personajes con nuestro análisis de los mejores rasgos de Fallout New Vegas, incluyendo opciones de DLC, mecánicas y poderosos exploits.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Fallout+New+Vegas+Traits+Guide",
+  date: "2026-07-18",
+  author: "Equipo de la Wiki de Fallout New Vegas",
+  keywords: "fallout new vegas, rasgos, traits, tier list, builds, guía, dlc, old world blues"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Mecánica principal**: Puedes seleccionar hasta **dos rasgos** durante la creación del personaje en la casa del Doc Mitchell, los cuales ofrecen poderosos modificadores de juego con desventajas marcadas.
+- **Elección de nivel superior**: El rasgo **Entrenado** (Skilled) es ampliamente considerado la opción más fuerte del juego, otorgando una bonificación masiva a todas las habilidades con una penalización de experiencia insignificante.
+- **Sinergia crítica**: Evita combinar **Disparo rápido** (Fast Shot) y **Disciplina de gatillo** (Trigger Discipline), ya que sus modificadores basados en porcentajes resultan en un balance negativo para el rendimiento de tu personaje.
+- **Adiciones de DLC**: La expansión Old World Blues introduce seis rasgos adicionales, incluyendo opciones revolucionarias como **La grieta de Logan** (Logan's Loophole) y **Entrenado** (Skilled).
+</Callout>
+
+<Section icon={Map} title="Cómo funcionan los rasgos en el Yermo de Mojave">
+
+Al comenzar tu viaje en el Mojave, elegir los **rasgos de Fallout New Vegas** adecuados es una de las decisiones más críticas que tomarás durante la creación de tu personaje. A diferencia de los extras (perks), que seleccionas al subir de nivel para beneficiar estrictamente a tu personaje, los rasgos son modificadores iniciales opcionales. Ofrecen una espada de doble filo única: una mejora positiva sustancial junto con una penalización negativa notable. 
+
+Aunque puedes optar por jugar sin ningún rasgo, especializar a tu personaje casi siempre es la mejor estrategia. La especialización facilita mucho la supervivencia al principio del juego, especialmente en dificultades más altas. Se te permite seleccionar hasta dos rasgos antes de salir de la casa del Doc Mitchell en Goodsprings. También tienes una oportunidad única de restablecer tu personaje y cambiar tus rasgos al cruzar el límite de Goodsprings, o más adelante utilizando el Auto-Doc en el DLC Old World Blues.
+
+**Puntos destacados del video:**
+- **Especialización de build**: Por qué enfocarse en un estilo de combate específico ofrece mejores resultados que un enfoque generalista.
+- **Juego base frente a DLC**: Una mirada comparativa a los diez rasgos originales y los seis añadidos por la expansión Old World Blues.
+- **Análisis del exploit**: Cómo acumular el rasgo Entrenado varias veces para obtener una ventaja abrumadora de habilidades iniciales.
+
+<YouTubeEmbed videoId="N49HuAMrZZc" title="Guía completa de rasgos - Fallout New Vegas" />
+
+<Callout type="info" title="Estrategia de creación de personajes">
+Selecciona siempre dos rasgos. Las compensaciones casi siempre se inclinan fuertemente a tu favor, lo que te permite optimizar a tu personaje para el estilo de juego planificado desde el comienzo de tu partida en 2026.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Rasgos de Fallout New Vegas: Clasificación de opciones del juego base">
+
+El juego base de Fallout New Vegas cuenta con diez rasgos. Estas opciones establecen la base de las capacidades físicas y mentales de tu personaje, afectando directamente el manejo de tus armas, las tasas de golpes críticos y los controles de habilidades pasivas.
+
+| Rasgo | Modificador positivo | Modificador negativo | Calificación |
+| :--- | :--- | :--- | :--- |
+| Construido para destruir (Built to Destroy) | +3% de prob. de golpe crítico | Las armas se deterioran un 15% más rápido | ★★★★★ |
+| Disparo rápido (Fast Shot) | +20% de cadencia de fuego, -20% de coste AP V.A.T.S. | +20% de dispersión de armas, -20% de precisión V.A.T.S. | ★★★★☆ |
+| Constitución pequeña (Small Frame) | +1 de Agilidad | +25% de daño adicional en extremidades | ★★★★★ |
+| De buen carácter (Good-Natured) | +5 a habilidades pasivas | -5 a todas las habilidades de combate | ★★★★☆ |
+| Kamikaze | +10 Puntos de Acción | -2 de Umbral de Daño (DT) | ★★★☆☆ |
+| Yermo salvaje (Wild Wasteland) | Permite encuentros locos y objetos únicos | Reemplaza algunas armas únicas estándar | ★★★☆☆ |
+| Mano dura (Heavy-Handed) | +20% de daño base cuerpo a cuerpo/desarmado | -60% de daño crítico cuerpo a cuerpo/desarmado | ★★☆☆☆ |
+| Incontrolable (Loose Cannon) | +30% de velocidad con armas arrojadizas | -25% de velocidad y alcance de lanzamiento | ★★☆☆☆ |
+| Disciplina de gatillo (Trigger Discipline) | +20% de precisión con armas de fuego/energía | -25% de cadencia de fuego, +20% de coste AP V.A.T.S. | ★★☆☆☆ |
+| Cuatro ojos (Four Eyes) | +2 de Percepción al usar gafas | -1 de Percepción base (penalización permanente) | ★☆☆☆☆ |
+
+<CardGrid cols={3}>
+  <Card title="Construido para destruir">
+    - **Elección crítica principal**: Aumenta la probabilidad de golpe crítico en un 3% para todas las armas.
+    - **Penalización manejable**: El desgaste más rápido de las armas se contrarresta fácilmente con kits de reparación de armas, el extra de Reparaciones provisionales (Jury Rigging) o el mantenimiento de los compañeros.
+    - **Builds incompatibles**: Mala opción para builds puras de explosivos, ya que los explosivos no se benefician de los golpes críticos.
+  </Card>
+  <Card title="Disparo rápido">
+    - **Alta cadencia de fuego**: Aumenta la velocidad de ataque en un 20% y reduce los costes de V.A.T.S. en un 20%.
+    - **Sinergia oculta**: Es mejor usarlo con armas muy precisas y de disparo lento como los fusiles de caza, donde la penalización de precisión es imperceptible.
+    - **Potencia en V.A.T.S.**: Excelente para maximizar el daño infligido en ráfagas cortas.
+  </Card>
+  <Card title="Constitución pequeña">
+    - **Punto de S.P.E.C.I.A.L. gratis**: Otorga un +1 permanente a Agilidad, que rige la velocidad de recarga y los Puntos de Acción.
+    - **Contramedida para daño de extremidades**: El 25% de daño adicional en extremidades se puede mitigar por completo obteniendo el extra de desafío Tipo duro (Tough Guy) o tomando Esqueleto de adamanto (Adamantium Skeleton).
+    - **Combate ágil**: Muy recomendado para casi cualquier build debido al alto valor de la Agilidad.
+  </Card>
+</CardGrid>
+
+Aunque rasgos como Construido para destruir y Constitución pequeña proporcionan bonificaciones universalmente excelentes, otros requieren una consideración cuidadosa. De buen carácter es fantástico para builds que no son de combate o personajes muy especializados que solo usan una habilidad de armas, ya que intercambia penalizaciones menores en múltiples habilidades de combate por mejoras inmediatas en Conversación, Medicina, Ciencia, Reparación y Trueque. Por el contrario, Cuatro ojos es una trampa; la penalización de -1 a la Percepción base es permanente y te impide cumplir los requisitos para obtener extras valiosos, mientras que la bonificación de +2 de las gafas es meramente temporal.
+
+<Callout type="warning" title="Advertencia de anti-sinergia">
+Nunca selecciones tanto Disparo rápido como Disciplina de gatillo. Debido a que estos rasgos aplican modificadores basados en porcentajes, no se cancelan entre sí. En su lugar, se combinan para darte una penalización neta, dejándote con cadencias de fuego más lentas y peor precisión.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Rasgos y exploits del DLC Old World Blues">
+
+La expansión Old World Blues introduce seis **rasgos de Fallout New Vegas** adicionales. Estas opciones ofrecen mecánicas más complejas y orientadas al juego de rol, e incluyen algunas de las utilidades más poderosas de todo el juego.
+
+| Rasgo | Modificador positivo | Modificador negativo | Calificación |
+| :--- | :--- | :--- | :--- |
+| Entrenado (Skilled) | +5 a todas las habilidades | -10% de ganancia de experiencia | ★★★★★ |
+| La grieta de Logan (Logan's Loophole) | Doble de duración de drogas, 0% adicción | Nivel máximo bloqueado en 30 | ★★★★☆ |
+| Acaparador (Hoarder) | +25 de peso de carga | -1 a todo el S.P.E.C.I.A.L. si el peso es menor a 160 lbs | ★★★☆☆ |
+| De sangre caliente (Hot Blooded) | +15% de daño con salud inferior al 50% | -2 PER y -2 AGI con salud inferior al 50% | ★★★☆☆ |
+| Madrugador (Early Bird) | +2 a todo el S.P.E.C.I.A.L. (6 AM - 12 PM) | -1 a todo el S.P.E.C.I.A.L. (6 PM - 6 AM) | ★★★☆☆ |
+| Claustrofobia (Claustrophobia) | +1 a todo el S.P.E.C.I.A.L. en exteriores | -1 a todo el S.P.E.C.I.A.L. en interiores | ★★☆☆☆ |
+
+La adición más destacada es, sin duda, **Entrenado**. Un +5 plano a cada una de las habilidades del juego proporciona una ventaja inmediata y masiva al principio de la partida. La penalización de experiencia del -10% es completamente insignificante, ya que hay una gran cantidad de puntos de experiencia disponibles en el Mojave, y subir de nivel un poco más lento simplemente extiende la curva de progresión del juego de forma natural. Además, el rasgo Entrenado puede explotarse para acumular sus beneficios múltiples veces.
+
+<Steps>
+  <Step num="1" title="Creación inicial del personaje">
+    Al configurar tu personaje en el medidor de vigor del Doc Mitchell, selecciona el rasgo Entrenado. Esto aplica inmediatamente una bonificación de +5 a todas tus habilidades.
+  </Step>
+  <Step num="2" title="El reinicio en el límite de Goodsprings">
+    Al salir de Goodsprings, un mensaje te preguntará si deseas finalizar tu personaje. Elige reconstruir tu personaje y selecciona el rasgo Entrenado una vez más. Las bonificaciones de habilidad se acumularán, otorgándote un +10 permanente a todas las habilidades, mientras que la penalización de EXP se mantiene limitada al -10%.
+  </Step>
+  <Step num="3" title="El reinicio en el Auto-Doc de La Cloaca">
+    Una vez que accedas al Big MT en el DLC Old World Blues, usa el Auto-Doc para restablecer tus rasgos por última vez. Vuelve a seleccionar Entrenado para acumular la bonificación hasta un enorme +15 a todas las habilidades, rompiendo por completo los controles de habilidad de la fase inicial y media del juego.
+  </Step>
+</Steps>
+
+Otro rasgo muy notable es **La grieta de Logan**. Esta es la opción definitiva para los jugadores que aman utilizar sustancias químicas potentes como Psico, Turbo y Slasher. Con cero posibilidades de adicción y el doble de duración, tu personaje se convierte en una fuerza imparable. Aunque la restricción de nivel máximo de 30 parece severa, es perfecta para builds especializadas o jugadores que no planean completar todo el contenido de los DLC en una sola partida.
+
+<Callout type="success" title="Seguridad del exploit de Entrenado">
+El exploit de acumulación de Entrenado es completamente seguro de usar y no corrompe tu archivo de guardado. Sigue siendo una de las estrategias de optimización más populares utilizadas por la comunidad en 2026.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Sinergia de builds y Tier List de rasgos">
+
+Para optimizar a tu personaje, los **rasgos de Fallout New Vegas** elegidos deben alinearse con tus tipos de armas previstos, estilo de combate y objetivos de extras a largo plazo. Consulta la tabla a continuación para ver cómo se clasifican los rasgos entre sí.
+
+| Rango | Rasgos | Compatibilidad de build |
+| :--- | :--- | :--- |
+| **Rango S** | Entrenado, Construido para destruir, Constitución pequeña | Builds universales, centradas en críticos y en V.A.T.S. |
+| **Rango A** | Disparo rápido, De buen carácter, La grieta de Logan | Builds de armas de fuego/energía, pacifistas y dependientes de drogas |
+| **Rango B** | Kamikaze, Yermo salvaje, Acaparador | Francotiradores sigilosos, partidas casuales/divertidas, builds de explosivos |
+| **Rango C** | Madrugador, De sangre caliente, Claustrofobia | Juego de rol, builds de cañón de cristal de alto riesgo |
+| **Rango F** | Cuatro ojos, Disciplina de gatillo, Mano dura | Builds de nicho o estadísticamente perjudiciales |
+
+Para los jugadores que buscan construir arquetipos optimizados, emparejar los rasgos con estilos de combate específicos es esencial. La tabla a continuación describe las configuraciones ideales para los estilos de juego más populares del juego.
+
+| Plantilla de build | Rasgo primario | Rasgo secundario | Estilo de combate principal |
+| :--- | :--- | :--- | :--- |
+| **El francotirador fantasma** | Construido para destruir | Kamikaze | Críticos por ataques sigilosos a larga distancia |
+| **El adicto a las sustancias** | La grieta de Logan | Entrenado | Combate a corta distancia de gran utilidad potenciado por drogas |
+| **El pistolero** | Disparo rápido | Constitución pequeña | Pistolas de disparo rápido y ciclo veloz de V.A.T.S. |
+| **El diplomático pacifista** | De buen carácter | Entrenado | Centrado en conversación, evitando el conflicto directo |
+
+Al planificar tu build, recuerda que algunos rasgos pueden obstaculizar activamente tus objetivos finales del juego. Si estás jugando una build solo de explosivos, Construido para destruir es un espacio desperdiciado porque las armas explosivas no infligen daño adicional en golpes críticos. De manera similar, si planeas usar armas de energía, piénsalo dos veces antes de elegir Yermo salvaje, ya que reemplaza al poderosísimo fusil Gauss único (YCS/186) por el Bláster alienígena, que tiene un suministro de munición estrictamente limitado.
+
+<Checklist
+  id="trait-selection-checklist"
+  title="Lista de verificación para la selección de rasgos:"
+  items={[
+    "Identifica tu tipo de arma principal antes de elegir rasgos de combate",
+    "Confirma que tus estadísticas base de S.P.E.C.I.A.L. cumplan con los requisitos de los extras deseados",
+    "Determina si quieres usar el exploit de acumulación de Entrenado",
+    "Evalúa si estás dispuesto a sacrificar 20 niveles por La grieta de Logan",
+    "Asegúrate de tener un plan para mitigar cualquier modificador negativo"
+  ]}
+/>
+
+<Callout type="tip" title="Consideraciones sobre armas para el final del juego">
+Si planeas usar armas de energía como tu fuente principal de daño, evita el rasgo Yermo salvaje. El fusil Gauss YCS/186 es una de las armas más fuertes del juego, y perder el acceso a él por el Bláster alienígena de munición limitada rara vez vale la pena.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puedo cambiar mis rasgos de Fallout New Vegas más adelante en el juego?",
+    answer: "Sí. Puedes cambiar tus rasgos una vez al salir del área de Goodsprings al comienzo del juego. Además, si tienes el DLC Old World Blues, puedes restablecer tus rasgos una vez usando el Auto-Doc en La Cloaca (The Sink)."
+  },
+  {
+    question: "¿Por qué Cuatro ojos se considera uno de los peores rasgos de Fallout New Vegas?",
+    answer: "Cuatro ojos aplica una penalización permanente de -1 a tu Percepción base, lo que te impide cumplir los requisitos para extras valiosos como Críticos mejorados (Better Criticals). La bonificación de +2 a la Percepción por usar gafas es temporal y no cuenta para los requisitos de los extras."
+  },
+  {
+    question: "¿Importa la penalización de EXP del rasgo Entrenado?",
+    answer: "No. Una reducción del 10% en la ganancia de experiencia es insignificante porque el juego ofrece más que suficientes misiones, enemigos y lugares de exploración para alcanzar fácilmente el nivel máximo, incluso con la penalización activa."
+  },
+  {
+    question: "¿Es Mano dura bueno para una build de armas cuerpo a cuerpo o desarmado?",
+    answer: "Solo es bueno si estás usando una build de baja Suerte y bajo crítico que utilice armas con un daño base alto y multiplicadores de crítico bajos (como el Súper mazo). Para builds cuerpo a cuerpo centradas en críticos, la penalización de -60% al daño crítico es muy perjudicial."
+  }
+]} />
+
+<Callout type="info" title="Veredicto final">
+En caso de duda, comienza tu personaje con **Entrenado** y **Construido para destruir**. Esta combinación proporciona un impulso inmediato a tu supervivencia al principio del juego, a la vez que escala excepcionalmente bien para los desafíos del final del juego en el Yermo de Mojave.
+</Callout>
+
+</Section>

@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de Fallout New Vegas: Progresión y Facciones para 2026",
+  description: "Domina el Mojave con nuestra guía completa de Fallout New Vegas. Aprende estrategias de misiones, decisiones de facciones y construcciones de personajes para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/ffb000?text=NV+Walkthrough+Guide",
+  date: "2026-07-18",
+  author: "Equipo de la Wiki de Fallout New Vegas"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Guía de Fallout New Vegas**: Esta guía cubre la ruta óptima desde Goodsprings hasta la Presa Hoover, enfocándose en las rutas de la RNC y la Independiente.
+- **Atributos S.P.E.C.I.A.L.**: Prioriza la **Inteligencia** para los puntos de habilidad y la **Suerte** para los golpes críticos y el juego en los casinos.
+- **Relaciones con Facciones**: Las decisiones tomadas en Primm y Novac afectarán significativamente tu reputación con la **RNC** y la **Legión de César**.
+- **La Ficha de Platino**: Este es el elemento central de la trama; no pierdas de vista el rastro de Benny hasta el Strip de New Vegas.
+- **Consejo de Combate**: Usa el **V.A.T.S.** con frecuencia para gestionar los puntos de acción y apuntar a las debilidades de extremidades específicas en enemigos más difíciles como los Sanguinarios (Deathclaws).
+</Callout>
+
+<Section icon={Map} title="Comenzando tu viaje: Supervivencia en Goodsprings">
+
+Tu **guía de Fallout New Vegas** comienza en el pequeño pueblo de Goodsprings tras ser rescatado de una fosa poco profunda por un robot llamado Víctor. Tu primera prioridad es la creación de personaje con el Doc Mitchell. En 2026, la build del meta se centra en una Inteligencia alta para maximizar la obtención de puntos de habilidad desde el principio. Después de configurar tus atributos S.P.E.C.I.A.L., realizarás una serie de tutoriales con Sunny Smiles para aprender los conceptos básicos de combate, fabricación y supervivencia en el Yermo de Mojave.
+
+**Puntos destacados del video:**
+- Creación de personaje y asignación de puntos S.P.E.C.I.A.L.
+- Tutorial de combate con Sunny Smiles y caza de geckos.
+- Introducción al sistema de fabricación en hogueras.
+- El enfrentamiento entre Ringo y los Bandidos de la Pólvora.
+
+<YouTubeEmbed videoId="LWyesA1qO-I" title="FALLOUT NEW VEGAS Gameplay Walkthrough FULL GAME" />
+
+| Atributo | Puntuación Recomendada | Beneficio Principal |
+| :--- | :--- | :--- |
+| **Fuerza** | 5 | Peso de transporte y requisitos de armas |
+| **Percepción** | 5 | Detección en la brújula y el extra Mejores Críticos |
+| **Resistencia** | 7 | Salud total y cantidad de implantes permitidos |
+| **Carisma** | 1 | Entereza de compañeros (a menudo considerado un atributo prescindible) |
+| **Inteligencia** | 9 | Puntos de habilidad máximos por nivel |
+| **Agilidad** | 6 | Puntos de Acción totales y velocidad de recarga |
+| **Suerte** | 7 | Probabilidad de golpe crítico y opciones de ganar en el casino |
+
+<Callout type="tip" title="Consejo Pro: El Vit-o-matic">
+No te apresures con el Vit-o-matic. Tus estadísticas S.P.E.C.I.A.L. son difíciles de cambiar más adelante, requiriendo implantes costosos o extras específicos. Intenta tener una Inteligencia de al menos 7 para asegurarte de tener suficientes puntos de habilidad para superar las pruebas de conversación a mitad del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="El camino hacia el sur: Primm y Nipton">
+
+Después de salir de Goodsprings, sigue la carretera hacia el sur en dirección a Primm. Actualmente, el pueblo está invadido por convictos fugados de la Penitenciaría de la RNC (NCRCF). Debes rescatar al ayudante Beagle en el Hotel Bison Steve para obtener información sobre los hombres que te dispararon. Esta sección presenta la primera gran decisión del juego: ¿quién debería liderar Primm?
+
+| Candidato | Requisito | Resultado para Primm |
+| :--- | :--- | :--- |
+| **Primm Slim** | 35 de Ciencia o 3 baterías de fisión | Pueblo independiente, protección robótica leve |
+| **RNC (Sgto. McGee)** | Solicitar refuerzos en el Puesto de Avanzada de Mojave | Anexión a la RNC, impuestos altos, alta seguridad |
+| **Meyers** | Conseguir un indulto de la RNC o usar Conversación | Justicia de la frontera, seguridad moderada, independiente |
+
+<Callout type="warning" title="Ruta Peligrosa">
+Evita ir directamente al norte desde Goodsprings hacia New Vegas. La zona está infestada de **Sanguinarios (Deathclaws)** y **Cazadores** que matarán fácilmente a los jugadores de nivel bajo. Sigue siempre la ruta sur a través de Primm y Novac.
+</Callout>
+
+<Steps>
+  <Step num="1" title="Rescatar al ayudante Beagle">
+    Entra al Hotel Bison Steve en Primm. Usa el sigilo o la fuerza bruta para eliminar a los convictos y desatar a Beagle en la zona de la cocina.
+  </Step>
+  <Step num="2" title="Visitar el Puesto de Avanzada de Mojave">
+    Dirígete más al sur, al Puesto de Avanzada de Mojave, para hablar con el mayor Knight. Este es un lugar excelente para reparar equipo y aceptar la misión 'Corazón frío, frío'.
+  </Step>
+  <Step num="3" title="La masacre de Nipton">
+    Entra en Nipton para presenciar las consecuencias de la 'lotería' de la Legión de César. Habla con Vulpes Inculta para recibir tu primera presentación formal a la ideología de la Legión.
+  </Step>
+</Steps>
+
+</Section>
+
+<Section icon={Sparkles} title="Novac y la instalación de investigación de Repconn">
+
+Tu búsqueda de Benny te lleva a Novac, un pueblo construido alrededor de un termómetro gigante con forma de dinosaurio. Aquí conocerás a varios personajes clave que pueden ayudarte en tu viaje. La mayoría de los jugadores querrán reclutar a **Craig Boone**, uno de los mejores compañeros de combate del juego, completando su misión 'A mi manera'.
+
+<CardGrid cols={3}>
+  <Card title="Manny Vargas">
+    - **Ubicación**: Boca del dinosaurio (Día)
+    - **Rol**: Proporciona información sobre Benny
+    - **Misión**: Requiere limpiar de necrófagos Repconn
+  </Card>
+  <Card title="Craig Boone">
+    - **Ubicación**: Boca del dinosaurio (Noche)
+    - **Rol**: Compañero francotirador de élite
+    - **Requisito**: Descubrir quién vendió a su esposa a la Legión
+  </Card>
+  <Card title="Jeanie May Crawford">
+    - **Ubicación**: Motel Dino Delight
+    - **Rol**: Propietaria del motel
+    - **Secreto**: Involucrada en una oscura trama relacionada con Boone
+  </Card>
+</CardGrid>
+
+La misión 'Vuela conmigo' en la instalación de investigación de Repconn es un hito importante. Debes ayudar a Jason Bright y a sus seguidores a reparar sus cohetes para alcanzar el 'Más Allá'.
+
+| Componente | Ubicación | Método de obtención |
+| :--- | :--- | :--- |
+| **Isótopo 239** | Clark Field | Despojar del carroñero con el traje de protección amarillo |
+| **Módulos de empuje** | Desguace de Gibson | Comprar por 500 chapas o usar Trueque/Conversación |
+
+<Callout type="success" title="Recompensa de la Misión">
+Completar 'Vuela conmigo' te otorga una fama significativa en Novac, lo que facilita conseguir la habitación del hotel como hogar permanente para el jugador. También proporciona una enorme cantidad de experiencia para subir de nivel al principio.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Navegando entre facciones: RNC, la Legión y el Sr. House">
+
+A medida que te acercas al Strip de New Vegas, el panorama político se vuelve más complejo. Te verás obligado a interactuar con las tres grandes potencias que compiten por el control de la Presa Hoover. Tu **guía de Fallout New Vegas** debe tener en cuenta tu reputación con estos grupos, ya que ser 'Vilipendiado' provocará que te envíen escuadrones de la muerte.
+
+<Checklist
+  id="faction-milestones"
+  title="Tareas principales de las facciones:"
+  items={[
+    "Reunirse con el embajador Crocker en la embajada de la RNC",
+    "Visitar a César en Fortification Hill (El Fuerte)",
+    "Entrar al Lucky 38 para hablar con el Sr. House",
+    "Encontrar a Servibot (Yes Man) en la suite de Benny en el Tops"
+  ]}
+/>
+
+| Facción | Líder | Objetivo Principal | Beneficio para el Jugador |
+| :--- | :--- | :--- | :--- |
+| **RNC** | Presidente Kimball | Anexión del Mojave | Acceso al apoyo de los Rangers y pisos francos |
+| **Legión de César** | César | Conquista total y esclavitud | Armas cuerpo a cuerpo poderosas y monedas de la Legión |
+| **Sr. House** | Robert House | Gobierno autocrático del Strip | Enormes recompensas en chapas y lujos en el Strip |
+| **Independiente** | Servibot (Jugador) | Libertad para el Mojave | Control total sobre el resultado final |
+
+<Callout type="info" title="La Marca de César">
+Al salir del Casino Tops después de enfrentarte a Benny, se te acercará un mensajero de la Legión. Te otorgará la **Marca de César**, lo que restablecerá toda tu reputación negativa con la Legión. Aprovecha esta oportunidad para visitar El Fuerte, incluso si planeas ponerte del lado de la RNC.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="La batalla por la Presa Hoover">
+
+El clímax del juego tiene lugar en la Presa Hoover. Independientemente del camino que elijas, tendrás que asegurar el apoyo de las facciones menores para garantizar la victoria. Estas incluyen a los Boomers en la Base Aérea de Nellis, la Hermandad del Acero en Hidden Valley y los Grandes Khans en Red Rock Canyon.
+
+<Steps>
+  <Step num="1" title="El apoyo de los Boomers">
+    Llega a la Base Aérea de Nellis esquivando la artillería. Completa tareas para la Madre Pearl y ayuda a Loyal a reflotar el bombardero B-29 del Lago Mead.
+  </Step>
+  <Step num="2" title="El conflicto de la Hermandad">
+    Localiza el búnker de Hidden Valley. Puedes negociar una tregua entre la RNC y la Hermandad (requiere al Élder McNamara) o destruir el búnker por completo.
+  </Step>
+  <Step num="3" title="El asalto final">
+    Habla con el líder de tu facción para activar el final del juego. Lucharás a lo largo de la presa para matar o convencer al comandante rival (el General Oliver o el Legado Lanius).
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Punto de No Retorno">
+Antes de comenzar la misión final (por ejemplo, '¡Eureka!' o 'Sin dioses no hay amos'), el juego te advertirá que no podrás regresar al mundo abierto. Asegúrate de haber completado todos los DLC y misiones secundarias antes de continuar.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes de Fallout New Vegas">
+
+<FAQ items={[
+  {
+    question: "¿Dónde puedo encontrar las mejores armas al principio del juego?",
+    answer: "Dirígete al puesto de los Contrabandistas (Gun Runners) a las afueras de Freeside. Si tienes una Suerte alta, gana chapas en el Atomic Wrangler o en los casinos del Strip para comprar equipamiento de gama alta como el Fusil de Antimateria."
+  },
+  {
+    question: "¿Cómo entro al Strip de New Vegas sin tener 2.000 chapas?",
+    answer: "Puedes superar una prueba de Ciencia (80) en la puerta, obtener un pasaporte falso en Mick & Ralph's en Freeside, o usar el monorriel de la RNC en Camp McCarran si tienes buena reputación con ellos."
+  },
+  {
+    question: "¿Puedo unirme tanto a la RNC como a la Legión?",
+    answer: "Puedes trabajar para ambas facciones al principio, pero eventualmente llegarás a una misión de 'Punto de No Retorno' (como 'Cuidado con la ira de César' o 'No pises al oso') donde tendrás que elegir una."
+  },
+  {
+    question: "¿Cuál es la mejor manera de lidiar con Benny?",
+    answer: "Puedes matarlo en el Tops, convencerlo de reunirse contigo en su suite, o dejar que escape a El Fuerte, donde César lo mantendrá prisionero para que decidas su destino."
+  }
+]} />
+
+</Section>

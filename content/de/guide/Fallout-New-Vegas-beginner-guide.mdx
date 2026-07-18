@@ -1,0 +1,204 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fallout New Vegas Einsteiger-Guide: Essenzielle Tipps & Builds für den Start",
+  description: "Meistere die Mojave-Wüste mit unserem Fallout New Vegas Einsteiger-Guide. Erfahre alles über SPECIAL-Attribute, Fertigkeiten, Fraktionen und Überlebensstrategien für 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/2d2e27/ffcc00?text=Mojave+Survival+Guide",
+  date: "2026-07-18",
+  author: "Fallout New Vegas Wiki-Team"
+}
+
+<Callout type="info" title="Schnellstart-Guide">
+- **Fallout New Vegas Einsteiger-Guide**: Konzentriere dich bei der Charaktererstellung auf **Intelligenz** und **Glück**, um maximale Fertigkeitspunkte und kritische Treffer zu erzielen.
+- **SPECIAL-System**: Deine Attribute sind permanente Fundamente; wähle **Ausdauer**, wenn du später mehr kybernetische Implantate möchtest.
+- **Fraktionsruf**: Deine Taten in der Mojave haben dauerhafte Konsequenzen; **Ruf** ist oft wichtiger als Karma.
+- **Hardcore-Modus**: Verwalte Dehydration, Hunger und Schlaf, während du dich für eine realistische Herausforderung mit spürbarem Munitionsgewicht auseinandersetzt.
+- **Startroute**: Vermeide es, direkt nach Norden nach Vegas zu gehen; folge der südlichen Straße über **Primm** und **Novac**, um zu überleben.
+</Callout>
+
+<Section icon={Map} title="Das SPECIAL-System meistern">
+
+Das erste Mal die Mojave-Wüste zu betreten, kann überwältigend sein. Dieser **Fallout New Vegas Einsteiger-Guide** beginnt genau dort, wo deine Reise anfängt: im Haus von Doc Mitchell in Goodsprings. Die wichtigste Entscheidung, die du treffen wirst, ist die Verteilung deiner **SPECIAL**-Punkte. Im Gegensatz zu späteren Teilen der Reihe lassen sich diese Attribute nach Spielbeginn nur schwer erhöhen, was deine anfängliche Wahl zum Fundament deines gesamten Spieldurchgangs macht.
+
+| Attribut | Primärer Kampf-/Spielvorteil | Beeinflusste Hauptfertigkeiten | Empfohlener Wert |
+| :--- | :--- | :--- | :--- |
+| **Stärke** | Traglast, Nahkampfschaden, Waffenanforderungen | Nahkampfwaffen, Schusswaffen | 5-7 |
+| **Wahrnehmung** | Rote Kompass-Markierungen, Sprengstoffschaden | Energiewaffen, Schlossknacken | 5-6 |
+| **Ausdauer** | Gesamt-TP, Strahlungsresistenz, **Implantate** | Überleben, Waffenlos | 7-9 |
+| **Charisma** | Gefährten-Nervenstärke (Schaden/Rüstung) | Feilschen, Sprache | 1 |
+| **Intelligenz** | **Erhaltene Fertigkeitspunkte pro Stufe** | Medizin, Wissenschaft, Reparieren | 9 |
+| **Beweglichkeit** | Aktionspunkte (V.A.T.S.), Zieh-/Nachladegeschwindigkeit | Schusswaffen, Schleichen | 6-7 |
+| **Glück** | **Kritische Trefferchance**, Glücksspiel-Erfolg | Alle Fertigkeiten (leichter Bonus) | 7-9 |
+
+<Callout type="warning" title="Die Ausdauer-Regel">
+In der Mojave bestimmt dein **Ausdauer**-Wert, wie viele physische Implantate dein Körper vertragen kann. Jeder Punkt Ausdauer ermöglicht ein Implantat (käuflich zu erwerben in der New Vegas Medical Clinic). Wenn du später alle deine SPECIAL-Werte steigern willst, benötigst du eine hohe Basis-Ausdauer.
+</Callout>
+
+Nachdem du deine Attribute festgelegt hast, musst du zwei **Merkmale** (Traits) auswählen. Diese bieten einen einzigartigen Vorteil, der mit einem bestimmten Nachteil gepaart ist. Die Wahl der richtigen Merkmale kann dein Spielerlebnis im frühen Spiel entscheidend prägen.
+
+<CardGrid cols={3}>
+  <Card title="Zierlicher Körperbau">
+    - **Vorteil**: +1 Beweglichkeit
+    - **Nachteil**: Gliedmaßen verkrüppeln 25% leichter
+    - **Fazit**: Hervorragend für V.A.T.S.-Builds.
+  </Card>
+  <Card title="Gutmütig">
+    - **Vorteil**: +5 auf Sprache, Medizin, Reparieren, Wissenschaft, Feilschen
+    - **Nachteil**: -5 auf alle Kampffertigkeiten
+    - **Fazit**: Perfekt für pazifistische oder diplomatische Spieldurchgänge.
+  </Card>
+  <Card title="Gebaut zum Zerstören">
+    - **Vorteil**: +3% Kritische Trefferchance
+    - **Nachteil**: Ausrüstung verschleißt 15% schneller
+    - **Fazit**: Hohes Risiko, hohe Belohnung für Scharfschützen.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Charakterfortschritt: Fertigkeiten und Extras">
+
+Sobald du Goodsprings verlässt, wird dein Fortschritt durch **Fertigkeiten** und **Extras** (Perks) bestimmt. Du erhältst bei jedem Stufenaufstieg Fertigkeitspunkte und wählst auf jeder geraden Stufe (2, 4, 6 usw.) ein neues Extra. Da die Stufenobergrenze bei 50 liegt, hast du viel Raum zum Wachsen, aber eine frühzeitige Spezialisierung ist der Schlüssel zum Überleben.
+
+<Steps>
+  <Step num="1" title="Wähle deine Hauptfertigkeiten">
+    Wähle drei Fertigkeiten aus, die sofort einen Bonus von +15 erhalten. Für Anfänger werden **Schusswaffen**, **Sprache** und **Schlossknacken** dringend empfohlen, um sicherzustellen, dass du kämpfen, dich aus brenzligen Situationen herausreden und zusätzliche Beute finden kannst.
+  </Step>
+  <Step num="2" title="Nutzen priorisieren">
+    Konzentriere dich nicht nur auf Schaden. Wenn du **Reparieren** auf 90 erhöhst, kannst du das Extra *Notdürftige Reparatur* (Jury Rigging) wählen, mit dem du teure Ausrüstung mit billigen Gegenständen reparieren kannst. Das Erhöhen von **Wissenschaft** und **Schlossknacken** schaltet Hintergrundwissen und Abkürzungen frei.
+  </Step>
+  <Step num="3" title="Synergistische Extras wählen">
+    Extras haben SPECIAL- und Fertigkeitsanforderungen. Plane im Voraus. Wenn du *Raffinesse* (+5% Krit) auf Stufe 10 möchtest, stelle sicher, dass dein Glücks-Wert hoch genug ist.
+  </Step>
+</Steps>
+
+| Fertigkeits-Tier | Empfohlene Fertigkeiten | Warum es wichtig ist |
+| :--- | :--- | :--- |
+| **S-Tier** | Sprache, Schlossknacken, Reparieren | Öffnet die meisten Questpfade und spart Kronkorken. |
+| **A-Tier** | Schusswaffen, Wissenschaft, Medizin | Unerlässlich für den Kampf und die Heileffizienz. |
+| **B-Tier** | Feilschen, Schleichen, Überleben | Nützlich für den Hardcore-Modus und die Wirtschaft. |
+| **C-Tier** | Nahkampfwaffen, Waffenlos, Sprengstoffe | Nischen-Kampfstile, die spezielle Builds erfordern. |
+
+<Callout type="tip" title="Die Macht der Sprache">
+In New Vegas ist **Sprache** wohl die mächtigste Fertigkeit. Viele große Konflikte, einschließlich des finalen Bosskampfes, können vollständig durch Dialoge gelöst werden, wenn deine Sprachfertigkeit hoch genug ist (normalerweise 100).
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Fraktionen und das Ruf-System">
+
+Die Mojave ist ein politisches Pulverfass. Dein Ansehen bei den verschiedenen Gruppen wird über das **Ruf-System** erfasst. Im Gegensatz zum Karma (das eine allgemeine „Gut-gegen-Böse“-Skala ist) ist der Ruf fraktionsspezifisch. Von einer Gruppe „Vergöttert“ zu werden, kann dazu führen, dass du von ihren Rivalen „Verabscheut“ wirst.
+
+| Fraktion | Philosophie | Belohnung für eine Allianz |
+| :--- | :--- | :--- |
+| **RNK** | Demokratie und Bürokratie | Notfall-Funkunterstützung, Zugang zum Unterschlupf. |
+| **Caesars Legion** | Autokratie und Eroberung | Glücksbrille (+1 Glück), Unterschlupf-Beute. |
+| **Mr. House** | Technokratie und Autonomie | Luxussuite im Lucky 38, Securitron-Unterstützung. |
+| **Ja-Sager** | Unabhängiges Vegas | Völlige Freiheit, das Schicksal der Mojave zu gestalten. |
+
+<Callout type="info" title="Verkleidungen und Gefahren">
+Das Tragen der Rüstung einer bestimmten Fraktion (wie eine RNK-Infanterierüstung) fungiert als Verkleidung. Dies kann dir helfen, dich in feindliches Gebiet einzuschleichen, aber Vorsicht: Wachhunde und hochrangige Offiziere können deine Tarnung durchschauen und greifen dich sofort an.
+</Callout>
+
+Das Navigieren durch diese Allianzen ist das Herzstück eines jeden **Fallout New Vegas Einsteiger-Guides**. Es ist oft klug, so lange wie möglich neutral zu bleiben, um die maximale Anzahl an Quests abzuschließen, bevor du den „Punkt ohne Wiederkehr“ in der Hauptgeschichte erreichst.
+
+</Section>
+
+<Section icon={Sparkles} title="Überleben und Grundlagen des Hardcore-Modus">
+
+Für Spieler, die das „echte“ Ödland-Erlebnis suchen, fügt der **Hardcore-Modus** zusätzliche Ebenen des Ressourcenmanagements hinzu. In diesem Modus erfolgt die Heilung nicht sofort, und du musst deine biologischen Bedürfnisse im Auge behalten. Selbst wenn du nicht im Hardcore-Modus spielst, hilft dir das Verständnis dieser Mechaniken, dein Inventar besser zu verwalten.
+
+| Bedürfnis | Auswirkung bei Vernachlässigung | Beste Erholungsgegenstände |
+| :--- | :--- | :--- |
+| **Dehydration** | Verringerte Wahrnehmung, Ausdauer und Beweglichkeit | Aufbereitetes Wasser, Kaktuswasser |
+| **Hunger** | Verringerte Stärke und Charisma | Mais, Gegrillte Mantis, BlamCo Mac & Cheese |
+| **Schlafmangel** | Verringerte Intelligenz und Beweglichkeit | Betten, Atomarer Cocktail (temporär) |
+| **Gewicht** | Munition hat jetzt Gewicht | Extra „Packesel“ (Pack Rat), Hohe Stärke |
+
+<Callout type="success" title="Arzttaschen">
+Im Hardcore-Modus heilen Stimpaks keine verkrüppelten Gliedmaßen. Du musst eine **Arzttasche** verwenden, in einem eigenen Bett schlafen oder einen echten Arzt aufsuchen, um Knochenbrüche zu heilen. Trage immer mindestens zwei Arzttaschen in deinem Inventar bei dir.
+</Callout>
+
+<Checklist
+  id="early-game-kit"
+  title="Essenzielle Dinge fürs Überleben in der Mojave:"
+  items={[
+    "Besorge dir das Kleinkalibergewehr von Sunny Smiles",
+    "Sammle mindestens 10 Stimpaks, bevor du Goodsprings verlässt",
+    "Finde oder kaufe eine Schaufel zum Ausheben von Gräbern (Beute)",
+    "Rekrutiere ED-E in Primm für frühe Kampfunterstützung",
+    "Halte mindestens 3 Flaschen aufbereitetes Wasser für Notfälle bereit"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Kampftaktiken und Ausrüstung">
+
+Der Kampf in der Mojave ist eine Mischung aus Echtzeit-Schiessen und dem **Vault-Tec-Zielsystem (V.A.T.S.)**. Das Verständnis von Schadensschwellenwerten (DT) und Munitionstypen ist entscheidend, um härtere Gegner wie Todeskrallen oder Paladine der Stählernen Bruderschaft zu besiegen.
+
+- **Schadensschwellenwert (DT)**: Dies ist eine pauschale Schadensreduzierung. Wenn ein Gegner 10 DT hat und du ihn für 12 Schaden triffst, erleidet er nur 2 Schaden.
+- **Panzerbrechende (AP) Munition**: Verwende diese gegen schwer gepanzerte Ziele, um deren DT zu umgehen.
+- **Teilmantel-/Hohlspitzmunition (HP)**: Verwende diese gegen ungepanzerte Ziele (Tiere, Raider) für massiven Bonusschaden.
+
+<Callout type="tip" title="V.A.T.S. und Präzision">
+Deine Präzision im V.A.T.S. wird durch deine Fertigkeitenstufe, die effektive Reichweite der Waffe und deine **Beweglichkeit** bestimmt. Wenn du merkst, dass du Schüsse mit einer Chance von 95 % verfehlst, überprüfe, ob deine Waffe in schlechtem Zustand ist; der Zustand der Waffe wirkt sich direkt auf Präzision und Schaden aus.
+</Callout>
+
+| Waffentyp | Beste Option für den Start | Fundort |
+| :--- | :--- | :--- |
+| **Schusswaffen** | Dienstgewehr | Questbelohnung von der RNK am Mojave-Außenposten |
+| **Energiewaffen** | Laserpistole | Leichen von Bright-Anhängern nahe Novac |
+| **Nahkampf** | Chances Messer | Grab nahe dem Stamm-Dorf (Achtung: Cazadores) |
+| **Waffenlos** | Liebe und Hass | Bonnie Springs (beim Viper-Anführer) |
+
+</Section>
+
+<Section icon={Trophy} title="Die ideale Startroute">
+
+Viele neue Spieler machen den Fehler und gehen von Goodsprings aus direkt nach Norden in Richtung der Lichter von New Vegas. Dieser Weg wird jedoch von **Todeskrallen** und **Cazadores** blockiert, die einen Charakter mit niedrigem Level mühelos töten. Der vorgesehene Weg verläuft in einer großen „U“-Form, die dich in die Mechaniken und Fraktionen der Welt einführt.
+
+1.  **Goodsprings**: Schließe die „Tutorial“-Quests mit Sunny Smiles ab.
+2.  **Primm**: Hilf der RNK, kümmere dich um die Sträflinge und rekrutiere ED-E.
+3.  **Mojave-Außenposten**: Nimm RNK-Quests an und handle mit besserer Ausrüstung.
+4.  **Nipton**: Werde Zeuge der grausamen Taten von Caesars Legion.
+5.  **Novac**: Triff Boone (einen erstklassigen Gefährten) und löse die Quest „Flieg mit mir“ (Come Fly With Me).
+6.  **Boulder City**: Löse die Konfrontation zwischen der RNK und den Groß-Khans.
+7.  **Freeside/New Vegas**: Betritt schließlich den Strip und beginne das Mid-Game.
+
+<Callout type="warning" title="Cazador-Warnung">
+Wenn du große, sich schnell bewegende Insekten mit orangefarbenen Flügeln siehst, **kehre um**. Cazadores sind aufgrund ihres Giftes und ihrer extremen Geschwindigkeit die gefährlichsten Feinde im frühen Spiel. Kämpfe nicht gegen sie ohne reichlich Gegengift und eine Waffe mit hohem Schaden pro Sekunde (DPS).
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen">
+
+<FAQ items={[
+  {
+    question: "Kann ich meine SPECIAL-Werte nach dem Verlassen von Goodsprings noch ändern?",
+    answer: "Du erhältst eine letzte Chance, deinen Charakter komplett neu zu erstellen, wenn du das Gebiet von Goodsprings verlässt. Danach kannst du deine Werte nur noch über das Extra „Intensives Training“ oder teure Implantate in der New Vegas Medical Clinic erhöhen."
+  },
+  {
+    question: "Wer ist der beste Gefährte für einen Fallout New Vegas Einsteiger-Guide?",
+    answer: "Craig Boone (zu finden in Novac) gilt aufgrund seiner Fähigkeiten als Scharfschütze weithin als der beste Kampfbegleiter. Wenn du ihn mit ED-E (dem Roboter aus Primm) kombinierst, kannst du Feinde schon aus großer Entfernung entdecken."
+  },
+  {
+    question: "Wie komme ich kostenlos auf den New Vegas Strip?",
+    answer: "Normalerweise benötigst du 2.000 Kronkorken für eine Bonitätsprüfung. Du kannst dies jedoch umgehen, indem du eine Wissenschaftsfertigkeit von 80 erreichst, um den Securitron zu hacken, oder indem du einen ausreichend hohen Ruf bei der RNK erlangst, um deren Einschienenbahn im Camp McCarran zu benutzen."
+  },
+  {
+    question: "Gibt es eine Stufenobergrenze in Fallout New Vegas?",
+    answer: "Die Obergrenze des Hauptspiels liegt bei 30, aber mit allen installierten DLCs (was für den Remaster Standard ist) liegt die maximale Stufe bei 50. Du erhältst alle zwei Stufen ein Extra, also insgesamt 25 Extras."
+  }
+]} />
+
+</Section>

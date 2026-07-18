@@ -1,0 +1,223 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fallout New Vegas Companions: Recruitment & Perks Guide",
+  description: "Unlock all 8 Fallout New Vegas companions. Learn recruitment locations, personal quest triggers, best upgrades, and optimal perk combinations.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a0f05/fff?text=Fallout+New+Vegas+Companions",
+  date: "2026-07-18",
+  author: "Fallout New Vegas Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Fallout New Vegas companions** consist of **eight permanent followers** scattered across the Mojave Wasteland.
+- **Party composition** allows you to travel with **one humanoid** and **one non-humanoid** companion simultaneously.
+- **Unique perks** are unlocked immediately upon recruitment, providing passive combat and utility bonuses.
+- **Faction alignment** is critical, as certain companions will permanently leave if you support Caesar's Legion or gain negative faction reputation.
+- **Personal quests** offer powerful gear upgrades or stat boosts depending on your dialogue choices.
+</Callout>
+
+<Section icon={Map} title="Overview of Fallout New Vegas Companions">
+
+Traveling the Mojave Wasteland alone is a dangerous endeavor. Recruiting **Fallout New Vegas companions** not only provides essential fire support but also grants unique passive perks that can completely alter your build's efficiency. You can have a maximum of two active followers at any time: one humanoid companion and one non-humanoid companion (either ED-E or Rex).
+
+Managing your companions requires an understanding of their faction loyalties. Humanoid companions will refuse to wear faction armor unless it aligns with their own group, and they will actively desert you if you side with rival factions like Caesar's Legion. 
+
+**Video Highlights:**
+- **Party Limits**: Learn how to manage the one humanoid and one non-humanoid companion limit.
+- **Recruitment Details**: Step-by-step locations and skill checks required for all eight companions.
+- **Quest Triggers**: How to accumulate hidden "history points" to launch companion personal quests.
+- **Upgrade Paths**: A breakdown of the cosmetic and mechanical changes for final companion rewards.
+
+<YouTubeEmbed videoId="A2NZ6-wav3Y" title="Fallout New Vegas - All Companions Guide" />
+
+### Companion Quick Reference
+
+This reference table outlines where to find every follower, their base combat type, and the passive perk they provide to your character.
+
+| Companion | Location | Companion Type | Passive Perk |
+| :--- | :--- | :--- | :--- |
+| **Arcade Ganon** | Old Mormon Fort (Freeside) | Humanoid | Better Healing (+20% health from consumables) |
+| **Craig Boone** | Novac (Dinky the Dinosaur) | Humanoid | Spotter (Enemies glow red when aiming) |
+| **ED-E** | Primm (Mojave Express) | Non-Humanoid | Enhanced Sensors (Long-range radar detection) |
+| **Lily Bowen** | Jacobstown | Humanoid | Stealth Girl (2x Stealth Boy duration) |
+| **Raul Tejada** | Black Mountain | Humanoid | Regular Maintenance (50% slower gear decay) |
+| **Rex** | Freeside (The King's School) | Non-Humanoid | Search and Mark (Highlights nearby loot) |
+| **Rose of Sharon Cassidy** | Mojave Outpost | Humanoid | Whiskey Girl (Alcohol buffs DT, ignores penalties) |
+| **Veronica Santangelo** | 188 Trading Post | Humanoid | Scribe Assistant (Portable crafting workbench) |
+
+<Callout type="warning" title="Faction Hostility Warning">
+Siding with Caesar's Legion will cause Arcade Ganon and Craig Boone to permanently hostile or desert you. Always complete their personal quests before making major storyline decisions at Hoover Dam.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Humanoid Companions and Personal Quests">
+
+Each humanoid companion has a complex background story that unlocks through a personal quest. These quests are triggered by visiting specific locations or speaking to certain NPCs to accumulate hidden "like points."
+
+### Recruitment and Quest Details
+
+To optimize your journey, you must understand the recruitment conditions and quest outcomes for the four primary humanoid followers.
+
+<CardGrid cols={2}>
+  <Card title="Arcade Ganon">
+    - **Recruitment**: Speak to him at the Old Mormon Fort. Requires high Followers reputation, the Speech check, or a Low Intelligence character build.
+    - **Quest**: *For Auld Lang Syne*. Triggered by gaining 5 history points or progressing to the late-game main questline.
+    - **Rewards**: Remnants Power Armor or the Gannon Family Tesla Armor.
+  </Card>
+  <Card title="Craig Boone">
+    - **Recruitment**: Complete *One for My Baby* in Novac by proving Jenny May Crawford sold his wife into slavery.
+    - **Quest**: *I Forgot to Remember to Forget*. Triggered by gaining 5 history points from killing Legion members.
+    - **Rewards**: First Recon Survival Armor or First Recon Assault Armor.
+  </Card>
+  <Card title="Rose of Sharon Cassidy (Cass)">
+    - **Recruitment**: Work for Crimson Caravan, then convince her to sell her caravan at the Mojave Outpost.
+    - **Quest**: *Heartache by the Number*. Investigate three destroyed caravan sites.
+    - **Rewards**: Hand of Vengeance (+15% Gun damage) or Calm Heart (+50 Max HP).
+  </Card>
+  <Card title="Veronica Santangelo">
+    - **Recruitment**: Talk to her at the 188 Trading Post. Do not express hatred for the Brotherhood of Steel.
+    - **Quest**: *I Could Make You Care*. Present advanced technology to Elder McNamara.
+    - **Rewards**: Bonds of Steel (+4 DT) or Causeless Rebel (+30% Unarmed attack rate).
+  </Card>
+</CardGrid>
+
+### Quest Choice Outcomes
+
+The decisions you make at the end of companion quests permanently alter their combat capabilities and gear. Use this breakdown to plan your build.
+
+| Companion | Choice Path | Reward Perk | Mechanical Benefit |
+| :--- | :--- | :--- | :--- |
+| **Arcade Ganon** | Fight at Hoover Dam | Remnants Power Armor | High defense armor set gifted by Daisy Whitman |
+| **Arcade Ganon** | Stay in Freeside | Gannon Family Tesla Armor | Tesla Armor set (+10 Energy Weapons, +20 Rad Resist) |
+| **Craig Boone** | Repentant Path | First Recon Survival | Upgraded armor set focusing on survival stats |
+| **Craig Boone** | Bloodthirsty Path | First Recon Assault | Upgraded armor set focusing on offensive stats |
+| **Cass** | Kill conspirators | Hand of Vengeance | Permanent +15% damage bonus with all Guns |
+| **Cass** | Turn in evidence | Calm Heart | Permanent +50 maximum Health bonus |
+| **Veronica** | Stay with Brotherhood | Bonds of Steel | Passive +4 Damage Threshold (DT) for Veronica |
+| **Veronica** | Leave Brotherhood | Causeless Rebel | Passive +30% Unarmed attack rate for Veronica |
+
+<Callout type="tip" title="Maximizing Cass's Perk">
+If you prefer a Guns build, choose the vengeful path in *Heartache by the Number* to secure the Hand of Vengeance perk. For survival or hardcore builds, gathering evidence for the Calm Heart perk is highly recommended.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Non-Humanoid and Utility Companions">
+
+Non-humanoid companions provide excellent utility and do not block you from recruiting human followers. ED-E and Rex are the two options available in the Mojave.
+
+### ED-E: The Duraframe Eyebot
+ED-E is located on a counter inside the Mojave Express building in Primm. You can repair him using a Repair skill of 65, a Science skill of 55 (which lowers the Repair requirement to 35), or by collecting specific scrap parts.
+
+<Steps>
+  <Step num="1" title="Gather Repair Materials">
+    Collect 1 scrap electronics, 2 sensor modules, and 3 scrap metal. These can easily be looted from Lone Wolf Radio.
+  </Step>
+  <Step num="2" title="Trigger Audio Logs">
+    Speak to characters who discuss technology or the Enclave (such as Old Lady Gibson or Ignacio Rivas) to unlock ED-E's hidden audio logs.
+  </Step>
+  <Step num="3" title="Choose an Upgrade Path">
+    Deliver ED-E to either the Brotherhood of Steel (Lorenzo) for an armor upgrade, or the Followers of the Apocalypse (April Mortimer) for a weapon upgrade.
+  </Step>
+</Steps>
+
+### Rex: The Cyberdog
+Rex is owned by The King in Freeside. To recruit him, complete the quest *G.I. Blues* and ask The King about his dog's deteriorating brain condition to start *Nothin' But a Hound Dog*.
+
+| Brain Donor | Location | Obtained Via | Reward Perk | Benefit |
+| :--- | :--- | :--- | :--- | :--- |
+| **Rey** | Gibson Scrapyard | Buy for 700 caps or pass Barter 70 | Lupa's Brain | +25 Melee Attack Damage |
+| **Lupa** | The Fort (Legion) | Defeat Lupa in the Arena | Blood of the Legion | +10 Damage Threshold (DT) |
+| **Violetta** | Violet's Camp | Kill the Fiend leader Violet | Unshakable Tracker | +50% Movement Speed |
+
+<Callout type="success" title="Stealth Build Recommendation">
+For stealth-focused characters, pairing Lily Bowen (Stealth Girl perk) with ED-E (Enhanced Sensors) allows you to detect enemies from extreme distances and execute sneak attack criticals with a 10% damage bonus.
+</Callout>
+
+### Lily Bowen and Raul Tejada
+
+Lily and Raul offer unique combat playstyles. Lily is a Nightkin tank found in Jacobstown, while Raul is a ghoul mechanic imprisoned at Black Mountain.
+
+#### Lily's Medicine Dilemma
+Lily suffers from schizophrenia due to prolonged Stealth Boy usage. You can modify her combat behavior by adjusting her medication dose:
+- **Full Dose**: Lower melee skill to 60, but she never suffers psychotic breaks.
+- **Half Dose**: Standard combat performance; psychotic breaks occur when her health drops below 25%.
+- **No Medicine**: Melee weapon skill increases to 100, but she suffers psychotic breaks whenever her health falls below 50%.
+
+#### Raul's Career Paths
+After rescuing Raul from Tabitha's broadcast building, you can trigger *Old School Ghoul* by speaking to three elderly wastelanders: Loyal at Nellis Air Force Base, Corporal Sterling at Camp McCarran, and Ranger Andy in Novac.
+- **Slinger Path**: Raul dons his Vaquero outfit, gaining the **Old Vaquero** perk (+33% fire rate with revolvers and lever-action rifles).
+- **Mechanic Path**: Raul wears his Petro-Chico jumpsuit, upgrading his maintenance perk to **Full Maintenance** (equipment degrades 75% slower).
+
+</Section>
+
+<Section icon={Trophy} title="Companion Quest Progression Checklist">
+
+Unlocking companion quests requires visiting specific locations to trigger dialogue. Use this checklist to ensure you do not miss critical trigger events.
+
+<Checklist
+  id="companion-triggers"
+  title="Key Companion Trigger Locations:"
+  items={[
+    "Take Arcade Ganon to the Crash Vertibird site or Helios One to gain history points.",
+    "Bring Craig Boone to Cottonwood Cove, Nelson, or Camp McCarran to kill Legion officers.",
+    "Trigger ED-E's first log by talking to Old Lady Gibson at her scrapyard.",
+    "Exhaust dialogue with Ranger Andy in Novac while Raul is in your active party.",
+    "Take Veronica to Camp McCarron, Freeside, or the REPCONN Headquarters to trigger her observations."
+  ]}
+/>
+
+### History Point Allocation
+
+Boone and Arcade require 5 history points to initiate their quests. Use this table to plan your travel routes.
+
+| Companion | Event Location | Action Required | Points Granted |
+| :--- | :--- | :--- | :--- |
+| **Craig Boone** | The Fort | Kill Caesar in his tent | 2 Points |
+| **Craig Boone** | Cottonwood Cove | Rescue the captured NCR hostages | 2 Points |
+| **Craig Boone** | Nelson | Kill the Legion commander Dead Sea | 2 Points |
+| **Arcade Ganon** | Helios One | Redirect power to Freeside and Outer Vegas | 1 Point |
+| **Arcade Ganon** | Camp McCarran | Talk to Dr. Thomas Hildern inside the terminal | 1 Point |
+| **Arcade Ganon** | REPCONN HQ | Search the main floor and read terminal entries | 1 Point |
+
+<Callout type="info" title="History Point Tracking">
+Points do not decay over time. You can accumulate them slowly throughout your playthrough, but you must have the specific companion active in your party at the exact moment the action is completed.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How many Fallout New Vegas companions can I have at the same time?",
+    answer: "You can have a maximum of two companions active at once: one humanoid companion (Arcade, Boone, Cass, Lily, Raul, or Veronica) and one non-humanoid companion (ED-E or Rex)."
+  },
+  {
+    question: "Do companions care if I steal or murder in front of them?",
+    answer: "Most companions do not care about minor theft, but Cass will leave your party permanently if your overall Karma level becomes too low (Evil or Very Evil)."
+  },
+  {
+    question: "Can companions use power armor?",
+    answer: "Yes, but only if they have the power armor training background. Humanoid companions like Arcade Ganon and Veronica can equip power armor automatically, but they will refuse to wear armor associated with opposing factions."
+  },
+  {
+    question: "What happens if a companion dies in combat?",
+    answer: "In standard mode, companions are only knocked unconscious during combat and will revive after the fight ends. In Hardcore Mode, companion deaths are permanent."
+  }
+]} />
+
+<Callout type="tip" title="Optimal Gear Setup">
+Always equip your companions with high-tier weapons that match their tagged skills. Humanoid companions have infinite ammo for their default weapons, but if you give them custom weapons, you must also supply the appropriate ammunition.
+</Callout>
+
+</Section>

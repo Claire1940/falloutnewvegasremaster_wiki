@@ -1,0 +1,179 @@
+import { Map, Shield, Zap, List, Layout, HelpCircle, Settings, Swords } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fallout New Vegas how to mod: 2026 Step-by-Step Setup Guide",
+  description: "Learn how to mod Fallout New Vegas in 2026. This guide covers NVSE installation, 4GB patches, mod managers, and essential stability fixes for beginners.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1a202c/fff?text=Fallout+New+Vegas+Modding+Guide",
+  date: "2026-07-18",
+  author: "Fallout New Vegas Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Fallout New Vegas how to mod**: Start with a clean vanilla installation and run the game once before adding any files.
+- **Core Requirement**: Install the New Vegas Script Extender (NVSE) and the 4GB Patcher to prevent crashes.
+- **Management Tools**: Use Vortex or Mod Organizer 2 to handle file overrides and load orders automatically.
+- **Stability First**: Prioritize engine fixes like NVTF and YUP over high-resolution texture packs to ensure a smooth experience.
+- **Verification**: Always use the in-game console to check if your script extender is running correctly.
+</Callout>
+
+<Section icon={Settings} title="Getting Started with Fallout New Vegas Modding">
+
+Understanding **Fallout New Vegas how to mod** is essential for any player looking to experience the Mojave Wasteland without the constant threat of engine crashes or corrupted saves. Before downloading your first texture pack or weapon mod, you must establish a stable foundation. The game engine is nearly two decades old, meaning it requires specific "middle-man" software to handle modern hardware and complex community-made scripts.
+
+**Video Highlights:**
+- **Vanilla Launch**: Always run the game once through Steam to generate necessary .ini files.
+- **Manual Installation**: Essential tools like NVSE must be placed directly in the game folder, not through a manager.
+- **Archive Extraction**: Use 7-Zip to handle compressed mod files effectively.
+- **Validation**: How to use the tilde (~) key to verify your installation status.
+
+<YouTubeEmbed videoId="Hjix2h9kW8s" title="How To Mod Fallout New Vegas For Beginners (2026 Edition)" />
+
+<Callout type="warning" title="Critical Requirement">
+Do not install Fallout New Vegas into the "Program Files (x86)" directory. Windows security settings in this folder often block mod managers from moving files, leading to "Access Denied" errors during the modding process.
+</Callout>
+
+| Requirement | Purpose | Importance |
+| :--- | :--- | :--- |
+| **Clean Install** | Ensures no leftover files from previous modding attempts | **High** |
+| **7-Zip** | Extracts .7z, .rar, and .zip files used by modders | **High** |
+| **Nexus Account** | Required to download 99% of community-created content | **Medium** |
+| **Steam Version** | The most compatible version for script extenders | **High** |
+
+</Section>
+
+<Section icon={Shield} title="The Pillars of Stability: NVSE and 4GB Patcher">
+
+The most important step in learning **Fallout New Vegas how to mod** is installing the New Vegas Script Extender (NVSE). This tool expands the game's scripting capabilities, allowing complex mods to function. Without it, most modern mods simply will not load. Following NVSE, the 4GB Patcher is non-negotiable; it allows the game to utilize 4GB of RAM instead of the default 2GB, drastically reducing "Out of Memory" crashes.
+
+| Tool Name | Primary Function | Installation Method |
+| :--- | :--- | :--- |
+| **xNVSE** | Modern branch of the script extender with bug fixes | Manual drag-and-drop to root folder |
+| **4GB Patcher** | Upgrades the .exe to be Large Address Aware | Run the .exe inside the game folder |
+| **HEAPS** | Optimized memory allocation for the game engine | Plugin for NVSE |
+| **NVTF** | New Vegas Tick Fix for smooth high-framerate play | Mod Manager installation |
+
+<Callout type="tip" title="Pro Tip: Verification">
+Once you have installed NVSE, launch the game, open the console with the `~` key, and type `GetNVSEVersion`. If the console returns a version number, you have successfully completed the most difficult part of the setup.
+</Callout>
+
+</Section>
+
+<Section icon={Layout} title="Choosing Your Mod Manager">
+
+While manual installation is fine for core engine fixes, you should use a dedicated manager for everything else. A mod manager keeps your game directory clean and allows you to toggle mods on and off without deleting files. In 2026, two primary options dominate the scene.
+
+<CardGrid cols={2}>
+  <Card title="Vortex (User Friendly)">
+    - **Nexus Integration**: One-click downloads directly from the website.
+    - **Auto-Sorting**: Uses the LOOT algorithm to manage load orders.
+    - **UI Design**: Modern interface that is easy for beginners to navigate.
+    - **Best for**: Players who want a "set it and forget it" experience.
+  </Card>
+  <Card title="Mod Organizer 2 (Advanced)">
+    - **Virtual File System**: Keeps your game folder 100% clean.
+    - **Profile Support**: Create different mod lists for different characters.
+    - **Granular Control**: Manually resolve every file conflict with ease.
+    - **Best for**: Users planning to install 200+ mods or custom overhauls.
+  </Card>
+</CardGrid>
+
+<Callout type="info" title="Manager Setup">
+When setting up Vortex or MO2, ensure the "Mod Staging Folder" is on the same drive as your game installation. This allows the manager to use "Hardlinks," which saves disk space and improves loading speeds.
+</Callout>
+
+</Section>
+
+<Section icon={Zap} title="Step-by-Step Installation Process">
+
+Follow these steps to ensure your environment is ready for advanced gameplay modifications. This sequence is designed to prevent the most common errors encountered by new modders.
+
+<Steps>
+  <Step num="1" title="Initial Game Cleanup">
+    Uninstall the game and delete the "Fallout New Vegas" folder in SteamApps/common. Reinstall to ensure a 100% clean slate. Launch the game once to the main menu and then exit.
+  </Step>
+  <Step num="2" title="Manual Tool Deployment">
+    Download xNVSE and the 4GB Patcher. Extract the xNVSE files into the folder containing FalloutNV.exe. Move the Patcher .exe into the same folder and run it as an administrator.
+  </Step>
+  <Step num="3" title="Mod Manager Configuration">
+    Install Vortex or MO2. Link your Nexus Mods account in the settings. Direct the manager to your Fallout New Vegas installation path if it is not detected automatically.
+  </Step>
+  <Step num="4" title="Essential Bug Fixing">
+    Download and install "Yukichigai Unofficial Patch (YUP)" via your mod manager. This mod fixes thousands of bugs left by the original developers without changing gameplay balance.
+  </Step>
+  <Step num="5" title="Deployment and Testing">
+    Click "Deploy" in your manager. Launch the game using the "New Vegas" shortcut (the 4GB patcher makes it so you don't need a special NVSE shortcut anymore) and verify stability.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Success!">
+If your game launches to the main menu without a crash and your console shows the NVSE version, you have mastered the basics of how to mod the game.
+</Callout>
+
+</Section>
+
+<Section icon={List} title="Essential Mod Categories for 2026">
+
+Once the foundation is set, you can begin adding content. However, not all mods are created equal. Use the following table to prioritize which categories to explore first for the best visual and performance balance.
+
+| Category | Recommended Mod | Impact |
+| :--- | :--- | :--- |
+| **User Interface** | **The Living Desert** | High / Adds life to the wasteland |
+| **Stability** | **New Vegas Anti-Crash (NVAC)** | Critical / Prevents CTDs |
+| **Graphics** | **NMC's Texture Pack** | Medium / Replaces blurry textures |
+| **Lighting** | **Desert Natural Weathers** | High / Modernizes lighting and sky |
+| **UI Utility** | **User Interface Organizer (UIO)** | Critical / Manages UI mod conflicts |
+
+<Checklist
+  id="modding-etiquette"
+  title="Safe Modding Checklist:"
+  items={[
+    "Always read the 'Requirements' tab on Nexus Mods before downloading.",
+    "Never uninstall a scripted mod in the middle of a playthrough.",
+    "Check the 'Posts' section on a mod page for recent bug reports.",
+    "Keep your load order sorted using LOOT or built-in manager tools.",
+    "Backup your 'Saves' folder located in Documents/My Games/FalloutNV."
+  ]}
+/>
+
+<Callout type="tip" title="Load Order Logic">
+Generally, larger overhaul mods should be at the top of your load order, while small tweaks and patches should be at the bottom so they can override the larger files.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Troubleshooting and FAQ">
+
+Even with a perfect setup, issues can arise. Most problems in **Fallout New Vegas how to mod** stem from conflicting files or missing dependencies. Use the FAQ below to resolve common hurdles quickly.
+
+<FAQ items={[
+  {
+    question: "Why does my game crash as soon as I load a save?",
+    answer: "This is usually caused by a missing 'Master' file (.esm). Check your mod manager for any red warning icons indicating that a mod is missing its required parent file."
+  },
+  {
+    question: "Can I use mods with the Epic Games Store version?",
+    answer: "Yes, but it requires an additional 'Epic Games Patcher' tool to make it compatible with NVSE, as the Epic version has a different file structure than Steam."
+  },
+  {
+    question: "How many mods can I safely install?",
+    answer: "The game has a hard limit of 255 plugins (.esp/.esm). However, for stability, it is recommended to stay under 150 unless you are using a mod merging tool."
+  },
+  {
+    question: "Do I need to start a new game after modding?",
+    answer: "For stability mods and textures, no. However, for large gameplay overhauls or quest mods, starting a new save is highly recommended to avoid script errors."
+  }
+]} />
+
+<Callout type="warning" title="Final Warning">
+Avoid "Mod Packs" or "Collections" that haven't been updated in over two years. The modding scene for New Vegas moves fast, and older packs often contain outdated plugins that cause modern systems to crash.
+</Callout>
+
+</Section>

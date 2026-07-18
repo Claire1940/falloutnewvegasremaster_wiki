@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fallout New Vegas Honest Hearts: Guía de la Caravana y Consejos",
+  description: "Prepárate para la Expedición Happy Trails en Fallout New Vegas Honest Hearts. Aprende trucos de límite de peso, elecciones de NPC y estrategias de supervivencia en Zion.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a202c/ffffff?text=Honest+Hearts+Walkthrough",
+  date: "2026-07-18",
+  author: "Equipo de la Wiki de Fallout New Vegas",
+  keywords: "Fallout New Vegas, Honest Hearts, guía, caravana, Zion, Jed Masterson, límite de peso"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Ubicación de inicio**: Localiza la cueva del Paso del Norte (Northern Passage) en las colinas del norte del Yermo de Mojave para comenzar la aventura.
+- **Gestión de peso**: Mantén tu inventario por debajo de 75 libras, o hasta 100 libras superando pruebas de habilidad con Ricky.
+- **Emboscada guionizada**: Ten en cuenta que todos los miembros de la caravana morirán inmediatamente al entrar en el Cañón de Zion durante una emboscada programada.
+- **Progresión del DLC**: Consigue un mapa de Zion para regresar al Mojave, ya que el viaje rápido está desactivado hasta completar la historia.
+</Callout>
+
+<Section icon={Map} title="Iniciando la Expedición Happy Trails">
+
+El viaje comienza al norte del Strip de Vegas. Aparecerá una nueva emisión de radio en tu Pip-Boy: la Transmisión de la Expedición Happy Trails. Liderada por el jefe de la caravana, Jed Masterson, la Compañía de Caravanas Happy Trails busca guardias experimentados, buscadores y mensajeros para guiar una expedición al norte, hacia la naturaleza virgen del Parque Nacional Zion en Utah.
+
+**Puntos destacados del video:**
+- **Ubicación del Paso del Norte**: Escondido tras un camino de tierra en las montañas al norte de Vegas.
+- **Briefing de la caravana**: Jed Masterson explica la ruta, las condiciones de pago y el misterio que rodea a Nueva Canaán.
+- **Restricción del límite de peso**: Por qué debes viajar ligero antes de salir del Mojave.
+
+<YouTubeEmbed videoId="YkCH629xa00" title="Honest Hearts 01: La Caravana Happy Trails - Lore de Fallout New Vegas" />
+
+Para encontrar el punto de partida, sigue el camino de tierra detrás de una choza destartalada en las colinas del norte. Verás una roca marcada con un grafiti que dice "The Sun is killing me" (El sol me está matando) y una roca hueca cercana con botín aleatorio. Justo fuera de la entrada al Paso del Norte hay una tumba sin marcar que puedes excavar para obtener munición.
+
+Dentro de la caverna tenuemente iluminada, conocerás a Jed Masterson. Ofrece 25 chapas al día, con bonificaciones al llegar a Zion y Nueva Canaán. Sin embargo, lanza una advertencia estricta: no menciones el nombre de Joshua Graham, el legendario "Hombre Quemado" y antiguo Legado de César, ya que el tema aterroriza a los tribales locales e incomoda profundamente a los neocanaanitas.
+
+La caravana no puede tomar rutas estándar como la Interestatal 80 ni pasar por Ogden porque los Rangers de la RNC están desplegados masivamente en el Mojave, dejando las carreteras del norte completamente desprotegidas de bandas de saqueadores brutales como los Ochenta (80s). Restablecer el comercio con Nueva Canaán es la última esperanza de la compañía para evitar la bancarrota.
+
+| Detalle de la caravana | Requisito / Información |
+| :--- | :--- |
+| **Ubicación de inicio** | Paso del Norte (Norte del Mojave) |
+| **Límite de peso inicial** | 75 libras (Máximo) |
+| **Pago base** | 25 chapas por día (más bonos por ubicación) |
+| **Objetivo principal** | Restablecer el comercio con Nueva Canaán en Zion |
+| **Regla de compañeros** | Solo en solitario (debes despedir a los compañeros del Mojave) |
+
+<Callout type="warning" title="Guarda tu equipo">
+El límite de peso de 75 libras es estricto. Usa la caja metálica dentro de la cueva del Paso del Norte para guardar el exceso de armas, armaduras y suministros médicos. Tus pertenencias estarán perfectamente seguras hasta que regreses de Zion.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Análisis de Compañeros de Caravana y Pruebas de Habilidad">
+
+Antes de partir, puedes interactuar con los miembros únicos de la tripulación reunidos para el viaje. Cada personaje aporta un trasfondo distinto y beneficios mecánicos que pueden ayudarte a sortear las estrictas limitaciones de inventario de la expedición.
+
+<CardGrid cols={3}>
+  <Card title="Jed Masterson">
+    - **Rol**: Líder de la caravana
+    - **Origen**: Sacramento (Sac Town)
+    - **Información**: Proporciona lore esencial sobre los neocanaanitas, las facciones de saqueadores regionales y la peligrosa tribu de los Piernas Blancas.
+  </Card>
+  <Card title="Stella">
+    - **Rol**: Guardia de la caravana
+    - **Origen**: Nuevo Reno / Caliente
+    - **Información**: Antigua sheriff con amplia experiencia en combate luchando contra los Ochenta y protegiendo rutas comerciales del norte.
+  </Card>
+  <Card title="Ricky">
+    - **Rol**: Explorador / Impostor
+    - **Origen**: Dayglow (RNC)
+    - **Información**: Viste un traje del Refugio 22 saqueado y miente sobre haber matado sanguinarios. Puede ser manipulado para aumentar tu límite de peso.
+  </Card>
+</CardGrid>
+
+Ricky es particularmente digno de mención. Afirma ser un tirador legendario llamado "Ricky Ojo de Lince" que una vez mató a cuatro "mandíbulas de la muerte" y derrotó a un Paladín de la Hermandad del Acero con un subfusil de 11 mm imaginario. Puedes exponer sus mentiras mediante varias pruebas de habilidad.
+
+Si tienes entrenamiento con servoarmadura, puedes señalar que las ranuras de los ojos de los cascos de la Hermandad son a prueba de balas. Alternativamente, una prueba de Armas de fuego revela que los subfusiles de 11 mm no existen. Si diagnosticas su comportamiento errático como síndrome de abstinencia de Psycho usando Medicina, puedes venderle tus drogas sobrantes a un precio alto.
+
+Lo más importante es que puedes convencer a Ricky para que cargue con parte de tu equipo, lo que aumenta con éxito tu límite de peso inicial de 75 libras a 100 libras.
+
+| Tipo de prueba de habilidad | Requisito | Recompensa / Resultado |
+| :--- | :--- | :--- |
+| **Prueba de Armas de fuego** | Armas de fuego 45 | Expone las mentiras de Ricky sobre su armamento ficticio |
+| **Prueba de Ciencia** | Ciencia 55 | Revela que la pantalla de su Pip-Boy está bloqueada y rota |
+| **Prueba de Medicina** | Medicina 50 | Identifica su adicción al Psycho; permite venderle químicos |
+| **Prueba de Trueque** | Trueque 50 | Paga 100 chapas para subir tu límite de peso a 100 lbs |
+| **Prueba de Conversación** | Conversación 55 | Convence a Ricky para que lleve equipo, subiendo el límite a 100 lbs |
+
+<Callout type="tip" title="Bypasando el límite">
+Si no tienes las habilidades de Trueque o Conversación para convencer a Ricky, puedes usar el extra Viuda Negra durante el diálogo para burlarte de sus afirmaciones, lo que otorga una opción similar de expansión de inventario.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Entrada en Zion y la Emboscada Guionizada">
+
+Una vez que confirmas que estás listo a Jed Masterson, la caravana parte. El viaje dura varias semanas y te lleva a las profundidades de las impresionantes tierras de roca roja del Cañón de Zion. Sin embargo, el paisaje sereno se vuelve mortal rápidamente.
+
+Mientras la caravana navega por un estrecho cañón, Jed presiente el peligro. En segundos, la hostil tribu de los Piernas Blancas lanza una emboscada explosiva. Los Piernas Blancas son un grupo tribal vicioso del área del Gran Lago Salado, conocidos por su brutalidad y su deseo de impresionar a la Legión de César aniquilando a los neocanaanitas.
+
+Durante este encuentro, todos los miembros de la caravana —incluidos Jed, Stella y los guardias— mueren en una secuencia guionizada. Muchos jugadores desperdician munición valiosa y estimulantes intentando mantener vivos a Stella o Jed, pero sus muertes están programadas para que la narrativa avance.
+
+| Facción | Líder | Disposición | Estilo de combate |
+| :--- | :--- | :--- | :--- |
+| **Happy Trails** | Jed Masterson | Amistoso (Fallecido) | Armas de fuego estándar, defensivo |
+| **Piernas Blancas** | Sal-en-la-Herida | Muy hostil | Subfusiles, mazas de guerra, bombas incendiarias |
+| **Neocanaanitas** | Daniel / Joshua Graham | Amistoso | Pistolas de alto calibre, supervivencia táctica |
+
+Tras derrotar a la oleada inicial de emboscadores, debes cruzar un puente de cuerda de madera. Al otro lado, un último tribal de los Piernas Blancas intentará emboscarte desde arriba. Antes de que pueda atacar, un tribal amistoso llamado Sigue-la-Tiza (Follows-Chalk) le dispara, salvándote la vida.
+
+<Callout type="info" title="No dispares al tribal amistoso">
+En el caos de la emboscada, es increíblemente fácil confundir a Sigue-la-Tiza con un enemigo. Si le disparas, toda la población tribal de Zion se volverá hostil, fallarás todas las misiones de la historia y te verás forzado a realizar la misión de escape de emergencia, "Caos en Zion".
+</Callout>
+
+Sin guía ni caravana, estás atrapado en Zion. Los puentes sobre el río Virgen han sido destruidos sistemáticamente por los Piernas Blancas. Tu única esperanza de regresar al Yermo de Mojave es cooperar con Sigue-la-Tiza, conocer al legendario Hombre Quemado y conseguir un mapa del territorio circundante.
+
+</Section>
+
+<Section icon={Target} title="Preparación paso a paso y objetivos">
+
+Para asegurar una transición fluida al DLC, sigue esta secuencia de preparación estructurada.
+
+<Steps>
+  <Step num="1" title="Nivel y selección de equipo">
+    Alcanza al menos el nivel 15 antes de empezar. Elige armas ligeras y de alta durabilidad como Paciencia, Matarratas o una Carabina de tirador para mantenerte bajo el límite de 75 libras.
+  </Step>
+  <Step num="2" title="Purga de inventario">
+    Viaja al Paso del Norte. Deja toda la armadura pesada, el exceso de munición y las armas pesadas en el contenedor metálico seguro dentro de la cueva.
+  </Step>
+  <Step num="3" title="Manipular a Ricky">
+    Habla con Ricky dentro de la cueva. Usa tus habilidades de Trueque, Conversación o Medicina para asegurar el bono de peso de inventario, elevando tu margen a 100 libras.
+  </Step>
+  <Step num="4" title="Confirmar partida">
+    Habla con Jed, confirma que estás listo para irte y mira la cinemática de apertura mientras la caravana viaja a Utah.
+  </Step>
+</Steps>
+
+Antes de partir, revisa tu inventario con esta lista de verificación esencial para maximizar tus posibilidades de supervivencia en el cañón.
+
+<Checklist
+  id="honest-hearts-prep"
+  title="Lista de verificación previa a la partida:"
+  items={[
+    "Verifica que el peso total sea inferior a 75 lbs (o 100 lbs con la ayuda de Ricky)",
+    "Lleva al menos 20 Estimulantes y 5 Maletines de médico",
+    "Lleva una pala para excavar tumbas a lo largo del camino",
+    "Despide a cualquier compañero activo del Mojave al Lucky 38",
+    "Asegúrate de llevar una armadura ligera con un Umbral de Daño (UD) alto"
+  ]}
+/>
+
+<Callout type="success" title="Listo para Zion">
+Al entrar en el cañón con un equipo optimizado y ligero, dejas mucho espacio en el inventario para recoger las increíblemente poderosas armas únicas y conjuntos de armadura dispersos por Zion, como la Armadura de combate de Ranger del desierto y el Fusil de supervivencia.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas Frecuentes">
+
+Para ayudarte a aprovechar al máximo tu experiencia con la expansión **Fallout New Vegas Honest Hearts**, hemos recopilado respuestas a las preguntas más comunes de la comunidad sobre la Caravana Happy Trails.
+
+<FAQ items={[
+  {
+    question: "¿Puedo salvar a Jed, Stella o Ricky durante la emboscada inicial en Fallout New Vegas Honest Hearts?",
+    answer: "No. Las muertes de todos los miembros de la caravana Happy Trails están guionizadas. Incluso si usas comandos de consola para hacerlos esenciales, están programados para morir o desaparecer para avanzar en la historia del DLC."
+  },
+  {
+    question: "¿Qué pasa con mi equipo guardado en la caja del Paso del Norte?",
+    answer: "Tu equipo está completamente seguro. El contenedor no se regenera, lo que significa que tus objetos nunca desaparecerán. Puedes recuperarlos inmediatamente al regresar de Zion."
+  },
+  {
+    question: "¿Puedo llevar compañeros del Mojave como Cass o Boone a Zion?",
+    answer: "No. Jed Masterson prohíbe estrictamente llevar compañeros debido a los pasos estrechos y los suministros limitados. Debes despedirlos antes de poder iniciar el DLC."
+  },
+  {
+    question: "¿Cómo regreso al Yermo de Mojave una vez que comienza el DLC?",
+    answer: "No puedes regresar al Mojave hasta que completes la línea de misiones principal de Honest Hearts. Debes completar la historia con Joshua Graham y Daniel, o completar la misión 'Caos en Zion' matando a los líderes tribales."
+  }
+]} />
+
+<Callout type="tip" title="Recompensa al completar el DLC">
+Una vez que completes la historia principal de la expansión, puedes regresar a Zion en cualquier momento. Un cofre de recompensa que contiene el equipo único de los líderes de las facciones aparecerá cerca de la salida del Paso del Sur.
+</Callout>
+
+</Section>

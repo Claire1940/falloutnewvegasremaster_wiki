@@ -1,0 +1,204 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía para principiantes de Fallout New Vegas: Consejos esenciales de inicio y builds",
+  description: "Domina el Mojave con nuestra guía para principiantes de Fallout New Vegas. Aprende sobre atributos SPECIAL, habilidades, facciones y estrategias de supervivencia para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/2d2e27/ffcc00?text=Mojave+Survival+Guide",
+  date: "2026-07-18",
+  author: "Equipo de Fallout New Vegas Wiki"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Guía para principiantes de Fallout New Vegas**: Concéntrate en **Inteligencia** y **Suerte** durante la creación de personaje para obtener el máximo de puntos de habilidad y golpes críticos.
+- **Sistema SPECIAL**: Tus atributos son bases permanentes; elige **Resistencia** si quieres más implantes cibernéticos más adelante.
+- **Reputación de Facciones**: Tus acciones en el Mojave tienen consecuencias duraderas; la **Reputación** suele ser más importante que el Karma.
+- **Modo Hardcore**: Gestiona la deshidratación, el hambre y el sueño mientras lidias con el peso de la munición para un desafío realista.
+- **Ruta de inicio**: Evita ir directamente al norte hacia Vegas; sigue el camino del sur a través de **Primm** y **Novac** para sobrevivir.
+</Callout>
+
+<Section icon={Map} title="Dominando el sistema SPECIAL">
+
+Entrar al Yermo de Mojave por primera vez puede ser abrumador. Esta **guía para principiantes de Fallout New Vegas** comienza exactamente donde empieza tu viaje: la casa del Doc Mitchell en Goodsprings. La decisión más crítica que tomarás es la asignación de tus puntos **SPECIAL**. A diferencia de entregas posteriores de la serie, estos atributos son difíciles de aumentar una vez que comienza el juego, lo que hace que tus elecciones iniciales sean fundamentales para toda tu partida.
+
+| Atributo | Beneficio principal en combate/juego | Habilidades clave afectadas | Valor recomendado |
+| :--- | :--- | :--- | :--- |
+| **Fuerza** | Peso de carga, Daño cuerpo a cuerpo, Requisitos de armas | Armas cuerpo a cuerpo, Armas | 5-7 |
+| **Percepción** | Marcadores rojos en la brújula, Daño de explosivos | Armas de energía, Ganzúa | 5-6 |
+| **Resistencia** | PS totales, Resistencia a la radiación, **Implantes** | Supervivencia, Sin armas | 7-9 |
+| **Carisma** | Temple de compañeros (daño/armadura) | Trueque, Conversación | 1 |
+| **Inteligencia** | **Puntos de habilidad obtenidos por nivel** | Medicina, Ciencia, Reparación | 9 |
+| **Agilidad** | Puntos de Acción (VATS), Velocidad de desenfunde/recarga | Armas de fuego, Sigilo | 6-7 |
+| **Suerte** | **Probabilidad de golpe crítico**, Éxito en el juego | Todas las habilidades (pequeña bonificación) | 7-9 |
+
+<Callout type="warning" title="La regla de la Resistencia">
+En el Mojave, tu atributo de **Resistencia** determina cuántos implantes físicos puede soportar tu cuerpo. Cada punto de Resistencia permite un implante (comprable en la Clínica Médica de New Vegas). Si quieres mejorar todos tus atributos SPECIAL más adelante, necesitas una Resistencia base alta.
+</Callout>
+
+Después de configurar tus atributos, debes seleccionar dos **Rasgos**. Estos proporcionan un beneficio único emparejado con una desventaja específica. Elegir los rasgos correctos puede definir tu experiencia al principio del juego.
+
+<CardGrid cols={3}>
+  <Card title="Constitución pequeña">
+    - **Beneficio**: +1 Agilidad
+    - **Desventaja**: Las extremidades se rompen un 25% más fácilmente
+    - **Veredicto**: Excelente para builds de VATS.
+  </Card>
+  <Card title="De buenazo">
+    - **Beneficio**: +5 a Conversación, Medicina, Reparación, Ciencia, Trueque
+    - **Desventaja**: -5 a todas las habilidades de combate
+    - **Veredicto**: Perfecto para partidas pacifistas o diplomáticas.
+  </Card>
+  <Card title="Creado para destruir">
+    - **Beneficio**: +3% de probabilidad de golpe crítico
+    - **Desventaja**: El equipo se deteriora un 15% más rápido
+    - **Veredicto**: Alto riesgo, alta recompensa para francotiradores.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Progresión del personaje: Habilidades y Extras">
+
+Una vez que dejas Goodsprings, tu progresión se rige por las **Habilidades** y los **Extras**. Ganas puntos de habilidad cada vez que subes de nivel, y eliges un nuevo Extra cada número par de nivel (2, 4, 6, etc.). Debido a que el límite de nivel es 50, tienes mucho espacio para crecer, pero la especialización temprana es la clave para la supervivencia.
+
+<Steps>
+  <Step num="1" title="Elige tus habilidades principales">
+    Elige tres habilidades para recibir una bonificación inmediata de +15. Para principiantes, se recomiendan encarecidamente **Armas de fuego**, **Conversación** y **Ganzúa** para asegurarte de que puedes luchar, salir de problemas hablando y encontrar botín adicional.
+  </Step>
+  <Step num="2" title="Prioriza la utilidad">
+    No te concentres solo en el daño. Subir **Reparación** a 90 te permite tomar el extra *Apaño improvisado*, que te permite reparar equipo caro con objetos baratos. Subir **Ciencia** y **Ganzúa** desbloquea trasfondo y atajos.
+  </Step>
+  <Step num="3" title="Selecciona extras sinérgicos">
+    Los extras tienen requisitos de SPECIAL y de Habilidad. Planifica con anticipación. Si quieres *Finura* (+5% Crítico) al nivel 10, asegúrate de que tu Suerte sea lo suficientemente alta.
+  </Step>
+</Steps>
+
+| Rango de habilidad | Habilidades recomendadas | Por qué es importante |
+| :--- | :--- | :--- |
+| **Rango S** | Conversación, Ganzúa, Reparación | Abre la mayoría de las rutas de misiones y ahorra chapas. |
+| **Rango A** | Armas de fuego, Ciencia, Medicina | Esencial para el combate y la eficiencia de curación. |
+| **Rango B** | Trueque, Sigilo, Supervivencia | Útil para el modo Hardcore y la economía. |
+| **Rango C** | Armas cuerpo a cuerpo, Sin armas, Explosivos | Estilos de combate específicos que requieren builds dedicadas. |
+
+<Callout type="tip" title="El poder de la Conversación">
+En New Vegas, **Conversación** es posiblemente la habilidad más poderosa. Muchos conflictos importantes, incluida la batalla contra el jefe final, se pueden resolver por completo a través del diálogo si tu habilidad de Conversación es lo suficientemente alta (generalmente 100).
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Facciones y el sistema de reputación">
+
+El Mojave es un polvorín político. Tu posición con varios grupos se registra a través del sistema de **Reputación**. A diferencia del Karma (que es un medidor general de "bueno contra malo"), la Reputación es específica de cada facción. Ser "Idolatrado" por un grupo puede hacerte "Vilipendiado" por sus rivales.
+
+| Facción | Filosofía | Recompensa por alianza |
+| :--- | :--- | :--- |
+| **RNC** | Democracia y burocracia | Apoyo de radio de emergencia, acceso a pisos francos. |
+| **Legión de César** | Autocracia y conquista | Gafas de sol de la suerte (+1 Suerte), botín de piso franco. |
+| **Sr. House** | Tecnocracia y autonomía | Suite de lujo en el Lucky 38, ayuda de Securitrones. |
+| **Servibot** | Vegas independiente | Libertad total para dar forma al final del Mojave. |
+
+<Callout type="info" title="Disfraz y peligro">
+Llevar la armadura de una facción específica (como un uniforme de soldado de la RNC) actúa como un disfraz. Esto puede ayudarte a infiltrarte en territorio hostil, pero ten cuidado: los perros guardianes y los oficiales de alto rango pueden ver a través de tu disfraz y te atacarán al verte.
+</Callout>
+
+Navegar por estas alianzas es el núcleo de cualquier **guía para principiantes de Fallout New Vegas**. A menudo es aconsejable permanecer neutral el mayor tiempo posible para completar el máximo número de misiones antes del "Punto de no retorno" en la historia principal.
+
+</Section>
+
+<Section icon={Sparkles} title="Conceptos básicos de supervivencia y el modo Hardcore">
+
+Para los jugadores que buscan la experiencia "real" del yermo, el **Modo Hardcore** añade capas de gestión de recursos. En este modo, la curación no es instantánea y debes mantener tus necesidades biológicas. Incluso si no juegas en Hardcore, comprender estas mecánicas te ayuda a gestionar mejor tu inventario.
+
+| Necesidad | Efecto del descuido | Mejores objetos de recuperación |
+| :--- | :--- | :--- |
+| **Deshidratación** | Percepción, Resistencia y Agilidad reducidas | Agua purificada, Agua de cactus |
+| **Hambre** | Fuerza y Carisma reducidos | Maíz, Mantis a la parrilla, Macarrones BlamCo |
+| **Privación de sueño** | Inteligencia y Agilidad reducidas | Camas, Cóctel Atómico (temporal) |
+| **Peso** | La munición ahora tiene peso | Extra Mula de carga, Fuerza alta |
+
+<Callout type="success" title="Bolsas de médico">
+En el modo Hardcore, los Estimulantes no curan las extremidades lisiadas. Debes usar una **Bolsa de médico**, dormir en una cama de tu propiedad o visitar a un médico real para curar los huesos rotos. Lleva siempre al menos dos bolsas de médico en tu inventario.
+</Callout>
+
+<Checklist
+  id="early-game-kit"
+  title="Esenciales para la supervivencia en el Mojave:"
+  items={[
+    "Consigue el rifle de alimañas de Sunny Smiles",
+    "Reúne al menos 10 Estimulantes antes de salir de Goodsprings",
+    "Encuentra o compra una pala para cavar tumbas (botín)",
+    "Recluta a ED-E en Primm para apoyo de combate temprano",
+    "Conserva al menos 3 aguas purificadas para emergencias"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Swords} title="Tácticas de combate y equipamiento">
+
+El combate en el Mojave es una mezcla de disparos en tiempo real y el **Sistema de tiro asistido Vault-Tec (VATS)**. Comprender los umbrales de daño (UD) y los tipos de munición es crucial para acabar con enemigos más duros como los Sanguinarios o los Paladines de la Hermandad del Acero.
+
+- **Umbral de daño (UD)**: Es una reducción directa del daño. Si un enemigo tiene 10 de UD y tú golpeas por 12, solo recibe 2 de daño.
+- **Munición perforante (AP)**: Úsala contra objetivos fuertemente blindados para ignorar su UD.
+- **Munición de punta hueca (HP)**: Úsala contra objetivos sin blindaje (animales, saqueadores) para un daño adicional masivo.
+
+<Callout type="tip" title="VATS y precisión">
+Tu precisión en VATS está determinada por tu nivel de Habilidad, el alcance efectivo del arma y tu **Agilidad**. Si fallas disparos con un 95% de probabilidad, comprueba si tu arma está en mal estado; la salud del arma afecta directamente a la precisión y al daño.
+</Callout>
+
+| Tipo de arma | Mejor opción inicial | Ubicación |
+| :--- | :--- | :--- |
+| **Armas de fuego** | Rifle de servicio | Recompensa de misión de la RNC en el Puesto de avanzada de Mojave |
+| **Energía** | Pistola láser | Cadáveres de Seguidores de Bright cerca de Novac |
+| **Cuerpo a cuerpo** | Cuchillo de Chance | Tumba cerca de la Aldea Tribal (Peligro: Cazadores) |
+| **Sin armas** | Amor y Odio | Bonnie Springs (en el líder de los Víper) |
+
+</Section>
+
+<Section icon={Trophy} title="La ruta de inicio ideal">
+
+Muchos jugadores nuevos cometen el error de dirigirse directamente al norte desde Goodsprings hacia las luces de New Vegas. Este camino está bloqueado por **Sanguinarios** y **Cazadores**, que matarán fácilmente a un personaje de nivel bajo. El camino previsto es una gran forma de "U" que te introduce a las mecánicas y facciones del mundo.
+
+1.  **Goodsprings**: Completa las misiones de "tutorial" con Sunny Smiles.
+2.  **Primm**: Ayuda a la RNC, lidia con los convictos y recluta a ED-E.
+3.  **Puesto de avanzada de Mojave**: Acepta misiones de la RNC y comercia para conseguir mejor equipo.
+4.  **Nipton**: Sé testigo de las secuelas de la brutalidad de la Legión de César.
+5.  **Novac**: Conoce a Boone (un compañero de primer nivel) y resuelve la misión "Vuela conmigo".
+6.  **Boulder City**: Resuelve el enfrentamiento entre la RNC y los Grandes Khans.
+7.  **Freeside/New Vegas**: Finalmente entra al Strip y comienza la mitad del juego.
+
+<Callout type="warning" title="Alerta de Cazadores">
+Si ves insectos grandes y rápidos con alas naranjas, **da la vuelta**. Los Cazadores son los enemigos más peligrosos al principio del juego debido a su veneno y velocidad extrema. No te enfrentes a ellos sin suficiente antídoto y un arma de alto daño por segundo (DPS).
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Puedo cambiar mis atributos SPECIAL después de salir de Goodsprings?",
+    answer: "Tienes una última oportunidad de reconstruir tu personaje por completo cuando sales del área de Goodsprings. Después de eso, solo puedes aumentar los atributos a través del extra Entrenamiento intensivo o implantes costosos en la Clínica Médica."
+  },
+  {
+    question: "¿Quién es el mejor compañero para una guía de Fallout New Vegas para principiantes?",
+    answer: "Craig Boone (que se encuentra en Novac) es ampliamente considerado el mejor compañero de combate debido a sus habilidades de francotirador. Emparejarlo con ED-E (el robot de Primm) te permite detectar enemigos desde una distancia enorme."
+  },
+  {
+    question: "¿Cómo entro al Strip de New Vegas gratis?",
+    answer: "Normalmente necesitas 2000 chapas para una comprobación de crédito. Sin embargo, puedes evitar esto teniendo una habilidad de Ciencia de 80 para hackear al Securitron, o ganando suficiente reputación con la RNC para usar su monorriel en Camp McCarran."
+  },
+  {
+    question: "¿Hay un límite de nivel en Fallout New Vegas?",
+    answer: "El límite del juego base es 30, pero con todos los DLC instalados (lo cual es estándar para el Remaster), el nivel máximo es 50. Ganas un extra cada dos niveles, para un total de 25 extras."
+  }
+]} />
+
+</Section>

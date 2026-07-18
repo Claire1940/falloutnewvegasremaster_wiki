@@ -1,0 +1,193 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fallout New Vegas steam: 2026 Modding & Setup Guide",
+  description: "Optimize your Fallout New Vegas Steam setup with modern stability mods, essential engine fixes, and massive community map expansions.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=Fallout+New+Vegas+Steam+Setup",
+  date: "2026-07-18",
+  author: "Fallout New Vegas Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Stability Priority**: Running the **Fallout New Vegas steam** version in 2026 requires community stability patches to prevent frequent desktop crashes.
+- **Mod Pack Selection**: Choose Viva New Vegas for a vanilla-plus performance-oriented experience, or New New Vegas for a modern graphical overhaul.
+- **Installation Directory**: Avoid installing the game inside the default Windows Program Files folder to prevent mod manager permission conflicts.
+- **Key Expansions**: Enhance your endgame with massive landmass expansions like Nova Arizona and The Long 15.
+</Callout>
+
+<Section icon={Map} title="Optimizing Fallout New Vegas steam Version">
+
+Playing the **Fallout New Vegas steam** edition in 2026 offers one of the most rewarding role-playing experiences in gaming history. However, Obsidian Entertainment's masterpiece was famously developed in just 18 months. This incredibly short timeline left the game with lingering technical bugs, memory leaks, and engine instabilities that modern operating systems struggle to run without modifications. 
+
+To experience the Mojave Wasteland without constant interruptions, applying modern community-made performance patches is highly recommended. These modifications do not alter the narrative of the game; instead, they optimize memory allocation, eliminate micro-stuttering, and allow the ancient Gamebryo engine to utilize modern hardware configurations.
+
+**Video Highlights:**
+- **Technical Hurdles**: Understanding why the vanilla Steam version struggles on modern Windows operating systems.
+- **Community Solutions**: The transition from individual manual modding to curated, automated mod collections.
+- **Vanilla-Plus Philosophy**: Keeping the original atmosphere intact while modernizing the gunplay and stability.
+
+<YouTubeEmbed videoId="mk9uN5O4mUg" title="Fallout New Vegas in 2025 is A COMPLETELY DIFFERENT GAME" />
+
+The table below outlines the core differences between playing the unmodded vanilla release on Steam versus deploying a modern, community-optimized setup.
+
+| Feature | Steam Base Game | Fully Modded Setup |
+| :--- | :--- | :--- |
+| **Crash Frequency** | High on modern Windows OS | Extremely rare with engine fixes |
+| **Memory Limit** | Hardcapped at 2GB RAM | Expanded to 4GB RAM via patcher |
+| **Framerate Stability** | Micro-stutters and physics bugs | Smooth 60+ FPS with tick fixes |
+| **Gunplay Feedback** | Sluggish, stiff aiming mechanics | Responsive modern FPS mechanics |
+| **UI Scaling** | Poor on high-resolution monitors | Clean, customizable modern interfaces |
+
+<Callout type="info" title="Directory Warning">
+By default, Steam installs games into the `C:\Program Files (x86)` directory. This protected folder restricts write permissions, which frequently prevents modding tools from functioning correctly. We strongly advise setting up a custom Steam library folder on your drive (e.g., `D:\Games\SteamLibrary`) before proceeding.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Comparing Major Mod Packs: VNV vs NNV">
+
+The decentralized nature of the modding community can make choosing individual files a daunting task. Fortunately, the community has curated highly stable collections that cater to different playstyles. The two most prominent frameworks are **Viva New Vegas (VNV)** and the massive **New New Vegas (NNV)** collection available on Nexus Mods.
+
+Choosing between these packs depends entirely on whether you desire a polished vanilla experience or a modern, cinematic action-RPG overhaul.
+
+<CardGrid cols={3}>
+  <Card title="Viva New Vegas">
+    - **Vanilla-Plus Focus**: Retains the original visual aesthetic and gameplay balance.
+    - **Lightweight Install**: Features 114 essential mods requiring approximately 19 GB of space.
+    - **Maximum Stability**: Highly compatible with existing save files and low-end hardware.
+  </Card>
+  <Card title="New New Vegas">
+    - **Transformative Overhaul**: Features over 820 individual mods totaling 100+ GB.
+    - **Modern Mechanics**: Adds dynamic weapon inspections, sprinting, and realistic physical interactions.
+    - **Visual Remaster**: Enhances lighting, weather systems, and environmental foliage.
+  </Card>
+  <Card title="Tale of Two Wastelands">
+    - **Dual-Game Integration**: Merges Fallout 3 and New Vegas into a single executable.
+    - **Engine Port**: Allows you to play Fallout 3 with the superior mechanics of New Vegas.
+    - **Seamless Travel**: Travel between the Capital Wasteland and Mojave via an in-game train system.
+  </Card>
+</CardGrid>
+
+For a detailed breakdown of the technical requirements and target audiences for these mod setups, refer to the comparison table below.
+
+| Metric | Viva New Vegas | New New Vegas | Tale of Two Wastelands |
+| :--- | :--- | :--- | :--- |
+| **Mod Count** | 114 curated mods | 823 comprehensive mods | Variable based on user choice |
+| **Storage Required** | ~19 GB additional space | ~100+ GB unpacked space | ~30+ GB additional space |
+| **Save Compatibility** | Works with vanilla saves | Requires a completely new game | Requires a completely new game |
+| **Installation Difficulty** | Moderate (manual setup) | Easy (automated via Vortex Premium) | Advanced (requires both game installs) |
+| **Primary Appeal** | Performance and bug fixes | Modernized graphics and gunplay | Dual-wasteland progression |
+
+<Callout type="warning" title="Save Game Corruption">
+Attempting to install the massive New New Vegas collection and loading an existing vanilla save file will result in broken quest scripts, missing UI elements, and immediate desktop crashes. Always start a fresh playthrough when deploying large-scale overhauls.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Steam Installation Guide">
+
+To ensure your **Fallout New Vegas steam** installation runs flawlessly with your chosen mod pack, you must follow a structured installation sequence. Starting from a completely clean slate is the most critical factor in avoiding load-order conflicts.
+
+<Steps>
+  <Step num="1" title="Perform a Clean Steam Installation">
+    Uninstall any existing versions of the game through Steam. Navigate to your Steam directory and manually delete any leftover folders in the common files. Reinstall the game into a non-protected folder (such as a secondary drive). Run the game launcher once to generate the necessary configuration files, then close it.
+  </Step>
+  <Step num="2" title="Apply Core Engine Patches">
+    Download the New Vegas Script Extender (xNVSE) and the 4GB Patcher. Run the 4GB Patcher executable directly inside your game directory. This modification allows the game executable to access double its default memory limit, which drastically reduces out-of-memory crashes.
+  </Step>
+  <Step num="3" title="Set Up Your Mod Manager">
+    Install Mod Organizer 2 (recommended for Viva New Vegas) or Vortex (recommended for automated Nexus collections). Link the manager to your Steam installation directory. Ensure your profile is clean and that no old, loose files remain active in the virtual directory.
+  </Step>
+  <Step num="4" title="Deploy Mod Packs and Fix the UI">
+    Download and deploy your chosen pack. If you are using the New New Vegas collection, launch the game and immediately open the pause menu. Press the designated UI options button to disable the oversized quest tracker, which otherwise covers a significant portion of your screen.
+  </Step>
+</Steps>
+
+The following table lists the mandatory utility tools required to build a stable foundation for any modded setup.
+
+| Tool Name | Core Function | Importance |
+| :--- | :--- | :--- |
+| **xNVSE** | Expands scripting capabilities for complex mods | **Mandatory** for 95% of modern mods |
+| **4GB Patcher** | Allows the game engine to utilize 4GB of system RAM | **Mandatory** to prevent memory crashes |
+| **New Vegas Tick Fix** | Resolves high-framerate physics bugs and micro-stuttering | Highly Recommended for Windows 10/11 |
+| **Vortex / MO2** | Manages file conflicts and virtualizes the directory | **Mandatory** to keep your base game directory clean |
+
+<Callout type="success" title="Modding Automation">
+If you possess a Nexus Mods Premium membership, the entire 823-mod installation process for the New New Vegas collection can be fully automated through Vortex, saving hours of manual downloading and file placement.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Next-Gen Gameplay and Map Expansions">
+
+Once the technical foundation of your **Fallout New Vegas steam** setup is secure, you can explore massive community expansions that add entirely new landmasses, fully voiced questlines, and modern gameplay features.
+
+In 2026, the modding community has delivered professional-grade expansions that rival official downloadable content. These additions expand the borders of the original map, allowing players to explore regions that were previously only mentioned in dialogue.
+
+| Mod Name | Main Faction Focus | Major Features | Dialogue Quality |
+| :--- | :--- | :--- | :--- |
+| **Nova Arizona** | Caesar's Legion | Eastward map expansion, new dungeons | Text-only (Voice acting in progress) |
+| **The Long 15** | New California Republic | Westward territory expansion, new towns | Fully voiced (Professional quality) |
+| **The Frontier** | Independent Military | Drivable vehicles, action-heavy campaign | Fully voiced (Highly divisive story) |
+| **New California** | Early NCR / Enclave | Massive prequel campaign, custom map | Fully voiced (High production value) |
+
+These expansions also introduce modern gameplay mechanics that make the combat loop feel incredibly satisfying:
+- **Dynamic Interactions**: Physical animations for picking up items, opening doors, skinning animals, and injecting stimpacks.
+- **Improved Gunplay**: Enhanced recoil feedback, responsive iron sights, and functional weapon inspection animations.
+- **Enhanced Camera**: A modernized third-person camera system that makes third-person combat completely viable.
+- **Environmental Immersion**: Swaying trees, real-time wind physics on flags, and animated neon signs along the New Vegas Strip.
+
+<Checklist
+  id="modding-milestones"
+  title="Post-Installation Checklist:"
+  items={[
+    "Verify the 4GB Patch is active by checking the console in-game",
+    "Disable the default Steam overlay if you experience random freezing",
+    "Configure your mod manager to launch via the xNVSE executable",
+    "Adjust the in-game UI settings to scale down the quest tracker",
+    "Install the Mojave Outpost unification monument fix for visual consistency"
+  ]}
+/>
+
+<Callout type="tip" title="Gameplay Settings Tip">
+To achieve the best balance of modern gunplay and classic RPG mechanics, enable the dynamic crosshair settings in your mod menu. This allows your character's weapon skill attributes to dynamically affect crosshair spread and weapon sway in real-time.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Frequently Asked Questions">
+
+Our team has compiled answers to the most common questions regarding the optimization and modding of the Steam version of this legendary RPG.
+
+<FAQ items={[
+  {
+    question: "Is the Fallout New Vegas steam version compatible with modern Windows operating systems?",
+    answer: "Yes, but the unmodded vanilla Steam version frequently crashes on Windows 10 and Windows 11 due to modern memory management and DirectX conflicts. Applying basic stability mods like xNVSE, the 4GB Patcher, and the New Vegas Tick Fix is highly recommended for a stable experience."
+  },
+  {
+    question: "Do I need a high-end computer to run these mod collections?",
+    answer: "The lightweight Viva New Vegas pack runs flawlessly on almost any modern PC, including integrated graphics. However, the massive New New Vegas collection features high-resolution textures, complex scripts, and advanced lighting that require a dedicated mid-range gaming graphics card."
+  },
+  {
+    question: "Can I earn Steam achievements if my game is modded?",
+    answer: "By default, launching the game through a custom script extender disables achievements. However, you can easily install a community-made utility mod called 'Achievements' on Nexus Mods, which re-enables Steam achievements even when running heavily modded setups."
+  },
+  {
+    question: "What should I do if my game constantly crashes upon loading a save?",
+    answer: "This is usually caused by an 'infinite loading screen' glitch or a corrupted save file. To fix this, start a new game from the main menu, and once you gain control of your character, load your desired manual save file from the pause menu."
+  }
+]} />
+
+<Callout type="info" title="The Legacy Continues">
+With the massive success of the Fallout television adaptation and the continuous dedication of the modding community, the **Fallout New Vegas steam** version remains more relevant than ever in 2026. By spending a small amount of time setting up these essential stability tools, you can experience this legendary RPG exactly as it was meant to be played.
+</Callout>
+
+</Section>

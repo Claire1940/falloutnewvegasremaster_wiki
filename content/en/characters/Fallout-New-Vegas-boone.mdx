@@ -1,0 +1,207 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fallout New Vegas boone: Recruitment & Quest Walkthrough",
+  description: "Master the recruitment of Craig Boone in Fallout New Vegas. Learn how to trigger I Forgot to Remember to Forget and the Bitter Springs questline.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/ffffff?text=Fallout+New+Vegas+Boone+Guide",
+  date: "2026-07-18",
+  author: "Fallout New Vegas Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Fallout New Vegas boone** is a former NCR 1st Recon sniper found in the town of Novac.
+- **Recruitment** requires completing the quest "One for My Baby" by identifying the person who sold his wife.
+- **Quest Triggering** for his personal quest depends on a hidden "History Point" system tied to killing Legion members.
+- **Final Rewards** include unique 1st Recon armor sets that vary based on your dialogue choices at Bitter Springs.
+- **Companion Perk** provides the "Spotter" ability, highlighting all enemies in red while aiming.
+</Callout>
+
+<Section icon={Map} title="Recruiting Craig Boone in Novac">
+
+Craig Boone is widely considered one of the most powerful companions in the Mojave Wasteland. A former sharpshooter for the NCR's elite 1st Recon Battalion, he now spends his nights guarding the town of Novac from the mouth of Dinky the Dinosaur. To recruit him, you must first navigate his tragic backstory and help him find justice for the disappearance of his wife, Carla.
+
+**Video Highlights:**
+- The dark truth behind the Bitter Springs Massacre and its impact on Boone.
+- How to navigate the "One for My Baby" quest in Novac.
+- Step-by-step walkthrough of the "I Forgot to Remember to Forget" companion quest.
+- Analysis of Boone's two unique end-game armor sets.
+
+<YouTubeEmbed videoId="EpMEzSHEUEg" title="Boone's Agony: The Full Story of the Bitter Springs Massacre" />
+
+To begin the recruitment process, speak to Boone inside the dinosaur at night. He will task you with finding out who sold his wife to Caesar's Legion. You must investigate the residents of Novac, specifically looking for evidence in the floor safe behind the front desk of the Dino Dee-lite Motel.
+
+| Requirement | Detail |
+| :--- | :--- |
+| **Location** | Novac, inside the Dinky the Dinosaur sniper nest (Night only) |
+| **Quest** | One for My Baby |
+| **Key Evidence** | Bill of Sale found in the motel safe |
+| **Culprit** | Jeannie May Crawford |
+| **Signal** | Wear Boone's Beret in front of the dinosaur |
+
+<Callout type="warning" title="Critical Choice">
+If you bring the wrong person in front of the dinosaur or fail to show Boone the evidence (the Bill of Sale) after the deed is done, he will become hostile or refuse to join you. Always secure the evidence first.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Combat Mechanics and the Spotter Perk">
+
+Once recruited, Boone offers unparalleled fire support. He is equipped with a unique scoped hunting rifle and possesses exceptional perception. His presence fundamentally changes how you engage in combat, especially in the open desert where he can pick off targets before they even enter your visual range.
+
+<CardGrid cols={3}>
+  <Card title="Spotter Perk">
+    - **Visual Aid**: Enemies are highlighted in red when aiming.
+    - **Detection**: Greatly increases your ability to see stealthy targets.
+    - **Synergy**: Works perfectly with long-range builds.
+  </Card>
+  <Card title="Weaponry">
+    - **Primary**: Scoped Hunting Rifle (.308 caliber).
+    - **Secondary**: Machete for close-quarters combat.
+    - **Upgrade**: Give him an Anti-Materiel Rifle for maximum damage.
+  </Card>
+  <Card title="Tactics">
+    - **Aggression**: Boone is highly aggressive against Legion.
+    - **Positioning**: Keep him on "Stay" at high ground for overwatch.
+    - **Engagement**: He will fire on any Legion member on sight.
+  </Card>
+</CardGrid>
+
+| Attribute | Base Value | Combat Role |
+| :--- | :--- | :--- |
+| **Strength** | 7 | Handling heavy rifles |
+| **Perception** | 8 | Long-range detection |
+| **Agility** | 7 | Fast reload and movement |
+| **Tag Skills** | Guns, Melee, Sneak | Sniper / Infiltrator |
+
+<Callout type="tip" title="Pro Tip">
+Boone's "Spotter" perk remains active even if he is waiting at a distance, as long as he is still your active companion. This makes him essential for stealth-based characters.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Triggering I Forgot to Remember to Forget">
+
+The most complex aspect of **Fallout New Vegas boone** is his personal quest, "I Forgot to Remember to Forget." Unlike other companions who trigger quests based on dialogue or location, Boone requires a specific number of "History Points." You must earn 5 points by performing actions that align with his hatred for Caesar's Legion while he is in your party.
+
+| Action | Points | Location |
+| :--- | :--- | :--- |
+| **Kill Vulpes Inculta** | 1 | Nipton or The Strip |
+| **Kill Silus** | 1 | Camp McCarran (Interrogation) |
+| **Kill Caesar** | 2 | The Fort |
+| **Wipe out Nelson** | 2 | Nelson |
+| **Kill Dead Sea** | 1 | Nelson |
+| **Rescue Slaves** | 2 | Cottonwood Cove |
+| **Kill Aurelius of Phoenix** | 1 | Cottonwood Cove |
+
+<Steps>
+  <Step num="1" title="Accumulate Points">
+    Travel with Boone and engage in the activities listed above. You will know you are making progress when he initiates dialogue about his past.
+  </Step>
+  <Step num="2" title="Dialogue Progression">
+    After reaching certain point thresholds, talk to Boone about Bitter Springs. He will initially be reluctant, but eventually, he will ask to visit the site of the massacre.
+  </Step>
+  <Step num="3" title="Visit Bitter Springs">
+    Travel to the Bitter Springs Refugee Camp. Boone will suggest going to Coyote Tail Ridge, the vantage point where he was stationed during the massacre.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Note on Points">
+You can earn more than 5 points, but 5 is the minimum required to unlock the final dialogue option that leads to the Bitter Springs visit.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="The Bitter Springs Massacre Lore">
+
+The tragedy at Bitter Springs is the defining moment of Boone's life. During the NCR's expansion into the Mojave, the 1st Recon Battalion was ordered to intercept Great Khan "warriors" fleeing a battle. However, due to a communication breakdown, the "warriors" turned out to be women, children, and the elderly. The NCR snipers were ordered to fire until their ammunition was depleted.
+
+**Key Figures in the Massacre:**
+- **Captain Gilles**: Current commander of the Bitter Springs Refugee Camp.
+- **Oscar Velasco**: A Great Khan survivor seeking vengeance by sniping refugees.
+- **Bitter-Root**: Another 1st Recon sniper who was actually a Great Khan child saved during the massacre.
+- **Major Dhatri**: The officer who feels immense guilt for the events.
+
+| Perspective | Stance on Bitter Springs |
+| :--- | :--- |
+| **NCR Official** | A "communication error" that resulted in tragic collateral damage. |
+| **Great Khans** | A cold-blooded massacre intended to wipe out their culture. |
+| **Craig Boone** | A personal sin that can never be fully forgiven or forgotten. |
+
+<Callout type="warning" title="Faction Warning">
+Bringing Boone to Red Rock Canyon (the Great Khan home) will result in hostile comments from the Khans, as they recognize him as one of the "murderers" from Bitter Springs.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Quest Completion and Armor Rewards">
+
+At the conclusion of the quest at Bitter Springs, you must defend the camp from a Legion raiding party. Following the battle, your dialogue with Boone will determine his psychological outlook and the unique armor he receives. This choice is permanent and reflects whether Boone finds peace or remains consumed by vengeance.
+
+<CardGrid cols={2}>
+  <Card title="The Redemptive Path">
+    Encourage Boone to move past his guilt and realize he can still do good.
+    - **Reward**: 1st Recon Survival Armor.
+    - **Visual**: Brown/Tan camo pattern.
+    - **Stat**: Increases Survival and Resistance.
+  </Card>
+  <Card title="The Vengeful Path">
+    Tell Boone that his actions were just part of war and he should embrace his role as a killer.
+    - **Reward**: 1st Recon Assault Armor.
+    - **Visual**: Black/Dark Grey tactical pattern.
+    - **Stat**: Increases Guns and Critical Chance.
+  </Card>
+</CardGrid>
+
+<Checklist
+  id="boone-loyalty-checklist"
+  title="Boone Completion Checklist:"
+  items={[
+    "Complete 'One for My Baby' with the Bill of Sale evidence",
+    "Earn at least 5 History Points by fighting the Legion",
+    "Listen to Boone's full confession about his wife, Carla",
+    "Defend Bitter Springs from the final Legion assault",
+    "Choose between the Survival or Assault armor sets",
+    "Optional: Retrieve Boone's Beret for a permanent PER +1, Crit +5% bonus"
+  ]}
+/>
+
+<Callout type="success" title="Outcome Recommendation">
+The **1st Recon Assault Armor** is generally considered superior for combat-heavy playstyles due to the critical hit bonuses, though the Survival Armor fits a more moral character arc.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Fallout New Vegas Boone FAQ">
+
+<FAQ items={[
+  {
+    question: "Why won't Boone talk to me about his quest?",
+    answer: "You likely haven't earned enough History Points. Travel to Cottonwood Cove or Nelson with him and kill the Legion leaders there to trigger his dialogue."
+  },
+  {
+    question: "Can I keep Boone if I side with Caesar's Legion?",
+    answer: "No. Boone is fiercely loyal to the NCR. If your reputation with the Legion becomes too high or you perform actions against the NCR, he will leave your party and may even become hostile."
+  },
+  {
+    question: "What happened to Boone's wife, Carla?",
+    answer: "Carla was sold into slavery by Jeannie May Crawford. Boone eventually tracked her to a slave auction at Cottonwood Cove. Realizing he couldn't rescue her from the hundreds of Legionaries, he performed a mercy killing, shooting her himself to spare her from a life of torture."
+  },
+  {
+    question: "Which armor is better: Survival or Assault?",
+    answer: "The Assault Armor (Vengeful path) provides better offensive stats, specifically for critical hits. The Survival Armor (Redemptive path) is better for players who prioritize damage resistance and healing."
+  }
+]} />
+
+<Callout type="info" title="Final Note">
+Boone is a tragic hero whose story represents the moral ambiguity of the Mojave. Whether you lead him toward redemption or further into the shadows of war, he remains the most reliable long-range support in *Fallout: New Vegas*.
+</Callout>
+
+</Section>

@@ -1,0 +1,201 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fallout New Vegas Tips and Tricks: 10 Essential Survival Strategies",
+  description: "Master the Mojave Wasteland with these essential Fallout New Vegas tips and tricks. Learn about SPECIAL stats, companion triggers, and survival mechanics.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1c1917/fff?text=New+Vegas+Tips+And+Tricks",
+  date: "2026-07-18",
+  author: "Fallout New Vegas Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Prioritize Jury Rigging**: Reach 90 Repair early to fix rare weapons with common gear.
+- **Store Loot Safely**: Use the Goodsprings dumpster next to the general store; it does not reset.
+- **Faction Armor Matters**: Outfits alter NPC hostility and can bypass quest blocks.
+- **Save Game Frequently**: The Mojave is buggy, so rely on manual saves over autosaves.
+- **SPECIAL Stats are Fixed**: Increase them via expensive clinic implants, limited by Endurance.
+</Callout>
+
+<Section icon={Map} title="Fallout New Vegas Tips and Tricks: Early Game Survival">
+
+Entering the Mojave Wasteland for the first time can be an overwhelming experience, but utilizing these essential **Fallout New Vegas tips and tricks** will save you from early-game frustration and set you up for long-term success. From managing your inventory to navigating faction politics, understanding the core mechanics of the Mojave is vital for any Courier.
+
+**Video Highlights:**
+- Learn why the Jury Rigging perk is the single most important utility choice in the game.
+- Discover a safe, convenient, and early-game storage location that only requires one loading screen.
+- Understand the hidden mechanics of faction disguises and companion quest triggers.
+- Find out how to acquire Power Armor training without breaking your main questline.
+
+<YouTubeEmbed videoId="emkZaMoL2og" title="Fallout New Vegas - 10 Things I Wish I Knew Before Playing (Tips and Tricks)" />
+
+Inventory management is a constant struggle when starting out. Carrying too much gear makes you overencumbered, forcing you to slowly crawl across the desert. To avoid this, you need a reliable place to stash your items. Many containers in the Mojave reset after a few in-game days, wiping out your hard-earned loot. 
+
+The dumpster next to the Goodsprings General Store is a safe choice because its inventory does not reset under normal conditions. It is also highly convenient because it requires only one loading screen to access from the fast travel point, saving you valuable time compared to late-game player housing like the Lucky 38 Presidential Suite.
+
+Another crucial early-game decision involves the Powder Gangers. The "Ghost Town Gunfight" quest in Goodsprings sets you against this faction. Siding with the townsfolk immediately turns all neighboring Powder Gangers hostile. 
+
+For a low-level character, having lunatics chucking dynamite at you while exploring the surrounding areas is incredibly annoying. Delaying this quest allows you to travel through their territory safely until you obtain better gear and weapons.
+
+| Location | Action | Primary Benefit | Risk / Drawback |
+| --- | --- | --- | --- |
+| Goodsprings | Delay Gunfight quest | Safe exploration of northern roads | Delays Goodsprings reputation |
+| Goodsprings Dumpster | Store excess loot | No container reset, fast access | Requires traveling back to retrieve |
+| Northern Pass | Avoid early exploration | Prevents death by Deathclaws | Delays reaching Vegas directly |
+
+<Callout type="warning" title="Early Hostility Warning">
+Completing the Goodsprings gunfight quest early makes all nearby Powder Gangers hostile. Consider waiting until you have basic armor and a decent rifle before making permanent enemies.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Character Progression and SPECIAL Stat Optimization">
+
+Unlike other modern role-playing games, your SPECIAL stats in the Mojave are largely fixed once you complete your character sheet at the beginning of the game. You cannot simply increase them every time you level up. However, there are a few select methods to boost these attributes as you progress through your journey.
+
+The primary method is purchasing implants from the New Vegas Medical Clinic, located just outside the Crimson Caravan Company. Each implant permanently increases a specific SPECIAL stat by one point, but they cost 4,000 caps each. 
+
+Furthermore, the total number of implants your body can handle is strictly limited by your base Endurance stat. If you start the game with an Endurance of 3, you can only install three implants.
+
+| Implant Type | Stat Boosted | Cap Cost | Requirement |
+| --- | --- | --- | --- |
+| Strength | +1 Strength | 4,000 | Available Endurance slot |
+| Perception | +1 Perception | 4,000 | Available Endurance slot |
+| Endurance | +1 Endurance | 4,000 | Available Endurance slot |
+| Intelligence | +1 Intelligence | 4,000 | Available Endurance slot |
+| Luck | +1 Luck | 4,000 | Available Endurance slot |
+
+<Callout type="tip" title="Comprehension Perk Synergy">
+Always wait to read permanent skill books until you have unlocked the Comprehension perk. This increases the permanent bonus from +3 to +4, yielding significantly more skill points over time.
+</Callout>
+
+When planning your build, consider the differences between permanent skill books and temporary skill magazines. Skill books grant a permanent bonus, whereas skill magazines provide a temporary +10 boost. Save your magazines for tight situations where you are just short of reaching a stat requirement for a lockpick, hack, or speech check.
+
+<CardGrid cols={3}>
+  <Card title="High-Intelligence Scholar">
+    - **Max Skill Points**: Start with 9 Intelligence for maximum skill points per level.
+    - **Perk Synergy**: Take Educated and Comprehension early.
+    - **Playstyle**: Highly versatile, easily passes all skill checks.
+  </Card>
+  <Card title="Lucky Gambler">
+    - **Easy Caps**: Start with 8 or 9 Luck to easily clean out casinos.
+    - **Critical Hits**: High Luck significantly increases critical hit chance in combat.
+    - **Playstyle**: Rich and deadly, relies on high-tier purchased weapons.
+  </Card>
+  <Card title="Low-Intelligence Bruiser">
+    - **Unique Dialogue**: Unlock hilarious "dumb" dialogue options with 3 or less Intelligence.
+    - **Melee Focus**: Allocate points to Strength and Endurance instead.
+    - **Playstyle**: Entertaining but challenging due to reduced skill points.
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Shield} title="Gear Maintenance and Faction Armor Mechanics">
+
+As you fight your way through the wasteland, your weapons and armor will undergo wear and tear. If their condition drops too low, they will eventually break and become completely unusable. While you can pay vendors to repair your gear, their services are incredibly expensive and can easily drain your entire supply of caps.
+
+The ultimate solution to this problem is the Jury Rigging perk, which requires a Repair skill of 90 and character level 14. This perk allows you to repair any weapon or armor piece using a similar item from the same general category, rather than requiring an identical copy. For example, you can repair a highly rare and expensive Service Rifle using a cheap, common Varmint Rifle.
+
+Faction-specific outfits are another unique mechanic that can either save your life or get you killed. Wearing faction armor acts as a disguise, causing members of that faction to view you as one of their own. 
+
+However, this also means hostile factions will attack you on sight, and friendly NPCs might become hostile if you wear their enemy's uniform. You can also use this to your advantage to bypass companion restrictions, such as wearing NCR armor to recruit Arcade Gannon even if you have a positive reputation with Caesar's Legion.
+
+| Training/Perk | Requirements | Main Advantage | Best Source |
+| --- | --- | --- | --- |
+| Jury Rigging | Level 14, Repair 90 | Repair rare items with common gear | Level up Repair early |
+| BoS Power Armor | Complete BoS questline | Early access to heavy power armor | Hidden Valley Bunker |
+| Enclave Power Armor | Complete Arcade's quest | Access to Remnants Power Armor | For Auld Lang Syne quest |
+
+<Callout type="warning" title="Faction Disguise Danger">
+Be careful when fast traveling into major settlements. If you forgot to take off your faction disguise, friendly guards might instantly open fire on you.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Companion Trust and Quest Triggers">
+
+Companions in this game do not operate on a standard reputation or affinity scale. Instead of simply liking you for being good or bad, unlocking companion-specific quests requires you to accumulate "trust points" by triggering specific conversations at unique locations throughout the map.
+
+For instance, Arcade Gannon's personal quest requires you to visit locations like the crashed Vertibird site or the Silver Rush weapon store in Freeside. However, some of these triggers can be highly temperamental and buggy. 
+
+Additionally, locations that feature triggers for multiple companions can only be activated once per playthrough. If you trigger a conversation for one companion at the Silver Rush, you cannot use that same location to trigger a conversation for a different companion later.
+
+<Steps>
+  <Step num="1" title="Recruit Arcade Gannon">
+    Visit the Old Mormon Fort in Freeside. You may need a high Speech skill, the Approved perk, or a low Intelligence stat to convince him to join you.
+  </Step>
+  <Step num="2" title="Gather Trust Points">
+    Travel to specific locations such as the crashed Vertibird, the REPCONN Headquarters, or the Silver Rush to trigger unique dialogue prompts.
+  </Step>
+  <Step num="3" title="Progress the Main Quest">
+    Advance the main storyline until you reach the point of deciding the fate of the Mojave, which prompts Arcade to offer his personal quest.
+  </Step>
+  <Step num="4" title="Complete 'For Auld Lang Syne'">
+    Locate the old Enclave remnants scattered across the wasteland to receive specialized Power Armor training and a unique suit of armor.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Buggy Quest Triggers">
+Veronica's conversation trigger outside Vault 3 is notoriously buggy. It is highly recommended to keep multiple manual save files before attempting to unlock companion quests.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Wasteland Milestones and Technical Stability">
+
+The Mojave Wasteland is a harsh and unpredictable environment, not just because of Deathclaws, but also due to the game's engine stability. Crashes, infinite loading screens, and game-breaking bugs are common occurrences. Relying solely on autosaves is a recipe for disaster, as the game is highly conservative with automatic save points in the open world.
+
+To protect your progress, make it a habit to quicksave frequently and maintain at least three separate manual save slots. Rotate through these manual saves every few hours so that if a save file becomes corrupted or a quest bug locks your progression, you only lose a minimal amount of playtime.
+
+<Checklist
+  id="mojave-milestones"
+  title="Essential Wasteland Milestones:"
+  items={[
+    "Reach Repair level 90 and unlock the Jury Rigging perk",
+    "Acquire 4,000 caps to purchase your first SPECIAL implant",
+    "Locate the Goodsprings dumpster for safe early-game storage",
+    "Acquire Power Armor training from either the BoS or Enclave remnants",
+    "Establish a rotation of at least three manual save files"
+  ]}
+/>
+
+<Callout type="success" title="Stability Tip">
+Disable 'Save on Travel' in the gameplay settings. This reduces the strain on the game engine during loading screens and significantly decreases crash rates.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "What are the best Fallout New Vegas tips and tricks for beginners?",
+    answer: "Focus on increasing your Repair skill to 90 for the Jury Rigging perk, store your excess loot in the safe Goodsprings dumpster, avoid completing the Goodsprings gunfight quest immediately to keep Powder Gangers neutral, and save your game manually on a regular basis."
+  },
+  {
+    question: "Can I increase my SPECIAL stats permanently after character creation?",
+    answer: "Yes, you can purchase SPECIAL implants from the New Vegas Medical Clinic for 4,000 caps each. However, the total number of implants you can install is strictly limited by your starting base Endurance stat."
+  },
+  {
+    question: "How does the faction armor disguise mechanic work?",
+    answer: "Wearing faction armor disguises you as a member of that group, allowing you to enter hostile territory. However, major faction guards can see through your disguise, and wearing it in friendly towns can trigger instant hostility."
+  },
+  {
+    question: "Where is the safest place to store my items in the early game?",
+    answer: "The blue metal dumpster located right next to the Goodsprings General Store is completely safe. Unlike other wasteland containers, its inventory does not reset, and it is easily accessible with only one loading screen."
+  }
+]} />
+
+<Callout type="tip" title="Final Wasteland Wisdom">
+Take your time exploring the Mojave. Rushing straight to Vegas via the northern road will lead you straight into nests of Deathclaws and Cazadores. Stick to the southern route through Primm and Novac to naturally build up your gear, level, and caps.
+</Callout>
+
+</Section>

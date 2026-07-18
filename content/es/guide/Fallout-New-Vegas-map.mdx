@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mapa de Fallout New Vegas: Comparación de tamaño y guía de límites de 2026",
+  description: "Explora las dimensiones del mapa de Fallout New Vegas, los límites físicos y los secretos fuera de los límites. Descubre cómo se compara el Yermo de Mojave con otros títulos.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/e0e0e0?text=Fallout+New+Vegas+Map+Guide",
+  date: "2026-07-18",
+  author: "Equipo de Wiki de Fallout New Vegas"
+}
+
+<Callout type="info" title="Guía rápida">
+- **El mapa de Fallout New Vegas** utiliza barreras físicas en lugar de paredes invisibles para definir el área de juego.
+- **Tamaño jugable**: La masa terrestre principal mide aproximadamente 8,68 km por 8,68 km, lo que suma un total de unos 75,4 kilómetros cuadrados.
+- **Tipos de límites**: Los jugadores se encuentran con acantilados, puentes destruidos y vallas enormes en lugar de simples mensajes de "regresa".
+- **Secreto de exploración**: Más allá de los límites físicos, el juego continúa renderizando terreno de baja resolución a grandes distancias.
+- **Límite técnico**: Viajar demasiado lejos hacia el oeste o el sur eventualmente activa un script de teletransporte que te devuelve al centro del mapa.
+</Callout>
+
+<Section icon={Map} title="Análisis de la escala del Yermo de Mojave">
+
+El **mapa de Fallout New Vegas** sigue siendo uno de los entornos de mundo abierto más icónicos en la historia de los juegos de rol. A diferencia de sus predecesores, que a menudo dependían de paredes invisibles que rompían la inmersión en los bordes del mundo, New Vegas utiliza un enfoque geográfico más orgánico. Comprender el diseño del Mojave es esencial tanto para los nuevos jugadores como para los veteranos que buscan dominar la experiencia de la remasterización de 2026.
+
+**Puntos destacados del video:**
+- Desglose detallado de cómo el mapa gestiona los límites del jugador.
+- Cálculo trigonométrico del área total renderizada frente al espacio jugable.
+- Demostración visual del océano irradiado "infinito" hacia el oeste.
+- Explicación de las barreras físicas como la valla del Puesto de avanzada de Mojave.
+
+<YouTubeEmbed videoId="su5tRa5fNzI" title="¿Qué tan grande es el mapa de Fallout New Vegas?" />
+
+| Característica | Fallout New Vegas | Fallout 3 | Fallout 4 |
+|:---|:---|:---|:---|
+| **Tipo de límite** | Físico (Acantilados/Vallas) | Paredes invisibles | Paredes invisibles |
+| **Forma del mapa** | Cuadrado | Cuadrado | Cuadrado |
+| **Peligros acuáticos** | Alta radiación | Radiación baja/media | Radiación media |
+| **Desplazamiento** | A pie / Viaje rápido | A pie / Viaje rápido | A pie / Vertibird |
+
+<Callout type="success" title="Factor de inmersión">
+El uso de límites físicos hace que el Mojave se sienta como un lugar real en lugar de un "nivel". Llegar a un puente destruido o a un acantilado imposible de escalar se siente más natural que chocar contra una barrera mágica que te dice que des la vuelta.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Límites físicos y diseño del mundo">
+
+La filosofía de diseño del **mapa de Fallout New Vegas** se centra en rutas "forzadas" y puntos de control naturales. Esto es particularmente evidente al principio del juego, donde el entorno canaliza a los jugadores hacia el sur a través de Primm y luego hacia el este en dirección a Novac, en lugar de permitir una carrera directa hacia el norte hasta New Vegas.
+
+<CardGrid cols={3}>
+  <Card title="Cadenas montañosas">
+    - **Picos inaccesibles**
+    - Barreras de gran altitud
+    - Puntos de control estratégicos
+  </Card>
+  <Card title="Vallas artificiales">
+    - **Puesto de avanzada de Mojave**
+    - Barreras de grado militar
+    - Integración lógica con el lore
+  </Card>
+  <Card title="Divisiones de cañones">
+    - **Puentes destruidos**
+    - Caídas verticales profundas
+    - Límites naturales de ruta
+  </Card>
+</CardGrid>
+
+El extremo occidental del mapa es particularmente interesante. Más allá de las vallas físicas del Puesto de avanzada de Mojave, el terreno se transforma en una enorme extensión de agua irradiada. El uso de comandos de consola como "TCL" revela que esta agua se extiende a una distancia increíble, mucho más allá de lo que cualquier jugador vería durante el juego normal.
+
+| Ubicación del límite | Tipo de barrera | Punto de interés clave |
+|:---|:---|:---|
+| **Suroeste** | Valla enorme | Puesto de avanzada de Mojave |
+| **Este** | Río Colorado | Presa Hoover / Campamento de César |
+| **Norte** | Montañas empinadas | Jacobstown / Red Rock |
+| **Oeste** | Océano irradiado | Más allá del puesto de avanzada |
+
+<Callout type="warning" title="Peligro de radiación">
+Intentar nadar en las aguas occidentales provocará un envenenamiento extremo por radiación. Incluso con un Traje de radiación avanzado, la distancia es tan vasta que probablemente sucumbirás al entorno o activarás el script de teletransporte.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cálculos técnicos de tamaño y distancia">
+
+Al hablar del **mapa de Fallout New Vegas**, es importante distinguir entre el "área jugable" y el "área renderizada". Mientras que el Mojave jugable tiene aproximadamente 75,4 kilómetros cuadrados, el motor del juego renderiza terreno de baja resolución que se extiende significativamente más allá.
+
+<Steps>
+  <Step num="1" title="Sistema de cuadrícula interna">
+    El juego divide el mundo en celdas. El mundo "activo" principal consiste en una cuadrícula cuadrada donde se encuentran la mayoría de los PNJ y las misiones.
+  </Step>
+  <Step num="2" title="Renderizado LOD">
+    El terreno de baja resolución (LOD - Level of Detail) se genera mucho más allá de los límites físicos para crear la ilusión de un horizonte vasto.
+  </Step>
+  <Step num="3" title="El activador de teletransporte">
+    Si un jugador elude los límites (mediante mods o consola), eventualmente alcanza un umbral de coordenadas que lo teletransporta de regreso al centro del mapa.
+  </Step>
+</Steps>
+
+En términos de números puros, el mapa base mide aproximadamente 8,68 km por lado. Si tenemos en cuenta todo el terreno renderizado (las montañas y llanuras de "fondo"), el tamaño teórico se dispara a más de 77.000 kilómetros cuadrados, lo que es comparable al tamaño de un país pequeño como Serbia.
+
+| Métrica | Valor (Aproximado) |
+|:---|:---|
+| **Ancho jugable** | 8,68 km |
+| **Largo jugable** | 8,68 km |
+| **Área jugable total** | 75,4 km² |
+| **Área renderizada teórica** | Más de 77.000 km² |
+
+<Callout type="info" title="Método de cálculo">
+Estas mediciones se derivan del análisis de píxeles de la brújula y la escala trigonométrica basada en la velocidad de movimiento al 100% frente al 4000% de velocidad.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Secretos de exploración más allá del mapa">
+
+Para aquellos que se aventuran más allá de la ruta prevista en el **mapa de Fallout New Vegas**, el mundo se vuelve cada vez más surrealista. Cuanto más te alejas del Strip de Vegas, más comienzan a desmoronarse los sistemas del juego.
+
+- **El Vacío**: Eventualmente, el suelo deja de renderizarse por completo, dejando solo el cielo y el plano de agua.
+- **Nado irradiado**: El océano occidental no es solo un fondo; es un cuerpo de agua totalmente interactivo, aunque letal.
+- **Degradación del terreno**: Las rocas y los árboles dejan de aparecer primero, seguidos por las texturas del suelo de alta calidad, dejando solo una malla de terreno deforme.
+- **El Bucle**: Alcanzar el límite absoluto del sistema de coordenadas no bloquea el juego; simplemente restablece tu posición a una coordenada "segura" predefinida cerca del centro del mapa.
+
+| Etapa fuera de los límites | Aspecto visual | Experiencia del jugador |
+|:---|:---|:---|
+| **Zona 1: Inmediata** | Colinas de baja resolución | Paredes invisibles / Bloqueos físicos |
+| **Zona 2: Intermedia** | Solo terreno | Radiación extrema / Sin colisión |
+| **Zona 3: Extrema** | Plano de agua | Nado infinito / Riesgo de teletransporte |
+
+<Callout type="tip" title="Exploración con consola">
+Si deseas ver estas áreas por ti mismo, abre la consola con la tecla de tilde (~) y escribe `tcl`. Esto activa el modo "No Clip", lo que te permite volar a través de las barreras físicas y explorar el horizonte renderizado.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de verificación para completistas del Mojave">
+
+Dominar el **mapa de Fallout New Vegas** requiere visitar todos los puntos de interés más importantes. Utiliza esta lista de verificación para asegurarte de haber visto lo mejor que el Mojave tiene para ofrecer en tu partida de 2026.
+
+<Checklist
+  id="mojave-exploration"
+  title="Hitos de puntos de interés principales:"
+  items={[
+    "Visitar el Lucky 38 en el Strip de New Vegas",
+    "Asegurar la Presa Hoover para la facción elegida",
+    "Alcanzar la cima de Black Mountain",
+    "Explorar las profundidades del Refugio 34",
+    "Encontrar la entrada oculta a Jacobstown",
+    "Cruzar el río Colorado hacia El Fuerte"
+  ]}
+/>
+
+| Punto de interés | Importancia | Nivel de peligro |
+|:---|:---|:---|
+| **El Strip** | Centro económico y político | Bajo (Securitrones) |
+| **Quarry Junction** | Nido de Sanguinarios de alto nivel | Extremo |
+| **Presa Hoover** | Fuente de energía estratégica | Moderado |
+| **El Fuerte** | Cuartel general de la Legión de César | Alto |
+
+<Callout type="tip" title="Estrategia de viaje rápido">
+Descubre siempre las ubicaciones incluso si no planeas entrar en ellas de inmediato. Esto poblará tu mapa y permitirá un viaje rápido eficiente durante las misiones de la etapa final del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Qué tan grande es el mapa de Fallout New Vegas en comparación con el de Fallout 4?",
+    answer: "El área jugable de New Vegas es ligeramente más pequeña que la de Fallout 4, pero se siente más grande debido a la velocidad de movimiento más lenta y a la forma en que el terreno guía a los jugadores a través de rutas específicas."
+  },
+  {
+    question: "¿Realmente se puede caminar hasta las montañas que se ven a lo lejos?",
+    answer: "La mayoría de las montañas en el horizonte son barreras físicas. Aunque puedes llegar a su base, el juego eventualmente utiliza pendientes pronunciadas o superficies 'resbaladizas' invisibles para evitar que escales más allá del límite."
+  },
+  {
+    question: "¿Hay algo oculto en el agua irradiada hacia el oeste?",
+    answer: "Técnicamente, no. No hay objetos, PNJ ni huevos de pascua ocultos en las aguas del extremo oeste. Es un espacio vacío y renderizado diseñado para dar una sensación de escala."
+  },
+  {
+    question: "¿Cuál es la mejor manera de ver todo el mapa de Fallout New Vegas a la vez?",
+    answer: "Usar el comando de consola 'tcl' para volar alto sobre el Lucky 38 ofrece la mejor vista panorámica de todo el Yermo de Mojave."
+  }
+]} />
+
+</Section>

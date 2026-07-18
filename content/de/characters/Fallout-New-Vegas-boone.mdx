@@ -1,0 +1,207 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fallout New Vegas Boone: Rekrutierung & Quest-Walkthrough",
+  description: "Meistern Sie die Rekrutierung von Craig Boone in Fallout New Vegas. Erfahren Sie, wie Sie „Ich vergess' zu vergessen“ und die Bitter-Springs-Questreihe auslösen.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1a1a1a/ffffff?text=Fallout+New+Vegas+Boone+Guide",
+  date: "2026-07-18",
+  author: "Fallout New Vegas Wiki-Team"
+}
+
+<Callout type="info" title="Schnellzugriff">
+- **Fallout New Vegas Boone** ist ein ehemaliger Scharfschütze des 1. Aufklärungsbataillons der NKR, der in der Stadt Novac zu finden ist.
+- **Die Rekrutierung** erfordert den Abschluss der Quest „Immer der Nase nach“, bei der die Person identifiziert werden muss, die seine Frau verkauft hat.
+- **Das Auslösen der Quest** für seine persönliche Geschichte hängt von einem versteckten „Geschichtspunkte“-System ab, das mit dem Töten von Mitgliedern der Legion verknüpft ist.
+- **Die Belohnungen** umfassen einzigartige Rüstungssets des 1. Aufklärungsbataillons, die sich je nach Ihren Dialogentscheidungen in Bitter Springs unterscheiden.
+- **Der Begleiter-Perk** gewährt die Fähigkeit „Beobachter“, die alle Feinde beim Zielen rot hervorhebt.
+</Callout>
+
+<Section icon={Map} title="Craig Boone in Novac rekrutieren">
+
+Craig Boone gilt weithin als einer der mächtigsten Begleiter im Mojave-Ödland. Als ehemaliger Scharfschütze der Elite-Einheit des 1. Aufklärungsbataillons der NKR verbringt er seine Nächte damit, die Stadt Novac aus dem Maul von Dinky dem Dinosaurier zu bewachen. Um ihn zu rekrutieren, müssen Sie zunächst seine tragische Hintergrundgeschichte ergründen und ihm helfen, Gerechtigkeit für das Verschwinden seiner Frau Carla zu finden.
+
+**Video-Highlights:**
+- Die dunkle Wahrheit hinter dem Massaker von Bitter Springs und seine Auswirkungen auf Boone.
+- So navigieren Sie durch die Quest „Immer der Nase nach“ in Novac.
+- Schritt-für-Schritt-Walkthrough der Begleiter-Quest „Ich vergess' zu vergessen“.
+- Analyse von Boones zwei einzigartigen Endgame-Rüstungssets.
+
+<YouTubeEmbed videoId="EpMEzSHEUEg" title="Boones Qual: Die ganze Geschichte des Massakers von Bitter Springs" />
+
+Um den Rekrutierungsprozess zu beginnen, sprechen Sie nachts mit Boone im Inneren des Dinosauriers. Er wird Sie beauftragen, herauszufinden, wer seine Frau an Caesars Legion verkauft hat. Sie müssen die Bewohner von Novac untersuchen und insbesondere nach Beweisen im Bodentresor hinter dem Empfangstresen des Dino Dee-lite Motels suchen.
+
+| Anforderung | Detail |
+| :--- | :--- |
+| **Ort** | Novac, im Scharfschützennest von Dinky dem Dinosaurier (nur nachts) |
+| **Quest** | Immer der Nase nach |
+| **Wichtiger Beweis** | Kaufvertrag im Tresor des Motels gefunden |
+| **Schuldige** | Jeannie May Crawford |
+| **Signal** | Tragen Sie Boones Barett vor dem Dinosaurier |
+
+<Callout type="warning" title="Kritische Entscheidung">
+Wenn Sie die falsche Person vor den Dinosaurier führen oder Boone den Beweis (den Kaufvertrag) nach der Tat nicht zeigen, wird er feindselig oder weigert sich, sich Ihnen anzuschließen. Sichern Sie immer zuerst den Beweis.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Kampfmechanik und der Beobachter-Perk">
+
+Einmal rekrutiert, bietet Boone beispiellose Feuerunterstützung. Er ist mit einem einzigartigen Jagdgewehr mit Zielfernrohr ausgestattet und besitzt eine außergewöhnliche Wahrnehmung. Seine Anwesenheit verändert grundlegend die Art und Weise, wie Sie Kämpfe führen, besonders in der offenen Wüste, wo er Ziele ausschalten kann, bevor diese überhaupt in Ihre Sichtweite gelangen.
+
+<CardGrid cols={3}>
+  <Card title="Beobachter-Perk">
+    - **Visuelle Hilfe**: Feinde werden beim Zielen rot hervorgehoben.
+    - **Entdeckung**: Erhöht Ihre Fähigkeit, getarnte Ziele zu sehen, erheblich.
+    - **Synergie**: Funktioniert perfekt mit Fernkampf-Builds.
+  </Card>
+  <Card title="Bewaffnung">
+    - **Primär**: Jagdgewehr mit Zielfernrohr (Kaliber .308).
+    - **Sekundär**: Machete für den Nahkampf.
+    - **Upgrade**: Geben Sie ihm ein Anti-Material-Gewehr für maximalen Schaden.
+  </Card>
+  <Card title="Taktik">
+    - **Aggression**: Boone ist gegenüber der Legion äußerst aggressiv.
+    - **Positionierung**: Lassen Sie ihn auf „Warten“ an erhöhten Positionen zur Überwachung.
+    - **Einsatz**: Er feuert bei Sichtkontakt auf jedes Mitglied der Legion.
+  </Card>
+</CardGrid>
+
+| Attribut | Basiswert | Kampfrolle |
+| :--- | :--- | :--- |
+| **Stärke** | 7 | Handhabung schwerer Gewehre |
+| **Wahrnehmung** | 8 | Fernentdeckung |
+| **Beweglichkeit** | 7 | Schnelles Nachladen und Bewegen |
+| **Spezialfertigkeiten** | Schusswaffen, Nahkampf, Schleichen | Scharfschütze / Infiltrator |
+
+<Callout type="tip" title="Profi-Tipp">
+Boones „Beobachter“-Perk bleibt aktiv, auch wenn er in einiger Entfernung wartet, solange er Ihr aktiver Begleiter ist. Dies macht ihn für Charaktere, die auf Schleichen setzen, unverzichtbar.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="„Ich vergess' zu vergessen“ auslösen">
+
+Der komplexeste Aspekt von **Fallout New Vegas Boone** ist seine persönliche Quest „Ich vergess' zu vergessen“. Im Gegensatz zu anderen Begleitern, deren Quests durch Dialoge oder Orte ausgelöst werden, benötigt Boone eine bestimmte Anzahl an „Geschichtspunkten“. Sie müssen 5 Punkte verdienen, indem Sie Aktionen durchführen, die seinem Hass auf Caesars Legion entsprechen, während er in Ihrer Gruppe ist.
+
+| Aktion | Punkte | Ort |
+| :--- | :--- | :--- |
+| **Vulpes Inculta töten** | 1 | Nipton oder Der Strip |
+| **Silus töten** | 1 | Camp McCarran (Verhör) |
+| **Caesar töten** | 2 | Das Fort |
+| **Nelson auslöschen** | 2 | Nelson |
+| **Dead Sea töten** | 1 | Nelson |
+| **Sklaven retten** | 2 | Cottonwood Cove |
+| **Aurelius of Phoenix töten** | 1 | Cottonwood Cove |
+
+<Steps>
+  <Step num="1" title="Punkte sammeln">
+    Reisen Sie mit Boone und nehmen Sie an den oben aufgeführten Aktivitäten teil. Sie merken, dass Sie Fortschritte machen, wenn er Dialoge über seine Vergangenheit initiiert.
+  </Step>
+  <Step num="2" title="Dialogfortschritt">
+    Nachdem Sie bestimmte Punkteschwellen erreicht haben, sprechen Sie mit Boone über Bitter Springs. Er wird anfangs zögerlich sein, aber schließlich darum bitten, den Ort des Massakers zu besuchen.
+  </Step>
+  <Step num="3" title="Bitter Springs besuchen">
+    Reisen Sie zum Flüchtlingslager Bitter Springs. Boone wird vorschlagen, zum Coyote Tail Ridge zu gehen, dem Aussichtspunkt, an dem er während des Massakers stationiert war.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Hinweis zu den Punkten">
+Sie können mehr als 5 Punkte verdienen, aber 5 ist das Minimum, um die finale Dialogoption freizuschalten, die zum Besuch von Bitter Springs führt.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Die Lore des Massakers von Bitter Springs">
+
+Die Tragödie von Bitter Springs ist der prägende Moment in Boones Leben. Während der Expansion der NKR in die Mojave erhielt das 1. Aufklärungsbataillon den Befehl, „Krieger“ der Großen Khane abzufangen, die aus einer Schlacht flohen. Aufgrund eines Kommunikationsfehlers stellte sich jedoch heraus, dass die „Krieger“ in Wirklichkeit Frauen, Kinder und Alte waren. Den Scharfschützen der NKR wurde befohlen zu feuern, bis ihre Munition erschöpft war.
+
+**Wichtige Personen des Massakers:**
+- **Captain Gilles**: Derzeitige Kommandantin des Flüchtlingslagers Bitter Springs.
+- **Oscar Velasco**: Ein Überlebender der Großen Khane, der Rache sucht, indem er Flüchtlinge abschießt.
+- **Bitterwurzel**: Ein weiterer Scharfschütze des 1. Aufklärungsbataillons, der eigentlich ein Kind der Großen Khane war, das während des Massakers gerettet wurde.
+- **Major Dhatri**: Der Offizier, der immense Schuldgefühle wegen der Ereignisse hegt.
+
+| Perspektive | Haltung zu Bitter Springs |
+| :--- | :--- |
+| **NKR-Beamte** | Ein „Kommunikationsfehler“, der zu tragischen Kollateralschäden führte. |
+| **Große Khane** | Ein kaltblütiges Massaker mit dem Ziel, ihre Kultur auszulöschen. |
+| **Craig Boone** | Eine persönliche Sünde, die niemals vollständig vergeben oder vergessen werden kann. |
+
+<Callout type="warning" title="Fraktions-Warnung">
+Wenn Sie Boone in den Red Rock Canyon (die Heimat der Großen Khane) bringen, wird dies zu feindseligen Kommentaren der Khane führen, da sie ihn als einen der „Mörder“ von Bitter Springs erkennen.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Quest-Abschluss und Rüstungsbelohnungen">
+
+Am Ende der Quest in Bitter Springs müssen Sie das Lager gegen einen Überfalltrupp der Legion verteidigen. Nach dem Kampf bestimmt Ihr Dialog mit Boone seine psychologische Einstellung und die einzigartige Rüstung, die er erhält. Diese Wahl ist dauerhaft und spiegelt wider, ob Boone Frieden findet oder von Rache zerfressen bleibt.
+
+<CardGrid cols={2}>
+  <Card title="Der Weg der Erlösung">
+    Ermutigen Sie Boone, seine Schuldgefühle hinter sich zu lassen und zu erkennen, dass er immer noch Gutes tun kann.
+    - **Belohnung**: Survival-Rüstung des 1. Aufklärungsbataillons.
+    - **Optik**: Braun/Beige Tarnmuster.
+    - **Stat**: Erhöht Überleben und Resistenzen.
+  </Card>
+  <Card title="Der Weg der Rache">
+    Sagen Sie Boone, dass seine Taten nur Teil des Krieges waren und er seine Rolle als Killer akzeptieren sollte.
+    - **Belohnung**: Kampfrüstung des 1. Aufklärungsbataillons.
+    - **Optik**: Schwarz/Dunkelgraues taktisches Muster.
+    - **Stat**: Erhöht Schusswaffen und kritische Trefferchance.
+  </Card>
+</CardGrid>
+
+<Checklist
+  id="boone-loyalty-checklist"
+  title="Boone Abschluss-Checkliste:"
+  items={[
+    "Schließen Sie 'Immer der Nase nach' mit dem Kaufvertrag als Beweis ab",
+    "Verdienen Sie mindestens 5 Geschichtspunkte durch den Kampf gegen die Legion",
+    "Hören Sie sich Boones komplettes Geständnis über seine Frau Carla an",
+    "Verteidigen Sie Bitter Springs vor dem finalen Angriff der Legion",
+    "Wählen Sie zwischen dem Survival- oder Kampfrüstungsset",
+    "Optional: Holen Sie sich Boones Barett für einen permanenten Bonus von WA +1 und Krit +5 %"
+  ]}
+/>
+
+<Callout type="success" title="Empfehlung zum Ausgang">
+Die **Kampfrüstung des 1. Aufklärungsbataillons** gilt im Allgemeinen als überlegen für kampforientierte Spielstile aufgrund der Boni auf kritische Treffer, obwohl die Survival-Rüstung besser zu einem moralischen Charakterbogen passt.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Fallout New Vegas Boone FAQ">
+
+<FAQ items={[
+  {
+    question: "Warum spricht Boone nicht mit mir über seine Quest?",
+    answer: "Wahrscheinlich haben Sie noch nicht genug Geschichtspunkte gesammelt. Reisen Sie mit ihm nach Cottonwood Cove oder Nelson und töten Sie dort die Anführer der Legion, um seinen Dialog auszulösen."
+  },
+  {
+    question: "Kann ich Boone behalten, wenn ich mich Caesars Legion anschließe?",
+    answer: "Nein. Boone ist der NKR gegenüber absolut loyal. Wenn Ihr Ruf bei der Legion zu hoch wird oder Sie Aktionen gegen die NKR durchführen, wird er Ihre Gruppe verlassen und kann sogar feindselig werden."
+  },
+  {
+    question: "Was ist mit Boones Frau Carla passiert?",
+    answer: "Carla wurde von Jeannie May Crawford in die Sklaverei verkauft. Boone spürte sie schließlich bei einer Sklavenauktion in Cottonwood Cove auf. Da er erkannte, dass er sie nicht gegen hunderte Legionäre retten konnte, beging er einen Gnadenschuss und tötete sie selbst, um ihr ein Leben voller Folter zu ersparen."
+  },
+  {
+    question: "Welche Rüstung ist besser: Survival oder Kampf?",
+    answer: "Die Kampfrüstung (Weg der Rache) bietet bessere offensive Werte, insbesondere für kritische Treffer. Die Survival-Rüstung (Weg der Erlösung) ist besser für Spieler, die Schadensresistenz und Heilung priorisieren."
+  }
+]} />
+
+<Callout type="info" title="Schlusswort">
+Boone ist ein tragischer Held, dessen Geschichte die moralische Ambiguität der Mojave repräsentiert. Ob Sie ihn zur Erlösung oder weiter in die Schatten des Krieges führen, er bleibt die zuverlässigste Fernkampfunterstützung in *Fallout: New Vegas*.
+</Callout>
+
+</Section>

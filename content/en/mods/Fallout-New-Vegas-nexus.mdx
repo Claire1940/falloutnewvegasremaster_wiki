@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fallout New Vegas Nexus: Essential 2026 Modding Setup Guide",
+  description: "Master the Fallout New Vegas nexus ecosystem in 2026. Learn how to install Vortex, NVSE, and essential stability patches for a crash-free experience.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Nexus+Modding+Setup",
+  date: "2026-07-18",
+  author: "Fallout New Vegas Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Fallout New Vegas nexus** remains the primary hub for all community-created content and essential stability updates in 2026.
+- **Vortex Mod Manager** is the recommended tool for beginners to handle downloads, installations, and complex load orders.
+- **NVSE and 4GB Patch** are non-negotiable requirements for modern mods to function without crashing the game engine.
+- **Clean Installation** on Steam or GOG is the first step before applying any external modifications or script extenders.
+- **Mod Profiles** allow you to switch between different gameplay builds (e.g., Hardcore Survival vs. Overhauled Graphics) instantly.
+</Callout>
+
+<Section icon={Map} title="Getting Started with Fallout New Vegas Nexus">
+
+The **Fallout New Vegas nexus** ecosystem has evolved significantly, making the modding process more accessible than ever for players in 2026. Before diving into the thousands of available mods, establishing a clean foundation is paramount. A fresh installation from a digital storefront like Steam or GOG ensures that no corrupted legacy files interfere with your new setup. Once the game is installed, launching it at least once to reach the title screen is a critical step, as this generates the necessary configuration files and registry entries that mod managers rely on.
+
+**Video Highlights:**
+- **Initial Setup**: Why launching the game once before modding is mandatory for file generation.
+- **Vortex Integration**: How to link your Nexus account to the official manager for one-click installs.
+- **Essential Tools**: Overview of NVSE, the 4GB Patcher, and NVAC for engine stability.
+- **Mod Management**: Utilizing profiles to experiment with different gameplay overhauls safely.
+
+<YouTubeEmbed videoId="zt89pQseVtM" title="Fallout New Vegas Mods Made Easy – Step-by-Step Guide for Beginners" />
+
+The transition from manual file dragging to automated management has redefined the player experience. By utilizing the official tools provided by the community, you eliminate the risk of "breaking" your game directory. If a mod causes a conflict, modern tools allow for instant disabling rather than a full game reinstallation.
+
+<Callout type="tip" title="Installation Tip">
+Always install Fallout: New Vegas outside of the `C:\Program Files (x86)` directory. Windows permissions in this folder often block mod managers from correctly deploying files, leading to "Access Denied" errors.
+</Callout>
+
+| Requirement | Description | Recommended Source |
+| :--- | :--- | :--- |
+| **Game Version** | Steam or GOG (GOG is preferred for built-in 4GB support) | Official Stores |
+| **Nexus Account** | Required for API access and fast downloads | Nexus Mods Website |
+| **Disk Space** | At least 20GB extra for mods and archives | SSD Recommended |
+| **OS** | Windows 10 or Windows 11 (2026 Updates) | Microsoft |
+
+</Section>
+
+<Section icon={Shield} title="Choosing Your Mod Management Strategy">
+
+While manual installation was the standard a decade ago, the complexity of 2026 mod lists requires a robust manager. The **Fallout New Vegas nexus** supports several tools, but Vortex stands out as the most beginner-friendly and integrated option. It handles the "virtual file system," meaning your original game folder stays clean while the mods are "injected" during runtime.
+
+<CardGrid cols={3}>
+  <Card title="Vortex Manager">
+    - **Official Nexus Support**
+    - One-click installation
+    - Built-in conflict solver
+    - Best for beginners
+  </Card>
+  <Card title="Mod Organizer 2">
+    - **Advanced Control**
+    - Virtual file system
+    - Precise load order tuning
+    - Best for power users
+  </Card>
+  <Card title="Manual Install">
+    - **High Risk**
+    - High chance of corruption
+    - Difficult to uninstall
+    - Not recommended in 2026
+  </Card>
+</CardGrid>
+
+The primary advantage of using a manager like Vortex is the ability to create separate profiles. If you want to play a "Vanilla+" run on one day and a "Total Conversion" the next, you can swap between them in seconds without moving a single file manually.
+
+| Feature | Vortex | Mod Organizer 2 | Manual |
+| :--- | :--- | :--- | :--- |
+| **Ease of Use** | Excellent | Moderate | Poor |
+| **Error Handling** | Automatic | Manual/Detailed | None |
+| **Nexus Integration** | Native | Supported | None |
+| **Safety** | High | High | Very Low |
+
+<Callout type="info" title="Manager Logic">
+Vortex uses a "Hardlink" deployment method. This means the files appear to be in the game folder but actually reside in a separate mod folder, saving disk space while maintaining performance.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Essential Stability and Scripting Tools">
+
+To run modern mods from the **Fallout New Vegas nexus**, you must bypass the limitations of the original 2010 game engine. The base game is restricted to 2GB of RAM and uses an outdated scripting language that cannot handle complex AI or high-resolution textures.
+
+**The Holy Trinity of Stability:**
+1.  **NVSE (New Vegas Script Extender)**: This tool expands the game's scripting capabilities. Without it, mods that add new UI elements, complex quests, or dynamic weather simply will not load.
+2.  **4GB Patcher**: This executable modifies the game to recognize 4GB of RAM instead of 2GB. This is the single most effective way to prevent the "Out of Memory" crashes common in the Mojave.
+3.  **NVAC (New Vegas Anti-Crash)**: A specialized plugin that catches common engine errors before they cause a desktop crash, allowing the game to continue running through minor glitches.
+
+| Tool Name | Primary Function | Installation Method |
+| :--- | :--- | :--- |
+| **NVSE** | Script Expansion | Manual (Root Folder) |
+| **4GB Patcher** | Memory Expansion | Run Executable Once |
+| **NVAC** | Crash Prevention | Install via Vortex |
+| **Stewie Tweaks** | Engine Bug Fixes | Install via Vortex |
+
+<Callout type="warning" title="Critical Warning">
+The 4GB Patcher must be run from your game's root directory (where `FalloutNV.exe` is located). If you run it from your Downloads folder, it will not find the game and will fail to apply the patch.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Mod Installation Guide">
+
+Once your stability tools are in place, you can begin exploring the creative side of the **Fallout New Vegas nexus**. Following a specific order ensures that textures, meshes, and scripts interact correctly without overwriting vital data.
+
+<Steps>
+  <Step num="1" title="Link Vortex to Nexus">
+    Download and install Vortex. Log in with your Nexus account and go to the 'Games' tab. Search for 'Fallout: New Vegas' and click 'Manage'. Vortex will automatically detect your installation path.
+  </Step>
+  <Step num="2" title="Apply the 4GB Patch">
+    Download the 4GB Patcher from Nexus. Extract the `.exe` file into your game folder. Double-click it; a command window will appear and confirm 'Game Patched'. You can now delete the patcher `.exe`.
+  </Step>
+  <Step num="3" title="Install NVSE">
+    While Vortex can sometimes automate this, manual installation is safer. Drag the `.dll` and `.exe` files from the NVSE archive into your game's root directory.
+  </Step>
+  <Step num="4" title="Download Your First Mod">
+    Browse the Nexus website. Find a mod like 'The Strip Open' or 'Sprint Mod'. Click the 'Vortex' button on the mod page. Vortex will handle the download and prompt you to 'Install' and 'Enable'.
+  </Step>
+  <Step num="5" title="Deploy and Play">
+    Click the 'Deploy Mods' button in Vortex. This finalizes the file links. Launch the game using the `nvse_loader.exe` or the play button inside Vortex to ensure all scripts are active.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Verification">
+To verify NVSE is working, open the in-game console (tilde key `~`) and type `GetNVSEVersion`. If it returns a number, your installation was successful.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Optimizing Your Load Order and Performance">
+
+A common mistake when using the **Fallout New Vegas nexus** is installing too many mods at once. In 2026, the best practice is the "Install and Test" method. For every 5-10 mods installed, launch the game and travel to a busy area like Freeside to check for stability.
+
+<Checklist
+  id="stability-checklist"
+  title="2026 Stability Checklist:"
+  items={[
+    "Verify 4GB Patch is active (Check memory usage in Task Manager)",
+    "Ensure NVSE is recognized by the game console",
+    "Check for 'Red Diamonds' (Missing meshes/textures)",
+    "Sort load order using the 'Sort Now' button in Vortex",
+    "Clean master files using xEdit if prompted by the community"
+  ]}
+/>
+
+| Mod Category | Impact on Performance | Recommended Priority |
+| :--- | :--- | :--- |
+| **Bug Fixes** | Low Impact | High (Install First) |
+| **UI Overhauls** | Minimal | Medium |
+| **Texture Packs** | High Impact | Low (Install Last) |
+| **Scripted Quests** | Moderate | Medium |
+
+<Callout type="tip" title="Pro Tip">
+If you experience stuttering while moving across the wasteland, look for the 'New Vegas Tick Fix' on Nexus. This modern plugin replaces the older 'Stutter Remover' which is known to cause crashes on Windows 10 and 11.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "Is the Fallout New Vegas nexus safe to use in 2026?",
+    answer: "Yes, Nexus Mods scans every file for viruses and malware. However, always read the user comments and 'Bugs' tab on individual mod pages to see if other players are reporting issues with the latest game updates."
+  },
+  {
+    question: "Do I need to launch the game through Steam or Vortex?",
+    answer: "Once you have installed NVSE, you should launch the game through Vortex or the nvse_loader.exe. Launching through Steam may bypass the script extender, causing your mods to fail."
+  },
+  {
+    question: "What should I do if my game crashes on startup (CTD)?",
+    answer: "This is usually caused by a missing master file. Check Vortex for any 'Missing Dependency' warnings. Ensure you have installed all requirements listed on the mod's Nexus page."
+  },
+  {
+    question: "Can I mod the Epic Games Store version of New Vegas?",
+    answer: "The Epic Games version is more difficult to mod because it uses a different executable structure. It is highly recommended to use the Epic Games Patcher found on Nexus to revert it to a Steam-like state for compatibility."
+  }
+]} />
+
+</Section>

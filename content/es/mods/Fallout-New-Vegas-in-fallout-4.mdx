@@ -1,0 +1,173 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Fallout New Vegas en Fallout 4: Guía de configuración de mods",
+  description: "Experimenta el Yermo de Mojave en el motor moderno Creation Engine. Aprende a configurar mecánicas clásicas, armas y entornos usando mods independientes.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=F4NV+Mod+Setup",
+  date: "2026-07-18",
+  author: "Equipo de la Wiki de Fallout New Vegas"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Proyecto principal**: F4NV tiene como objetivo recrear todo el Yermo de Mojave en el motor moderno de 64 bits.
+- **Método actual**: Usa mods independientes de armas, armaduras e interfaz de usuario para experimentar **Fallout New Vegas en Fallout 4** hoy mismo.
+- **Mecánicas principales**: Restaura el sistema clásico de diálogos, el Karma y las habilidades usando mods de infraestructura esenciales.
+- **Requisito de instalación**: Es obligatorio usar un gestor de mods como Mod Organizer 2 y el Fallout 4 Script Extender (F4SE).
+- **Consejo de estabilidad**: Evita la actualización oficial de nueva generación (next-gen) si dependes de mods antiguos complejos y sin parchear basados en scripts.
+</Callout>
+
+<Section icon={Map} title="Proyecto F4NV: Trayendo Fallout New Vegas a Fallout 4">
+
+Recrear el icónico y postapocalíptico Yermo de Mojave dentro de un motor moderno ha sido un objetivo monumental para la comunidad. Experimentar **Fallout New Vegas en Fallout 4** (comúnmente conocido como el proyecto F4NV) ofrece a los jugadores los profundos sistemas de rol, las facciones memorables y las narrativas ramificadas del clásico de 2010, combinados con un manejo de armas, renderizado físico y estabilidad enormemente superiores de la secuela de 2015. El motor Creation Engine de 64 bits proporciona una mejora de rendimiento masiva sobre el anticuado motor Gamebryo, lo que permite un combate más fluido, batallas más grandes y tiempos de carga más cortos.
+
+Mientras el equipo de desarrollo trabaja diligentemente en recrear todo el espacio del mundo, las misiones y el doblaje de voz desde cero, los jugadores no tienen que esperar al lanzamiento final. Un enorme ecosistema de mods modulares te permite portar armas, atuendos, mecánicas y elementos ambientales directamente a tu partida de la Commonwealth hoy mismo.
+
+<Callout type="info" title="Estado del desarrollo">
+El proyecto F4NV completo es un mod de conversión total dirigido por voluntarios. Debido a que requiere recrear todos los elementos para evitar problemas legales con Bethesda, los desarrolladores lanzan regularmente elementos independientes (como armas y armaduras) en Nexus para que los jugadores los disfruten de inmediato.
+</Callout>
+
+| Parámetro | Detalles | Requisitos |
+| :--- | :--- | :--- |
+| Motor objetivo | Creation Engine (64 bits) | Juego base de Fallout 4 |
+| Alcance del proyecto | Remake completo de misiones, mapa y DLC de FNV | Todos los DLC oficiales de Fallout 4 |
+| Lanzamientos independientes | Armas, armaduras, atuendos de facciones e interfaz | Mod Organizer 2 / Vortex |
+| Año actual | Desarrollo activo y actualizaciones en 2026 | F4SE (Script Extender) |
+
+</Section>
+
+<Section icon={Swords} title="Recreando Mojave: Mods independientes disponibles ahora">
+
+Si quieres experimentar la atmósfera del Yermo de Mojave ahora mismo, puedes instalar componentes individuales creados por el equipo de F4NV y modders independientes. Estos mods independientes reemplazan o aumentan a la perfección los recursos del juego base, convirtiendo a Boston en una zona de guerra al borde del desierto.
+
+<CardGrid cols={2}>
+  <Card title="Armas y arsenal">
+    Recupera armas de fuego clásicas como el Fusil de servicio, la Secuoya de la República y el Fusil antimaterial con animaciones personalizadas y texturas de alta resolución.
+  </Card>
+  <Card title="Uniformes de facciones">
+    Reemplaza las facciones predeterminadas de la Commonwealth con soldados de la RNC, reclutas de la Legión de César y saqueadores de los Grandes Khans para una auténtica lucha política.
+  </Card>
+  <Card title="Interfaz de usuario">
+    Convierte el Pip-Boy y la interfaz modernos en la clásica pantalla de fósforo ámbar, con la fuente retrofuturista y los efectos de sonido clásicos.
+  </Card>
+  <Card title="Audio y atmósfera">
+    Añade la emisora Radio de música de Mojave, bucles de viento del desierto ambiental y efectos de sonido clásicos para subir de nivel, descubrir ubicaciones y el sistema V.A.T.S.
+  </Card>
+</CardGrid>
+
+Estos mods están diseñados para integrarse de forma natural en las tablas de botín de Fallout 4, lo que significa que encontrarás armaduras de la RNC en los artilleros o revólveres clásicos vendidos por los comerciantes locales del yermo. Esto proporciona una experiencia híbrida que mantiene el mundo del juego fresco e interesante.
+
+<Callout type="warning" title="Conflictos en el orden de carga">
+Al combinar múltiples reemplazos de facciones y paquetes de armas, usa siempre una herramienta como LOOT (Load Order Optimisation Tool) para evitar conflictos en las listas de nivel (leveled lists), lo que puede causar texturas faltantes o cierres inesperados del juego.
+</Callout>
+
+| Nombre del mod | Categoría | Característica principal | Disponibilidad en Nexus |
+| :--- | :--- | :--- | :--- |
+| Fusil de servicio F4NV | Arma | Fusil semiautomático auténtico con modificaciones diversas | Disponible / Altamente estable |
+| Armadura de Ranger veterano de la RNC | Armadura | Gabardina icónica y casco con visor rojo brillante | Disponible / Interfaz personalizada |
+| Servoarmadura avanzada clásica | Armadura | Recrea la clásica servoarmadura del Enclave | Disponible / Basada en chasis |
+| Radio de música de Mojave | Audio | Añade a Mr. New Vegas y canciones clásicas de country | Disponible / Independiente |
+
+</Section>
+
+<Section icon={Sparkles} title="Configuración paso a paso del entorno F4NV">
+
+Configurar tu sistema para ejecutar estas extensas modificaciones requiere una preparación cuidadosa. Dado que Fallout 4 recibió actualizaciones oficiales, garantizar la compatibilidad entre tus extensores de script y los mods individuales es crucial para la estabilidad a largo plazo. Sigue esta secuencia para preparar el directorio de tu juego.
+
+<Steps>
+  <Step num="1" title="Realiza una instalación limpia">
+    Desinstala Fallout 4 por completo, elimina cualquier archivo restante en tu directorio de Steam y en la carpeta Documentos, y realiza una instalación limpia. Esto evita que los scripts de mods antiguos corrompan tu nueva configuración.
+  </Step>
+  <Step num="2" title="Configura tu gestor de mods">
+    Descarga e instala Mod Organizer 2 (MO2). Utiliza un sistema de archivos virtual, manteniendo el directorio real de tu juego completamente limpio y permitiéndote activar o desactivar mods al instante sin dañar el juego.
+  </Step>
+  <Step num="3" title="Implementa las infraestructuras principales">
+    Instala el Fallout 4 Script Extender (F4SE) y la Address Library para plugins de F4SE. Estos archivos permiten que los mods avanzados alteren las mecánicas del motor, lo cual es necesario para importar sistemas de rol clásicos.
+  </Step>
+  <Step num="4" title="Instala parches de listas de nivel">
+    Después de descargar tus armas y armaduras preferidas, instala un parcheador de listas de nivel como Wrye Bash o un inyector con script moderno para garantizar que todos los objetos de New Vegas se distribuyan correctamente entre enemigos y vendedores.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Paso de verificación">
+Inicia siempre tu juego a través de `f4se_loader.exe` dentro de Mod Organizer 2. Para verificar que el extensor de script funciona, abre la consola de desarrollador en el menú principal y escribe `getf4seversion`. Debería devolver el número de versión activa.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Mecánicas de juego: Cerrando la brecha de rol entre motores">
+
+La mayor diferencia entre ambos juegos radica en sus filosofías de diseño principales. Fallout 4 se inclinó hacia mecánicas de acción y aventura con una rueda de diálogo simplificada y un sistema de extras (perks) optimizado. Para traer verdaderamente el espíritu de Mojave a este motor, debes restaurar los complejos sistemas de rol que hicieron del juego original una obra maestra.
+
+Afortunadamente, los mods de infraestructura nos permiten eludir estas limitaciones del motor, restaurando las habilidades clásicas, los rasgos (traits) y las estructuras de diálogo con protagonista silencioso.
+
+<Callout type="tip" title="Restauración de diálogos">
+Extended Dialogue Interface (XDI) es un mod obligatorio para cualquier partida clásica. Elimina el límite de diálogo de cuatro opciones y muestra las palabras exactas que dirá tu personaje, lo que permite opciones de diálogo complejas basadas en comprobaciones de habilidades.
+</Callout>
+
+| Mecánica | Predeterminado de Fallout 4 | Fallout New Vegas | Solución con mods |
+| :--- | :--- | :--- | :--- |
+| Diálogo | Rueda de voz de 4 opciones | Lista de texto completa con comprobación de habilidades | Extended Dialogue Interface (XDI) |
+| Estadísticas del personaje | Solo extras (sin habilidades) | S.P.E.C.I.A.L., habilidades y rasgos | Be Exceptional - Skills and Perks |
+| Reputación de facción | Progresión lineal de misiones | Reputación dinámica por facción | Player Crime and Reputation System |
+| Supervivencia | Necesidades básicas de comida/agua | Modo Hardcore con deshidratación | Advanced Needs 76 / Survival Options |
+
+Para asegurarte de que tu juego se vea, se sienta y se juegue como un desierto de Mojave modernizado, verifica que tu lista de mods activos contenga los siguientes componentes estructurales esenciales.
+
+<Checklist
+  id="classic-mechanics-checklist"
+  title="Lista de verificación esencial para la reforma de la jugabilidad:"
+  items={[
+    "Instalar Extended Dialogue Interface (XDI) para obtener opciones de diálogo completas",
+    "Implementar Be Exceptional para restaurar las habilidades y rasgos clásicos",
+    "Añadir los efectos de sonido clásicos del sistema V.A.T.S. y las superposiciones visuales",
+    "Habilitar un mod de Karma o reputación para rastrear las relaciones con las facciones",
+    "Configurar Bullet Time (tiempo bala) como una alternativa al sistema V.A.T.S. predeterminado"
+  ]}
+/>
+
+</Section>
+
+<Section icon={Trophy} title="Resolución de problemas y optimización">
+
+Ejecutar una configuración con muchos mods puede sobrecargar el motor, lo que provoca cuellos de botella en la memoria o latencia de scripts. Al aplicar parches de optimización modernos, puedes mantener unos 60+ FPS estables incluso al explorar áreas urbanas densas o al luchar contra grandes grupos de fuerzas de la RNC y de la Legión.
+
+<Callout type="warning" title="Compatibilidad con la actualización Next-Gen">
+Muchos plugins de scripts avanzados no se han actualizado para los últimos parches oficiales. Si experimentas cierres constantes al iniciar, considera usar una utilidad de degradación (downgrader) para revertir el ejecutable de tu juego a la versión 1.10.163, que goza de compatibilidad universal con los mods.
+</Callout>
+
+| Herramienta de optimización | Función principal | Impacto en el rendimiento |
+| :--- | :--- | :--- |
+| High FPS Physics Fix | Desbloquea la tasa de fotogramas y corrige problemas de velocidad del motor | Gran mejora |
+| Buffout 4 | Corrige errores del motor y genera registros detallados de fallos | Crucial para la estabilidad |
+| Previsibines Repair Pack | Reconstruye mallas precombinadas para optimizar el renderizado | Aumento masivo de FPS |
+| Shadow Boost | Ajusta dinámicamente la distancia de las sombras para mantener los FPS objetivo | Mejora moderada |
+
+Al combinar estas herramientas de rendimiento con los recursos independientes publicados por la comunidad, jugar a **Fallout New Vegas en Fallout 4** se convierte en una realidad sumamente estable y visualmente impresionante. Puedes experimentar lo mejor de ambos mundos: la inigualable profundidad de rol de Mojave y el moderno y satisfactorio manejo de armas de la Commonwealth.
+
+<FAQ items={[
+  {
+    question: "¿Se ha lanzado ya el mod completo de Fallout 4: New Vegas?",
+    answer: "No, el mod de conversión total completo todavía está en desarrollo activo. Sin embargo, muchos de los recursos del proyecto, incluidos armas, armaduras y entornos, se han lanzado como mods independientes que puedes jugar ahora mismo."
+  },
+  {
+    question: "¿Necesito todos los DLC para ejecutar estos mods?",
+    answer: "Sí, la mayoría de los mods independientes y las infraestructuras principales requieren todos los DLC oficiales de Fallout 4 (incluidos Far Harbor y Nuka-World) debido a los recursos compartidos y las dependencias de scripts."
+  },
+  {
+    question: "¿Puedo instalar estos mods en Xbox o PlayStation?",
+    answer: "Aunque algunas adaptaciones básicas de armas y armaduras están disponibles en el menú de mods del juego Bethesda.net para Xbox, las reformas avanzadas de jugabilidad como XDI y los extensores de script personalizados (F4SE) están estrictamente limitados a la versión de PC."
+  },
+  {
+    question: "¿Jugar a Fallout New Vegas en Fallout 4 desactivará mis logros de Steam?",
+    answer: "Por defecto, ejecutar mods desactiva los logros. Sin embargo, puedes evitar fácilmente esta restricción instalando el plugin 'Achievements Mods Enabler' a través de F4SE."
+  }
+]} />
+
+</Section>

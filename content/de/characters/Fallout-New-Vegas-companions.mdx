@@ -1,0 +1,224 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fallout New Vegas Begleiter: Rekrutierung & Perks Guide",
+  description: "Schalten Sie alle 8 Fallout New Vegas Begleiter frei. Erfahren Sie mehr über Rekrutierungsorte, Trigger für persönliche Quests, die besten Upgrades und optimale Perk-Kombinationen.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a0f05/fff?text=Fallout+New+Vegas+Companions",
+  date: "2026-07-18",
+  author: "Fallout New Vegas Wiki Team",
+  keywords: "Fallout New Vegas, Begleiter, Rekrutierung, Perks, Quests, Mojave, ED-E, Boone"
+}
+
+<Callout type="info" title="Schnellzugriff">
+- **Fallout New Vegas Begleiter** bestehen aus **acht permanenten Gefährten**, die über das gesamte Mojave-Ödland verteilt sind.
+- Die **Gruppenzusammensetzung** erlaubt es Ihnen, gleichzeitig mit **einem humanoiden** und **einem nicht-humanoiden** Begleiter zu reisen.
+- **Einzigartige Perks** werden sofort nach der Rekrutierung freigeschaltet und bieten passive Boni für Kampf und Nutzen.
+- Die **Fraktionszugehörigkeit** ist entscheidend, da bestimmte Begleiter Sie dauerhaft verlassen, wenn Sie Caesars Legion unterstützen oder einen negativen Ruf bei ihrer Fraktion erlangen.
+- **Persönliche Quests** bieten mächtige Ausrüstungs-Upgrades oder Status-Boosts, abhängig von Ihren Dialogentscheidungen.
+</Callout>
+
+<Section icon={Map} title="Überblick über die Fallout New Vegas Begleiter">
+
+Das Mojave-Ödland allein zu bereisen, ist ein gefährliches Unterfangen. Die Rekrutierung von **Fallout New Vegas Begleitern** bietet nicht nur essenzielle Feuerunterstützung, sondern gewährt auch einzigartige passive Perks, die die Effizienz Ihres Builds komplett verändern können. Sie können maximal zwei aktive Gefährten gleichzeitig haben: einen humanoiden Begleiter und einen nicht-humanoiden Begleiter (entweder ED-E oder Rex).
+
+Die Verwaltung Ihrer Begleiter erfordert ein Verständnis ihrer Fraktionstreue. Humanoide Begleiter weigern sich, Fraktionsrüstung zu tragen, es sei denn, sie entspricht ihrer eigenen Gruppe, und sie werden Sie aktiv verlassen, wenn Sie sich rivalisierenden Fraktionen wie Caesars Legion anschließen.
+
+**Video-Highlights:**
+- **Gruppenlimits**: Erfahren Sie, wie Sie das Limit von einem humanoiden und einem nicht-humanoiden Begleiter verwalten.
+- **Rekrutierungsdetails**: Schritt-für-Schritt-Anleitungen zu Orten und erforderlichen Skill-Checks für alle acht Begleiter.
+- **Quest-Trigger**: Wie man versteckte „Geschichtspunkte“ sammelt, um die persönlichen Quests der Begleiter zu starten.
+- **Upgrade-Pfade**: Eine Aufschlüsselung der kosmetischen und mechanischen Änderungen für die finalen Begleiter-Belohnungen.
+
+<YouTubeEmbed videoId="A2NZ6-wav3Y" title="Fallout New Vegas - Alle Begleiter Guide" />
+
+### Begleiter-Kurzübersicht
+
+Diese Referenztabelle zeigt, wo jeder Gefährte zu finden ist, seinen Basis-Kampftyp und den passiven Perk, den er Ihrem Charakter verleiht.
+
+| Begleiter | Ort | Begleiter-Typ | Passiver Perk |
+| :--- | :--- | :--- | :--- |
+| **Arcade Ganon** | Altes Mormon-Fort (Freeside) | Humanoid | Bessere Heilung (+20% Heilung durch Verbrauchsgüter) |
+| **Craig Boone** | Novac (Dinky der Dinosaurier) | Humanoid | Beobachter (Feinde leuchten rot beim Zielen) |
+| **ED-E** | Primm (Mojave Express) | Nicht-humanoid | Verbesserte Sensoren (Radarerkennung auf große Distanz) |
+| **Lily Bowen** | Jacobstown | Humanoid | Stealth-Girl (2x Stealth Boy Dauer) |
+| **Raul Tejada** | Black Mountain | Humanoid | Regelmäßige Wartung (50% langsamerer Ausrüstungsverschleiß) |
+| **Rex** | Freeside (King's School) | Nicht-humanoid | Suchen und Markieren (Hebt Beute in der Nähe hervor) |
+| **Rose of Sharon Cassidy** | Mojave-Außenposten | Humanoid | Whiskey-Girl (Alkohol verbessert DT, ignoriert Nachteile) |
+| **Veronica Santangelo** | 188 Handelsposten | Humanoid | Schreiber-Assistent (Tragbare Werkbank) |
+
+<Callout type="warning" title="Warnung vor Fraktionsfeindseligkeit">
+Sich Caesars Legion anzuschließen, führt dazu, dass Arcade Ganon und Craig Boone Ihnen gegenüber dauerhaft feindselig werden oder Sie verlassen. Schließen Sie deren persönliche Quests immer ab, bevor Sie wichtige Story-Entscheidungen am Hoover-Staudamm treffen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Humanoide Begleiter und persönliche Quests">
+
+Jeder humanoide Begleiter hat eine komplexe Hintergrundgeschichte, die durch eine persönliche Quest freigeschaltet wird. Diese Quests werden durch den Besuch bestimmter Orte oder das Gespräch mit bestimmten NPCs ausgelöst, um versteckte „Zustimmungspunkte“ zu sammeln.
+
+### Rekrutierung und Quest-Details
+
+Um Ihre Reise zu optimieren, müssen Sie die Rekrutierungsbedingungen und Quest-Ergebnisse für die vier primären humanoiden Gefährten kennen.
+
+<CardGrid cols={2}>
+  <Card title="Arcade Ganon">
+    - **Rekrutierung**: Sprechen Sie mit ihm im Alten Mormon-Fort. Erfordert einen hohen Ruf bei den Anhängern der Apokalypse, einen Sprache-Check oder einen Charakter-Build mit niedriger Intelligenz.
+    - **Quest**: *Ich weiß, es ist vorbei* (For Auld Lang Syne). Wird durch das Sammeln von 5 Geschichtspunkten oder das Fortschreiten in der späten Hauptquestreihe ausgelöst.
+    - **Belohnungen**: Remnants-Power-Rüstung oder die Gannon-Familien-Tesla-Rüstung.
+  </Card>
+  <Card title="Craig Boone">
+    - **Rekrutierung**: Schließen Sie *Einer für mein Baby* in Novac ab, indem Sie beweisen, dass Jenny May Crawford seine Frau in die Sklaverei verkauft hat.
+    - **Quest**: *Ich habe vergessen, das Vergessen zu vergessen*. Wird durch das Sammeln von 5 Geschichtspunkten durch das Töten von Legion-Mitgliedern ausgelöst.
+    - **Belohnungen**: First-Recon-Überlebensrüstung oder First-Recon-Sturmrüstung.
+  </Card>
+  <Card title="Rose of Sharon Cassidy (Cass)">
+    - **Rekrutierung**: Arbeiten Sie für die Crimson Caravan und überzeugen Sie sie dann am Mojave-Außenposten, ihre Karawane zu verkaufen.
+    - **Quest**: *Herzschmerz nach Zahlen*. Untersuchen Sie drei zerstörte Karawanen-Standorte.
+    - **Belohnungen**: Hand der Rache (+15% Schusswaffenschaden) oder Ruhiges Herz (+50 Max. TP).
+  </Card>
+  <Card title="Veronica Santangelo">
+    - **Rekrutierung**: Sprechen Sie mit ihr am 188 Handelsposten. Äußern Sie keinen Hass auf die Stählerne Bruderschaft.
+    - **Quest**: *Dass es mir nicht egal ist*. Präsentieren Sie Elder McNamara fortschrittliche Technologie.
+    - **Belohnungen**: Bande aus Stahl (+4 DT) oder Grundloser Rebell (+30% Waffenlose Angriffsrate).
+  </Card>
+</CardGrid>
+
+### Ausgänge der Quest-Entscheidungen
+
+Die Entscheidungen, die Sie am Ende der Begleiter-Quests treffen, verändern dauerhaft deren Kampfwerte und Ausrüstung. Nutzen Sie diese Übersicht für Ihre Planung.
+
+| Begleiter | Entscheidungsweg | Belohnungs-Perk | Mechanischer Vorteil |
+| :--- | :--- | :--- | :--- |
+| **Arcade Ganon** | Kampf am Hoover-Staudamm | Remnants-Power-Rüstung | Hochwertiges Rüstungsset, geschenkt von Daisy Whitman |
+| **Arcade Ganon** | In Freeside bleiben | Gannon-Familien-Tesla-Rüstung | Tesla-Rüstungsset (+10 Energiewaffen, +20 Rad-Resistenz) |
+| **Craig Boone** | Reumütiger Pfad | First-Recon-Überleben | Verbessertes Rüstungsset mit Fokus auf Überlebenswerte |
+| **Craig Boone** | Blutrünstiger Pfad | First-Recon-Sturm | Verbessertes Rüstungsset mit Fokus auf Offensivwerte |
+| **Cass** | Verschwörer töten | Hand der Rache | Permanenter Schadensbonus von +15% für alle Schusswaffen |
+| **Cass** | Beweise übergeben | Ruhiges Herz | Permanenter Bonus von +50 auf maximale Gesundheit |
+| **Veronica** | Bei der Bruderschaft bleiben | Bande aus Stahl | Passiver Bonus von +4 Schadensschwelle (DT) für Veronica |
+| **Veronica** | Bruderschaft verlassen | Grundloser Rebell | Passive Erhöhung der waffenlosen Angriffsrate um +30% für Veronica |
+
+<Callout type="tip" title="Cass' Perk maximieren">
+Wenn Sie einen Schusswaffen-Build bevorzugen, wählen Sie den rachsüchtigen Pfad in *Herzschmerz nach Zahlen*, um den Perk „Hand der Rache“ zu erhalten. Für Überlebens- oder Hardcore-Builds ist das Sammeln von Beweisen für den Perk „Ruhiges Herz“ sehr zu empfehlen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Nicht-humanoide und Utility-Begleiter">
+
+Nicht-humanoide Begleiter bieten exzellenten Nutzen und blockieren nicht die Rekrutierung menschlicher Gefährten. ED-E und Rex sind die zwei verfügbaren Optionen in der Mojave.
+
+### ED-E: Der Duraframe-Augenbot
+ED-E befindet sich auf einem Tresen im Gebäude des Mojave Express in Primm. Sie können ihn mit einem Reparatur-Skill von 65, einem Wissenschaft-Skill von 55 (was die Reparatur-Anforderung auf 35 senkt) oder durch das Sammeln bestimmter Schrotteile reparieren.
+
+<Steps>
+  <Step num="1" title="Reparaturmaterialien sammeln">
+    Sammeln Sie 1 Elektronikschrott, 2 Sensormodule und 3 Altmetall. Diese können leicht bei Lone Wolf Radio gefunden werden.
+  </Step>
+  <Step num="2" title="Audiologs auslösen">
+    Sprechen Sie mit Charakteren, die über Technologie oder die Enklave diskutieren (wie die alte Lady Gibson oder Ignacio Rivas), um ED-Es versteckte Audiologs freizuschalten.
+  </Step>
+  <Step num="3" title="Upgrade-Pfad wählen">
+    Bringen Sie ED-E entweder zur Stählernen Bruderschaft (Lorenzo) für ein Rüstungs-Upgrade oder zu den Anhängern der Apokalypse (April Mortimer) für ein Waffen-Upgrade.
+  </Step>
+</Steps>
+
+### Rex: Der Cyberhund
+Rex gehört dem King in Freeside. Um ihn zu rekrutieren, schließen Sie die Quest *G.I. Blues* ab und fragen Sie den King nach dem sich verschlechternden Gehirnzustand seines Hundes, um *Nichts als ein Hundeleben* zu starten.
+
+| Gehirnspender | Ort | Erhalten über | Belohnungs-Perk | Vorteil |
+| :--- | :--- | :--- | :--- | :--- |
+| **Rey** | Gibsons Schrottplatz | Für 700 Kronkorken kaufen oder Feilschen 70 | Rey's Gehirn | +25 Nahkampfschaden |
+| **Lupa** | Das Fort (Legion) | Besiegen Sie Lupa in der Arena | Blut der Legion | +10 Schadensschwelle (DT) |
+| **Violetta** | Violets Lager | Töten Sie die Fiend-Anführerin Violet | Unbeirrbarer Spürhund | +50% Bewegungsgeschwindigkeit |
+
+<Callout type="success" title="Empfehlung für Stealth-Builds">
+Für auf Schleichen fokussierte Charaktere ermöglicht die Kombination von Lily Bowen (Perk „Stealth-Girl“) mit ED-E (Verbesserte Sensoren), Feinde aus extremen Distanzen zu entdecken und Schleichangriff-Kritische-Treffer mit einem Schadensbonus von 10% auszuführen.
+</Callout>
+
+### Lily Bowen und Raul Tejada
+
+Lily und Raul bieten einzigartige Kampfstile. Lily ist ein Nightkin-Tank, der in Jacobstown zu finden ist, während Raul ein Ghul-Mechaniker ist, der auf dem Black Mountain gefangen gehalten wird.
+
+#### Lilys Medikamenten-Dilemma
+Lily leidet aufgrund des langjährigen Gebrauchs von Stealth Boys an Schizophrenie. Sie können ihr Kampfverhalten ändern, indem Sie ihre Medikamentendosis anpassen:
+- **Volle Dosis**: Senkt den Nahkampf-Skill auf 60, aber sie erleidet nie psychotische Schübe.
+- **Halbe Dosis**: Standard-Kampfleistung; psychotische Schübe treten auf, wenn ihre Gesundheit unter 25% fällt.
+- **Keine Medikamente**: Nahkampfwaffen-Skill steigt auf 100, aber sie erleidet psychotische Schübe, sobald ihre Gesundheit unter 50% fällt.
+
+#### Rauls Karrierepfade
+Nachdem Sie Raul aus Tabithas Sendegebäude gerettet haben, können Sie *Alter Ghul, was nun?* auslösen, indem Sie mit drei älteren Ödländern sprechen: Loyal auf der Nellis Air Force Base, Corporal Sterling im Camp McCarran und Ranger Andy in Novac.
+- **Revolverheld-Pfad**: Raul zieht sein Vaquero-Outfit an und erhält den Perk **Old Vaquero** (+33% Feuerrate mit Revolvern und Unterhebelrepetierern).
+- **Mechaniker-Pfad**: Raul trägt seinen Petro-Chico-Anzug und wertet seinen Wartungs-Perk auf **Vollständige Wartung** auf (Ausrüstung verschleißt 75% langsamer).
+
+</Section>
+
+<Section icon={Trophy} title="Checkliste zum Fortschritt der Begleiter-Quests">
+
+Das Freischalten von Begleiter-Quests erfordert den Besuch bestimmter Orte, um Dialoge auszulösen. Nutzen Sie diese Checkliste, um sicherzustellen, dass Sie keine kritischen Trigger-Ereignisse verpassen.
+
+<Checklist
+  id="companion-triggers"
+  title="Wichtige Trigger-Orte für Begleiter:"
+  items={[
+    "Bringen Sie Arcade Ganon zur Absturzstelle des Vertibirds oder zu HELIOS One, um Geschichtspunkte zu sammeln.",
+    "Bringen Sie Craig Boone nach Cottonwood Cove, Nelson oder Camp McCarran, um Legion-Offiziere zu töten.",
+    "Lösen Sie ED-Es erstes Log aus, indem Sie mit der alten Lady Gibson auf ihrem Schrottplatz sprechen.",
+    "Führen Sie alle Dialoge mit Ranger Andy in Novac, während Raul in Ihrer aktiven Gruppe ist.",
+    "Bringen Sie Veronica zum Camp McCarran, nach Freeside oder zum REPCONN-Hauptquartier, um ihre Beobachtungen auszulösen."
+  ]}
+/>
+
+### Zuweisung von Geschichtspunkten
+
+Boone und Arcade benötigen 5 Geschichtspunkte, um ihre Quests zu initiieren. Nutzen Sie diese Tabelle, um Ihre Reiserouten zu planen.
+
+| Begleiter | Ereignisort | Erforderliche Aktion | Gewährte Punkte |
+| :--- | :--- | :--- | :--- |
+| **Craig Boone** | Das Fort | Töten Sie Caesar in seinem Zelt | 2 Punkte |
+| **Craig Boone** | Cottonwood Cove | Retten Sie die gefangenen RNK-Geiseln | 2 Punkte |
+| **Craig Boone** | Nelson | Töten Sie den Legion-Kommandanten Dead Sea | 2 Punkte |
+| **Arcade Ganon** | HELIOS One | Leiten Sie den Strom nach Freeside und Outer Vegas um | 1 Punkt |
+| **Arcade Ganon** | Camp McCarran | Sprechen Sie mit Dr. Thomas Hildern im Terminal | 1 Punkt |
+| **Arcade Ganon** | REPCONN HQ | Durchsuchen Sie das Erdgeschoss und lesen Sie die Terminaleinträge | 1 Punkt |
+
+<Callout type="info" title="Verfolgung der Geschichtspunkte">
+Punkte verfallen nicht mit der Zeit. Sie können sie langsam im Laufe Ihres Spieldurchgangs sammeln, aber Sie müssen den spezifischen Begleiter in dem Moment aktiv in Ihrer Gruppe haben, in dem die Aktion abgeschlossen wird.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Wie viele Fallout New Vegas Begleiter kann ich gleichzeitig haben?",
+    answer: "Sie können maximal zwei Begleiter gleichzeitig aktiv haben: einen humanoiden Begleiter (Arcade, Boone, Cass, Lily, Raul oder Veronica) und einen nicht-humanoiden Begleiter (ED-E oder Rex)."
+  },
+  {
+    question: "Ist es den Begleitern wichtig, wenn ich vor ihnen stehle oder morde?",
+    answer: "Den meisten Begleitern ist geringfügiger Diebstahl egal, aber Cass wird Ihre Gruppe dauerhaft verlassen, wenn Ihr Karma-Level zu niedrig wird (Böse oder Sehr Böse)."
+  },
+  {
+    question: "Können Begleiter Power-Rüstungen verwenden?",
+    answer: "Ja, aber nur, wenn sie das Power-Rüstungstraining in ihrem Hintergrund haben. Humanoide Begleiter wie Arcade Ganon und Veronica können Power-Rüstungen automatisch ausrüsten, weigern sich jedoch, Rüstungen gegnerischer Fraktionen zu tragen."
+  },
+  {
+    question: "Was passiert, wenn ein Begleiter im Kampf stirbt?",
+    answer: "Im Standard-Modus werden Begleiter im Kampf nur bewusstlos und stehen nach dem Ende des Kampfes wieder auf. Im Hardcore-Modus ist der Tod von Begleitern permanent."
+  }
+]} />
+
+<Callout type="tip" title="Optimales Ausrüstungs-Setup">
+Rüsten Sie Ihre Begleiter immer mit hochrangigen Waffen aus, die ihren spezialisierten Skills entsprechen. Humanoide Begleiter haben unendlich Munition für ihre Standardwaffen, aber wenn Sie ihnen individuelle Waffen geben, müssen Sie auch die entsprechende Munition bereitstellen.
+</Callout>
+
+</Section>

@@ -1,1 +1,542 @@
-{}
+{
+  "de": {
+    "builds": [
+      {
+        "slug": "Fallout-New-Vegas-best-skills",
+        "file": "Fallout-New-Vegas-best-skills"
+      },
+      {
+        "slug": "Fallout-New-Vegas-best-starting-stats",
+        "file": "Fallout-New-Vegas-best-starting-stats"
+      },
+      {
+        "slug": "Fallout-New-Vegas-builds",
+        "file": "Fallout-New-Vegas-builds"
+      },
+      {
+        "slug": "Fallout-New-Vegas-perks",
+        "file": "Fallout-New-Vegas-perks"
+      },
+      {
+        "slug": "Fallout-New-Vegas-traits",
+        "file": "Fallout-New-Vegas-traits"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "Fallout-New-Vegas-benny",
+        "file": "Fallout-New-Vegas-benny"
+      },
+      {
+        "slug": "Fallout-New-Vegas-boone",
+        "file": "Fallout-New-Vegas-boone"
+      },
+      {
+        "slug": "Fallout-New-Vegas-companions",
+        "file": "Fallout-New-Vegas-companions"
+      },
+      {
+        "slug": "Fallout-New-Vegas-joshua-graham",
+        "file": "Fallout-New-Vegas-joshua-graham"
+      },
+      {
+        "slug": "Fallout-New-Vegas-veronica",
+        "file": "Fallout-New-Vegas-veronica"
+      }
+    ],
+    "dlc": [
+      {
+        "slug": "Fallout-New-Vegas-dlc",
+        "file": "Fallout-New-Vegas-dlc"
+      },
+      {
+        "slug": "Fallout-New-Vegas-honest-hearts",
+        "file": "Fallout-New-Vegas-honest-hearts"
+      },
+      {
+        "slug": "Fallout-New-Vegas-old-world-blues",
+        "file": "Fallout-New-Vegas-old-world-blues"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Fallout-New-Vegas-beginner-guide",
+        "file": "Fallout-New-Vegas-beginner-guide"
+      },
+      {
+        "slug": "Fallout-New-Vegas-map",
+        "file": "Fallout-New-Vegas-map"
+      },
+      {
+        "slug": "Fallout-New-Vegas-power-armor-training",
+        "file": "Fallout-New-Vegas-power-armor-training"
+      },
+      {
+        "slug": "Fallout-New-Vegas-tips-and-tricks",
+        "file": "Fallout-New-Vegas-tips-and-tricks"
+      },
+      {
+        "slug": "Fallout-New-Vegas-vaults",
+        "file": "Fallout-New-Vegas-vaults"
+      },
+      {
+        "slug": "Fallout-New-Vegas-walkthrough",
+        "file": "Fallout-New-Vegas-walkthrough"
+      }
+    ],
+    "mods": [
+      {
+        "slug": "Fallout-New-Vegas-4gb-patcher",
+        "file": "Fallout-New-Vegas-4gb-patcher"
+      },
+      {
+        "slug": "Fallout-New-Vegas-graphics-overhaul",
+        "file": "Fallout-New-Vegas-graphics-overhaul"
+      },
+      {
+        "slug": "Fallout-New-Vegas-how-to-mod",
+        "file": "Fallout-New-Vegas-how-to-mod"
+      },
+      {
+        "slug": "Fallout-New-Vegas-in-fallout-4",
+        "file": "Fallout-New-Vegas-in-fallout-4"
+      },
+      {
+        "slug": "Fallout-New-Vegas-nexus",
+        "file": "Fallout-New-Vegas-nexus"
+      },
+      {
+        "slug": "Fallout-New-Vegas-script-extender",
+        "file": "Fallout-New-Vegas-script-extender"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "Fallout-New-Vegas-endings",
+        "file": "Fallout-New-Vegas-endings"
+      },
+      {
+        "slug": "Fallout-New-Vegas-quest-list",
+        "file": "Fallout-New-Vegas-quest-list"
+      },
+      {
+        "slug": "Fallout-New-Vegas-should-i-take-over-vegas",
+        "file": "Fallout-New-Vegas-should-i-take-over-vegas"
+      }
+    ]
+  },
+  "en": {
+    "builds": [
+      {
+        "slug": "Fallout-New-Vegas-best-skills",
+        "file": "Fallout-New-Vegas-best-skills"
+      },
+      {
+        "slug": "Fallout-New-Vegas-best-starting-stats",
+        "file": "Fallout-New-Vegas-best-starting-stats"
+      },
+      {
+        "slug": "Fallout-New-Vegas-builds",
+        "file": "Fallout-New-Vegas-builds"
+      },
+      {
+        "slug": "Fallout-New-Vegas-perks",
+        "file": "Fallout-New-Vegas-perks"
+      },
+      {
+        "slug": "Fallout-New-Vegas-traits",
+        "file": "Fallout-New-Vegas-traits"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "Fallout-New-Vegas-benny",
+        "file": "Fallout-New-Vegas-benny"
+      },
+      {
+        "slug": "Fallout-New-Vegas-boone",
+        "file": "Fallout-New-Vegas-boone"
+      },
+      {
+        "slug": "Fallout-New-Vegas-companions",
+        "file": "Fallout-New-Vegas-companions"
+      },
+      {
+        "slug": "Fallout-New-Vegas-joshua-graham",
+        "file": "Fallout-New-Vegas-joshua-graham"
+      },
+      {
+        "slug": "Fallout-New-Vegas-veronica",
+        "file": "Fallout-New-Vegas-veronica"
+      }
+    ],
+    "dlc": [
+      {
+        "slug": "Fallout-New-Vegas-dlc",
+        "file": "Fallout-New-Vegas-dlc"
+      },
+      {
+        "slug": "Fallout-New-Vegas-honest-hearts",
+        "file": "Fallout-New-Vegas-honest-hearts"
+      },
+      {
+        "slug": "Fallout-New-Vegas-old-world-blues",
+        "file": "Fallout-New-Vegas-old-world-blues"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Fallout-New-Vegas-beginner-guide",
+        "file": "Fallout-New-Vegas-beginner-guide"
+      },
+      {
+        "slug": "Fallout-New-Vegas-map",
+        "file": "Fallout-New-Vegas-map"
+      },
+      {
+        "slug": "Fallout-New-Vegas-power-armor-training",
+        "file": "Fallout-New-Vegas-power-armor-training"
+      },
+      {
+        "slug": "Fallout-New-Vegas-tips-and-tricks",
+        "file": "Fallout-New-Vegas-tips-and-tricks"
+      },
+      {
+        "slug": "Fallout-New-Vegas-vaults",
+        "file": "Fallout-New-Vegas-vaults"
+      },
+      {
+        "slug": "Fallout-New-Vegas-walkthrough",
+        "file": "Fallout-New-Vegas-walkthrough"
+      }
+    ],
+    "mods": [
+      {
+        "slug": "Fallout-New-Vegas-4gb-patcher",
+        "file": "Fallout-New-Vegas-4gb-patcher"
+      },
+      {
+        "slug": "Fallout-New-Vegas-graphics-overhaul",
+        "file": "Fallout-New-Vegas-graphics-overhaul"
+      },
+      {
+        "slug": "Fallout-New-Vegas-how-to-mod",
+        "file": "Fallout-New-Vegas-how-to-mod"
+      },
+      {
+        "slug": "Fallout-New-Vegas-in-fallout-4",
+        "file": "Fallout-New-Vegas-in-fallout-4"
+      },
+      {
+        "slug": "Fallout-New-Vegas-mods",
+        "file": "Fallout-New-Vegas-mods"
+      },
+      {
+        "slug": "Fallout-New-Vegas-nexus",
+        "file": "Fallout-New-Vegas-nexus"
+      },
+      {
+        "slug": "Fallout-New-Vegas-script-extender",
+        "file": "Fallout-New-Vegas-script-extender"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "Fallout-New-Vegas-endings",
+        "file": "Fallout-New-Vegas-endings"
+      },
+      {
+        "slug": "Fallout-New-Vegas-quest-list",
+        "file": "Fallout-New-Vegas-quest-list"
+      },
+      {
+        "slug": "Fallout-New-Vegas-should-i-take-over-vegas",
+        "file": "Fallout-New-Vegas-should-i-take-over-vegas"
+      }
+    ],
+    "remaster": [
+      {
+        "slug": "Fallout-New-Vegas-2",
+        "file": "Fallout-New-Vegas-2"
+      },
+      {
+        "slug": "Fallout-New-Vegas-ps5",
+        "file": "Fallout-New-Vegas-ps5"
+      },
+      {
+        "slug": "Fallout-New-Vegas-release-date",
+        "file": "Fallout-New-Vegas-release-date"
+      },
+      {
+        "slug": "Fallout-New-Vegas-remaster",
+        "file": "Fallout-New-Vegas-remaster"
+      },
+      {
+        "slug": "Fallout-New-Vegas-steam",
+        "file": "Fallout-New-Vegas-steam"
+      },
+      {
+        "slug": "Fallout-New-Vegas-ultimate-edition",
+        "file": "Fallout-New-Vegas-ultimate-edition"
+      }
+    ],
+    "weapons": [
+      {
+        "slug": "Fallout-New-Vegas-armor",
+        "file": "Fallout-New-Vegas-armor"
+      },
+      {
+        "slug": "Fallout-New-Vegas-best-weapons",
+        "file": "Fallout-New-Vegas-best-weapons"
+      },
+      {
+        "slug": "Fallout-New-Vegas-ncr-ranger-armor",
+        "file": "Fallout-New-Vegas-ncr-ranger-armor"
+      },
+      {
+        "slug": "Fallout-New-Vegas-power-armor",
+        "file": "Fallout-New-Vegas-power-armor"
+      },
+      {
+        "slug": "Fallout-New-Vegas-weapons",
+        "file": "Fallout-New-Vegas-weapons"
+      }
+    ]
+  },
+  "es": {
+    "builds": [
+      {
+        "slug": "Fallout-New-Vegas-best-skills",
+        "file": "Fallout-New-Vegas-best-skills"
+      },
+      {
+        "slug": "Fallout-New-Vegas-best-starting-stats",
+        "file": "Fallout-New-Vegas-best-starting-stats"
+      },
+      {
+        "slug": "Fallout-New-Vegas-builds",
+        "file": "Fallout-New-Vegas-builds"
+      },
+      {
+        "slug": "Fallout-New-Vegas-perks",
+        "file": "Fallout-New-Vegas-perks"
+      },
+      {
+        "slug": "Fallout-New-Vegas-traits",
+        "file": "Fallout-New-Vegas-traits"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "Fallout-New-Vegas-benny",
+        "file": "Fallout-New-Vegas-benny"
+      },
+      {
+        "slug": "Fallout-New-Vegas-boone",
+        "file": "Fallout-New-Vegas-boone"
+      },
+      {
+        "slug": "Fallout-New-Vegas-companions",
+        "file": "Fallout-New-Vegas-companions"
+      },
+      {
+        "slug": "Fallout-New-Vegas-joshua-graham",
+        "file": "Fallout-New-Vegas-joshua-graham"
+      },
+      {
+        "slug": "Fallout-New-Vegas-veronica",
+        "file": "Fallout-New-Vegas-veronica"
+      }
+    ],
+    "dlc": [
+      {
+        "slug": "Fallout-New-Vegas-dlc",
+        "file": "Fallout-New-Vegas-dlc"
+      },
+      {
+        "slug": "Fallout-New-Vegas-honest-hearts",
+        "file": "Fallout-New-Vegas-honest-hearts"
+      },
+      {
+        "slug": "Fallout-New-Vegas-old-world-blues",
+        "file": "Fallout-New-Vegas-old-world-blues"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Fallout-New-Vegas-beginner-guide",
+        "file": "Fallout-New-Vegas-beginner-guide"
+      },
+      {
+        "slug": "Fallout-New-Vegas-map",
+        "file": "Fallout-New-Vegas-map"
+      },
+      {
+        "slug": "Fallout-New-Vegas-power-armor-training",
+        "file": "Fallout-New-Vegas-power-armor-training"
+      },
+      {
+        "slug": "Fallout-New-Vegas-tips-and-tricks",
+        "file": "Fallout-New-Vegas-tips-and-tricks"
+      },
+      {
+        "slug": "Fallout-New-Vegas-vaults",
+        "file": "Fallout-New-Vegas-vaults"
+      },
+      {
+        "slug": "Fallout-New-Vegas-walkthrough",
+        "file": "Fallout-New-Vegas-walkthrough"
+      }
+    ],
+    "mods": [
+      {
+        "slug": "Fallout-New-Vegas-4gb-patcher",
+        "file": "Fallout-New-Vegas-4gb-patcher"
+      },
+      {
+        "slug": "Fallout-New-Vegas-graphics-overhaul",
+        "file": "Fallout-New-Vegas-graphics-overhaul"
+      },
+      {
+        "slug": "Fallout-New-Vegas-how-to-mod",
+        "file": "Fallout-New-Vegas-how-to-mod"
+      },
+      {
+        "slug": "Fallout-New-Vegas-in-fallout-4",
+        "file": "Fallout-New-Vegas-in-fallout-4"
+      },
+      {
+        "slug": "Fallout-New-Vegas-nexus",
+        "file": "Fallout-New-Vegas-nexus"
+      },
+      {
+        "slug": "Fallout-New-Vegas-script-extender",
+        "file": "Fallout-New-Vegas-script-extender"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "Fallout-New-Vegas-endings",
+        "file": "Fallout-New-Vegas-endings"
+      },
+      {
+        "slug": "Fallout-New-Vegas-quest-list",
+        "file": "Fallout-New-Vegas-quest-list"
+      },
+      {
+        "slug": "Fallout-New-Vegas-should-i-take-over-vegas",
+        "file": "Fallout-New-Vegas-should-i-take-over-vegas"
+      }
+    ]
+  },
+  "ru": {
+    "builds": [
+      {
+        "slug": "Fallout-New-Vegas-best-starting-stats",
+        "file": "Fallout-New-Vegas-best-starting-stats"
+      },
+      {
+        "slug": "Fallout-New-Vegas-builds",
+        "file": "Fallout-New-Vegas-builds"
+      },
+      {
+        "slug": "Fallout-New-Vegas-perks",
+        "file": "Fallout-New-Vegas-perks"
+      },
+      {
+        "slug": "Fallout-New-Vegas-traits",
+        "file": "Fallout-New-Vegas-traits"
+      }
+    ],
+    "characters": [
+      {
+        "slug": "Fallout-New-Vegas-benny",
+        "file": "Fallout-New-Vegas-benny"
+      },
+      {
+        "slug": "Fallout-New-Vegas-companions",
+        "file": "Fallout-New-Vegas-companions"
+      },
+      {
+        "slug": "Fallout-New-Vegas-joshua-graham",
+        "file": "Fallout-New-Vegas-joshua-graham"
+      },
+      {
+        "slug": "Fallout-New-Vegas-veronica",
+        "file": "Fallout-New-Vegas-veronica"
+      }
+    ],
+    "dlc": [
+      {
+        "slug": "Fallout-New-Vegas-dlc",
+        "file": "Fallout-New-Vegas-dlc"
+      },
+      {
+        "slug": "Fallout-New-Vegas-honest-hearts",
+        "file": "Fallout-New-Vegas-honest-hearts"
+      },
+      {
+        "slug": "Fallout-New-Vegas-old-world-blues",
+        "file": "Fallout-New-Vegas-old-world-blues"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "Fallout-New-Vegas-beginner-guide",
+        "file": "Fallout-New-Vegas-beginner-guide"
+      },
+      {
+        "slug": "Fallout-New-Vegas-map",
+        "file": "Fallout-New-Vegas-map"
+      },
+      {
+        "slug": "Fallout-New-Vegas-power-armor-training",
+        "file": "Fallout-New-Vegas-power-armor-training"
+      },
+      {
+        "slug": "Fallout-New-Vegas-tips-and-tricks",
+        "file": "Fallout-New-Vegas-tips-and-tricks"
+      },
+      {
+        "slug": "Fallout-New-Vegas-vaults",
+        "file": "Fallout-New-Vegas-vaults"
+      },
+      {
+        "slug": "Fallout-New-Vegas-walkthrough",
+        "file": "Fallout-New-Vegas-walkthrough"
+      }
+    ],
+    "mods": [
+      {
+        "slug": "Fallout-New-Vegas-graphics-overhaul",
+        "file": "Fallout-New-Vegas-graphics-overhaul"
+      },
+      {
+        "slug": "Fallout-New-Vegas-in-fallout-4",
+        "file": "Fallout-New-Vegas-in-fallout-4"
+      },
+      {
+        "slug": "Fallout-New-Vegas-nexus",
+        "file": "Fallout-New-Vegas-nexus"
+      },
+      {
+        "slug": "Fallout-New-Vegas-script-extender",
+        "file": "Fallout-New-Vegas-script-extender"
+      }
+    ],
+    "quests": [
+      {
+        "slug": "Fallout-New-Vegas-endings",
+        "file": "Fallout-New-Vegas-endings"
+      },
+      {
+        "slug": "Fallout-New-Vegas-quest-list",
+        "file": "Fallout-New-Vegas-quest-list"
+      },
+      {
+        "slug": "Fallout-New-Vegas-should-i-take-over-vegas",
+        "file": "Fallout-New-Vegas-should-i-take-over-vegas"
+      }
+    ]
+  }
+}

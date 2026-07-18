@@ -1,1 +1,12 @@
-{}
+{
+  "nav": {
+    "guide": "Leitfaden",
+    "builds": "Builds",
+    "weapons": "Waffen",
+    "characters": "Charaktere",
+    "quests": "Quests",
+    "mods": "Mods",
+    "dlc": "DLC",
+    "remaster": "Remaster"
+  }
+}

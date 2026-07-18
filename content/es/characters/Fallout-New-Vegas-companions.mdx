@@ -1,0 +1,223 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Compañeros de Fallout New Vegas: Guía de Reclutamiento y Ventajas",
+  description: "Desbloquea a los 8 compañeros de Fallout New Vegas. Aprende las ubicaciones de reclutamiento, activadores de misiones personales, mejores mejoras y combinaciones óptimas de ventajas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a0f05/fff?text=Fallout+New+Vegas+Companions",
+  date: "2026-07-18",
+  author: "Equipo de la Wiki de Fallout New Vegas"
+}
+
+<Callout type="info" title="Guía rápida">
+- Los **compañeros de Fallout New Vegas** consisten en **ocho seguidores permanentes** repartidos por el Yermo de Mojave.
+- La **composición del grupo** te permite viajar con **un compañero humanoide** y **un compañero no humanoide** simultáneamente.
+- Las **ventajas únicas** se desbloquean inmediatamente al reclutarlos, proporcionando bonificaciones pasivas de combate y utilidad.
+- La **alineación con facciones** es crítica, ya que ciertos compañeros te abandonarán permanentemente si apoyas a la Legión de César o si obtienes reputación negativa con sus facciones.
+- Las **misiones personales** ofrecen poderosas mejoras de equipo o aumentos de estadísticas dependiendo de tus decisiones en los diálogos.
+</Callout>
+
+<Section icon={Map} title="Descripción general de los compañeros de Fallout New Vegas">
+
+Viajar solo por el Yermo de Mojave es una tarea peligrosa. Reclutar **compañeros de Fallout New Vegas** no solo proporciona un apoyo de fuego esencial, sino que también otorga ventajas pasivas únicas que pueden alterar completamente la eficiencia de tu configuración. Puedes tener un máximo de dos seguidores activos en cualquier momento: un compañero humanoide y un compañero no humanoide (ya sea ED-E o Rex).
+
+Gestionar a tus compañeros requiere entender sus lealtades a las facciones. Los compañeros humanoides se negarán a usar armaduras de facción a menos que se alineen con su propio grupo, y te abandonarán activamente si te alías con facciones rivales como la Legión de César.
+
+**Puntos destacados del vídeo:**
+- **Límites del grupo**: Aprende a gestionar el límite de un compañero humanoide y uno no humanoide.
+- **Detalles de reclutamiento**: Ubicaciones paso a paso y requisitos de habilidades para los ocho compañeros.
+- **Activadores de misiones**: Cómo acumular "puntos de historia" ocultos para iniciar las misiones personales de los compañeros.
+- **Rutas de mejora**: Un desglose de los cambios cosméticos y mecánicos para las recompensas finales de los compañeros.
+
+<YouTubeEmbed videoId="A2NZ6-wav3Y" title="Fallout New Vegas - Guía de todos los compañeros" />
+
+### Referencia rápida de compañeros
+
+Esta tabla de referencia describe dónde encontrar a cada seguidor, su tipo de combate base y la ventaja pasiva que proporcionan a tu personaje.
+
+| Compañero | Ubicación | Tipo de compañero | Ventaja pasiva |
+| :--- | :--- | :--- | :--- |
+| **Arcade Ganon** | Old Mormon Fort (Freeside) | Humanoide | Mejor curación (+20% salud de consumibles) |
+| **Craig Boone** | Novac (Dinky el Dinosaurio) | Humanoide | Observador (Los enemigos brillan en rojo al apuntar) |
+| **ED-E** | Primm (Mojave Express) | No humanoide | Sensores mejorados (Detección de radar de largo alcance) |
+| **Lily Bowen** | Jacobstown | Humanoide | Chica sigilo (2x duración de sigiloboy) |
+| **Raul Tejada** | Black Mountain | Humanoide | Mantenimiento regular (50% más lento el deterioro del equipo) |
+| **Rex** | Freeside (La escuela del Rey) | No humanoide | Buscar y marcar (Resalta botín cercano) |
+| **Rose of Sharon Cassidy** | Puesto de avanzada de Mojave | Humanoide | Chica whisky (El alcohol da bonificaciones de RD, ignora penalizaciones) |
+| **Veronica Santangelo** | Puesto comercial 188 | Humanoide | Asistente de escriba (Banco de trabajo portátil) |
+
+<Callout type="warning" title="Advertencia de hostilidad de facción">
+Aliarse con la Legión de César hará que Arcade Ganon y Craig Boone se vuelvan hostiles o te abandonen permanentemente. Completa siempre sus misiones personales antes de tomar decisiones importantes en la trama en la Presa Hoover.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Compañeros humanoides y misiones personales">
+
+Cada compañero humanoide tiene una historia de fondo compleja que se desbloquea a través de una misión personal. Estas misiones se activan visitando lugares específicos o hablando con ciertos PNJ para acumular "puntos de afinidad" ocultos.
+
+### Detalles de reclutamiento y misiones
+
+Para optimizar tu viaje, debes comprender las condiciones de reclutamiento y los resultados de las misiones de los cuatro seguidores humanoides principales.
+
+<CardGrid cols={2}>
+  <Card title="Arcade Ganon">
+    - **Reclutamiento**: Habla con él en el Old Mormon Fort. Requiere alta reputación con los Seguidores, una prueba de Conversación o una configuración de personaje de baja Inteligencia.
+    - **Misión**: *For Auld Lang Syne*. Se activa al ganar 5 puntos de historia o avanzar en la línea de misiones principal del final del juego.
+    - **Recompensas**: Armadura potenciada de los restos o Armadura Tesla de la familia Gannon.
+  </Card>
+  <Card title="Craig Boone">
+    - **Reclutamiento**: Completa *One for My Baby* en Novac demostrando que Jenny May Crawford vendió a su esposa como esclava.
+    - **Misión**: *I Forgot to Remember to Forget*. Se activa al ganar 5 puntos de historia matando miembros de la Legión.
+    - **Recompensas**: Armadura de supervivencia de Primera Reconocimiento o Armadura de asalto de Primera Reconocimiento.
+  </Card>
+  <Card title="Rose of Sharon Cassidy (Cass)">
+    - **Reclutamiento**: Trabaja para la Caravana Crimson, luego convéncela de vender su caravana en el Puesto de avanzada de Mojave.
+    - **Misión**: *Heartache by the Number*. Investiga tres sitios de caravanas destruidas.
+    - **Recompensas**: Mano de venganza (+15% daño de armas de fuego) o Corazón tranquilo (+50 salud máxima).
+  </Card>
+  <Card title="Veronica Santangelo">
+    - **Reclutamiento**: Habla con ella en el Puesto comercial 188. No expreses odio hacia la Hermandad del Acero.
+    - **Misión**: *I Could Make You Care*. Presenta tecnología avanzada al Anciano McNamara.
+    - **Recompensas**: Lazos de acero (+4 RD) o Rebelde sin causa (+30% velocidad de ataque sin armas).
+  </Card>
+</CardGrid>
+
+### Resultados de las decisiones en misiones
+
+Las decisiones que tomes al final de las misiones de los compañeros alteran permanentemente sus capacidades de combate y su equipo. Usa este desglose para planificar tu configuración.
+
+| Compañero | Ruta de elección | Ventaja de recompensa | Beneficio mecánico |
+| :--- | :--- | :--- | :--- |
+| **Arcade Ganon** | Luchar en la Presa Hoover | Armadura potenciada de los restos | Conjunto de armadura de alta defensa regalado por Daisy Whitman |
+| **Arcade Ganon** | Quedarse en Freeside | Armadura Tesla de la familia Gannon | Conjunto de armadura Tesla (+10 armas de energía, +20 resistencia a radiación) |
+| **Craig Boone** | Ruta del arrepentimiento | Supervivencia de Primera Reconocimiento | Conjunto de armadura mejorado enfocado en estadísticas de supervivencia |
+| **Craig Boone** | Ruta sedienta de sangre | Asalto de Primera Reconocimiento | Conjunto de armadura mejorado enfocado en estadísticas ofensivas |
+| **Cass** | Matar a los conspiradores | Mano de venganza | Bonificación permanente de +15% de daño con todas las armas de fuego |
+| **Cass** | Entregar pruebas | Corazón tranquilo | Bonificación permanente de +50 de salud máxima |
+| **Veronica** | Quedarse con la Hermandad | Lazos de acero | +4 Umbral de Daño (RD) pasivo para Veronica |
+| **Veronica** | Dejar la Hermandad | Rebelde sin causa | +30% velocidad de ataque sin armas pasivo para Veronica |
+
+<Callout type="tip" title="Maximizando la ventaja de Cass">
+Si prefieres una configuración de armas de fuego, elige la ruta vengativa en *Heartache by the Number* para asegurar la ventaja Mano de venganza. Para configuraciones de supervivencia o modo hardcore, recopilar pruebas para la ventaja Corazón tranquilo es muy recomendable.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Compañeros no humanoides y de utilidad">
+
+Los compañeros no humanoides proporcionan una utilidad excelente y no te impiden reclutar seguidores humanos. ED-E y Rex son las dos opciones disponibles en el Mojave.
+
+### ED-E: El Eyebot Duraframe
+ED-E se encuentra en un mostrador dentro del edificio de Mojave Express en Primm. Puedes repararlo usando una habilidad de Reparación de 65, una habilidad de Ciencia de 55 (lo que reduce el requisito de Reparación a 35), o recolectando piezas de chatarra específicas.
+
+<Steps>
+  <Step num="1" title="Reunir materiales de reparación">
+    Recolecta 1 chatarra electrónica, 2 módulos sensores y 3 trozos de chatarra metálica. Estos se pueden obtener fácilmente en Lone Wolf Radio.
+  </Step>
+  <Step num="2" title="Activar registros de audio">
+    Habla con personajes que discutan sobre tecnología o el Enclave (como la Vieja Dama Gibson o Ignacio Rivas) para desbloquear los registros de audio ocultos de ED-E.
+  </Step>
+  <Step num="3" title="Elegir una ruta de mejora">
+    Entrega a ED-E a la Hermandad del Acero (Lorenzo) para una mejora de armadura, o a los Seguidores del Apocalipsis (April Mortimer) para una mejora de arma.
+  </Step>
+</Steps>
+
+### Rex: El Ciberperro
+Rex es propiedad del Rey en Freeside. Para reclutarlo, completa la misión *G.I. Blues* y pregúntale al Rey sobre la condición degenerativa del cerebro de su perro para comenzar *Nothin' But a Hound Dog*.
+
+| Donante de cerebro | Ubicación | Obtenido vía | Ventaja de recompensa | Beneficio |
+| :--- | :--- | :--- | :--- | :--- |
+| **Rey** | Desguace de Gibson | Compra por 700 chapas o prueba de Trueque 70 | Cerebro de Lupa | +25 Daño de ataque cuerpo a cuerpo |
+| **Lupa** | El Fuerte (Legión) | Derrota a Lupa en la Arena | Sangre de la Legión | +10 Umbral de Daño (RD) |
+| **Violetta** | Campamento de Violet | Mata a la líder de los Demonios, Violet | Rastreador inquebrantable | +50% velocidad de movimiento |
+
+<Callout type="success" title="Recomendación de configuración de sigilo">
+Para personajes enfocados en sigilo, emparejar a Lily Bowen (ventaja Chica sigilo) con ED-E (Sensores mejorados) te permite detectar enemigos desde distancias extremas y ejecutar críticos de ataque furtivo con un 10% de bonificación de daño.
+</Callout>
+
+### Lily Bowen y Raul Tejada
+
+Lily y Raul ofrecen estilos de combate únicos. Lily es una tanque Supermutante nocturna encontrada en Jacobstown, mientras que Raul es un necrófago mecánico encarcelado en Black Mountain.
+
+#### El dilema de la medicina de Lily
+Lily sufre de esquizofrenia debido al uso prolongado de Sigiloboy. Puedes modificar su comportamiento de combate ajustando su dosis de medicina:
+- **Dosis completa**: Reduce la habilidad cuerpo a cuerpo a 60, pero nunca sufre crisis psicóticas.
+- **Media dosis**: Rendimiento de combate estándar; las crisis psicóticas ocurren cuando su salud cae por debajo del 25%.
+- **Sin medicina**: La habilidad de armas cuerpo a cuerpo aumenta a 100, pero sufre crisis psicóticas siempre que su salud cae por debajo del 50%.
+
+#### Caminos profesionales de Raul
+Después de rescatar a Raul del edificio de transmisiones de Tabitha, puedes activar *Old School Ghoul* hablando con tres ancianos del yermo: Loyal en la Base Aérea Nellis, el Cabo Sterling en Camp McCarran y el Ranger Andy en Novac.
+- **Ruta del Pistolero**: Raul se pone su atuendo de Vaquero, ganando la ventaja **Viejo Vaquero** (+33% cadencia de fuego con revólveres y rifles de palanca).
+- **Ruta del Mecánico**: Raul usa su mono de Petro-Chico, mejorando su ventaja de mantenimiento a **Mantenimiento completo** (el equipo se degrada un 75% más lento).
+
+</Section>
+
+<Section icon={Trophy} title="Lista de control de progreso de misiones de compañeros">
+
+Desbloquear las misiones de los compañeros requiere visitar ubicaciones específicas para activar diálogos. Usa esta lista de control para asegurarte de no perderte eventos críticos.
+
+<Checklist
+  id="companion-triggers"
+  title="Ubicaciones clave de activación de compañeros:"
+  items={[
+    "Lleva a Arcade Ganon al sitio del Vertibird estrellado o Helios One para ganar puntos de historia.",
+    "Lleva a Craig Boone a Cottonwood Cove, Nelson o Camp McCarran para matar oficiales de la Legión.",
+    "Activa el primer registro de ED-E hablando con la Vieja Dama Gibson en su desguace.",
+    "Agotar el diálogo con el Ranger Andy en Novac mientras Raul está en tu grupo activo.",
+    "Lleva a Veronica a Camp McCarran, Freeside o la sede de REPCONN para activar sus observaciones."
+  ]}
+/>
+
+### Asignación de puntos de historia
+
+Boone y Arcade requieren 5 puntos de historia para iniciar sus misiones. Usa esta tabla para planificar tus rutas de viaje.
+
+| Compañero | Ubicación del evento | Acción requerida | Puntos otorgados |
+| :--- | :--- | :--- | :--- |
+| **Craig Boone** | El Fuerte | Matar a César en su tienda | 2 puntos |
+| **Craig Boone** | Cottonwood Cove | Rescatar a los rehenes de la RNC capturados | 2 puntos |
+| **Craig Boone** | Nelson | Matar al comandante de la Legión, Dead Sea | 2 puntos |
+| **Arcade Ganon** | Helios One | Redirigir energía a Freeside y Outer Vegas | 1 punto |
+| **Arcade Ganon** | Camp McCarran | Hablar con el Dr. Thomas Hildern dentro de la terminal | 1 punto |
+| **Arcade Ganon** | Sede REPCONN | Buscar en el piso principal y leer entradas de terminales | 1 punto |
+
+<Callout type="info" title="Seguimiento de puntos de historia">
+Los puntos no disminuyen con el tiempo. Puedes acumularlos lentamente durante tu partida, pero debes tener al compañero específico activo en tu grupo en el momento exacto en que se completa la acción.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cuántos compañeros de Fallout New Vegas puedo tener al mismo tiempo?",
+    answer: "Puedes tener un máximo de dos compañeros activos a la vez: un compañero humanoide (Arcade, Boone, Cass, Lily, Raul o Veronica) y un compañero no humanoide (ED-E o Rex)."
+  },
+  {
+    question: "¿Les importa a los compañeros si robo o asesino frente a ellos?",
+    answer: "A la mayoría de los compañeros no les importa el robo menor, pero Cass abandonará tu grupo permanentemente si tu nivel general de Karma se vuelve demasiado bajo (Malvado o Muy Malvado)."
+  },
+  {
+    question: "¿Pueden los compañeros usar armadura potenciada?",
+    answer: "Sí, pero solo si tienen el trasfondo de entrenamiento en armadura potenciada. Los compañeros humanoides como Arcade Ganon y Veronica pueden equipar armadura potenciada automáticamente, pero se negarán a usar armaduras asociadas con facciones opuestas."
+  },
+  {
+    question: "¿Qué pasa si un compañero muere en combate?",
+    answer: "En el modo estándar, los compañeros solo quedan inconscientes durante el combate y se recuperarán después de que termine la pelea. En el Modo Hardcore, las muertes de los compañeros son permanentes."
+  }
+]} />
+
+<Callout type="tip" title="Configuración de equipo óptima">
+Equipa siempre a tus compañeros con armas de alto nivel que coincidan con sus habilidades etiquetadas. Los compañeros humanoides tienen munición infinita para sus armas predeterminadas, pero si les das armas personalizadas, también debes suministrar la munición adecuada.
+</Callout>
+
+</Section>

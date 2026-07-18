@@ -1,0 +1,179 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mejora Gráfica de Fallout New Vegas: Guía de Configuración Vanilla",
+  description: "Moderniza tu experiencia en el Yermo de Mojave con nuestra guía de mejora gráfica para Fallout New Vegas. Aprende a instalar texturas e iluminación respetuosas con el estilo original.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Graphics+Overhaul+Guide",
+  date: "2026-07-18",
+  author: "Equipo de la Wiki de Fallout New Vegas",
+  keywords: "Fallout New Vegas, mejora gráfica, texturas, iluminación, mods vanilla"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Mejora gráfica de Fallout New Vegas**: Moderniza la estética visual preservando totalmente la atmósfera postapocalíptica original.
+- **Resolución de texturas**: Prioriza texturas 2K sobre las 4K para evitar fallos de memoria en el motor antiguo.
+- **Configuración de iluminación**: Elimina el fuerte tinte amarillo de la pantalla para lograr instantáneamente una profundidad ambiental realista.
+- **Generación de LOD**: Utiliza archivos de nivel de detalle pregenerados para eliminar la distracción de objetos que aparecen de repente a lo lejos.
+- **Orden de mods**: Instala siempre las modificaciones de interfaz antes que los paquetes pesados de texturas ambientales.
+</Callout>
+
+<Section icon={Sparkles} title="Conceptos Clave de una Mejora Gráfica para Fallout New Vegas">
+
+Lograr un aspecto moderno en el Yermo de Mojave no requiere ajustes preestablecidos de ENB pesados que destruyen el rendimiento, ni filtros de color sobresaturados. Muchas guías visuales en internet proponen configuraciones que arruinan por completo la dirección artística original del juego, resultando en un contraste cegador y paletas de colores poco naturales. Una verdadera mejora gráfica de Fallout New Vegas, fiel al estilo original (vanilla-friendly), se centra en mejorar la calidad estética existente del juego. Al escalar texturas borrosas, modernizar la interfaz de usuario e introducir plantillas de iluminación realistas, puedes hacer que el juego se vea notablemente limpio y contemporáneo sin perder su icónico encanto postapocalíptico.
+
+**Puntos Clave del Vídeo:**
+- **Preservación del estilo original**: Aprende por qué mantener la paleta de colores original intacta es superior a los ajustes sobresaturados.
+- **Escalado de texturas**: Comprende los beneficios de estabilidad al utilizar texturas de resolución 2K frente a las inestables variantes 4K.
+- **Impacto de la iluminación**: Descubre cómo eliminar el tinte de pantalla predeterminado transforma completamente la sensación de escala del juego.
+- **Equilibrio de rendimiento**: Explora técnicas para modernizar la fidelidad visual sin bajar de los 60 fotogramas por segundo.
+
+<YouTubeEmbed videoId="xSnucXCUCaE" title="Cómo DEBERÍAN haber sido los GRÁFICOS en Fallout New Vegas (Mods respetuosos con el estilo original)" />
+
+Para construir una base visual sólida, debes combinar varios paquetes de texturas específicos. En lugar de confiar en un único mod "todo en uno" que podría sobrescribir archivos críticos de forma incorrecta, un enfoque por piezas ofrece resultados más estables y visualmente cohesivos. La siguiente tabla detalla los principales paquetes de texturas necesarios para una base visual de alto rendimiento.
+
+| Nombre del Paquete | Área de Enfoque | Resolución Recomendada | Beneficio Clave |
+|--- |--- |--- |--- |
+| NMC's Texture Pack | Interiores, carreteras y conjuntos de baldosas de paisaje | 2K | Superficies ambientales nítidas sin cambios estilísticos |
+| Ojo Bueno | Vehículos, maquinaria y objetos de desorden específicos | 2K | Mapas normales detallados y de alta calidad en superficies duras |
+| Char's FMV HD | Paisaje original, arquitectura y armas | 2K | Activos escalados que coinciden perfectamente con los diseños originales |
+| Landscape Texture Improvements | Costuras del terreno y mezcla de suelos | Nativa | Elimina líneas visibles y errores de repetición en la tierra |
+
+<Callout type="tip" title="Consejo para la Selección de Texturas">
+Aunque las texturas 4K se ven increíblemente nítidas en las capturas de pantalla, el motor de 32 bits del juego tiene dificultades con la asignación de memoria pesada. Mantenerse en texturas 2K garantiza que el juego permanezca estable durante largas sesiones de juego, ofreciendo una calidad visual prácticamente indistinguible durante la partida activa.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Orden de Instalación de Mods Paso a Paso">
+
+Modificar el motor antiguo requiere una secuencia de instalación precisa para evitar conflictos de archivos, errores visuales y bloqueos del juego. Al instalar texturas y elementos de interfaz, utiliza siempre un gestor de mods moderno como Mod Organizer 2 para gestionar de forma segura las prioridades de sobrescritura. Los siguientes pasos describen el flujo de trabajo perfecto para configurar tus modificaciones visuales desde cero.
+
+<Steps>
+  <Step num="1" title="Interfaz y Escalado de Vídeo">
+    Comienza modernizando los elementos que ves incluso antes de entrar al juego. Instala All-in-One Interface Upscale junto con pantallas de carga en HD para eliminar activos de menú borrosos. Sigue con el mod Game Intro AI Upscaled para experimentar la cinemática inicial a unos fluidos 60 fotogramas por segundo. Finalmente, aplica Vanilla UI+ y Consistent Pip Boy Icons Collection para limpiar el HUD y los menús del juego.
+  </Step>
+  <Step num="2" title="Mejoras de Modelos de Personajes y PNJ">
+    Para dar vida a los personajes del Mojave sin alterar sus rasgos faciales reconocibles, utiliza una combinación de mods de personajes específicos. Instala Hollow of Face para mejorar las texturas de cara, cabello y ojos. Combínalo con Improved Vanilla Male Body para eliminar las antiestéticas costuras en el cuello y las muñecas. Completa este paso con Character Kit Remakes para reconstruir los peinados originales con un recuento de polígonos moderno y alto.
+  </Step>
+  <Step num="3" title="Texturas de Entorno y Objetos">
+    Instala tus paquetes de texturas principales en un orden de sobrescritura específico. Primero, despliega NMC's Texture Pack, seguido del paquete de texturas Ojo Bueno. A continuación, aplica el paquete Char's FMV HD para texturas de paisaje y arquitectura mejoradas. Termina este paso instalando Landscape Texture Improvements y una textura de roca original consistente para eliminar el tinte verde antinatural de los escombros de los cañones y las caras de los acantilados.
+  </Step>
+  <Step num="4" title="Configuración Atmosférica y de Iluminación">
+    Con las texturas en su lugar, aborda la iluminación ambiental. Instala el mod Yellow Goodbye para eliminar el filtro de pantalla intenso e irreal. Superpón esto con General Lighting Overhaul para iluminar dinámicamente los paisajes diurnos y oscurecer las noches. Finalmente, instala Atmospheric Lighting Tweaks y Lumen Ambient Lighting para que las fuentes de luz interiores emitan brillos realistas y atmosféricos.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Conflictos Críticos de Archivos">
+Al instalar NMC's Texture Pack y Ojo Bueno juntos, debes eliminar manualmente los archivos de objetos (clutter) en conflicto en tus carpetas de mods. Las texturas superpuestas de contenedores y objetos pueden causar parpadeos visuales graves y bloqueos ocasionales al entrar en celdas interiores muy detalladas.
+</Callout>
+
+Para asegurar que el escalado de tu interfaz de usuario funcione correctamente con las nuevas texturas de alta resolución, verifica que tus mods de IU activos coincidan con las especificaciones listadas a continuación.
+
+| Nombre del Mod | Función Primaria | Compatibilidad de IU | Ajuste Recomendado |
+|--- |--- |--- |--- |
+| Vanilla UI+ | Limpia los diseños del HUD y los menús | Alta | Escalado predeterminado habilitado |
+| Pip Boy 2000 | Reemplaza el modelo antiguo del Pip-Boy 3000 | Alta | Variante de resolución 2K |
+| High Resolution Screens | Mejora la resolución de las terminales del juego | Alta | Coincidir con la relación de aspecto nativa del monitor |
+| Consistent Pip Boy Icons | Remasteriza cada icono de inventario y mapa | Alta | Instalar después del framework de IU |
+
+</Section>
+
+<Section icon={Shield} title="Ajustes Avanzados de Iluminación y Atmósfera">
+
+La iluminación es el factor más importante para modernizar un juego clásico. Incluso con texturas de alta resolución, una iluminación plana hará que el entorno parezca anticuado. Al implementar plantillas de iluminación modernas y efectos de cielo, puedes simular una atmósfera volumétrica que hace que el calor del desierto se sienta palpable.
+
+Para lograr este nivel de inmersión ambiental, concéntrate en tres áreas distintas de renderizado atmosférico:
+
+<CardGrid cols={3}>
+  <Card title="Emisión de Luz Dinámica">
+    Usa **Lumen Ambient Lighting** para obligar a las bombillas físicas, letreros de neón y terminales de ordenador a proyectar luz real sobre su entorno, transformando los interiores oscuros.
+  </Card>
+  <Card title="Mejoras de Cielo y Clima">
+    Despliega **Cloud Upgrade NVSE** y **Elegant Sun Glare** para crear capas de nubes realistas y pseudoanimadas, y una dispersión natural del sol en el cielo del desierto.
+  </Card>
+  <Card title="Simulación del Calor del Desierto">
+    Implementa **Heat Haze** y **Cloud Shadows** para generar espejismos realistas en horizontes distantes y sombras dinámicas cuando las nubes bloquean el sol.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Sinergia de Iluminación">
+Combinar Yellow Goodbye con General Lighting Overhaul crea un contraste natural impresionante. El cielo diurno se convierte en un azul nítido y realista, mientras que las noches adquieren una oscuridad profunda e inmersiva que hace que la luz de tu Pip-Boy sea una necesidad absoluta para la supervivencia.
+</Callout>
+
+El uso de múltiples modificaciones de iluminación y clima a veces puede afectar el rendimiento en hardware antiguo. Consulta la matriz de rendimiento a continuación para elegir la configuración que mejor se adapte a las especificaciones de tu sistema.
+
+| Configuración de Iluminación | Impacto Visual | Coste de Fotogramas | Hardware Ideal |
+|--- |--- |--- |--- |
+| Yellow Goodbye + GLO | Alto | Extremadamente bajo | PC de gama baja / Consolas portátiles |
+| GLO + Atmospheric Tweaks | Muy alto | Bajo | PC de gama media |
+| GLO + Lumen + Weather Suite | Máximo | Moderado | PC de juegos modernos |
+
+</Section>
+
+<Section icon={Trophy} title="Hitos Visuales y Lista de Verificación de Estabilidad">
+
+Una vez que las principales mejoras ambientales estén activas, presta atención a los pequeños detalles que completan el paquete visual. Las armas, los robots, las salpicaduras de sangre y los entornos de los DLC requieren atención específica para asegurar que coincidan con la calidad de tu paisaje recién mejorado.
+
+<Checklist
+  id="visual-milestones"
+  title="Lista de Verificación de Finalización Visual:"
+  items={[
+    "Instala Fried Turkeys Creature Pack para remasterizar todos los securitrones y robots",
+    "Despliega cartas de juego de alta definición para que el Caravana y el Blackjack sean visualmente atractivos",
+    "Aplica 3D Rain para reemplazar las partículas de lluvia 2D planas con mallas físicas realistas",
+    "Instala Glowing Ghosts para permitir que los hologramas de Dead Money emitan luz ambiental",
+    "Verifica las texturas de nivel de detalle (LOD) distantes usando Vanilla Generated LOD"
+  ]}
+/>
+
+<Callout type="info" title="Importancia del LOD">
+El Nivel de Detalle (LOD) distante es un cuello de botella visual notorio en los juegos de mundo abierto. Sin los archivos de LOD adecuados, los edificios y montañas lejanos se verán increíblemente borrosos o aparecerán de golpe agresivamente. Utilizar paquetes de LOD originales pregenerados resuelve este problema al instante.
+</Callout>
+
+Cada expansión de contenido descargable principal tiene activos ambientales únicos que requieren modificaciones visuales específicas. Asegúrate de tener los siguientes paquetes específicos de DLC activos en tu orden de carga.
+
+| Expansión | Mod Visual Recomendado | Efecto Principal | Impacto de Rendimiento |
+|--- |--- |--- |--- |
+| Dead Money | Glowing Ghosts | Los hologramas emiten luz roja dinámica | Ninguno |
+| Honest Hearts | 3D Rain | Reemplaza texturas de lluvia planas con mallas 3D físicas | Bajo |
+| Old World Blues | Pre-generated LOD | Renderiza claramente las instalaciones de investigación distantes | Ninguno |
+| Lonesome Road | Dust Storm Deluxe | Suaviza los efectos intensos de polvo radiactivo | Bajo |
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+Para finalizar tu configuración, abordamos las preguntas técnicas más comunes sobre estabilidad, compatibilidad y solución de problemas al configurar un entorno visual moderno.
+
+<FAQ items={[
+  {
+    question: "¿Causará bloqueos frecuentes una mejora gráfica de Fallout New Vegas?",
+    answer: "No si sigues esta guía. Los bloqueos suelen ser causados por quedarse sin memoria debido a texturas 4K o ajustes de ENB inestables. Usar texturas 2K estables y plugins de motor modernos como NVSE garantiza una estabilidad absoluta."
+  },
+  {
+    question: "¿Necesito generar mis propias texturas de LOD distante?",
+    answer: "Aunque puedes generar tus propias texturas de LOD usando herramientas externas complejas, se recomienda encarecidamente usar un paquete de LOD original pregenerado para principiantes, ya que ahorra horas de configuración y funciona perfectamente."
+  },
+  {
+    question: "¿Cómo soluciono el tinte verde en las formaciones rocosas y acantilados?",
+    answer: "Este es un problema común del motor original. Puedes resolverlo fácilmente instalando un mod de texturas de roca originales consistentes, que elimina el tinte verde y coincide con el color natural de las cimas de los acantilados del cañón."
+  },
+  {
+    question: "¿Es General Lighting Overhaul compatible con mods de clima?",
+    answer: "Sí, General Lighting Overhaul es un mod totalmente basado en scripts y altamente compatible. Funciona junto con la mayoría de las modificaciones de clima respetuosas con el estilo original sin requerir parches manuales complejos."
+  }
+]} />
+
+<Callout type="tip" title="Consejo Final de Estabilidad">
+Asegúrate siempre de que tu juego esté utilizando la utilidad 4GB Patcher. Esto permite que el ejecutable acceda a 4GB de memoria virtual en lugar de los 2GB predeterminados, lo cual es absolutamente vital cuando se ejecutan modificaciones de texturas.
+</Callout>
+
+</Section>

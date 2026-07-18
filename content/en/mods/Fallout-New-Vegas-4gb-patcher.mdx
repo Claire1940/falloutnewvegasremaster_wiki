@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fallout New Vegas 4gb patcher: Setup Guide for System Stability",
+  description: "Learn how to install the Fallout New Vegas 4gb patcher to increase RAM usage, prevent crashes, and enable advanced modding in 2026.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/2d2d2d/ffce00?text=4GB+Patcher+Guide",
+  date: "2026-07-18",
+  author: "Fallout New Vegas Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary keyword**: The **Fallout New Vegas 4gb patcher** is essential for modern system stability.
+- **Key mechanic**: It enables the **Large Address Aware** (LAA) flag on the game executable.
+- **Best strategy**: Always install the **New Vegas Script Extender** (NVSE) before patching.
+- **Critical tip**: Set your **INI files** to Read-Only to prevent the Steam launcher from resetting them.
+- **Top choice**: The **executable patcher** is preferred over older loader-based versions for its ease of use.
+</Callout>
+
+<Section icon={Map} title="The Foundation of Modern Modding">
+
+The **Fallout New Vegas 4gb patcher** is arguably the most critical utility for any player looking to experience the Mojave Wasteland in 2026. By default, the game is a 32-bit application, which limits its virtual address space to a mere 2GB of RAM. In a modern gaming environment where high-resolution textures and complex script mods are the norm, this limitation leads to frequent "Out of Memory" crashes and stuttering. This patcher modifies the game's executable to recognize up to 4GB of RAM, effectively doubling the available resources for the engine to utilize.
+
+**Video Highlights:**
+- Downloading the correct patcher variant from Nexus Mods.
+- Handling the New Vegas Script Extender (NVSE) files.
+- Proper directory placement within the Steam or GOG folders.
+- Running the patcher with administrative privileges.
+- Configuring INI files to ensure settings persist through the Steam launcher.
+
+<YouTubeEmbed videoId="x3I-w64080k" title="How to Install 4GB Patcher + NVSE: Fallout New Vegas 2019 Tutorial" />
+
+<Callout type="info" title="Technical Context">
+While modern systems often have 16GB or 32GB of RAM, 32-bit software cannot natively access more than 4GB. The patcher ensures the game uses the maximum possible limit for its architecture.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Fallout New Vegas 4gb patcher Installation Process">
+
+Installing the **Fallout New Vegas 4gb patcher** is a straightforward process, but it requires precision regarding file placement. Unlike many mods that reside in the "Data" folder, this utility must be placed in the root directory where the game's main executable (`FalloutNV.exe`) is located.
+
+<Steps>
+  <Step num="1" title="Download Required Files">
+    Visit the Nexus Mods page and download the 4GB Patcher. Additionally, download the latest stable version of the **New Vegas Script Extender** (NVSE). Use a tool like 7-Zip or WinRAR to extract the compressed archives.
+  </Step>
+  <Step num="2" title="Deploy NVSE">
+    Open the NVSE folder and copy all `.dll` and `.exe` files. Navigate to your game directory (usually `Steam/steamapps/common/Fallout New Vegas`) and paste these files directly into the root folder.
+  </Step>
+  <Step num="3" title="Apply the 4GB Patch">
+    Copy the `FalloutNVpatch.exe` from your downloads and paste it into the same root directory. Right-click the file and select **Run as Administrator**. A command prompt will appear, indicating if the patch was successful.
+  </Step>
+  <Step num="4" title="Verification">
+    Once the patcher confirms the executable is patched, you can press any key to exit. The game is now capable of utilizing 4GB of RAM and will automatically load NVSE whenever you launch the game via Steam.
+  </Step>
+</Steps>
+
+| Requirement | Description | Status |
+| :--- | :--- | :--- |
+| **Game Version** | Steam, GOG, or Epic Games | Required |
+| **Permissions** | Administrator Access | Mandatory |
+| **Tooling** | 7-Zip or WinRAR | Recommended |
+| **Dependency** | NVSE (Latest Stable) | Essential |
+
+<Callout type="success" title="Installation Success">
+If you see the message "FalloutNV.exe successfully patched," the process is complete. You do not need to run the patcher again unless you reinstall the game.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Optimizing Game Files for Steam Launchers">
+
+One common issue players face after using the **Fallout New Vegas 4gb patcher** is the Steam launcher overwriting custom configuration files. The launcher has a tendency to "scramble" your INI settings, which can disable important modding features or graphical tweaks. To prevent this, you must manually protect your configuration files.
+
+| File Name | Location | Attribute Change |
+| :--- | :--- | :--- |
+| **fallout.ini** | Documents/My Games/FalloutNV | Set to Read-Only |
+| **falloutprefs.ini** | Documents/My Games/FalloutNV | Set to Read-Only |
+| **fallout_default.ini** | Game Root Directory | Set to Read-Only |
+
+<Callout type="warning" title="Important Warning">
+If you need to change your resolution or graphics settings in the future, you must uncheck "Read-Only," make the changes, and then re-enable the protection.
+</Callout>
+
+By setting these files to read-only, you ensure that the game engine respects your custom modifications and performance tweaks, regardless of how you launch the application.
+
+</Section>
+
+<Section icon={Sparkles} title="Performance Impact and Stability Metrics">
+
+The immediate benefits of the **Fallout New Vegas 4gb patcher** are visible in both stability and raw performance. Players using high-definition texture packs or extensive script-heavy mods like "Project Nevada" or "JSawyer Ultimate" will notice a significant reduction in micro-stuttering and crashes during cell transitions.
+
+<CardGrid cols={3}>
+  <Card title="Memory Expansion">
+    Increases the address space from **2GB to 4GB**, allowing for larger asset loading without hitting memory caps.
+  </Card>
+  <Card title="NVSE Integration">
+    The modern patcher automatically loads **NVSE**, removing the need to use a separate loader executable.
+  </Card>
+  <Card title="Engine Stability">
+    Reduces the frequency of **CTDs** (Crash to Desktop) specifically related to memory overflow errors.
+  </Card>
+</CardGrid>
+
+| Metric | Vanilla Game | Patched Game |
+| :--- | :--- | :--- |
+| **RAM Utilization** | Hard cap at 2048MB | Soft cap at 4096MB |
+| **Stability Level** | Moderate/Low | High |
+| **Mod Support** | Vanilla/Light Mods | Heavy/Total Overhauls |
+| **Loading Speed** | Standard | Improved (with SSD) |
+
+<Callout type="tip" title="Pro Tip">
+For the best results, pair the 4GB patcher with the **New Vegas Anti-Crash** (NVAC) and **New Vegas Stutter Remover** (or Tick Fix) to create a rock-solid foundation.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Common Modding Conflicts and Fixes">
+
+While the **Fallout New Vegas 4gb patcher** is highly compatible, certain edge cases can cause issues, especially with different storefront versions of the game. The GOG version, for instance, often comes pre-patched with Large Address Aware flags, though running the utility again is harmless.
+
+<FAQ items={[
+  {
+    question: "Do I need to run the 4GB patcher every time I play?",
+    answer: "No. You only need to run the Fallout New Vegas 4gb patcher once. It permanently modifies the executable file until it is replaced or reinstalled."
+  },
+  {
+    question: "How can I verify the patch is actually working?",
+    answer: "Open the game and bring up the console with the tilde (~) key. Type 'GetNVSEVersion'. If it returns a version number and the game hasn't crashed in heavy areas, the patch is likely active."
+  },
+  {
+    question: "Does this work with the Epic Games Store version?",
+    answer: "Yes, but it may require a specific version of the patcher or an additional 'Epic Games Patcher' utility to bypass the unique launcher restrictions."
+  },
+  {
+    question: "Will this get me banned from Steam?",
+    answer: "No. Modifying single-player games like Fallout: New Vegas does not result in Steam bans, as the game does not use Valve Anti-Cheat (VAC)."
+  }
+]} />
+
+<Callout type="info" title="Expert Advice">
+If the patcher fails to run, ensure you have the **C++ Redistributable** packages installed on your Windows system, as the patcher relies on these libraries to function.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Final Verification and Maintenance">
+
+Before heading back into the wasteland, ensure you have completed all post-installation tasks. Maintaining a stable modded game requires occasional checks, especially after game updates or file validations.
+
+<Checklist
+  id="post-install-nv"
+  title="Final Setup Checklist:"
+  items={[
+    "Verify FalloutNV.exe has been modified recently",
+    "Confirm NVSE scripts are present in the root folder",
+    "Set all three major INI files to Read-Only",
+    "Launch the game through Steam to test auto-loading",
+    "Check for 'Out of Memory' errors in heavy areas like Freeside"
+  ]}
+/>
+
+<Callout type="success" title="Ready for the Mojave">
+With the **Fallout New Vegas 4gb patcher** correctly installed, your game is now optimized for the most demanding mods available in 2026. Enjoy a smoother, more reliable experience across the Mojave.
+</Callout>
+
+| Task | Frequency | Priority |
+| :--- | :--- | :--- |
+| **Patch Executable** | Once per install | Critical |
+| **Update NVSE** | Every 6 months | Medium |
+| **Check INI Status** | After Steam updates | High |
+| **Backup Game EXE** | Before patching | Low |
+
+</Section>

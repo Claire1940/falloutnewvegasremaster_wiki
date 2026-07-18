@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fallout New Vegas Map: 2026 Size Comparison & Boundary Guide",
+  description: "Explore the Fallout New Vegas map dimensions, physical boundaries, and out-of-bounds secrets. Learn how the Mojave Wasteland compares to other titles.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/e0e0e0?text=Fallout+New+Vegas+Map+Guide",
+  date: "2026-07-18",
+  author: "Fallout New Vegas Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Fallout New Vegas map** utilizes physical barriers rather than invisible walls to define the playable area.
+- **Playable Size**: The core landmass is approximately 8.68 km by 8.68 km, totaling about 75.4 square kilometers.
+- **Boundary Types**: Players encounter cliffs, destroyed bridges, and massive fences instead of simple "turn back" messages.
+- **Exploration Secret**: Beyond the physical limits, the game continues to render low-resolution terrain for vast distances.
+- **Technical Limit**: Traveling too far west or south eventually triggers a teleportation script back to the map center.
+</Callout>
+
+<Section icon={Map} title="Analyzing the Mojave Wasteland Scale">
+
+The **Fallout New Vegas map** remains one of the most iconic open-world environments in RPG history. Unlike its predecessors, which often relied on immersion-breaking invisible walls at the edge of the world, New Vegas uses a more organic approach to geography. Understanding the layout of the Mojave is essential for both new players and veterans looking to master the 2026 remaster experience.
+
+**Video Highlights:**
+- Detailed breakdown of how the map handles player boundaries.
+- Trigonometric calculation of the total rendered area versus playable space.
+- Visual demonstration of the "infinite" radiated ocean to the west.
+- Explanation of the physical barriers like the Mojave Outpost fence.
+
+<YouTubeEmbed videoId="su5tRa5fNzI" title="How big is Fallout New Vegas Map?" />
+
+| Feature | Fallout New Vegas | Fallout 3 | Fallout 4 |
+|:---|:---|:---|:---|
+| **Boundary Type** | Physical (Cliffs/Fences) | Invisible Walls | Invisible Walls |
+| **Map Shape** | Square | Square | Square |
+| **Water Hazards** | High Radiation | Low/Medium Radiation | Medium Radiation |
+| **Traversal** | Foot/Fast Travel | Foot/Fast Travel | Foot/Vertibird |
+
+<Callout type="success" title="Immersion Factor">
+The use of physical boundaries makes the Mojave feel like a real location rather than a "level." Reaching a destroyed bridge or an unclimbable cliff feels more natural than hitting a magical barrier that tells you to turn around.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Physical Boundaries and World Design">
+
+The design philosophy of the **Fallout New Vegas map** centers on "forced" paths and natural chokepoints. This is particularly evident in the early game, where the environment funnels players south through Primm and then east toward Novac, rather than allowing a direct northern sprint to New Vegas.
+
+<CardGrid cols={3}>
+  <Card title="Mountain Ranges">
+    - **Inaccessible Peaks**
+    - High-altitude barriers
+    - Strategic chokepoints
+  </Card>
+  <Card title="Man-made Fences">
+    - **Mojave Outpost**
+    - Military-grade barriers
+    - Logical lore integration
+  </Card>
+  <Card title="Canyon Divides">
+    - **Destroyed Bridges**
+    - Deep vertical drops
+    - Natural pathing limits
+  </Card>
+</CardGrid>
+
+The western edge of the map is particularly interesting. Beyond the physical fences of the Mojave Outpost, the terrain transitions into a massive expanse of radiated water. Using console commands like "TCL" reveals that this water stretches for an incredible distance, far beyond what any player would see during normal gameplay.
+
+| Boundary Location | Type of Barrier | Key Landmark |
+|:---|:---|:---|
+| **Southwest** | Massive Fence | Mojave Outpost |
+| **East** | Colorado River | Hoover Dam / Caesar's Camp |
+| **North** | Steep Mountains | Jacobstown / Red Rock |
+| **West** | Radiated Ocean | Beyond the Outpost |
+
+<Callout type="warning" title="Radiation Hazard">
+Attempting to swim out into the western waters will result in extreme radiation poisoning. Even with an Advanced Radiation Suit, the distance is so vast that you will likely succumb to the environment or trigger the teleportation script.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Technical Size and Distance Calculations">
+
+When discussing the **Fallout New Vegas map**, it is important to distinguish between the "playable area" and the "rendered area." While the playable Mojave is roughly 75.4 square kilometers, the game engine renders low-resolution terrain that extends significantly further.
+
+<Steps>
+  <Step num="1" title="Internal Grid System">
+    The game divides the world into cells. The core "active" world consists of a square grid where most NPCs and quests are located.
+  </Step>
+  <Step num="2" title="LOD Rendering">
+    Low-resolution (Level of Detail) terrain is generated far beyond the physical boundaries to create the illusion of a vast horizon.
+  </Step>
+  <Step num="3" title="The Teleport Trigger">
+    If a player bypasses boundaries (via mods or console), they eventually reach a coordinate threshold that teleports them back to the center of the map.
+  </Step>
+</Steps>
+
+In terms of pure numbers, the base map is approximately 8.68 km on each side. If we account for the entire rendered terrain—the "background" mountains and plains—the theoretical size balloons to over 77,000 square kilometers, which is comparable to the size of a small country like Serbia.
+
+| Metric | Value (Approximate) |
+|:---|:---|
+| **Playable Width** | 8.68 km |
+| **Playable Length** | 8.68 km |
+| **Total Playable Area** | 75.4 sq km |
+| **Theoretical Rendered Area** | 77,000+ sq km |
+
+<Callout type="info" title="Calculation Method">
+These measurements are derived from compass pixel analysis and trigonometric scaling based on movement speed at 100% vs 4000% velocity.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Exploration Secrets Beyond the Map">
+
+For those who venture beyond the intended path on the **Fallout New Vegas map**, the world becomes increasingly surreal. The further you travel from the Vegas Strip, the more the game's systems begin to break down.
+
+- **The Void**: Eventually, the ground stops rendering entirely, leaving only the skybox and the water plane.
+- **Radiated Swimming**: The western ocean is not just a backdrop; it is a fully interactive, albeit lethal, body of water.
+- **Terrain Degradation**: Rocks and trees stop appearing first, followed by high-quality ground textures, leaving only a "blobby" terrain mesh.
+- **The Loop**: Reaching the absolute edge of the coordinate system doesn't crash the game; it simply resets your position to a predefined "safe" coordinate near the map's center.
+
+| Stage of Out-of-Bounds | Visuals | Player Experience |
+|:---|:---|:---|
+| **Zone 1: Immediate** | Low-res hills | Invisible walls/Physical blocks |
+| **Zone 2: Intermediate** | Terrain only | Extreme radiation / No collision |
+| **Zone 3: Extreme** | Water plane | Endless swimming / Teleport risk |
+
+<Callout type="tip" title="Console Exploration">
+If you wish to see these areas yourself, open the console with the tilde (~) key and type `tcl`. This enables "No Clip" mode, allowing you to fly through the physical barriers and explore the rendered horizon.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Mojave Completionist Checklist">
+
+Mastering the **Fallout New Vegas map** requires visiting all major landmarks. Use this checklist to ensure you have seen the best the Mojave has to offer in your 2026 playthrough.
+
+<Checklist
+  id="mojave-exploration"
+  title="Major Landmark Milestones:"
+  items={[
+    "Visit the Lucky 38 in the New Vegas Strip",
+    "Secure the Hoover Dam for your chosen faction",
+    "Reach the summit of Black Mountain",
+    "Explore the depths of Vault 34",
+    "Find the hidden entrance to Jacobstown",
+    "Cross the Colorado River to the Fort"
+  ]}
+/>
+
+| Landmark | Significance | Danger Level |
+|:---|:---|:---|
+| **The Strip** | Economic and political hub | Low (Securitrons) |
+| **Quarry Junction** | High-level Deathclaw nest | Extreme |
+| **Hoover Dam** | Strategic power source | Moderate |
+| **The Fort** | Caesar's Legion headquarters | High |
+
+<Callout type="tip" title="Fast Travel Strategy">
+Always discover locations even if you don't plan to enter them immediately. This populates your map and allows for efficient fast travel during late-game questing.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+<FAQ items={[
+  {
+    question: "How big is the Fallout New Vegas map compared to Fallout 4?",
+    answer: "The playable area of New Vegas is slightly smaller than Fallout 4, but it feels larger due to the slower movement speed and the way the terrain funnels players through specific paths."
+  },
+  {
+    question: "Can you actually walk to the mountains in the distance?",
+    answer: "Most mountains on the horizon are physical barriers. While you can reach the base of them, the game eventually uses steep inclines or invisible 'slippery' surfaces to prevent you from climbing over the edge."
+  },
+  {
+    question: "Is there anything hidden in the radiated water to the west?",
+    answer: "Technically, no. There are no items, NPCs, or easter eggs hidden in the far western waters. It is an empty, rendered space designed to provide a sense of scale."
+  },
+  {
+    question: "What is the best way to see the whole Fallout New Vegas map at once?",
+    answer: "Using the 'tcl' console command to fly high above the Lucky 38 provides the best panoramic view of the entire Mojave Wasteland."
+  }
+]} />
+
+</Section>

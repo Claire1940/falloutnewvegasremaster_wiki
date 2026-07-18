@@ -1,0 +1,189 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fallout New Vegas Honest Hearts: Karawanen-Walkthrough & Tipps",
+  description: "Bereiten Sie sich auf die Happy-Trails-Expedition in Fallout New Vegas Honest Hearts vor. Erfahren Sie Tricks zum Gewichtslimit, NPC-Entscheidungen und Überlebensstrategien für Zion.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1a202c/ffffff?text=Honest+Hearts+Walkthrough",
+  date: "2026-07-18",
+  author: "Fallout New Vegas Wiki-Team",
+  keywords: "Fallout New Vegas, Honest Hearts, Zion National Park, Happy Trails Expedition, Karawane, Joshua Graham"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Startort**: Suchen Sie die Höhle am Nordpass in den nördlichen Hügeln der Mojave-Wüste, um das Abenteuer zu beginnen.
+- **Gewichtsmanagement**: Halten Sie Ihr Inventar unter 75 Pfund, oder bis zu 100 Pfund, indem Sie Skill-Checks bei Ricky bestehen.
+- **Skript-Hinterhalt**: Erwarten Sie, dass alle Karawanenmitglieder sofort nach dem Betreten des Zion-Canyons während eines skriptbasierten Hinterhalts sterben.
+- **DLC-Fortschritt**: Sichern Sie sich eine Karte von Zion, um in die Mojave zurückzukehren, da die Schnellreise bis zum Abschluss deaktiviert ist.
+</Callout>
+
+<Section icon={Map} title="Start der Happy-Trails-Expedition">
+
+Die Reise beginnt nördlich des Vegas Strip. Ein neuer Funkspruch erscheint auf Ihrem Pip-Boy: der Funkspruch der Happy-Trails-Expedition. Unter der Leitung des Karawanenführers Jed Masterson sucht die Happy Trails Caravan Company erfahrene Wachen, Prospektoren und Kuriere, um eine Expedition nach Norden in die unberührte Wildnis des Zion-Nationalparks in Utah zu führen.
+
+**Video-Highlights:**
+- **Standort des Nordpasses**: Versteckt hinter einem Feldweg in den Bergen nördlich von Vegas.
+- **Karawanen-Briefing**: Jed Masterson erklärt die Route, die Zahlungsbedingungen und das Geheimnis um Neu-Kanaan.
+- **Gewichtsbeschränkung**: Warum Sie leicht packen müssen, bevor Sie die Mojave verlassen.
+
+<YouTubeEmbed videoId="YkCH629xa00" title="Honest Hearts 01: Die Happy Trails Karawane - Fallout New Vegas Lore" />
+
+Um den Startpunkt zu finden, folgen Sie dem Feldweg hinter einer baufälligen Hütte in den nördlichen Hügeln. Sie werden einen Felsen mit dem Graffiti „The Sun is killing me“ und einen nahegelegenen ausgehöhlten Felsen mit zufälliger Beute entdecken. Direkt vor dem Eingang zum Nordpass befindet sich ein unmarkiertes Grab, das nach Munition durchsucht werden kann.
+
+In der schwach beleuchteten Höhle treffen Sie auf Jed Masterson. Er bietet 25 Kronkorken pro Tag an, mit Boni bei Erreichen von Zion und Neu-Kanaan. Er spricht jedoch eine strikte Warnung aus: Erwähnen Sie niemals den Namen von Joshua Graham, dem legendären „Verbrannten Mann“ und ehemaligen Legaten von Caesar, da das Thema die lokalen Stammesangehörigen verängstigt und die Neu-Kanaaniten zutiefst beunruhigt.
+
+Die Karawane kann keine Standardrouten wie die Interstate 80 nehmen oder durch Ogden fahren, da die NCR-Ranger massiv in der Mojave stationiert sind und die nördlichen Straßen völlig ungeschützt vor brutalen Raider-Gangs wie den 80s lassen. Die Wiederherstellung des Handels mit Neu-Kanaan ist die letzte Hoffnung des Unternehmens, den Bankrott zu vermeiden.
+
+| Karawanen-Detail | Anforderung / Information |
+| :--- | :--- |
+| **Startort** | Nordpass (Nördliche Mojave) |
+| **Standard-Gewichtslimit** | 75 Pfund (Maximum) |
+| **Basislohn** | 25 Kronkorken pro Tag (plus Standort-Boni) |
+| **Primäres Ziel** | Wiederherstellung des Handels mit Neu-Kanaan in Zion |
+| **Begleiter-Regel** | Nur Solo (Mojave-Begleiter müssen entlassen werden) |
+
+<Callout type="warning" title="Ausrüstung verstauen">
+Das Gewichtslimit von 75 Pfund ist streng. Nutzen Sie die Metallkiste in der Nordpass-Höhle, um überschüssige Waffen, Rüstungen und Hilfsgüter zu lagern. Ihre Habseligkeiten sind dort sicher, bis Sie aus Zion zurückkehren.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Analyse der Karawanenbegleiter & Skill-Checks">
+
+Bevor Sie aufbrechen, können Sie mit den einzigartigen Besatzungsmitgliedern interagieren, die für die Reise zusammengestellt wurden. Jeder Charakter bringt einen eigenen Hintergrund und mechanische Vorteile mit, die Ihnen helfen können, die strengen Inventarbeschränkungen der Expedition zu umgehen.
+
+<CardGrid cols={3}>
+  <Card title="Jed Masterson">
+    - **Rolle**: Karawanenführer
+    - **Herkunft**: Sacramento (Sac Town)
+    - **Einblick**: Liefert wichtige Informationen über die Neu-Kanaaniten, die regionalen Raider-Fraktionen und den gefährlichen Stamm der Weißbeine.
+  </Card>
+  <Card title="Stella">
+    - **Rolle**: Karawanenwache
+    - **Herkunft**: New Reno / Caliente
+    - **Einblick**: Ehemalige Sheriff mit umfassender Kampferfahrung im Kampf gegen die 80s und beim Schutz nördlicher Handelsrouten.
+  </Card>
+  <Card title="Ricky">
+    - **Rolle**: Späher / Hochstapler
+    - **Herkunft**: Dayglow (NCR)
+    - **Einblick**: Trägt einen geplünderten Vault 22-Anzug und lügt über das Töten von Todeskralle. Kann manipuliert werden, um Ihr Gewichtslimit zu erhöhen.
+  </Card>
+</CardGrid>
+
+Ricky ist besonders bemerkenswert. Er behauptet, ein legendärer Schütze namens „Deadeye Ricky“ zu sein, der einst vier „Todeskiefer“ tötete und einen Paladin der Stählernen Bruderschaft mit einer imaginären 11mm-Maschinenpistole besiegte. Sie können seine Lügen durch verschiedene Skill-Checks entlarven.
+
+Wenn Sie über ein Training für Powerrüstungen verfügen, können Sie darauf hinweisen, dass die Augenschlitze von Bruderschafts-Helmen kugelsicher sind. Alternativ enthüllt ein Schusswaffen-Check, dass 11mm-Maschinenpistolen gar nicht existieren. Wenn Sie sein unberechenbares Verhalten mithilfe von Medizin als Psycho-Entzug diagnostizieren, können Sie ihm Ihre überschüssigen Drogen zu einem hohen Preis verkaufen.
+
+Am wichtigsten ist jedoch, dass Sie Ricky davon überzeugen können, einen Teil Ihrer Ausrüstung zu tragen, was Ihr Startgewichtslimit erfolgreich von 75 Pfund auf 100 Pfund anhebt.
+
+| Skill-Check-Typ | Anforderung | Belohnung / Ergebnis |
+| :--- | :--- | :--- |
+| **Schusswaffen-Check** | Schusswaffen 45 | Entlarvt Rickys Lügen über seine fiktiven Waffen |
+| **Wissenschafts-Check** | Wissenschaft 55 | Zeigt, dass sein Pip-Boy-Bildschirm gesperrt und defekt ist |
+| **Medizin-Check** | Medizin 50 | Identifiziert seine Psycho-Abhängigkeit; ermöglicht den Verkauf von Chems |
+| **Feilschen-Check** | Feilschen 50 | Zahle 100 Kronkorken, um das Gewichtslimit auf 100 Pfund zu erhöhen |
+| **Sprache-Check** | Sprache 55 | Überzeugt Ricky, Ausrüstung zu tragen, erhöht das Limit auf 100 Pfund |
+
+<Callout type="tip" title="Das Limit umgehen">
+Wenn Ihnen die Fähigkeiten Feilschen oder Sprache fehlen, um Ricky zu überzeugen, können Sie während des Dialogs den Perk „Schwarze Witwe“ nutzen, um seine Behauptungen zu verspotten, was eine ähnliche Option zur Inventarerweiterung ergibt.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Eintritt in Zion und der skriptbasierte Hinterhalt">
+
+Sobald Sie Jed Masterson Ihre Bereitschaft bestätigen, bricht die Karawane auf. Die Reise dauert mehrere Wochen und führt Sie tief in das atemberaubende rote Felsgestein des Zion-Canyons. Die friedliche Landschaft wird jedoch schnell tödlich.
+
+Als die Karawane durch einen engen Slot Canyon zieht, spürt Jed Gefahr. Innerhalb von Sekunden wird ein explosiver Hinterhalt durch den feindseligen Stamm der Weißbeine gestartet. Die Weißbeine sind eine grausame Stammesgruppe aus der Gegend um den Großen Salzsee, bekannt für ihre Brutalität und ihren Wunsch, Caesars Legion zu beeindrucken, indem sie die Neu-Kanaaniten auslöschen.
+
+Während dieser Begegnung werden alle Karawanenmitglieder – einschließlich Jed, Stella und der Wachen – in einer skriptbasierten Sequenz getötet. Viele Spieler verschwenden wertvolle Munition und Stimpaks beim Versuch, Stella oder Jed am Leben zu erhalten, aber ihr Tod ist fest programmiert, um die Erzählung voranzutreiben.
+
+| Fraktion | Anführer | Gesinnung | Kampfstil |
+| :--- | :--- | :--- | :--- |
+| **Happy Trails** | Jed Masterson | Freundlich (Verstorben) | Standard-Feuerwaffen, defensiv |
+| **Weißbeine** | Salz-auf-Wunden | Sehr feindselig | Maschinenpistolen, Kriegskeulen, Feuerbomben |
+| **Neu-Kanaaniten** | Daniel / Joshua Graham | Freundlich | Hochwertige Pistolen, taktisches Überleben |
+
+Nachdem Sie die erste Welle der Angreifer besiegt haben, müssen Sie eine hölzerne Seilbrücke überqueren. Am anderen Ende wird ein letzter Weißbein-Krieger versuchen, Sie von oben zu überfallen. Bevor er zuschlagen kann, erschießt ihn ein freundlicher Stammesangehöriger namens Folgt-Kreide und rettet Ihnen das Leben.
+
+<Callout type="info" title="Schießen Sie nicht auf den freundlichen Stammesangehörigen">
+Im Chaos des Hinterhalts ist es extrem leicht, Folgt-Kreide mit einem Feind zu verwechseln. Wenn Sie ihn erschießen, wird die gesamte Stammesbevölkerung von Zion feindselig, alle Story-Quests schlagen fehl und Sie werden in die Notfall-Fluchtquest „Chaos in Zion“ gezwungen.
+</Callout>
+
+Ohne Führer oder Karawane sitzen Sie in Zion fest. Die Brücken über den Virgin River wurden von den Weißbeinen systematisch zerstört. Ihre einzige Hoffnung, in die Mojave-Wüste zurückzukehren, besteht darin, mit Folgt-Kreide zu kooperieren, den legendären Verbrannten Mann zu treffen und eine Karte des umliegenden Gebiets zu sichern.
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Vorbereitung und Ziele">
+
+Um einen reibungslosen Übergang in den DLC zu gewährleisten, folgen Sie dieser strukturierten Vorbereitungssequenz.
+
+<Steps>
+  <Step num="1" title="Leveling und Ausrüstungswahl">
+    Erreichen Sie mindestens Level 15, bevor Sie beginnen. Wählen Sie leichte Waffen mit hoher Haltbarkeit wie Paciencia, Rattenfänger oder einen Schützen-Karabiner, um unter dem 75-Pfund-Limit zu bleiben.
+  </Step>
+  <Step num="2" title="Inventar-Bereinigung">
+    Reisen Sie zum Nordpass. Deponieren Sie alle schweren Rüstungen, überschüssige Munition und schwere Waffen in dem sicheren Metallbehälter in der Höhle.
+  </Step>
+  <Step num="3" title="Ricky manipulieren">
+    Sprechen Sie mit Ricky in der Höhle. Nutzen Sie Ihre Fähigkeiten in Feilschen, Sprache oder Medizin, um den Inventargewichtsbonus zu sichern, der Ihr Limit auf 100 Pfund erhöht.
+  </Step>
+  <Step num="4" title="Abfahrt bestätigen">
+    Sprechen Sie mit Jed, bestätigen Sie Ihre Reisebereitschaft und sehen Sie sich die Eröffnungssequenz an, während die Karawane nach Utah reist.
+  </Step>
+</Steps>
+
+Überprüfen Sie vor Ihrer Abreise Ihr Inventar anhand dieser wichtigen Checkliste, um Ihre Überlebenschancen im Canyon zu maximieren.
+
+<Checklist
+  id="honest-hearts-prep"
+  title="Checkliste vor der Abreise:"
+  items={[
+    "Gesamtgewicht unter 75 Pfund (oder 100 Pfund mit Rickys Hilfe) prüfen",
+    "Mindestens 20 Stimpaks und 5 Arzttaschen einpacken",
+    "Schaufel zum Ausgraben von Gräbern entlang des Weges mitbringen",
+    "Alle aktiven Mojave-Begleiter zum Lucky 38 entlassen",
+    "Leichte Rüstung mit hohem Schwellenwert (DT) sicherstellen"
+  ]}
+/>
+
+<Callout type="success" title="Bereit für Zion">
+Indem Sie den Canyon mit einer optimierten, leichten Ausrüstung betreten, lassen Sie genügend Platz im Inventar, um die unglaublich mächtigen, einzigartigen Waffen und Rüstungssets zu sammeln, die in ganz Zion verstreut sind, wie die Wüsten-Ranger-Kampfrüstung und das Gewehr des Überlebenskünstlers.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Häufig gestellte Fragen (FAQ)">
+
+Um Ihnen zu helfen, das Beste aus Ihrer Erfahrung mit der **Fallout New Vegas Honest Hearts** Erweiterung herauszuholen, haben wir Antworten auf die häufigsten Fragen der Community zur Happy Trails Karawane zusammengestellt.
+
+<FAQ items={[
+  {
+    question: "Kann ich Jed, Stella oder Ricky während des ersten Hinterhalts in Fallout New Vegas Honest Hearts retten?",
+    answer: "Nein. Der Tod aller Mitglieder der Happy Trails Karawane ist skriptbasiert. Selbst wenn Sie Konsolenbefehle verwenden, um sie als essenziell zu markieren, sind sie darauf programmiert zu sterben oder zu verschwinden, um die Handlung des DLC voranzutreiben."
+  },
+  {
+    question: "Was passiert mit meiner Ausrüstung, die in der Kiste am Nordpass gelagert ist?",
+    answer: "Ihre Ausrüstung ist völlig sicher. Der Behälter wird nicht zurückgesetzt, was bedeutet, dass Ihre Gegenstände niemals verschwinden. Sie können sie sofort nach Ihrer Rückkehr aus Zion wieder abholen."
+  },
+  {
+    question: "Kann ich Mojave-Begleiter wie Cass oder Boone nach Zion mitbringen?",
+    answer: "Nein. Jed Masterson verbietet das Mitbringen von Begleitern aufgrund der engen Pässe und begrenzten Vorräte strikt. Sie müssen sie entlassen, bevor Sie den DLC starten können."
+  },
+  {
+    question: "Wie kehre ich in die Mojave-Wüste zurück, sobald der DLC begonnen hat?",
+    answer: "Sie können erst in die Mojave zurückkehren, wenn Sie die Hauptquestreihe von Honest Hearts abgeschlossen haben. Sie müssen entweder die Geschichte mit Joshua Graham und Daniel beenden oder die Quest 'Chaos in Zion' abschließen, indem Sie die Stammesführer töten."
+  }
+]} />
+
+<Callout type="tip" title="Belohnung für den DLC-Abschluss">
+Sobald Sie die Hauptstory der Erweiterung abgeschlossen haben, können Sie jederzeit nach Zion zurückkehren. In der Nähe des Ausgangs am Südpass erscheint eine Belohnungskiste mit der einzigartigen Ausrüstung der Fraktionsführer.
+</Callout>
+
+</Section>

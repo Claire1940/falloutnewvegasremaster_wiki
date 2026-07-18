@@ -1,0 +1,166 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Veronica de Fallout New Vegas: Guía de misión y mejores extras",
+  description: "Optimiza tu build de Veronica en Fallout New Vegas. Descubre cómo desbloquear su misión de compañera, elegir los mejores extras y encontrarle un vestido.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/fff?text=Veronica+Companion+Guide",
+  date: "2026-07-18",
+  author: "Equipo de la Wiki de Fallout New Vegas"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Compañera principal**: Recluta a **Veronica de Fallout New Vegas** en el Puesto de avanzada 188 para obtener una compañera de cuerpo a cuerpo sumamente resistente.
+- **Extra único**: Su extra Asistente de escriba te proporciona una mesa de trabajo portátil, lo que te permite fabricar munición y objetos en cualquier lugar de Mojave.
+- **Activador de misión**: Visita tres puntos de interés históricos específicos en todo el Mojave con ella en tu grupo para desbloquear su misión personal, "Me importa un bledo" (I Could Make You Care).
+- **Decisión crítica**: Decide si Veronica se queda en la Hermandad del Acero para obtener bonificaciones defensivas o si la abandona para conseguir mejoras de combate ofensivas.
+- **Enseñanzas ocultas**: Entrégale un vestido formal a Veronica para desbloquear el Contraataque de escriba, una poderosa técnica de combate desarmado para tu personaje.
+</Callout>
+
+<Section icon={Map} title="Veronica de Fallout New Vegas: Reclutamiento y estadísticas base">
+
+Reclutar a los compañeros adecuados determina tu tasa de supervivencia en el Yermo de Mojave, y pocos aliados ofrecen la utilidad y el poder puro de **Veronica de Fallout New Vegas** Santangelo. Como especialista en adquisiciones de la Hermandad del Acero, Veronica aporta una perspectiva única sobre el estancamiento tecnológico de Mojave, combinada con un estilo de combate desarmado devastador. Puedes encontrarla esperando en el Puesto de avanzada 188, ubicado directamente al norte del Lago seco El Dorado, en la intersección de la autopista 95 y la autopista 93.
+
+**Puntos clave del video:**
+- **Detalles de ubicación**: Cómo localizar a Veronica en el Puesto de avanzada 188.
+- **Trasfondo del personaje**: Comprender su papel como escriba de la Hermandad del Acero.
+- **Activadores de diálogo**: Cómo reclutarla sin provocar respuestas hostiles.
+
+<YouTubeEmbed videoId="Nm8ImzAjXzQ" title="Veronica - La chica más solitaria de Mojave - Lore de Fallout New Vegas" />
+
+Para reclutar a Veronica, acércate a ella en el puesto de avanzada. Evita mostrar hostilidad inmediata hacia la Hermandad del Acero durante tu conversación inicial. Si declaras abiertamente que disparas a los miembros de la Hermandad en cuanto los ves, se negará a hablar contigo de forma permanente. En su lugar, mantén una actitud neutral o curiosa con respecto a la facción. Una vez que se una a tu grupo, te otorgará el extra Asistente de escriba, convirtiéndose en una mesa de trabajo móvil.
+
+| Estadística | Valor | Notas |
+| :--- | :--- | :--- |
+| Salud base | 220 a 240 | Escala dinámicamente con el nivel del jugador |
+| Habilidad primaria | Desarmado (100) | Excepcional combatiente a corta distancia |
+| Habilidad secundaria | Armas de energía | Competente con pistolas láser y de plasma |
+| Arma por defecto | Guantelete neumático | Alta penetración de armadura y derribo |
+| Armadura por defecto | Túnica de escriba | Umbral de daño bajo, se recomienda mejorar |
+
+<Callout type="tip" title="Utilidad de Asistente de escriba">
+Aprovecha el extra Asistente de escriba para desmantelar la munición recuperada y fabricar modificaciones de armas en el terreno sin tener que volver a tu base.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo activar la misión de compañera">
+
+Para iniciar la misión personal de Veronica, "Me importa un bledo" (I Could Make You Care), debes exponerla a las realidades del Yermo de Mojave. Quiere observar cómo se adaptan, sobreviven y construyen sociedades otras facciones sin depender de las estrictas doctrinas aislacionistas de la Hermandad del Acero. Debes visitar tres puntos de interés históricos específicos con Veronica activa en tu grupo para activar sus opciones de diálogo únicas.
+
+| Ubicación | Punto de activación específico | Tema de diálogo |
+| :--- | :--- | :--- |
+| Campamento McCarran | Vestíbulo principal del edificio de la terminal | Fuerza militar de la RNC y números abrumadores |
+| Refugio 3 | Fuera de la entrada principal | Los Maníacos (Fiends) apañándoselas sin tecnología avanzada |
+| Cottonwood Cove | Cerca de los muelles o del campamento principal | El éxito de la expansión de bajo nivel tecnológico de la Legión |
+| Silver Rush | Dentro de la tienda de armas de energía | El monopolio de la Hermandad sobre las armas de energía |
+| Sede de REPCONN | Área del vestíbulo principal | Acaparamiento de tecnología corporativa de antes de la guerra |
+
+<CardGrid cols={3}>
+  <Card title="La ruta de la pistola de pulsos">
+    - **Ubicación**: Armería del Refugio 34
+    - **Ventaja**: Altamente efectiva contra servoarmaduras
+    - **Dificultad**: Alta radiación y encuentros con necrófagos salvajes
+  </Card>
+  <Card title="La ruta del localizador de Euclid">
+    - **Ubicación**: Freeside / Helios Un
+    - **Ventaja**: Desbloquea un arma de ataque orbital masivo
+    - **Dificultad**: Requiere decisiones específicas de distribución de energía
+  </Card>
+  <Card title="La ruta de los datos agrícolas">
+    - **Ubicación**: Terminales científicas del Refugio 22
+    - **Ventaja**: Se centra en la autosuficiencia agrícola
+    - **Dificultad**: Enemigos portadores de esporas y peligros de navegación
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="Bloqueos en el progreso de la misión">
+Si ya has completado la misión "Allí crece la hierba" (There Stands the Grass) y borraste los datos de investigación en el Refugio 22, o si desactivaste permanentemente el sistema Archimedes en Helios Un, esas rutas específicas no estarán disponibles. La pistola de pulsos en el Refugio 34 sigue siendo la opción de reserva más confiable.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Guía paso a paso de la misión">
+
+Una vez que actives tres eventos de diálogo, Veronica pedirá regresar al búnker de Hidden Valley para hablar con el Élder McNamara. Esto comienza la secuencia central de "Me importa un bledo".
+
+<Steps>
+  <Step num="1" title="Consulta al Élder McNamara">
+    Viaja al búnker de Hidden Valley. Con Veronica en tu grupo, evitarás los protocolos de seguridad. Habla con el Élder McNamara en el segundo nivel del sótano. Veronica intentará abogar por un cambio en el códice aislacionista de la Hermandad, pero el Élder descartará sus preocupaciones.
+  </Step>
+  <Step num="2" title="Accede a la terminal de Elijah">
+    Sal del búnker y dirígete al oeste hacia una choza abandonada cerca de Helios Un. Accede a la terminal oculta del Padre Elijah en el interior para descargar sus notas de investigación. Esto revela tres tecnologías potenciales que podrían convencer al Élder de reconsiderar su postura.
+  </Step>
+  <Step num="3" title="Recupera la pistola de pulsos">
+    Consigue la llave del armario seguro en los aposentos del coronel Blackwell en la Base de la Fuerza Aérea de Nellis. Viaja al Refugio 34, navega por los pasillos inundados y desbloquea la armería. Recupera el prototipo de la pistola de pulsos de la caja de armas cerrada.
+  </Step>
+  <Step num="4" title="Presenta la tecnología">
+    Regresa a Hidden Valley y presenta la pistola de pulsos al Élder McNamara. A pesar de la capacidad del arma para desactivar fácilmente las servoarmaduras, el Élder se niega a alterar el códice, dejando a Veronica desilusionada.
+  </Step>
+</Steps>
+
+En este punto, debes guiar a Veronica a través de su decisión crucial: quedarse con su familia en la Hermandad del Acero o abandonar la facción para construir una nueva vida con los Seguidores del Apocalipsis.
+
+| Decisión final | Extra obtenido | Efecto del extra | Resultado de la historia |
+| :--- | :--- | :--- | :--- |
+| Quedarse con la Hermandad | Lazos de acero | +4 Umbral de daño | Sigue siendo escriba; se enfrenta al aislamiento interno |
+| Abandonar la Hermandad | Rebelde sin causa | +30% de velocidad de ataque desarmado | El puesto de avanzada de los Seguidores es destruido; ella deambula |
+
+<Callout type="warning" title="La emboscada de los paladines">
+Independientemente de tu elección, unos paladines renegados de la Hermandad te confrontarán al salir del búnker o al llegar al puesto de avanzada de los Seguidores. Si Veronica abandona la facción, estos paladines masacrarán a los investigadores inocentes en el puesto de avanzada. Prepárate para un encuentro de combate de alta dificultad.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Cómo desbloquear el Contraataque de escriba y las mejores builds">
+
+Más allá de su misión principal, puedes desbloquear una técnica de combate secreta de Veronica apelando a su amor por la moda de antes de la guerra. Veronica menciona con frecuencia su deseo de tener un vestido hermoso y elegante para usar en lugar de sus voluminosas túnicas de escriba.
+
+Para desbloquear esta interacción oculta, coloca una prenda formal de antes de la guerra en su inventario. Los objetos válidos incluyen la ropa formal del Ultra-Luxe, el vestido de gasa del Refugio 21 o el atuendo de Vera del DLC Dead Money. Al recibir el vestido, se ofrecerá entusiasmada a enseñarte el Contraataque de escriba, un movimiento desarmado único que te permite ejecutar un contraataque rápido y desestabilizador inmediatamente después de bloquear con éxito el golpe de un enemigo.
+
+| Ranura de equipo | Objeto recomendado | Ubicación / Fuente | Beneficio en combate |
+| :--- | :--- | :--- | :--- |
+| Arma | Empujón (Pushy) | Mina de Ruby Hill | Daño alto con un poderoso efecto de derribo |
+| Arma alternativa | Puño balístico | Comerciantes de armas principales | Daño masivo de un solo golpe al contacto |
+| Servoarmadura | Servoarmadura T-51b | Piso franco de Hidden Valley | Eleva su UD (umbral de daño) para sobrevivir a los encuentros del final del juego |
+| Casco | Capucha de escriba | Equipamiento por defecto | Conserva su estética característica |
+
+<Callout type="success" title="Requisito para el Contraataque de escriba">
+No necesitas completar su misión de compañera para desbloquear el Contraataque de escriba. Puedes realizar este intercambio inmediatamente después de reclutarla comprando un vestido a Sarah Weintraub en la tienda de regalos del Refugio 21.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Dónde puedo encontrar a Veronica de Fallout New Vegas si desaparece?",
+    answer: "Si Veronica desaparece de tu grupo, busca en su ubicación de reclutamiento predeterminada en el Puesto de avanzada 188 o en su habitación personal dentro del nivel L-2 del búnker de Hidden Valley. También puedes usar las terminales de despido de compañeros ubicadas en el Lucky 38 o en los Gun Runners para restablecer su posición."
+  },
+  {
+    question: "¿Puedo completar su misión si destruyo a la Hermandad del Acero?",
+    answer: "No. Si decides volar el búnker de Hidden Valley o eliminar al liderazgo de la Hermandad del Acero antes de completar 'Me importa un bledo', su misión fallará inmediatamente. Además, destruir la facción hará que Veronica se vuelva permanentemente hostil o abandone tu grupo."
+  },
+  {
+    question: "¿El Contraataque de escriba funciona con armas cuerpo a cuerpo?",
+    answer: "No, el Contraataque de escriba es estrictamente una técnica desarmada. Requiere que tu personaje luche con las manos vacías o use armas desarmadas como puños americanos, puños de combate o puños balísticos para ejecutar el contraataque después de un bloqueo."
+  },
+  {
+    question: "¿Cómo reacciona Veronica a los eventos del DLC Dead Money?",
+    answer: "Si llevas el mensaje del Padre Elijah desde Sierra Madre de vuelta al Mojave, puedes presentarle el holodisco a Veronica. Esto desbloquea un extra único que aumenta su daño desarmado o tu daño crítico cuerpo a cuerpo, según cómo le presentes la información."
+  }
+]} />
+
+<Callout type="info" title="Conexiones con Sierra Madre">
+Para apreciar plenamente la historia de Veronica, presta mucha atención a los diálogos relacionados con el Padre Elijah y Christine Royce. Ambos personajes juegan un papel fundamental en el DLC Dead Money, uniendo el pasado de Veronica con el lore general de Mojave.
+</Callout>
+
+</Section>

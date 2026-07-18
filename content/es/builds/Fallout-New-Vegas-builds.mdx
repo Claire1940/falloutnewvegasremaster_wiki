@@ -1,0 +1,176 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Builds de Fallout New Vegas: Clasificación 2026 y Guía de Configuración",
+  description: "Domina el Yermo de Mojave con las mejores builds de Fallout New Vegas. Descubre estadísticas S.P.E.C.I.A.L. óptimas, rasgos esenciales y sinergias de armas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=New+Vegas+Builds+Guide",
+  date: "2026-07-18",
+  author: "Equipo de la Wiki de Fallout New Vegas",
+  keywords: "fallout new vegas, builds, guía, special, rasgos, extras"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Las builds de Fallout New Vegas** determinan tus atributos iniciales, la selección de rasgos y la progresión de extras a largo plazo.
+- **Extras especializados** como Cirujano de escopetas, Vaquero y Soldado forman la base mecánica de los estilos de juego de alto nivel.
+- **Las mecánicas de sigilo y golpes críticos** multiplican el daño infligido, haciendo que las configuraciones de francotirador sean altamente eficientes para una progresión segura.
+- **Las mecánicas de derribo** de las escopetas y armas cuerpo a cuerpo ofrecen un control de masas inigualable en encuentros de alta dificultad.
+</Callout>
+
+<Section icon={Map} title="Builds de Fallout New Vegas: Resumen de Arquetipos">
+
+Navegar por el Yermo de Mojave requiere un plan claro de progresión de personaje. Tus atributos iniciales, los rasgos seleccionados y los primeros puntos de habilidad dictan qué tan eficazmente sobrevivirás a las amenazas del juego temprano, como los Sanguinarios y los Cazadores. Si bien una partida a ciegas ofrece una exploración orgánica, las **builds de Fallout New Vegas** optimizadas permiten a los jugadores maximizar su eficiencia en combate y desbloquear opciones de diálogo únicas.
+
+Ya sea que prefieras la precisión silenciosa de un francotirador de largo alcance, la capacidad de disparo rápido de un soldado militar o la fuerza bruta de un tanque cuerpo a cuerpo, comprender cómo interactúan las mecánicas es vital. El siguiente desglose en video explora los arquetipos fundamentales que sobresalen en el meta actual del yermo, proporcionando un punto de partida sólido tanto para jugadores nuevos como para los que regresan.
+
+**Puntos destacados del video:**
+- **Progresión a ciegas**: Comenzar sin una planificación rígida permite a los jugadores adaptarse naturalmente al entorno del yermo.
+- **Arquetipo de Vaquero**: Utilización de rifles de palanca y revólveres para un combate de rango medio consistente y de alto daño.
+- **Supremacía de la Escopeta**: Aprovechamiento de los extras de control de masas para incapacitar completamente a los enemigos cuerpo a cuerpo agresivos.
+
+<YouTubeEmbed videoId="VyI5DUz8KKk" title="Top 10 Beginner Builds - Fallout New Vegas" />
+
+<Callout type="tip" title="Consejo de Supervivencia en el Yermo">
+Para los jugadores novatos, se recomienda evitar configuraciones de optimización extrema (min-max) en su primera partida. Un enfoque equilibrado te permite probar diferentes tipos de armas antes de comprometerte con una build dedicada en partidas posteriores.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Comparación y Análisis de Builds de Nivel Superior">
+
+Seleccionar la build adecuada requiere equilibrar la potencia ofensiva, la supervivencia y la gestión de recursos. Diferentes arquetipos requieren asignaciones específicas de S.P.E.C.I.A.L. para desbloquear extras clave más adelante en el juego. Por ejemplo, las builds centradas en golpes críticos requieren una Suerte alta, mientras que las configuraciones de armas pesadas exigen Fuerza y Resistencia adecuadas.
+
+La siguiente tabla compara los atributos principales, los extras esenciales y el equipo recomendado para los estilos de juego más poderosos del juego.
+
+| Arquetipo de Build | S.P.E.C.I.A.L. Base | Extras Clave | Armas Distintivas | Calificación |
+| :--- | :--- | :--- | :--- | :--- |
+| **El Vaquero** | AGI 7, LCK 7, STR 6 | Vaquero, Sutileza, Supergolpe | Bastón de medicina, Secuoya del Ranger | ★★★★★ |
+| **El Soldado** | STR 7, AGI 7, END 6 | Soldado, Profesional, Demolición | All-American, Ametralladora ligera | ★★★★☆ |
+| **El Francotirador** | PER 6, AGI 8, LCK 9 | Críticos mejorados, Carrera silenciosa | Fusil antimaterial, Matarratas | ★★★★★ |
+| **El Escopetero** | STR 6, END 8, AGI 7 | Cirujano de escopetas, ¡Y no te levantes! | Escopeta antidisturbios, Campana de cena | ★★★★★ |
+| **Especialista Energético** | INT 8, AGI 6, LCK 8 | Comandante láser, Fusión | LAER, Láser Gatling | ★★★★☆ |
+
+Para ayudarte a elegir el camino correcto, hemos categorizado los tres arquetipos especialistas principales a continuación, detallando sus ventajas mecánicas y exigencias de estilo de juego.
+
+<CardGrid cols={3}>
+  <Card title="El Vaquero">
+    Se centra en armas de fuego balísticas tradicionales. Utiliza revólveres, rifles de palanca y dinamita. Ofrece una excelente versatilidad a media distancia y un uso compartido de munición muy eficiente entre pistolas y rifles.
+  </Card>
+  <Card title="El Francotirador">
+    El estilo de juego más seguro del juego. Se basa en multiplicadores de sigilo, altas probabilidades de golpe crítico y ópticas de largo alcance para eliminar amenazas antes de que detecten tu presencia.
+  </Card>
+  <Card title="El Escopetero">
+    Una build agresiva para distancias cortas. Capitaliza las mecánicas de múltiples perdigones para activar efectos de derribo de alta frecuencia, dejando incluso a los jefes más duros completamente indefensos.
+  </Card>
+</CardGrid>
+
+<Callout type="success" title="Sinergia Destacada">
+La build de Escopetero es excepcionalmente potente debido al extra **¡Y no te levantes!**, que otorga un 10% de probabilidad de derribo *por perdigón*. Con una escopeta antidisturbios disparando múltiples perdigones por segundo, los enemigos permanecen permanentemente clavados al suelo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía Paso a Paso para la Creación de Personajes">
+
+Crear un personaje optimizado requiere una planificación cuidadosa desde el momento en que distribuyes tus puntos iniciales en la casa del Doc Mitchell. Sigue estos pasos estructurados para establecer una base poderosa para tu estilo de juego elegido.
+
+<Steps>
+  <Step num="1" title="Distribuir Atributos S.P.E.C.I.A.L.">
+    Asigna tus puntos iniciales con cuidado. Evita subir cualquier estadística a 10 durante la creación del personaje, ya que los implantes comprados más tarde en la Clínica Médica de New Vegas pueden aumentar permanentemente cada atributo en 1. Mantén el Carisma en 1 a menos que quieras específicamente extras centrados en compañeros, ya que su utilidad de combate pura es mínima.
+  </Step>
+  <Step num="2" title="Seleccionar Rasgos Iniciales">
+    Los rasgos ofrecen poderosos beneficios pasivos combinados con desventajas manejables. Elige rasgos que complementen directamente tus opciones de armas para el final del juego. Para builds de golpes críticos, "Creado para destruir" es muy recomendable, mientras que "Habilidoso" proporciona un impulso masivo al inicio del juego para todas las habilidades.
+  </Step>
+  <Step num="3" title="Elegir Habilidades Destacadas">
+    Marca tres habilidades para recibir un bono inmediato de +15. Para eficiencia en combate, marca tu habilidad ofensiva principal (Armas de fuego, Armas de energía o Armas cuerpo a cuerpo). Para utilidad, Conversación y Ganzúa son excelentes opciones para navegar misiones y asegurar botín valioso al principio.
+  </Step>
+  <Step num="4" title="Planificar tu Ruta de Extras">
+    Los extras se seleccionan cada nivel par. Muchos extras de combate de alto nivel tienen requisitos estrictos de habilidades y atributos. Planifica con anticipación para asegurarte de cumplir con los umbrales necesarios (como alcanzar 75 en Armas de fuego para Cirujano de escopetas o 70 en Sigilo para Carrera silenciosa) para cuando alcances esos niveles.
+  </Step>
+</Steps>
+
+Tu elección de rasgos iniciales influye significativamente en tu progresión inicial. Usa la siguiente tabla para identificar qué rasgos se alinean mejor con tu build planificada.
+
+| Nombre del Rasgo | Utilidad Positiva | Desventaja | Recomendado Para |
+| :--- | :--- | :--- | :--- |
+| **Creado para destruir** | +3% Probabilidad de crítico | La condición del arma decae un 15% más rápido | Francotiradores, Builds láser críticas |
+| **De buen carácter** | +5 a Conversación, Medicina, Reparación | -5 a Armas, Energía, Cuerpo a cuerpo, Desarmado | Estilos pacifistas o de apoyo |
+| **Habilidoso** | +5 a todas las habilidades del personaje | -10% de puntos de experiencia ganados | Todas las builds (muy versátil) |
+| **Disciplina de gatillo** | +20% de precisión con armas | Cadencia de fuego un 20% más lenta | Francotiradores, Fusileros de largo alcance |
+| **Disparo rápido** | +20% de cadencia de fuego con armas | Precisión disminuida en un 20% | Escopeteros a corta distancia, Builds de SMG |
+
+<Callout type="warning" title="Advertencia sobre Rasgos">
+Aunque el rasgo Habilidoso reduce tu ganancia de experiencia en un 10%, el límite de nivel en Fallout New Vegas es lo suficientemente alto (especialmente con los DLC instalados) como para que alcances el nivel máximo fácilmente de todos modos. El bono permanente de puntos de habilidad compensa con creces la pequeña penalización de experiencia.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Equipamiento de Armas y Sinergias de Combate">
+
+Para maximizar tu daño, tu selección de armas debe alinearse con tus extras activos. Las armas balísticas se dividen principalmente en las categorías de Vaquero y Soldado, cada una respaldada por un extra dedicado a aumentar el daño. Las armas de energía se benefician de efectos elementales especializados, mientras que las configuraciones de Cuerpo a cuerpo y Desarmado dependen de la penetración de armadura y la velocidad de ataque.
+
+La siguiente lista describe los hitos de progresión esenciales que debes alcanzar para optimizar tus capacidades de combate a medida que avanzas hacia el juego medio y tardío.
+
+<Checklist
+  id="build-progression-milestones"
+  title="Objetivos Esenciales de Progresión:"
+  items={[
+    "Comprar el implante de Inteligencia en la Clínica Médica de New Vegas antes del nivel 5.",
+    "Adquirir el extra principal de tu arquetipo (ej. Vaquero, Soldado o Comandante láser).",
+    "Localizar y asegurar un arma única de alto nivel que coincida con tu especialización.",
+    "Completar el DLC Honest Hearts para desbloquear armas poderosas como la pistola de .45 y el Fusil del Superviviente.",
+    "Obtener el extra Reparación improvisada al nivel 90 de Reparación para simplificar el mantenimiento de armas."
+  ]}
+/>
+
+Comprender qué armas se benefician de extras específicos es crucial para planificar tu inventario. La siguiente tabla detalla las clasificaciones de armas y sus ventajas mecánicas asociadas.
+
+| Categoría de Arma | Extra Rector | Ventaja Mecánica Clave | Arma Única Recomendada |
+| :--- | :--- | :--- | :--- |
+| **Palanca y Revólver** | Vaquero | +20% de daño con revólveres y armas de palanca | Bastón de medicina (.45-70 Gov't) |
+| **Balística Militar** | Soldado | +25% de daño con rifles de servicio y SMG ligeras | Fusil del Superviviente (12.7mm) |
+| **Armamento Láser** | Comandante láser | +15% de daño y +10% de probabilidad de crítico | Piu Piu (Pistola láser) |
+| **Armamento de Plasma** | Fanático del plasma | Costes de AP reducidos en V.A.T.S. en un 20% | Modulador de materia Q-35 |
+| **Cuerpo a cuerpo Pesado** | Supergolpe | Los ataques tienen probabilidad de derribar objetivos | ¡Oh, Baby! (Supermazo) |
+
+<Callout type="info" title="Mecánicas de V.A.T.S.">
+Los ataques cuerpo a cuerpo y desarmados reciben un bono de daño doble fijo cuando se ejecutan dentro del Sistema de Tiro Asistido de Vault-Tec (V.A.T.S.). Además, se desbloquean movimientos especiales únicos de V.A.T.S. una vez que tus habilidades de Cuerpo a cuerpo o Desarmado alcanzan el nivel 50.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+Para ayudarte a perfeccionar tu configuración, hemos recopilado respuestas a las preguntas más comunes sobre la optimización de personajes y la viabilidad de las builds en el Mojave.
+
+<FAQ items={[
+  {
+    question: "¿Puedo usar una build híbrida que utilice tanto armas de fuego como de energía?",
+    answer: "Sí, las configuraciones híbridas son muy viables, especialmente cuando se utiliza una Inteligencia alta para maximizar los puntos de habilidad. Sin embargo, especializarse en un tipo de arma durante el juego temprano asegura que cumplas con los requisitos de los extras más rápido."
+  },
+  {
+    question: "¿Qué tan importante es el atributo Suerte para las builds de Fallout New Vegas?",
+    answer: "La Suerte es extremadamente valiosa. Aumenta directamente tu probabilidad de golpe crítico en todas las armas y hace que ganar chapas en los casinos del Strip sea trivial, permitiéndote comprar fácilmente implantes caros y equipo único."
+  },
+  {
+    question: "¿Qué build es la más amigable para principiantes en una primera partida?",
+    answer: "La build de Francotirador es la más segura y fácil para principiantes. Atacar a los enemigos desde una distancia extrema mientras permaneces oculto minimiza el daño que recibes y conserva los suministros médicos."
+  },
+  {
+    question: "¿Son viables las builds de Desarmado y Cuerpo a cuerpo contra enemigos finales?",
+    answer: "Absolutamente. Con extras como Golpe perforante (que ignora 15 puntos del Umbral de Daño enemigo) y Supergolpe, los personajes de combate cercano pueden aturdir y derrotar fácilmente a objetivos blindados como los Sanguinarios."
+  }
+]} />
+
+<Callout type="success" title="Consejo Final para el Yermo">
+Recuerda que no hay una única forma correcta de experimentar el Mojave. Si bien las configuraciones optimizadas hacen que los ajustes de alta dificultad sean más manejables, los ricos sistemas de rol de New Vegas aseguran que incluso las builds más convencionales y centradas en la narrativa sigan siendo increíblemente divertidas de jugar.
+</Callout>
+
+</Section>
