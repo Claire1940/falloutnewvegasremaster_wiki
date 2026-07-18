@@ -114,8 +114,8 @@
   "modules": {
     "falloutBeginnerGuide": {
       "title": "Schritt für Schritt",
-      "displayType": "Die Reise jedes Kuriers beginnt in Goodsprings. Erfahre, wie SPECIAL-Attribute, Fertigkeiten, Extras, Ruf, Karma und Überlebenssysteme zusammenhängen, und folge einer klaren Route für den Einstieg, die dir hilft, die häufigsten Fehler im Ödland zu vermeiden.",
-      "intro": "Erstelle deinen Kurier mit SPECIAL",
+      "displayType": "step-by-step",
+      "intro": "Die Reise jedes Kuriers beginnt in Goodsprings. Erfahre, wie SPECIAL-Attribute, Fertigkeiten, Extras, Ruf, Karma und Überlebenssysteme zusammenhängen, und folge einer klaren Route für den Einstieg, die dir hilft, die häufigsten Fehler im Ödland zu vermeiden.",
       "steps": [
         {
           "title": "SPECIAL (Stärke, Wahrnehmung, Ausdauer, Charisma, Intelligenz, Beweglichkeit, Glück) bestimmt alles, was dein Charakter tun kann. Wähle Attribute, die zu deinem Spielstil passen, und entscheide dich dann bei der Charaktererstellung in Goodsprings für zwei Primärfertigkeiten und bis zu zwei Merkmale.",
@@ -187,7 +187,7 @@
     },
     "falloutBuilds": {
       "title": "Fallout New Vegas Remaster Builds",
-      "displayType": "Tier-Grid",
+      "displayType": "tier-grid",
       "intro": "Charakter-Builds in der Mojave basieren auf der S.P.E.C.I.A.L.-Verteilung, Tag-Skills, Merkmalen und der Reihenfolge der Extras. Diese empfohlenen Builds decken jeden wichtigen Kampfstil sowie einen Hardcore-Überlebensexperten ab, jeweils mit den Attributen und dem Fortschritt, die sie effektiv machen.",
       "builds": [
         {

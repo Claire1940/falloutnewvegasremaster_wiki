@@ -114,7 +114,7 @@
   "modules": {
     "falloutBeginnerGuide": {
       "title": "Руководство для новичков по Fallout: New Vegas Ремастер",
-      "displayType": "пошагово",
+      "displayType": "step-by-step",
       "intro": "Путь каждого Курьера начинается в Гудспрингсе. Узнайте, как взаимосвязаны характеристики S.P.E.C.I.A.L., навыки, способности, репутация, карма и системы выживания, и следуйте понятному начальному маршруту, который поможет избежать самых частых ошибок на пустошах.",
       "steps": [
         {
@@ -309,7 +309,7 @@
     },
     "falloutCompanions": {
       "title": "Расходный предмет, дающий невидимость; незаменим для скрытного прохождения и засад.",
-      "displayType": "Напарники Fallout New Vegas Remaster",
+      "displayType": "card-list",
       "intro": "card-list",
       "cards": [
         {
@@ -403,7 +403,7 @@
     },
     "falloutMods": {
       "title": "Модификации Fallout New Vegas Remaster",
-      "displayType": "---",
+      "displayType": "card-list",
       "intro": "card-list",
       "cards": [
         {
@@ -450,7 +450,7 @@
     },
     "falloutLocations": {
       "title": "Менеджер модов на основе профилей, который изолирует порядок загрузки и установленные файлы для каждого профиля, позволяя безопасно тестировать сборки без риска для сохранений.",
-      "displayType": "Локации Fallout New Vegas Remaster",
+      "displayType": "card-list",
       "intro": "card-list",
       "cards": [
         {

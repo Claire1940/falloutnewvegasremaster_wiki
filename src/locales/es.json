@@ -114,7 +114,7 @@
   "modules": {
     "falloutBeginnerGuide": {
       "title": "Guía para principiantes de Fallout New Vegas Remaster",
-      "displayType": "paso a paso",
+      "displayType": "step-by-step",
       "intro": "El viaje de cada Mensajero comienza en Goodsprings. Aprende cómo se conectan los atributos de SPECIAL, las habilidades, los extras, la reputación, el karma y los sistemas de supervivencia, y sigue una ruta inicial clara que te ayudará a evitar los errores más comunes del yermo.",
       "steps": [
         {
@@ -356,7 +356,7 @@
     },
     "falloutFactions": {
       "title": "El leal ciberperro de El Rey en Freeside, disponible tras No soy más que un perro de caza. Trasplantarle un cerebro nuevo cambia sus estadísticas de combate y su perk de Búsqueda y rescate relacionado con la misión.",
-      "displayType": "Facciones de Fallout New Vegas Remaster",
+      "displayType": "card-list",
       "intro": "card-list",
       "cards": [
         {
