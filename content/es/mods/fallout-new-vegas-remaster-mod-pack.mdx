@@ -1,0 +1,181 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Paquete de Mods Fallout New Vegas Remaster: Guía de Configuración 2026",
+  description: "Compara los mejores paquetes de mods para Fallout New Vegas remaster en 2026. Aprende a instalar Gopher's Remaster y Wildcard para una experiencia de juego estable y moderna.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=New+Vegas+Mod+Pack",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Fallout New Vegas",
+  keywords: "fallout new vegas, remaster, mod pack, guía, 2026, gopher, wildcard"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Elección del Paquete de Mods**: Selecciona un **paquete de mods para fallout new vegas remaster** basado en tu preferencia de rendimiento y objetivos de juego.
+- **Utilidades Esenciales**: Ejecuta el 4GB Patcher y habilita Archive Invalidation antes de instalar cualquier mejora extensa de texturas o iluminación.
+- **Mejoras Visuales**: Utiliza New Vegas Reloaded para funciones avanzadas como sombras en tiempo real, oclusión ambiental y terreno con paralaje.
+- **Método de Instalación**: Usa herramientas automatizadas como WabbitJack o Nexus Collections para gestionar cientos de mods sin problemas.
+- **Objetivo de Rendimiento**: Asegúrate de que tu hardware cumpla con los requisitos básicos, especialmente al ejecutar texturas de alta resolución y generación de LOD.
+</Callout>
+
+<Section icon={Map} title="Eligiendo tu Paquete de Mods para Fallout New Vegas Remaster">
+
+Encontrar el **paquete de mods para fallout new vegas remaster** perfecto es el primer paso para transformar tu experiencia en el yermo de Mojave. En 2026, la comunidad de modding ofrece varios caminos distintos, que van desde mejoras visuales ligeras hasta transformaciones masivas de la jugabilidad. Elegir el paquete adecuado depende en gran medida de si deseas preservar las mecánicas de juego clásicas o modernizar completamente el combate, la iluminación y el rendimiento del juego.
+
+Dos colecciones principales dominan el panorama: Gopher's New Vegas Remaster y la lista de mods Wildcard. La colección de Gopher se centra estrictamente en una experiencia Vanilla Plus, mejorando la fidelidad visual sin alterar la jugabilidad principal. En contraste, Wildcard utiliza Viva New Vegas como base e introduce elementos de mundo más dinámicos, animaciones personalizadas y modificaciones gráficas avanzadas.
+
+<CardGrid cols={3}>
+  <Card title="Gopher's Remaster">
+    - **Enfoque Vanilla Plus**
+    - Centrado en iluminación y LOD
+    - Preserva las mecánicas clásicas
+  </Card>
+  <Card title="Wildcard Vanilla Plus">
+    - **Base centrada en la estabilidad**
+    - Correcciones de errores esenciales
+    - Ajustes para un rendimiento fluido
+  </Card>
+  <Card title="Wildcard Chaos Profile">
+    - **Revisiones dinámicas del mundo**
+    - Animaciones de combate personalizadas
+    - Mejoras visuales de alta fidelidad
+  </Card>
+</CardGrid>
+
+| Paquete de Mods | Enfoque | Tamaño | Cantidad de Mods | Estilo de Juego |
+|---|---|---|---|---|
+| Gopher's Remaster | Visuales y LOD | 8.9GB | 102 | Vanilla Plus Puro |
+| Wildcard Vanilla+ | Estabilidad y Ajustes | 12GB | 150+ | Vanilla Plus |
+| Wildcard Chaos | Revisión Dinámica | 45GB | 800+ | Acción Modernizada |
+
+<Callout type="success" title="Consejo de Selección">
+Seleccionar Gopher's Remaster es ideal para los jugadores que desean el ciclo de juego original de 2010 con visuales impresionantes de 2026. Elige Wildcard si buscas una revisión mecánica completa.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Requisitos del Sistema y Perfiles de Rendimiento">
+
+Modificar Fallout New Vegas puede exigir mucho al hardware moderno, especialmente cuando se trata de motores de iluminación avanzados y texturas de alta resolución. Aunque el juego base es conocido por sus cuellos de botella a nivel de motor, los paquetes de mods modernos incorporan parches de estabilidad cruciales que optimizan la asignación de memoria y las tasas de fotogramas.
+
+Ejecutar una configuración muy modificada requiere una comprensión clara de las capacidades de tu hardware. Mientras que una tarjeta gráfica de gama media como la RTX 4060 Ti maneja los ajustes avanzados con facilidad, los jugadores con hardware más antiguo deberían optar por perfiles orientados al rendimiento. Estos perfiles desactivan funciones exigentes como los reflejos en el espacio de pantalla y las sombras en tiempo real, manteniendo activos los parches de errores esenciales.
+
+| Preajuste | Hardware Objetivo | Resolución Recomendada | Características Clave |
+|---|---|---|---|
+| Rendimiento | GTX 1060 / RX 580 | 1080p | Texturas de baja resolución, sombras desactivadas, correcciones de estabilidad esenciales |
+| Equilibrado | RTX 3060 / RX 6600 | 1080p / 1440p | Texturas 2K, oclusión ambiental básica, LOD optimizado |
+| Ultra Visual | RTX 4060 Ti / RX 7700 | 1440p / 4K | Texturas 4K, terreno con paralaje, profundidad de campo avanzada |
+
+<Callout type="warning" title="Requisito Crítico">
+Instala siempre la utilidad 4GB Patcher antes de ejecutar cualquier paquete de mods. No parchear el ejecutable del juego resultará en fallos inmediatos por falta de memoria al iniciar.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía de Instalación Paso a Paso">
+
+Instalar manualmente una selección masiva de mods es muy propenso a errores de usuario. El modding moderno utiliza instaladores automatizados para realizar el trabajo pesado, asegurando órdenes de carga adecuados y resolución de conflictos. Seguir un proceso de instalación estructurado es fundamental para lograr un juego estable y sin fallos.
+
+<Steps>
+  <Step num="1" title="Instalación Limpia del Juego">
+    Asegúrate de tener una instalación limpia de Fallout New Vegas: Ultimate Edition a través de Steam o GOG. Ejecuta el lanzador del juego una vez para generar los archivos de configuración predeterminados.
+  </Step>
+  <Step num="2" title="Aplicar Parches del Motor">
+    Descarga y ejecuta la utilidad 4GB Patcher. Esto permite que el ejecutable del juego utilice 4GB de memoria virtual en lugar de los 2GB predeterminados, evitando fallos frecuentes.
+  </Step>
+  <Step num="3" title="Configurar el Gestor de Mods">
+    Configura Vortex o Mod Organizer 2. Asegúrate de que Archive Invalidation esté habilitado en la configuración de tu gestor de mods para permitir la carga de texturas personalizadas.
+  </Step>
+  <Step num="4" title="Ejecutar el Instalador Automatizado">
+    Usa WabbitJack o Nexus Collections para descargar el paquete de mods seleccionado. Sigue las instrucciones en pantalla para descargar e instalar automáticamente todos los archivos requeridos.
+  </Step>
+</Steps>
+
+| Error / Síntoma | Causa Probable | Solución Recomendada |
+|---|---|---|
+| Cierre al Iniciar | Faltan archivos maestros o ejecutable no parcheado | Ejecuta 4GB Patcher y verifica el orden de carga en el gestor de mods |
+| Texturas Faltantes | Archive Invalidation desactivado | Desactiva y vuelve a activar Archive Invalidation en Vortex/MO2 |
+| Tartamudeo Severo | Exceso de texturas de alta resolución | Instala archivos LOD de bajo rendimiento o reduce la resolución de las texturas |
+| Pantalla de Carga Infinita | Corrupción de partida guardada o límite del motor | Instala los mods Infinite Loading Screen Fix y Tick Fix |
+
+<Callout type="info" title="Consejo de Instalación">
+Si usas instaladores automatizados como WabbitJack, se recomienda encarecidamente adquirir una suscripción temporal de Nexus Premium. Esto automatiza el proceso de descarga, evitándote tener que hacer clic en botones de descarga individuales cientos de veces.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mejoras Visuales y Revisiones de Jugabilidad">
+
+Los paquetes de mods modernos hacen más que solo aumentar la resolución de las texturas; revisan completamente la atmósfera del Mojave. Al integrar herramientas como New Vegas Reloaded, estas colecciones introducen sombras en tiempo real, oclusión ambiental, niebla volumétrica y terreno con paralaje totalmente funcional. Estos cambios hacen que el yermo se sienta fundamentado y físicamente presente.
+
+Las mecánicas de juego también reciben actualizaciones importantes. El New Vegas original sufría de falta de retroceso real en las armas y un movimiento de personajes rígido. Los paquetes de mods modernos solucionan esto añadiendo retroceso procedimental, animaciones personalizadas de manejo de armas y cámaras en tercera persona configurables. Además, mods como Character Kit Remake revisan los rostros de los NPC, asegurando que se vean realistas mientras se mantienen fieles al estilo artístico original.
+
+| Categoría | Mod Clave Incluido | Impacto Visual / Jugabilidad |
+|---|---|---|
+| Iluminación y Clima | Desert Natural Weathers | Cielos más despejados, vistas nocturnas realistas, interiores atmosféricos |
+| Revisión de NPCs | Character Kit Remake | Modelos faciales de alta fidelidad que preservan los diseños originales |
+| Animaciones de Combate | B42 Weapon Inertia | Balanceo procedimental de armas, retroceso realista y recarga fluida |
+| Expansión del Mundo | The Living Desert | Interacciones dinámicas de NPCs, comerciantes itinerantes y facciones reactivas |
+
+<Callout type="tip" title="Consejo Pro">
+Ajusta la configuración de profundidad de campo de New Vegas Reloaded a tu gusto. Aunque es cinematográfico, una profundidad de campo intensa a veces puede interferir con el francotirador a larga distancia en áreas abiertas del desierto.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación Post-Instalación y Objetivos de Estabilidad">
+
+Una vez completada la instalación, verificar la estabilidad antes de comenzar una partida larga es esencial. Los motores de modding pueden comportarse de manera impredecible, y unos minutos de prueba pueden evitar horas de progreso perdido más adelante. Usa esta lista para asegurarte de que tu juego esté totalmente optimizado y listo para el Mojave.
+
+<Checklist
+  id="stability-checklist"
+  title="Lista de Verificación de Preparación para el Yermo:"
+  items={[
+    "Verificar la instalación del parche de 4GB mediante comando de consola",
+    "Probar la funcionalidad Alt-Tab en modo ventana sin bordes",
+    "Comprobar si hay fallos visuales en los rostros de los NPCs en Goodsprings",
+    "Confirmar que las animaciones de armas personalizadas se cargan correctamente",
+    "Verificar que el mod simple open strip haya eliminado las puertas de carga"
+  ]}
+/>
+
+<Callout type="success" title="Lista Completada">
+Completar estas comprobaciones de estabilidad garantiza una partida fluida. Un motor configurado correctamente puede funcionar durante docenas de horas sin un solo fallo.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+Navegar por las complejidades del modding puede plantear varias dudas, especialmente para los jugadores que regresan. A continuación se presentan las consultas más comunes sobre la configuración y el mantenimiento de un paquete de mods remasterizado moderno.
+
+<FAQ items={[
+  {
+    question: "¿Puedo añadir mods adicionales a un paquete de mods de fallout new vegas remaster ya montado?",
+    answer: "Puedes añadir mods adicionales, pero lo haces bajo tu propio riesgo. Las adiciones personalizadas pueden romper el orden de carga, causar conflictos y anular el soporte de los creadores del paquete de mods en los canales de Discord de la comunidad."
+  },
+  {
+    question: "¿Se requiere una suscripción a Nexus Premium para instalar estos paquetes de mods?",
+    answer: "No, el premium no es estrictamente necesario. Sin embargo, sin él, debes hacer clic manualmente en el botón de descarga para cada mod de la colección, que puede superar los varios cientos de archivos."
+  },
+  {
+    question: "¿Qué debo hacer si mi juego experimenta tartamudeos frecuentes?",
+    answer: "Asegúrate de tener instalado New Vegas Tick Fix y de que los controladores de tu tarjeta gráfica estén actualizados. Reducir la resolución de las texturas de 4K a 2K también mejora significativamente el rendimiento."
+  },
+  {
+    question: "¿Funciona Gopher's New Vegas Remaster con Tale of Two Wastelands?",
+    answer: "Gopher's Remaster está diseñado específicamente para una experiencia independiente de New Vegas. Para el soporte de Tale of Two Wastelands, debes buscar listas de mods dedicadas y compatibles como Wildcard."
+  }
+]} />
+
+<Callout type="info" title="Soporte Comunitario">
+Para resolución de problemas en tiempo real y apoyo de la comunidad, considera unirte a los servidores oficiales de Discord de los respectivos paquetes de mods. La comunidad es muy activa y actualiza regularmente las guías de instalación.
+</Callout>
+
+</Section>

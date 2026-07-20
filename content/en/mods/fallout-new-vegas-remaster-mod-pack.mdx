@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Fallout New Vegas Remaster Mod Pack: 2026 Setup Guide",
+  description: "Compare the best Fallout New Vegas remaster mod packs in 2026. Learn how to install Gopher's Remaster and Wildcard for a stable, modern gameplay experience.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=New+Vegas+Mod+Pack",
+  date: "2026-07-21",
+  author: "Fallout New Vegas Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Mod Pack Choice**: Select a **fallout new vegas remaster mod pack** based on your performance preference and gameplay goals.
+- **Essential Utilities**: Run the 4GB Patcher and enable Archive Invalidation before installing any extensive texture or lighting overhauls.
+- **Visual Upgrades**: Utilize New Vegas Reloaded for advanced features like real-time shadows, ambient occlusion, and parallax terrain.
+- **Installation Method**: Use automated tools like WabbitJack or Nexus Collections to handle hundreds of mods seamlessly.
+- **Performance Target**: Ensure your hardware meets the baseline requirements, especially when running high-resolution textures and LOD generation.
+</Callout>
+
+<Section icon={Map} title="Choosing Your Fallout New Vegas Remaster Mod Pack">
+
+Finding the perfect **fallout new vegas remaster mod pack** is the first step toward transforming your Mojave wasteland experience. In 2026, the moding community offers several distinct paths, ranging from lightweight visual overhauls to massive gameplay transformations. Choosing the right pack depends heavily on whether you want to preserve the classic gameplay mechanics or completely modernize the combat, lighting, and performance of the game.
+
+Two primary collections dominate the landscape: Gopher's New Vegas Remaster and the Wildcard mod list. Gopher's collection focuses strictly on a Vanilla Plus experience, enhancing the visual fidelity without altering core gameplay. In contrast, Wildcard uses Viva New Vegas as its baseline and introduces more dynamic world elements, custom animations, and advanced graphical modifications.
+
+<CardGrid cols={3}>
+  <Card title="Gopher's Remaster">
+    - **Vanilla Plus approach**
+    - Focuses on lighting and LOD
+    - Preserves classic mechanics
+  </Card>
+  <Card title="Wildcard Vanilla Plus">
+    - **Stability-first baseline**
+    - Essential bug fixes
+    - Smooth performance tweaks
+  </Card>
+  <Card title="Wildcard Chaos Profile">
+    - **Dynamic world overhauls**
+    - Custom combat animations
+    - High-fidelity visual upgrades
+  </Card>
+</CardGrid>
+
+| Mod Pack | Focus | Size | Mod Count | Gameplay Style |
+|---|---|---|---|---|
+| Gopher's Remaster | Visuals & LOD | 8.9GB | 102 | Pure Vanilla Plus |
+| Wildcard Vanilla+ | Stability & Tweaks | 12GB | 150+ | Vanilla Plus |
+| Wildcard Chaos | Dynamic Overhaul | 45GB | 800+ | Modernized Action |
+
+<Callout type="success" title="Selection Tip">
+Selecting Gopher's Remaster is ideal for players who want the original 2010 gameplay loop with stunning 2026 visuals. Choose Wildcard if you want a complete mechanical overhaul.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="System Requirements and Performance Profiles">
+
+Modding Fallout New Vegas can place a significant tax on modern hardware, especially when dealing with advanced lighting engines and high-resolution textures. While the base game is notorious for engine-level bottlenecks, modern mod packs incorporate crucial stability patches that optimize memory allocation and frame rates.
+
+Running a heavily modded setup requires a clear understanding of your hardware capabilities. While a mid-range graphics card like the RTX 4060 Ti handles advanced presets with ease, players with older hardware should opt for performance-oriented profiles. These profiles disable demanding features like screen-space reflections and real-time shadows while keeping essential bug fixes active.
+
+| Preset | Target Hardware | Recommended Resolution | Key Features |
+|---|---|---|---|
+| Performance | GTX 1060 / RX 580 | 1080p | Low-res textures, disabled shadows, essential stability fixes |
+| Balanced | RTX 3060 / RX 6600 | 1080p / 1440p | 2K textures, basic ambient occlusion, optimized LOD |
+| Ultra Visuals | RTX 4060 Ti / RX 7700 | 1440p / 4K | 4K textures, parallax terrain, advanced depth of field |
+
+<Callout type="warning" title="Critical Requirement">
+Always install the 4GB Patcher utility before running any mod pack. Failing to patch the game executable will result in immediate out-of-memory crashes on startup.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Installation Guide">
+
+Installing a massive selection of mods manually is highly prone to user error. Modern modding utilizes automated installers to handle the heavy lifting, ensuring proper load orders and conflict resolution. Following a structured installation process is critical to achieving a stable, crash-free game.
+
+<Steps>
+  <Step num="1" title="Clean Game Installation">
+    Ensure you have a fresh install of Fallout New Vegas: Ultimate Edition via Steam or GOG. Run the game launcher once to generate the default configuration files.
+  </Step>
+  <Step num="2" title="Apply Engine Patches">
+    Download and run the 4GB Patcher utility. This allows the game executable to utilize 4GB of virtual memory instead of the default 2GB, preventing frequent crashes.
+  </Step>
+  <Step num="3" title="Configure Mod Manager">
+    Set up Vortex or Mod Organizer 2. Ensure Archive Invalidation is enabled under your mod manager settings to allow custom textures to load.
+  </Step>
+  <Step num="4" title="Run the Automated Installer">
+    Use WabbitJack or Nexus Collections to download your selected mod pack. Follow the on-screen prompts to automatically download and install all required files.
+  </Step>
+</Steps>
+
+| Error / Symptom | Probable Cause | Recommended Solution |
+|---|---|---|
+| Crash on Startup | Missing master files or unpatched executable | Run 4GB Patcher and verify load order in mod manager |
+| Missing Textures | Archive Invalidation disabled | Toggle Archive Invalidation off and on in Vortex/MO2 |
+| Severe Stuttering | High-resolution texture overhead | Install performance-friendly LOD files or reduce texture resolution |
+| Infinite Loading Screen | Save game corruption or engine limit | Install the Infinite Loading Screen Fix and Tick Fix mods |
+
+<Callout type="info" title="Installation Tip">
+If you use automated installers like WabbitJack, purchasing a temporary Nexus Premium subscription is highly recommended. This automates the download process, saving you from clicking individual download buttons hundreds of times.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Visual Enhancements and Gameplay Overhauls">
+
+Modern mod packs do more than just upscale textures; they completely overhaul the atmosphere of the Mojave. By integrating tools like New Vegas Reloaded, these collections introduce real-time shadows, ambient occlusion, volumetric fog, and fully functional parallax terrain. These changes make the wasteland feel grounded and physically present.
+
+Gameplay mechanics also receive major updates. Vanilla New Vegas suffered from a lack of true weapon recoil and rigid character movement. Modern mod packs solve this by adding procedural recoil, custom weapon handling animations, and configurable third-person cameras. Additionally, mods like the Character Kit Remake overhaul NPC faces, ensuring they look realistic while remaining faithful to the original art style.
+
+| Category | Key Mod Included | Visual / Gameplay Impact |
+|---|---|---|
+| Lighting & Weather | Desert Natural Weathers | Clearer skies, realistic night vistas, atmospheric interiors |
+| NPC Overhauls | Character Kit Remake | High-fidelity facial models that preserve vanilla character designs |
+| Combat Animations | B42 Weapon Inertia | Procedural weapon swaying, realistic recoil, and fluid reloading |
+| World Expansion | The Living Desert | Dynamic NPC interactions, traveling merchants, and reactive factions |
+
+<Callout type="tip" title="Pro Tip">
+Adjust the New Vegas Reloaded depth of field settings to your liking. While cinematic, heavy depth of field can sometimes interfere with long-range sniping in open desert areas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Post-Installation Checklist and Stability Goals">
+
+Once your installation is complete, verifying stability before starting a long playthrough is essential. Modding engines can behave unpredictably, and a few minutes of testing can prevent hours of lost progress later. Use this checklist to ensure your game is fully optimized and ready for the Mojave.
+
+<Checklist
+  id="stability-checklist"
+  title="Wasteland Readiness Checklist:"
+  items={[
+    "Verify 4GB Patch installation via console command",
+    "Test Alt-Tab functionality in borderless windowed mode",
+    "Check for visual glitches on NPC faces in Goodsprings",
+    "Confirm custom weapon animations are loading correctly",
+    "Verify the simple open strip mod has removed loading gates"
+  ]}
+/>
+
+<Callout type="success" title="Checklist Complete">
+Completing these stability checks ensures a seamless playthrough. A properly configured engine can run for dozens of hours without a single crash.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Frequently Asked Questions">
+
+Navigating the complexities of modding can raise several questions, especially for returning players. Below are the most common inquiries regarding the setup and maintenance of a modern remaster mod pack.
+
+<FAQ items={[
+  {
+    question: "Can I add extra mods to a pre-built fallout new vegas remaster mod pack?",
+    answer: "You can add extra mods, but doing so is at your own risk. Custom additions can break load orders, cause conflicts, and void support from the mod pack creators on community Discord channels."
+  },
+  {
+    question: "Is a Nexus Premium subscription required to install these mod packs?",
+    answer: "No, premium is not strictly required. However, without it, you must manually click the download button for every single mod in the collection, which can exceed several hundred files."
+  },
+  {
+    question: "What should I do if my game experiences frequent stuttering?",
+    answer: "Ensure you have New Vegas Tick Fix installed and that your graphics card drivers are up to date. Reducing texture resolutions from 4K to 2K also significantly improves performance."
+  },
+  {
+    question: "Does Gopher's New Vegas Remaster work with Tale of Two Wastelands?",
+    answer: "Gopher's Remaster is designed specifically for a standalone New Vegas experience. For Tale of Two Wastelands support, you should look for dedicated compatible mod lists like Wildcard."
+  }
+]} />
+
+<Callout type="info" title="Community Support">
+For real-time troubleshooting and community support, consider joining the official Discord servers for the respective mod packs. The community is highly active and regularly updates installation guides.
+</Callout>
+
+</Section>

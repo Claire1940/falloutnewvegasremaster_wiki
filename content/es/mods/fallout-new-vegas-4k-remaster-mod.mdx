@@ -1,0 +1,199 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Mod de Remasterización 4K para Fallout New Vegas: Guía Visual y de Configuración",
+  description: "Transforma tu experiencia en el yermo de Mojave con el mod de remasterización 4K para Fallout New Vegas y las herramientas esenciales de mejora visual de 2026 para PC.",
+  category: "Tutorial",
+  image: "https://placehold.co/800x400/1a1a1a/ffb000?text=4K+Remaster+Mod+Guide",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Fallout New Vegas"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Mod de remasterización 4K para Fallout New Vegas**: El FNV Texture Upscale Project es la opción principal para recursos 4K en 2026.
+- **Consideración de rendimiento**: Aunque las texturas en 4K se ven espectaculares, a menudo se recomiendan las versiones en 2K para garantizar la estabilidad del motor.
+- **Consistencia visual**: Combina los paquetes de texturas con mejoras de iluminación como General Lighting Overhaul para obtener los mejores resultados.
+- **Preservación del estilo original (Vanilla)**: El modding moderno se centra en mejorar la estética original en lugar de reemplazarla por completo.
+- **Herramientas esenciales**: Utiliza Mod Organizer 2 (MO2) para gestionar eficazmente estos recursos de alta resolución.
+</Callout>
+
+<Section icon={Sparkles} title="El estado del mod de remasterización 4K de Fallout New Vegas en 2026">
+
+La búsqueda de una experiencia visual moderna en el Mojave ha llevado a la creación del **mod de remasterización 4K de fallout new vegas**, específicamente el FNV Texture Upscale Project. Dado que Bethesda no ha lanzado una remasterización oficial, la comunidad ha tomado la iniciativa de reescalar casi todos los recursos del juego utilizando IA y refinamiento manual. Este proyecto reemplaza las texturas antiguas y borrosas con alternativas nítidas y de alta definición que traen el clásico de 2010 a la era moderna sin perder su alma postapocalíptica única.
+
+**Puntos destacados del video:**
+- **Enfoque respetuoso con el original (Vanilla-Friendly)**: Aprende a mejorar los gráficos sin saturar demasiado los colores del juego.
+- **Reescalado de la interfaz de usuario (UI)**: Descubre los mods esenciales para que los menús y los elementos del HUD se vean nítidos en monitores 4K.
+- **Dinámica de iluminación**: Observa el impacto de eliminar el \"filtro amarillo\" y añadir luz ambiental a los carteles de neón.
+- **Consejos de rendimiento**: Recomendaciones para elegir entre paquetes de texturas de 2K y 4K para obtener una tasa de fotogramas más fluida.
+
+<YouTubeEmbed videoId="xSnucXCUCaE" title="Cómo DEBERÍAN haber sido los gráficos en Fallout New Vegas (Mods respetuosos con el original)" />
+
+Al elegir la resolución de tus texturas, es importante comprender las limitaciones del motor Gamebryo. Incluso en 2026, el motor puede tener dificultades con el uso excesivo de memoria.
+
+| Característica | Paquete de texturas 2K | Paquete de texturas 4K |
+|:---|:---|:---|
+| **Fidelidad visual** | Mejora significativa respecto al original | Máxima nitidez para primeros planos |
+| **Estabilidad del motor** | Excelente / Muy recomendado | Moderada / Posibles fallos (crashes) |
+| **Uso de VRAM** | Bajo a moderado | Alto (Requiere GPU moderna) |
+| **Tiempos de carga** | Rápidos | Notablemente más lentos |
+| **Ideal para** | Jugabilidad general y estabilidad | Capturas de pantalla de alta calidad y pantallas 4K |
+
+<Callout type="tip" title="Consejo Pro">
+Para la mayoría de los jugadores, la versión 2K del FNV Texture Upscale Project ofrece el mejor equilibrio. La diferencia visual entre 2K y 4K suele ser insignificante durante el juego activo, pero las mejoras de estabilidad con 2K son sustanciales.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Modernización de la interfaz y los menús">
+
+Antes de sumergirse en las texturas del mundo, lo primero con lo que se encuentra un jugador es la interfaz de usuario. En las pantallas modernas de alta resolución, el HUD original de Fallout New Vegas se ve pixelado y anticuado. Para complementar el **mod de remasterización 4K de fallout new vegas**, debes reescalar los elementos de la interfaz para garantizar una experiencia visual cohesiva.
+
+<CardGrid cols={3}>
+  <Card title="Escalado de la interfaz">
+    - **Vanilla UI+**: Mejora el estilo original sin alterarlo.
+    - **HD Loading Screens**: Reemplaza las pantallas de carga borrosas con versiones reescaladas en alta definición.
+    - **Consistent Pip-Boy Icons**: Define la nitidez de cada icono en los menús del juego.
+  </Card>
+  <Card title="Renovación del menú">
+    - **Main Menu HD**: Moderniza la pantalla de inicio inicial.
+    - **Pause Menu Tweaks**: Añade funciones como un reloj en tiempo real y un contador de muertes.
+    - **RGB HUD**: Permite la personalización completa de los colores del HUD mediante controles deslizantes.
+  </Card>
+  <Card title="Resolución de pantalla">
+    - **High Res Screens**: Incrementa la resolución de las terminales y el Pip-Boy.
+    - **Reflectron HD**: Mejora la calidad de las pantallas de computadora dentro del juego.
+    - **4K Map Markers**: Garantiza que el mapa del mundo siga siendo legible en altas resoluciones.
+  </Card>
+</CardGrid>
+
+| Nombre del Mod | Función principal | Estilo estético |
+|:---|:---|:---|
+| **All-in-One Interface** | Reescalado general de la interfaz | Estrictamente original (Vanilla) |
+| **Molton Clouds Pip-Boy** | Modelo Pip-Boy 2000 de alta calidad | Fallout clásico |
+| **Simple HUD** | Minimiza la saturación visual | Moderno/Minimalista |
+
+<Callout type="info" title="Información de personalización">
+Los mods de interfaz modernos a menudo incluyen un \"Registro de misiones\" y un \"Contador de chapas\" directamente en el menú de pausa, lo que facilita el seguimiento de tu progreso sin tener que navegar por los menús del Pip-Boy.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Mejoras visuales de personajes y NPCs">
+
+Los habitantes del Mojave se benefician enormemente del ecosistema del **mod de remasterización 4K de fallout new vegas**. Aunque el paisaje es importante, pasarás gran parte del tiempo interactuando con NPCs como el Doc Mitchell o Sunny Smiles. Mejorar sus modelos y texturas es vital para la inmersión.
+
+El objetivo es dar vida a los personajes sin alterar sus estructuras faciales reconocibles. El uso de modelos de cuerpo con alta densidad de polígonos y texturas faciales reescaladas por IA garantiza que los personajes se vean como \"versiones mejoradas\" de sí mismos, en lugar de personas completamente diferentes.
+
+| Categoría | Mod recomendado | Mejora clave |
+|:---|:---|:---|
+| **Texturas faciales** | Hall of Face | Detalle mejorado en cabello, piel y ojos |
+| **Modelos de cuerpo** | Improved Vanilla Male | Elimina las costuras visibles en el cuello y las muñecas |
+| **Cabello y dientes** | Character Kit Remake | Moderniza los peinados manteniéndose fiel al trasfondo del juego (lore-friendly) |
+| **Robots** | Robots HD / Creatures HD | Reescala Protectrones, Securitrones y Geckos |
+| **Armadura/Ropa** | Molon Upscaled Armor | Texturas de alta resolución para telas y metales |
+
+<Steps>
+  <Step num="1" title="Instalar texturas base">
+    Comienza con una renovación completa de rostros y cuerpos como 'Hall of Face' para establecer la base de todos los NPCs.
+  </Step>
+  <Step num="2" title="Aplicar mejoras de cabello">
+    Usa 'Character Kit Remake' para corregir los notorios modelos de cabello pixelados del juego original.
+  </Step>
+  <Step num="3" title="Actualizar modelos de robots">
+    Instala paquetes especializados para Securitrones y Protectrones para hacer brillar a los habitantes mecánicos de The Strip.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Advertencia de compatibilidad">
+Al usar mods que añaden nuevos NPCs o compañeros, es posible que necesites parches de compatibilidad para asegurar que sus texturas coincidan con la calidad reescalada de los personajes originales.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Texturas del entorno e iluminación">
+
+El entorno es donde el **mod de remasterización 4K de fallout new vegas** tiene el impacto más significativo. El yermo de Mojave es vasto, y las texturas del suelo en baja resolución pueden romper la inmersión rápidamente. Al combinar el FNV Texture Upscale Project con paquetes establecidos como NMC's y Ojo Bueno, puedes lograr una remasterización visual casi completa.
+
+| Tipo de mod | Opción recomendada | Efecto en el juego |
+|:---|:---|:---|
+| **Paisaje** | Char's FMV HD | Rocas, arena y carreteras en alta resolución |
+| **Arquitectura** | NMC's Texture Pack | Superficies de edificios e interiores detallados |
+| **Iluminación** | General Lighting Overhaul | Ciclos dinámicos de día/noche y mejor contraste |
+| **Atmósfera** | Yellow Goodbye | Elimina el anticuado tinte amarillo del Mojave |
+| **Clima** | 3D Rain / Cloud Shadows | Efectos climáticos inmersivos y sombras realistas |
+
+Más allá de las texturas, la iluminación es lo que marca la diferencia. Eliminar el icónico pero a menudo criticado filtro amarillo permite que las nuevas texturas 4K resalten. Añadir características como el \"efecto de distorsión por calor\" (Heat Haze) para objetos distantes y \"sombras de nubes\" (Cloud Shadows) crea una sensación de profundidad de la que carecía el lanzamiento original de 2010.
+
+<Callout type="success" title="Consejo atmosférico">
+Usa 'Afterglow' y 'Strip Lighting Overhaul' para que el Strip de New Vegas luzca magnífico por la noche. Estos mods añaden luz ambiental a los letreros de neón, haciendo que la ciudad se sienta como un verdadero oasis en el desierto.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Guía de instalación para recursos 4K">
+
+Instalar el **mod de remasterización 4K de fallout new vegas** requiere un enfoque sistemático para evitar fallos del motor y errores visuales. Sigue estos pasos para asegurarte de que tu juego modificado se mantenga estable mientras luce de la mejor manera.
+
+<Steps>
+  <Step num="1" title="Primero las correcciones del motor">
+    Antes de añadir texturas, instala el parche de 4GB, NVSE y New Vegas Tick Fix. Estos son obligatorios para manejar recursos de alta resolución.
+  </Step>
+  <Step num="2" title="Capa de textura base">
+    Instala el paquete de texturas de NMC (grande o mediano) como tu capa base para edificios y carreteras.
+  </Step>
+  <Step num="3" title="Proyecto de reescalado 4K">
+    Aplica el FNV Texture Upscale Project encima de tu capa base. Permite que sobrescriba los archivos para asegurar que la resolución más alta tenga prioridad.
+  </Step>
+  <Step num="4" title="Iluminación y clima">
+    Instala 'Yellow Goodbye' y un mod de iluminación como 'Atmospheric Lighting Tweaks' para finalizar el estilo visual.
+  </Step>
+</Steps>
+
+<Checklist
+  id="mod-setup-checklist"
+  title="Lista de verificación de configuración final:"
+  items={[
+    "Verificar que el parche de 4GB se haya aplicado correctamente",
+    "Comprobar si hay costuras en las texturas en el cementerio de Goodsprings",
+    "Asegurarse de que los elementos de la interfaz no se superpongan a resolución 4K",
+    "Probar la visibilidad nocturna en el Strip de New Vegas",
+    "Confirmar que todas las texturas de los robots estén correctamente reescaladas"
+  ]}
+/>
+
+<Callout type="warning" title="Gestión de memoria">
+Si experimentas fallos frecuentes de 'Falta de memoria' (Out of Memory), considera reducir tus texturas de paisaje a 2K mientras mantienes la arquitectura en 4K. El motor maneja la arquitectura mucho mejor que las vastas texturas de paisajes.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es el mod de remasterización 4K de fallout new vegas compatible con partidas guardadas antiguas?",
+    answer: "Por lo general, los mods de texturas son seguros de instalar o desinstalar a mitad de una partida. Sin embargo, los mods de iluminación y las renovaciones de interfaz idealmente deberían instalarse antes de comenzar una nueva partida para evitar pequeños errores."
+  },
+  {
+    question: "¿Necesito una PC de gama alta para ejecutar texturas 4K en New Vegas?",
+    answer: "Aunque el juego es antiguo, las texturas 4K requieren una cantidad significativa de VRAM. Se recomienda una GPU con al menos 8 GB de VRAM para una experiencia fluida a resolución 4K, especialmente cuando se combina con mods de iluminación."
+  },
+  {
+    question: "¿Por qué algunas personas prefieren 2K en lugar de 4K para este juego?",
+    answer: "El motor Gamebryo tiene un límite estricto de memoria que puede direccionar. Las texturas 2K ofrecen una mejora masiva sobre el juego original mientras se mantienen dentro de los límites de estabilidad del motor, lo que resulta en menos fallos durante largas sesiones de juego."
+  },
+  {
+    question: "¿Cómo soluciono el 'tinte amarillo' sin cambiar las texturas?",
+    answer: "Puedes usar un mod como 'Yellow Goodbye' o 'Neutral Weather'. Estos mods ajustan el espacio de imagen y las plantillas de iluminación para eliminar el tinte sin reemplazar ningún archivo de textura real."
+  }
+]} />
+
+</Section>

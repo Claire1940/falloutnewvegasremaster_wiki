@@ -1,0 +1,206 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fallout New Vegas Remaster Guide: 2026 Mod-Setup & Stabilität",
+  description: "Folgen Sie diesem schrittweisen Fallout New Vegas Remaster Guide, um im Jahr 2026 wichtige Stabilitäts-Mods, Grafik-Overhauls und Gameplay-Anpassungen zu installieren.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=New+Vegas+Remaster+Guide",
+  date: "2026-07-21",
+  author: "Fallout New Vegas Wiki-Team",
+  keywords: "Fallout New Vegas, Remaster, Modding Guide, Stabilität, Grafik-Mods, 2026"
+}
+
+<Callout type="info" title="Schnellleitfaden">
+- **Hauptziel**: Erstellen Sie ein hochstabiles, visuell modernisiertes Loadout mit diesem **Fallout New Vegas Remaster Guide** im Jahr 2026.
+- **Kernanforderung**: Stellen Sie sicher, dass Sie die Steam- oder GOG Ultimate Edition besitzen; vermeiden Sie die Microsoft Store-Version.
+- **Wichtiger Schritt**: Führen Sie den 4GB Patcher aus und reparieren Sie die ESM-Masterdateien des Spiels, bevor Sie Grafik-Overhauls hinzufügen.
+- **Kritische Warnung**: Vermeiden Sie veraltete Mods wie den New Vegas Stutter Remover (NVSR), um häufige Abstürze zu verhindern.
+- **Best Practice**: Verwenden Sie Profile im Vortex Mod Manager, um einfach zwischen gemoddeten und Vanilla-Setups zu wechseln.
+</Callout>
+
+<Section icon={Shield} title="Grundlegende Voraussetzungen & Spiel-Setup">
+
+Das Modden eines klassischen RPGs erfordert ein solides Fundament, um ständige Abstürze zu verhindern. Dieser **Fallout New Vegas Remaster Guide** führt Sie durch die wesentlichen Schritte vor der Installation und stellt sicher, dass Ihr Verzeichnis für moderne Betriebssysteme im Jahr 2026 optimiert ist.
+
+**Video-Highlights:**
+- **Plattformkompatibilität**: Erfahren Sie, warum Steam- oder GOG-Versionen zwingend erforderlich sind, während Microsoft Store-Versionen vermieden werden sollten.
+- **Verzeichnisregeln**: Verstehen Sie, warum die Installation des Spiels im Standardordner "Programme" Berechtigungsfehler verursacht.
+- **Erster Start**: Entdecken Sie die Wichtigkeit, das Vanilla-Spiel einmal zu starten, um die erforderlichen Initialisierungsdateien zu erstellen.
+- **Vortex-Einrichtung**: Erhalten Sie eine schrittweise Anleitung zum Einrichten von Profilen, um Ihre Vanilla- und gemoddeten Dateien getrennt zu halten.
+
+<YouTubeEmbed videoId="ob2KvoEz8E4" title="Ein vollständiger Anfänger-Leitfaden zum Modden von FALLOUT: New Vegas im Jahr 2026" />
+
+Bevor Sie Mods herunterladen, müssen Sie Ihre Systemumgebung vorbereiten. Windows-Sicherheitsfunktionen schränken häufig Dateiänderungen in Standardverzeichnissen ein, was Script-Extender und benutzerdefinierte Assets blockieren kann.
+
+| Anforderung | GOG-Version | Steam-Version | Microsoft Store |
+| :--- | :--- | :--- | :--- |
+| **Mod-Kompatibilität** | Hervorragend | Hervorragend | Schlecht (eingeschränkt) |
+| **4GB Patch** | Vor-gepatcht | Erfordert manuellen Patch | Inkompatibel |
+| **DLC-Anforderung** | Ultimate Edition | Ultimate Edition | Standard/Ultimate |
+| **Installationspfad** | Benutzerdefinierter Ordner | Benutzerdefinierter Ordner | Standard Windows |
+
+Um eine reibungslose Einrichtung zu gewährleisten, erstellen Sie einen dedizierten Ordner außerhalb des Programmverzeichnisses Ihres primären Systemlaufwerks (zum Beispiel `D:\Games\SteamLibrary`). Starten Sie nach der Installation den Game-Launcher mindestens einmal. Dieser erste Durchlauf ist entscheidend, da er Ihre Systemhardware automatisch erkennt, Ihre Display-Auflösung konfiguriert und die erforderlichen `.ini`-Konfigurationsdateien in Ihrem Dokumente-Ordner generiert.
+
+<Callout type="warning" title="Plattform-Warnung">
+Versuchen Sie nicht, die Microsoft Store-Version des Spiels zu modden. Sie sperrt Verzeichnisberechtigungen, was es unglaublich schwierig macht, wichtige Script-Extender und benutzerdefinierte Stabilitäts-Patches auszuführen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt Fallout New Vegas Remaster Guide">
+
+Das Implementieren von Kern-Engine-Fixes und Script-Extendern erfordert eine präzise Abfolge von Installationen. Folgen Sie diesen Schritten, um mit dem Vortex Mod Manager eine hochstabile Umgebung aufzubauen.
+
+<Steps>
+  <Step num="1" title="Einrichtung des Mod-Managers">
+    Laden Sie den Vortex Mod Manager herunter und installieren Sie ihn. Melden Sie sich bei Ihrem Nexus Mods-Konto an, navigieren Sie zum Tab "Games", suchen Sie nach New Vegas und klicken Sie auf "Manage". Gehen Sie zu den Einstellungen, Interface, und aktivieren Sie die Profilverwaltung. Erstellen Sie ein neues Profil namens "Modded" mit eigenen Spieleinstellungen und Speicherständen.
+  </Step>
+  <Step num="2" title="Archiv-Invalidierung">
+    Navigieren Sie in Vortex zu den Einstellungen und wählen Sie den Tab "Workarounds". Aktivieren Sie das Kontrollkästchen für "BSA Redirection" unter "Archive Invalidation". Dies zwingt die Game-Engine, modifizierte lose Dateien gegenüber den standardmäßigen komprimierten Spielarchiven zu priorisieren.
+  </Step>
+  <Step num="3" title="Die stabile Sammlung">
+    Suchen Sie die "Stable New Vegas Collection" auf Nexus Mods. Klicken Sie auf "Add Collection", um Vortex zu öffnen. Wählen Sie Ihr gemoddetes Profil aus und starten Sie den Download. Diese Sammlung installiert automatisch Fehlerbehebungen, Engine-Optimierungen und Leistungsverbesserungen.
+  </Step>
+  <Step num="4" title="4GB-Patch ausführen">
+    Öffnen Sie Ihren Spielordner über Vortex (Mods -> Open -> Open Game Folder). Suchen Sie die Datei `FNVpatch.exe` und führen Sie sie per Doppelklick aus. Ein Befehlsfenster bestätigt, dass die ausführbare Datei erfolgreich gepatcht wurde, um mehr Systemspeicher zu nutzen.
+  </Step>
+  <Step num="5" title="Spiel-Masterdateien reparieren">
+    Führen Sie das Tool "Ultimate Edition ESM Fixes Remastered" aus. Kopieren Sie die Adresse des Mod-Ordners aus Vortex, führen Sie das Installer-Tool aus, fügen Sie den Verzeichnispfad ein und führen Sie die Installation aus. Aktivieren Sie nach Abschluss alle reparierten ESM-Dateien in Ihrer Vortex-Plugin-Liste.
+  </Step>
+</Steps>
+
+| Name des Dienstprogramms | Hauptfunktion | Installationsmethode |
+| :--- | :--- | :--- |
+| **4GB Patcher** | Erweitert den virtuellen Speicheradressraum | Manueller Start der EXE |
+| **ESM Fixes** | Repariert beschädigte Vanilla-Masterdateien | Automatisierte Tool-Bereitstellung |
+| **BSA Redirection** | Erzwingt das Laden modifizierter Assets | Vortex-Workaround-Umschalter |
+| **NVSE** | Erweitert Scripting-Fähigkeiten für fortgeschrittene Mods | Automatisiert über Sammlungen |
+
+<Callout type="success" title="Patcher-Tipp">
+Die Ausführung des 4GB Patchers auf der GOG-Version wird weiterhin empfohlen. Obwohl GOG die EXE-Datei für die Speichernutzung vor-patcht, konfiguriert die Ausführung des Patchers die Engine so, dass der New Vegas Script Extender automatisch geladen wird.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Visuelles Remastering & Grafik-Overhaul">
+
+Sobald Ihre Engine stabilisiert ist, können Sie die veraltete visuelle Landschaft transformieren. Die New Vegas Remaster Collection überarbeitet Beleuchtung, Texturen und die Generierung von entferntem Gelände, um das Spiel im Jahr 2026 auf moderne Standards zu bringen.
+
+<CardGrid cols={3}>
+  <Card title="Atmosphärische Beleuchtung">
+    - **Realistische Streuung**
+    - Korrigierte Nachtbeleuchtung
+    - Dynamische Wettermuster
+  </Card>
+  <Card title="Hochauflösende Texturen">
+    - **Leistungsfreundliche Assets**
+    - Überarbeitete Landschaftstexturen
+    - Detaillierte Waffenmodelle
+  </Card>
+  <Card title="Fernes Gelände (LOD)">
+    - **Vorgeneriertes fernes Land**
+    - Kein Aufploppen von Objekten am Horizont
+    - Gestochen scharfe Gebirgsketten
+  </Card>
+</CardGrid>
+
+Große Grafik-Overhauls erfordern eine sorgfältige Konfiguration, um visuelle Qualität mit Systemleistung in Einklang zu bringen. Stellen Sie sicher, dass Sie Ihre Anzeigeeinstellungen an Ihre Hardware-Kapazitäten anpassen.
+
+| Einstellung | Empfohlener Wert | Leistungsauswirkung |
+| :--- | :--- | :--- |
+| **Fenstermodus** | Randloses Fenster | Niedrig (verbessert Stabilität) |
+| **Texturqualität** | Hoch / Ultra | Moderat (abhängig vom VRAM) |
+| **Fernes LOD** | Vorgeneriert | Hoch (erfordert 4GB Patch) |
+| **Archiv-Invalidierung** | Aktiviert | Keine (essenziell für Texturen) |
+
+Diese grafischen Anpassungen hauchen dem Mojave-Ödland neues Leben ein und bieten eine stimmige Ästhetik, ohne zu weit von der ursprünglichen postapokalyptischen Atmosphäre abzuweichen.
+
+<Callout type="tip" title="Display-Tipp">
+Laufen Sie das Spiel im randlosen Fenstermodus (Borderless Windowed). Das Ausführen der Engine im nativen Vollbildmodus auf modernen Windows 10- oder 11-Systemen löst häufig Speicherzuordnungsfehler und Abstürze beim Alt-Tabben aus.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Benutzeroberfläche & Gameplay-Verbesserungen">
+
+Die Standard-Benutzeroberfläche des Mojave-Ödlands wurde für Röhrenmonitore mit niedriger Auflösung entwickelt und fühlt sich auf modernen Displays unglaublich klobig an. Die Modernisierung Ihres HUDs und die Integration zeitgemäßer Gameplay-Mechaniken werden Ihre Erfahrung drastisch verbessern.
+
+| Funktion | Vanilla UI Plus | Darnified UI |
+| :--- | :--- | :--- |
+| **Design-Philosophie** | Bewahrt die ursprüngliche Retro-Ästhetik | Modernisiertes, minimalistisches Layout |
+| **Schriftgröße** | Gut lesbarer Standardtext | Kompakte Schriften für hohe Auflösungen |
+| **Bildschirmplatz** | Ausgewogene Informationsdichte | Maximaler Platz auf dem Bildschirm |
+| **HUD-Anpassung** | Moderate Optionen | Umfangreiches Konfigurationsmenü |
+
+Zusätzlich zu visuellen UI-Anpassungen fügt die "Gameplay and Quality of Life Tweaks Collection" Mechaniken hinzu, die Spieler von modernen Shootern erwarten. Diese Funktionen machen Erkundung und Kampf viel flüssiger.
+
+- **Sprinting**: Dynamische, ausdauerbasierte Bewegung, um die Wüste schneller zu durchqueren.
+- **Quick Looting**: Ein Echtzeit-Beutemenü-Popup, inspiriert von Fallout 4.
+- **Grenade Hotkey**: Werfen Sie Sprengstoffe sofort, ohne sie manuell ausrüsten zu müssen.
+- **Companion Wheel**: Eine optimierte Schnittstelle zur Verwaltung von Begleitertaktiken und Inventaren.
+
+<Callout type="info" title="UI-Kompatibilität">
+Installieren Sie nicht beide UI-Sammlungen gleichzeitig. Wählen Sie entweder Vanilla UI Plus oder Darnified UI, stellen Sie es über Vortex bereit und testen Sie es im Spiel, um zu sehen, welches Layout Ihren Vorlieben entspricht.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checkliste & Best Practices">
+
+Bevor Sie ins Mojave aufbrechen, gehen Sie diesen Pre-Flight-Check durch, um sicherzustellen, dass Ihr gemoddetes Setup während Ihres gesamten Spieldurchgangs stabil bleibt.
+
+<Checklist
+  id="pre-flight-check"
+  title="Mojave Pre-Flight Checkliste:"
+  items={[
+    "Überprüfen Sie die Ausführung des 4GB-Patches im Spielordner",
+    "Bestätigen Sie, dass die Archiv-Invalidierung in Vortex aktiv ist",
+    "Deaktivieren Sie alle Autosaves für Schnellreisen in den Spieloptionen",
+    "Stellen Sie sicher, dass nur eine UI-Sammlung gleichzeitig aktiv ist",
+    "Starten Sie das Spiel über Vortex, um die Script-Extender zu verifizieren"
+  ]}
+/>
+
+Die Einhaltung dieser Best Practices verhindert die Korruption von Speicherständen und minimiert die Belastung der Engine während langer Spielsitzungen.
+
+<Callout type="warning" title="Stabilitäts-Alarm">
+Vermeiden Sie die Installation der veralteten Mod "New Vegas Stutter Remover" (NVSR). Auf modernen Betriebssystemen verursacht NVSR schwere Engine-Instabilität und häufige Abstürze auf den Desktop (CTD). Verwenden Sie stattdessen moderne Tick-Fixes.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Häufig gestellte Fragen">
+
+Hier finden Sie Antworten auf gängige Fragen zur Fehlerbehebung in Bezug auf Modding, Stabilität und Installation.
+
+<FAQ items={[
+  {
+    question: "Kann ich diesen Fallout New Vegas Remaster Guide mit einem kostenlosen Standard-Nexus-Konto verwenden?",
+    answer: "Ja. Während ein Premium-Konto den Download-Prozess automatisiert, können kostenlose Benutzer jede Mod problemlos manuell herunterladen. Vortex führt Sie schrittweise durch jede Download-Seite."
+  },
+  {
+    question: "Warum stürzt mein Spiel bei Schnellreisen ab?",
+    answer: "Autosaves der Engine während der Schnellreise sind sehr instabil. Deaktivieren Sie das automatische Speichern beim Reisen, Warten und Schlafen in den Gameplay-Optionen und verlassen Sie sich stattdessen auf manuelle Speicherstände."
+  },
+  {
+    question: "Woher weiß ich, ob der 4GB Patcher korrekt funktioniert hat?",
+    answer: "Öffnen Sie die Konsole im Spiel mit der Tilde-Taste (~) oder der Taste unter ESC und geben Sie 'GetIsLAA' ein. Wenn die Konsole '2' zurückgibt, erkennt das Spiel den 4GB-Patch korrekt und läuft mit Large Address Awareness."
+  },
+  {
+    question: "Kann ich eine Sammlung mitten im Spieldurchgang sicher deaktivieren?",
+    answer: "Während UI- und kosmetische Sammlungen normalerweise sicher deaktiviert werden können, kann das Deaktivieren von Kern-Stabilitäts- oder Gameplay-Sammlungen mitten im Spiel Ihre Speicherstände korrumpieren. Testen Sie Ihr Loadout immer auf einem neuen Profil."
+  }
+]} />
+
+<Callout type="tip" title="Speichermanagement">
+Sichern Sie immer Ihre Speicherstände, bevor Sie Sammlungen aktualisieren. Regelmäßige manuelle Speicherstände minimieren das Risiko, Fortschritte aufgrund eines Mod-Konflikts zu verlieren.
+</Callout>
+
+</Section>

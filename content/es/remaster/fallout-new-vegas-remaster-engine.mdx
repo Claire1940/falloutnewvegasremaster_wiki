@@ -1,0 +1,184 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Zap, Wrench } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Motor de Fallout New Vegas Remaster: Análisis técnico y comparación de 2026",
+  description: "Explora los detalles técnicos del motor de Fallout New Vegas Remaster, incluyendo comparaciones entre Creation Engine 3 y Unreal Engine 5, y guías de rendimiento.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/e5e7eb?text=Fallout+New+Vegas+Remaster+Engine",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Fallout New Vegas"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Motor de Fallout New Vegas Remaster**: Los informes actuales sugieren un posible enfoque híbrido o una transición a **Unreal Engine 5** para lograr una mayor fidelidad visual.
+- **Creation Engine 3**: Confirmado para Fallout 5 y Elder Scrolls 6, ofreciendo mejoras masivas en **animaciones faciales** y físicas.
+- **Participación de Obsidian**: Se ha dado luz verde a un nuevo spin-off, que probablemente utilizará la arquitectura de **Unreal Engine** con la que el equipo está familiarizado.
+- **Ventana de lanzamiento**: El remaster de Fallout 3 está previsto para **2027**, y es probable que New Vegas le siga poco después para coincidir con las temporadas de la serie de televisión.
+- **Impacto en los mods**: La elección del nuevo motor determinará el futuro de las **Creaciones** y la compatibilidad del contenido creado por la comunidad.
+</Callout>
+
+<Section icon={Map} title="Confirmación oficial y hoja de ruta del proyecto">
+
+El paisaje del Yermo de Mojave está listo para una renovación masiva. A partir de 2026, las hojas de ruta internas de Bethesda y Xbox han confirmado que una actualización del **motor de Fallout New Vegas Remaster** está en el corazón de su estrategia para revitalizar la franquicia. Tras el enorme éxito de la serie de televisión de Amazon, la prioridad ha pasado a ser la modernización de los títulos clásicos para cumplir con los estándares de la generación actual. Aunque Fallout 5 sigue siendo el objetivo a largo plazo, el futuro inmediato pertenece a los remasters de Fallout 3 y New Vegas.
+
+**Aspectos destacados del video:**
+- Confirmación de que los remasters de Fallout 3 y New Vegas están actualmente en desarrollo.
+- Discusión sobre la transición a **Creation Engine 3** para futuros títulos principales de BGS.
+- Detalles sobre los rumores del estudio "Virtuos" respecto al proceso de portabilidad a Unreal Engine.
+- El impacto de la reestructuración de Xbox en un ciclo de lanzamiento más rápido para la IP de Fallout.
+
+<YouTubeEmbed videoId="-liNASQJGVo" title="Fallout 5, Fallout 3 & New Vegas Remasters CONFIRMADOS. Detalles explicados." />
+
+<Callout type="success" title="Hito de desarrollo">
+Se espera que el 30.º aniversario de Fallout en 2027 sea el trampolín para el primer gran remaster, que potencialmente podría contar con un lanzamiento sorpresa o una presentación profunda de la jugabilidad en Washington D.C.
+</Callout>
+
+| Título del proyecto | Estado de desarrollo | Motor objetivo | Rol en la franquicia |
+| :--- | :--- | :--- | :--- |
+| **Fallout 3 Remaster** | Desarrollo activo | Híbrido Unreal / Creation | Modernizar el Yermo de Capital |
+| **New Vegas Remaster** | Preproducción | Por determinar (Probablemente Unreal 5) | Restauración de un favorito de los fans |
+| **Fallout 5** | Preproducción | **Creation Engine 3** | Buque insignia de próxima generación |
+| **Spin-off de Obsidian** | Aprobado | Unreal Engine 5 | Expansión centrada en la narrativa |
+
+</Section>
+
+<Section icon={Sparkles} title="Comparación de motores: Creation vs. Unreal Engine 5">
+
+Uno de los temas más de batidos dentro de la comunidad es si el **motor de Fallout New Vegas Remaster** debería seguir utilizando las herramientas patentadas de Bethesda o migrar a Unreal Engine 5. El juego original se desarrolló con el motor Gamebryo, el cual, aunque flexible para los creadores de mods, es notoriamente inestable en el hardware moderno. Un cambio a Unreal Engine 5 ofrecería una iluminación y transmisión de recursos sin precedentes a través de Nanite y Lumen, pero plantea un riesgo significativo para el ecosistema de mods existente.
+
+<CardGrid cols={2}>
+  <Card title="Beneficios de Creation Engine 3">
+    - **Soporte nativo para mods**: Integración perfecta con la nueva plataforma Creations.
+    - **Datos del mundo persistentes**: Manejo superior de miles de objetos interactivos.
+    - **Herramientas familiares**: Más fácil de supervisar para los equipos internos de Bethesda.
+    - **Sistemas de IA**: IA Radiant mejorada y programación de comportamiento de NPC.
+  </Card>
+  <Card title="Beneficios de Unreal Engine 5">
+    - **Fidelidad gráfica**: Iluminación global y texturas líderes en la industria.
+    - **Estabilidad**: Mejor utilización de CPU multinúcleo y menos fallos (crashes).
+    - **Acceso para desarrolladores**: Mayor base de talento disponible en estudios externos como Virtuos.
+    - **Flujo de trabajo de recursos**: Diseño de entornos más rápido utilizando Quixel Megascans.
+  </Card>
+</CardGrid>
+
+<Callout type="warning" title="El dilema de los mods">
+Cambiar a Unreal Engine 5 rompería de manera efectiva la compatibilidad con más de una década de mods de Nexus. Bethesda está explorando una tecnología de "envoltorio" (wrapper) para permitir que ciertos scripts funcionen entre motores.
+</Callout>
+
+| Característica | Creation Engine 2 (Starfield) | Creation Engine 3 (Futuro) | Unreal Engine 5 (Remasters) |
+| :--- | :--- | :--- | :--- |
+| **Iluminación** | Iluminación global en tiempo real | Trazado de rayos avanzado | **Lumen** (GI dinámica) |
+| **Geometría** | LoD estándar | Nanite de alta fidelidad | **Nanite** (Geometría virtual) |
+| **Físicas** | Basado en Havok | Personalizado interno | Físicas Chaos |
+| **Creación de mods** | Alta (Papyrus) | Alta (Herramientas mejoradas) | Moderada (Basada en complementos) |
+
+</Section>
+
+<Section icon={Target} title="Requisitos técnicos y objetivos de rendimiento">
+
+Para ejecutar el **motor de Fallout New Vegas Remaster** de manera eficaz, los jugadores deberán prepararse para un salto significativo en los requisitos del sistema en comparación con el original de 2010. El objetivo para el remaster es lograr unos 4K/60 FPS estables en Xbox Series X y PlayStation 5, con funciones especializadas para usuarios de PC que incluyen compatibilidad con DLSS 3.5 y FSR 3.0.
+
+<Steps>
+  <Step num="1" title="Auditoría de hardware">
+    Asegúrate de que tu PC cumpla con la nueva base: ahora es obligatorio un SSD para la arquitectura de "carga de celdas" (Cell Loading) utilizada en el motor actualizado.
+  </Step>
+  <Step num="2" title="Optimización de controladores">
+    Actualiza a los controladores "Game Ready" de 2026 específicamente optimizados para los nuevos sombreadores de iluminación y mapas de sombras de Bethesda.
+  </Step>
+  <Step num="3" title="Gestión de mods">
+    Si utilizas la nueva tienda de Creations, asegúrate de que tu cuenta esté vinculada al ecosistema de Bethesda.net para obtener derechos multiplataforma.
+  </Step>
+</Steps>
+
+| Componente | Mínimo (1080p/30) | Recomendado (1440p/60) | Ultra (4K/60+) |
+| :--- | :--- | :--- | :--- |
+| **CPU** | Ryzen 5 3600 / i5-10400 | Ryzen 7 5800X / i7-12700K | Ryzen 9 7900X / i9-14900K |
+| **GPU** | RTX 2060 / RX 5700 | **RTX 3080 / RX 6800 XT** | **RTX 4080 / RX 7900 XTX** |
+| **RAM** | 16GB DDR4 | 16GB DDR5 | 32GB DDR5 |
+| **Almacenamiento** | 80GB NVMe SSD | 80GB NVMe Gen4 SSD | 80GB NVMe Gen5 SSD |
+
+<Callout type="tip" title="Consejo de rendimiento">
+El nuevo motor utiliza una lógica pesada de "Script Extender" de forma nativa. Si experimentas microtirones (micro-stuttering), desactiva el "Procesamiento de NPC en segundo plano" en la configuración avanzada para liberar ciclos de CPU.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="El papel de Obsidian y el nuevo spin-off">
+
+La noticia más emocionante para los fans de New Vegas es la aprobación oficial de un nuevo proyecto de Fallout por parte de Obsidian Entertainment. Aunque no es una secuela directa de la historia de Mojave, se espera que utilice la misma estructura del **motor de Fallout New Vegas Remaster** para garantizar la coherencia visual en toda la era "moderna" de Fallout. Históricamente, Obsidian ha sido más eficiente con los ciclos de desarrollo, y dado que Microsoft es propietaria de ambos estudios, la "falsa rivalidad" ha sido reemplazada por una colaboración activa.
+
+**Características esperadas del proyecto de Obsidian:**
+- Regreso a los árboles de diálogo ramificados profundos y sistemas de reputación.
+- Un nuevo escenario, potencialmente en el noroeste del Pacífico o en el corazón de la República de Nueva California.
+- Integración con la plataforma "Creations", lo que permitirá a los creadores de mods ganar regalías.
+- Utilización de Unreal Engine 5 para una rápida construcción del mundo.
+
+<Checklist
+  id="obsidian-collab"
+  title="Objetivos de la colaboración con Obsidian:"
+  items={[
+    "Implementar elementos de la historia original de 'Van Buren'",
+    "Utilizar la iluminación avanzada de Unreal Engine 5 para entornos desérticos",
+    "Garantizar una compatibilidad del 100% con los recursos de New Vegas Remaster",
+    "Lanzar dentro de una ventana de desarrollo de 3 a 4 años"
+  ]}
+/>
+
+<Callout type="info" title="Perspectiva de la industria">
+Todd Howard confirmó en una entrevista reciente que Microsoft está "acelerando" el contenido de Fallout para garantizar que la brecha entre lanzamientos nunca vuelva a superar los 3 o 5 años.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="La creación de mods y el ecosistema de Creations">
+
+La transición a un nuevo **motor de Fallout New Vegas Remaster** está fuertemente influenciada por el éxito financiero del programa "Creations". Con más de 10 millones de dólares ya pagados a los creadores, Bethesda y Xbox ven a la comunidad de mods como una parte vital de la longevidad del juego. El nuevo motor contará con herramientas integradas para ayudar a los creadores a portar su trabajo, aunque la transición de Gamebryo/Creation Engine 1 a una arquitectura moderna sigue siendo un obstáculo técnico.
+
+| Característica | Creación de mods clásica (2010) | Creations modernas (2026) |
+| :--- | :--- | :--- |
+| **Plataforma** | Solo PC (Principalmente) | **Multiplataforma** (PC, Xbox, PS5) |
+| **Monetización** | Gratis / Donaciones | **Regalías profesionales** |
+| **Estabilidad** | Altamente variable | Curado y probado |
+| **Integración** | Instalación manual / Gestores | Tienda integrada en el juego con un solo clic |
+
+<Callout type="success" title="Incentivo para creadores">
+Las nuevas herramientas para el motor de Starfield son actualmente el mejor campo de entrenamiento para los futuros creadores de Fallout. Aprender el flujo de trabajo de "Creation Kit 2" será esencial para el remaster de New Vegas.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Conclusión y preguntas frecuentes">
+
+La evolución del **motor de Fallout New Vegas Remaster** representa algo más que una simple actualización gráfica; es un cambio fundamental en la forma en que Bethesda gestiona sus propiedades intelectuales más valiosas. Al aprovechar estudios externos y motores modernos, finalmente están abordando el problema de la "espera de 15 años" que ha plagado a la serie. Ya sea que el producto final se base en un Creation Engine 3 refinado o en una impresionante versión de Unreal Engine 5, el Mojave está a punto de lucir más peligroso y hermoso que nunca.
+
+<FAQ items={[
+  {
+    question: "¿Soportará el motor de Fallout New Vegas Remaster los mods antiguos?",
+    answer: "Es poco probable que haya soporte directo debido a los enormes cambios arquitectónicos. Sin embargo, Bethesda está trabajando en herramientas para simplificar el proceso de portabilidad de recursos para los creadores de primer nivel."
+  },
+  {
+    question: "¿Está Obsidian desarrollando el remaster de New Vegas?",
+    answer: "Los informes actuales sugieren que Virtuos se está encargando de la remasterización técnica, mientras que Obsidian está centrada en un juego spin-off de Fallout completamente nuevo."
+  },
+  {
+    question: "¿Cuál es la fecha de lanzamiento prevista para el remaster de New Vegas?",
+    answer: "Aunque no tiene fecha oficial, los expertos de la industria apuntan a un lanzamiento en 2027 para el remaster de Fallout 3, y es probable que New Vegas llegue en 2028."
+  },
+  {
+    question: "¿Incluirá el remaster todos los DLC como Old World Blues?",
+    answer: "Sí, el objetivo del motor del remaster es proporcionar una experiencia 'definitiva', que incluya todas las expansiones originales con tecnología modernizada."
+  }
+]} />
+
+<Callout type="tip" title="Veredicto final">
+Mantente atento a la celebración del 30.º aniversario de Fallout en octubre de 2027. Esta es la ventana más probable para ver por primera vez el nuevo motor en acción.
+</Callout>
+
+</Section>

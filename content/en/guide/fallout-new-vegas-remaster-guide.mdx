@@ -1,0 +1,205 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fallout New Vegas Remaster Guide: 2026 Mod Setup & Stability",
+  description: "Follow this step-by-step Fallout New Vegas remaster guide to install essential stability mods, graphics overhauls, and gameplay tweaks in 2026.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e293b/fff?text=New+Vegas+Remaster+Guide",
+  date: "2026-07-21",
+  author: "Fallout New Vegas Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Primary objective**: Build a highly stable, visually modernized loadout using this **fallout new vegas remaster guide** in 2026.
+- **Core requirement**: Ensure you own the Steam or GOG Ultimate Edition; avoid the Microsoft Store version.
+- **Essential step**: Run the 4GB Patcher and fix the game's ESM master files before adding visual overhauls.
+- **Critical warning**: Avoid legacy mods like New Vegas Stutter Remover (NVSR) to prevent frequent crashes.
+- **Best practice**: Use Vortex Mod Manager profiles to easily swap between modded and vanilla setups.
+</Callout>
+
+<Section icon={Shield} title="Essential Prerequisites & Game Setup">
+
+Modding a classic RPG requires a solid foundation to prevent constant crashes. This **fallout new vegas remaster guide** walks you through the essential pre-installation steps, ensuring your directory is optimized for modern operating systems in 2026.
+
+**Video Highlights:**
+- **Platform compatibility**: Learn why Steam or GOG versions are mandatory, while Microsoft Store versions must be avoided.
+- **Directory rules**: Understand why installing the game inside the standard Program Files folder causes permission errors.
+- **Initial run**: Discover the importance of launching the vanilla game once to generate essential initialization files.
+- **Vortex setup**: Get step-by-step instructions on setting up profiles to keep your vanilla and modded files separate.
+
+<YouTubeEmbed videoId="ob2KvoEz8E4" title="A Complete Beginner's Guide to Modding FALLOUT: New Vegas in 2026" />
+
+Before downloading any mods, you must prepare your system environment. Windows security features often restrict file modifications inside default directories, which can block script extenders and custom assets.
+
+| Requirement | GOG Version | Steam Version | Microsoft Store |
+| :--- | :--- | :--- | :--- |
+| **Mod Compatibility** | Excellent | Excellent | Poor (restricted) |
+| **4GB Patch** | Pre-patched | Requires manual patch | Incompatible |
+| **DLC Requirement** | Ultimate Edition | Ultimate Edition | Standard/Ultimate |
+| **Install Path** | Custom folder | Custom folder | Default Windows |
+
+To guarantee a smooth setup, create a dedicated folder outside of your primary system drive's program directory (for example, `D:\Games\SteamLibrary`). Once installed, launch the game launcher at least once. This initial run is critical because it auto-detects your system hardware, configures your display resolution, and generates the required `.ini` configuration files in your Documents folder.
+
+<Callout type="warning" title="Platform Warning">
+Do not attempt to mod the Microsoft Store version of the game. It locks down directory permissions, making it incredibly difficult to run essential script extenders and custom stability patches.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Step-by-Step Fallout New Vegas Remaster Guide">
+
+Deploying core engine fixes and script extenders requires a precise sequence of installations. Follow these steps to build a highly stable environment using Vortex Mod Manager.
+
+<Steps>
+  <Step num="1" title="Mod Manager Setup">
+    Download and install Vortex Mod Manager. Log in to your Nexus Mods account, navigate to the games tab, search for New Vegas, and click manage. Go to settings, interface, and enable profile management. Create a new profile named "Modded" with its own game settings and save files.
+  </Step>
+  <Step num="2" title="Archive Invalidation">
+    In Vortex, navigate to settings and select the Workarounds tab. Check the box for BSA Redirection under Archive Invalidation. This forces the game engine to prioritize modified loose files over the default compressed game archives.
+  </Step>
+  <Step num="3" title="The Stable Collection">
+    Locate the Stable New Vegas Collection on Nexus Mods. Click add collection to open Vortex. Select your modded profile and begin the download. This collection automatically deploys bug fixes, engine optimizations, and performance enhancers.
+  </Step>
+  <Step num="4" title="Execute the 4GB Patch">
+    Open your game folder via Vortex (Mods -> Open -> Open Game Folder). Locate the file named `FNVpatch.exe` and double-click to run it. A command window will confirm that the executable has been successfully patched to utilize more system memory.
+  </Step>
+  <Step num="5" title="Fix Game Master Files">
+    Run the Ultimate Edition ESM Fixes Remastered tool. Copy the mod folder address from Vortex, run the installer tool, paste the directory path, and execute the installation. Once finished, enable all fixed ESM files in your Vortex plugins list.
+  </Step>
+</Steps>
+
+| Utility Name | Primary Function | Installation Method |
+| :--- | :--- | :--- |
+| **4GB Patcher** | Expands virtual memory address space | Manual executable run |
+| **ESM Fixes** | Repairs corrupted vanilla master files | Automated tool deployment |
+| **BSA Redirection** | Forces the engine to load modified assets | Vortex workaround toggle |
+| **NVSE** | Expands scripting capabilities for advanced mods | Automated via Collections |
+
+<Callout type="success" title="Patcher Tip">
+Running the 4GB Patcher on the GOG version is still recommended. While GOG pre-patches the executable for memory usage, running the patcher configures the engine to load the New Vegas Script Extender automatically.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Visual Remastering & Graphics Overhaul">
+
+Once your engine is stabilized, you can transform the outdated visual landscape. The New Vegas Remaster Collection overhauls lighting, textures, and distant terrain generation to bring the game up to modern standards in 2026.
+
+<CardGrid cols={3}>
+  <Card title="Atmospheric Lighting">
+    - **Realistic scattering**
+    - Corrected night lighting
+    - Dynamic weather patterns
+  </Card>
+  <Card title="High-Fidelity Textures">
+    - **Performance-friendly assets**
+    - Overhauled landscape textures
+    - Detailed weapon models
+  </Card>
+  <Card title="Distant Terrain (LOD)">
+    - **Pre-generated distant land**
+    - Zero horizon object pop-in
+    - Crisp mountain ranges
+  </Card>
+</CardGrid>
+
+Large visual overhauls require careful configuration to balance visual fidelity with system performance. Ensure you configure your display settings to match your hardware capabilities.
+
+| Setting | Recommended Value | Performance Impact |
+| :--- | :--- | :--- |
+| **Window Mode** | Borderless Windowed | Low (improves stability) |
+| **Texture Quality** | High / Ultra | Moderate (depends on VRAM) |
+| **Distant LOD** | Pre-generated | High (requires 4GB Patch) |
+| **Archive Invalidation** | Enabled | None (essential for textures) |
+
+These graphical adjustments breathe new life into the Mojave Wasteland, providing a cohesive aesthetic without straying too far from the original post-apocalyptic atmosphere.
+
+<Callout type="tip" title="Display Tip">
+Run the game in borderless windowed mode. Running the engine in native fullscreen on modern Windows 10 or 11 systems frequently triggers memory allocation errors and crashes when alt-tabbing.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="User Interface & Gameplay Enhancements">
+
+The default user interface of the Mojave Wasteland was designed for low-resolution CRT monitors and feels incredibly clunky on modern displays. Modernizing your HUD and integrating contemporary gameplay mechanics will drastically improve your experience.
+
+| Feature | Vanilla UI Plus | Darnified UI |
+| :--- | :--- | :--- |
+| **Design Philosophy** | Preserves original retro aesthetic | Modernized, minimalist layout |
+| **Font Size** | Standard readable text | Compact fonts for high resolutions |
+| **Screen Space** | Balanced information density | Maximum screen real estate |
+| **HUD Customization** | Moderate options | Extensive configuration menu |
+
+In addition to visual UI tweaks, the Gameplay and Quality of Life Tweaks Collection adds mechanics that players expect from modern shooters. These features make exploration and combat feel much more fluid.
+
+- **Sprinting**: Dynamic stamina-based movement to traverse the desert faster.
+- **Quick Looting**: A real-time loot menu container popup inspired by Fallout 4.
+- **Grenade Hotkey**: Throw explosives instantly without manually equipping them.
+- **Companion Wheel**: A streamlined interface to manage follower tactics and inventories.
+
+<Callout type="info" title="UI Compatibility">
+Do not install both UI collections at the same time. Choose either Vanilla UI Plus or Darnified UI, deploy it via Vortex, and test it in-game to see which layout fits your preference.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checklist & Best Practices">
+
+Before setting off into the Mojave, run through this pre-flight check to ensure your modded setup remains stable throughout your entire playthrough.
+
+<Checklist
+  id="pre-flight-check"
+  title="Mojave Pre-Flight Checklist:"
+  items={[
+    "Verify 4GB Patch execution in the game folder",
+    "Confirm Archive Invalidation is active in Vortex",
+    "Disable all autosaves for fast travel in game options",
+    "Ensure only one UI collection is active at a time",
+    "Launch the game via Vortex to verify script extenders"
+  ]}
+/>
+
+Adhering to these best practices will prevent save file corruption and minimize engine strain during long play sessions.
+
+<Callout type="warning" title="Stability Alert">
+Avoid installing the legacy New Vegas Stutter Remover (NVSR) mod. On modern operating systems, NVSR causes severe engine instability and frequent crashes to desktop (CTD). Use modern tick fixes instead.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Frequently Asked Questions">
+
+Find answers to common troubleshooting questions regarding modding, stability, and installation.
+
+<FAQ items={[
+  {
+    question: "Can I use this fallout new vegas remaster guide with a standard free Nexus account?",
+    answer: "Yes. While a Premium account automates the download process, free users can easily download every mod manually. Vortex will guide you through each download page step-by-step."
+  },
+  {
+    question: "Why does my game crash when I fast travel?",
+    answer: "Engine autosaves during fast travel are highly unstable. Disable auto-saving on travel, wait, and sleep in the gameplay options, and rely on manual saves instead."
+  },
+  {
+    question: "How do I know if the 4GB patcher worked correctly?",
+    answer: "Open the console in-game using the tilde key (~) and type 'GetIsLAA'. If the console returns '2', the game is correctly recognizing the 4GB patch and running with large address awareness."
+  },
+  {
+    question: "Can I safely disable a collection mid-playthrough?",
+    answer: "While UI and cosmetic collections can usually be disabled safely, disabling core stability or gameplay collections mid-game can corrupt your save files. Always test your loadout on a fresh profile."
+  }
+]} />
+
+<Callout type="tip" title="Save Management">
+Always back up your save files before updating any collections. Keeping regular manual saves ensures you minimize the risk of losing progress due to a mod conflict.
+</Callout>
+
+</Section>

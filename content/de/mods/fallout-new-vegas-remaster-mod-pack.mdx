@@ -1,0 +1,180 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Fallout New Vegas Remaster Mod-Paket: Setup-Leitfaden 2026",
+  description: "Vergleichen Sie die besten Fallout New Vegas Remaster Mod-Pakete im Jahr 2026. Erfahren Sie, wie Sie Gopher's Remaster und Wildcard für ein stabiles, modernes Spielerlebnis installieren.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1e293b/fff?text=New+Vegas+Mod+Pack",
+  date: "2026-07-21",
+  author: "Fallout New Vegas Wiki-Team"
+}
+
+<Callout type="info" title="Kurzanleitung">
+- **Mod-Paket-Wahl**: Wählen Sie ein **Fallout New Vegas Remaster Mod-Paket** basierend auf Ihrer Hardware-Leistung und Ihren Gameplay-Zielen aus.
+- **Essenzielle Dienstprogramme**: Führen Sie den 4GB Patcher aus und aktivieren Sie die Archive Invalidation, bevor Sie umfangreiche Textur- oder Beleuchtungs-Overhauls installieren.
+- **Visuelle Upgrades**: Nutzen Sie New Vegas Reloaded für fortschrittliche Funktionen wie Echtzeitschatten, Umgebungsverdeckung (Ambient Occlusion) und Parallax-Terrain.
+- **Installationsmethode**: Verwenden Sie automatisierte Tools wie WabbitJack oder Nexus Collections, um hunderte von Mods nahtlos zu verwalten.
+- **Leistungsziel**: Stellen Sie sicher, dass Ihre Hardware die Mindestanforderungen erfüllt, insbesondere wenn Sie hochauflösende Texturen und LOD-Generierung verwenden.
+</Callout>
+
+<Section icon={Map} title="Wahl Ihres Fallout New Vegas Remaster Mod-Pakets">
+
+Das perfekte **Fallout New Vegas Remaster Mod-Paket** zu finden, ist der erste Schritt zur Transformation Ihres Erlebnisses im Mojave-Ödland. Im Jahr 2026 bietet die Modding-Community verschiedene Wege an, die von leichtgewichtigen visuellen Überarbeitungen bis hin zu massiven Gameplay-Transformationen reichen. Die Wahl des richtigen Pakets hängt stark davon ab, ob Sie die klassischen Gameplay-Mechaniken beibehalten oder den Kampf, die Beleuchtung und die Performance des Spiels komplett modernisieren möchten.
+
+Zwei primäre Sammlungen dominieren die Szene: Gopher's New Vegas Remaster und die Wildcard-Mod-Liste. Gophers Sammlung konzentriert sich strikt auf ein „Vanilla Plus“-Erlebnis und verbessert die visuelle Wiedergabetreue, ohne das Kern-Gameplay zu verändern. Im Gegensatz dazu nutzt Wildcard „Viva New Vegas“ als Basis und führt dynamischere Weltelemente, benutzerdefinierte Animationen und fortschrittliche grafische Modifikationen ein.
+
+<CardGrid cols={3}>
+  <Card title="Gopher's Remaster">
+    - **Vanilla-Plus-Ansatz**
+    - Fokus auf Beleuchtung und LOD
+    - Bewahrt klassische Mechaniken
+  </Card>
+  <Card title="Wildcard Vanilla Plus">
+    - **Stabilität-zuerst-Basis**
+    - Essenzielle Fehlerbehebungen
+    - Optimierungen für flüssige Performance
+  </Card>
+  <Card title="Wildcard Chaos Profile">
+    - **Dynamische Welt-Overhauls**
+    - Eigene Kampfanimationen
+    - High-Fidelity Grafik-Upgrades
+  </Card>
+</CardGrid>
+
+| Mod-Paket | Fokus | Größe | Mod-Anzahl | Gameplay-Stil |
+|---|---|---|---|---|
+| Gopher's Remaster | Grafik & LOD | 8.9GB | 102 | Reines Vanilla Plus |
+| Wildcard Vanilla+ | Stabilität & Tweaks | 12GB | 150+ | Vanilla Plus |
+| Wildcard Chaos | Dynamischer Overhaul | 45GB | 800+ | Modernisierte Action |
+
+<Callout type="success" title="Auswahl-Tipp">
+Gopher's Remaster ist ideal für Spieler, die den ursprünglichen Gameplay-Loop von 2010 mit beeindruckender 2026-Grafik erleben möchten. Wählen Sie Wildcard, wenn Sie eine komplette mechanische Überarbeitung wünschen.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Systemanforderungen und Leistungsprofile">
+
+Das Modden von Fallout New Vegas kann moderne Hardware erheblich beanspruchen, insbesondere bei der Verwendung von fortschrittlichen Beleuchtungs-Engines und hochauflösenden Texturen. Während das Basisspiel für Engine-bedingte Engpässe berüchtigt ist, enthalten moderne Mod-Pakete entscheidende Stabilitäts-Patches, die die Speicherzuweisung und die Bildraten optimieren.
+
+Der Betrieb eines stark gemoddeten Setups erfordert ein klares Verständnis Ihrer Hardware-Fähigkeiten. Während eine Mittelklasse-Grafikkarte wie die RTX 4060 Ti fortgeschrittene Voreinstellungen mühelos bewältigt, sollten Spieler mit älterer Hardware leistungsorientierte Profile wählen. Diese Profile deaktivieren anspruchsvolle Funktionen wie Screen-Space-Reflexionen und Echtzeitschatten, während essenzielle Fehlerbehebungen aktiv bleiben.
+
+| Voreinstellung | Ziel-Hardware | Empfohlene Auflösung | Hauptmerkmale |
+|---|---|---|---|
+| Leistung | GTX 1060 / RX 580 | 1080p | Niedrig auflösende Texturen, deaktivierte Schatten, essenzielle Stabilitäts-Fixes |
+| Ausgewogen | RTX 3060 / RX 6600 | 1080p / 1440p | 2K-Texturen, einfache Umgebungsverdeckung, optimiertes LOD |
+| Ultra-Grafik | RTX 4060 Ti / RX 7700 | 1440p / 4K | 4K-Texturen, Parallax-Terrain, fortgeschrittene Tiefenschärfe |
+
+<Callout type="warning" title="Kritische Anforderung">
+Installieren Sie immer das 4GB Patcher-Utility, bevor Sie ein Mod-Paket starten. Wenn die ausführbare Datei des Spiels nicht gepatcht wird, führt dies sofort zu „Out-of-Memory“-Abstürzen beim Start.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Installationsanleitung">
+
+Die manuelle Installation einer massiven Auswahl an Mods ist sehr anfällig für Benutzerfehler. Modernes Modding nutzt automatisierte Installer, um die Hauptarbeit zu erledigen und korrekte Ladereihenfolgen sowie Konfliktlösungen sicherzustellen. Das Befolgen eines strukturierten Installationsprozesses ist entscheidend für ein stabiles, absturzfreies Spiel.
+
+<Steps>
+  <Step num="1" title="Saubere Spielinstallation">
+    Stellen Sie sicher, dass Sie eine frische Installation von Fallout New Vegas: Ultimate Edition über Steam oder GOG haben. Starten Sie den Launcher einmal, um die Standard-Konfigurationsdateien zu generieren.
+  </Step>
+  <Step num="2" title="Engine-Patches anwenden">
+    Laden Sie das 4GB Patcher-Utility herunter und führen Sie es aus. Dies ermöglicht der ausführbaren Datei des Spiels, 4GB virtuellen Speicher anstelle der standardmäßigen 2GB zu nutzen, was häufige Abstürze verhindert.
+  </Step>
+  <Step num="3" title="Mod-Manager konfigurieren">
+    Richten Sie Vortex oder Mod Organizer 2 ein. Stellen Sie sicher, dass „Archive Invalidation“ in den Einstellungen Ihres Mod-Managers aktiviert ist, damit benutzerdefinierte Texturen geladen werden können.
+  </Step>
+  <Step num="4" title="Automatisierten Installer ausführen">
+    Verwenden Sie WabbitJack oder Nexus Collections, um Ihr ausgewähltes Mod-Paket herunterzuladen. Folgen Sie den Anweisungen auf dem Bildschirm, um alle erforderlichen Dateien automatisch herunterzuladen und zu installieren.
+  </Step>
+</Steps>
+
+| Fehler / Symptom | Wahrscheinliche Ursache | Empfohlene Lösung |
+|---|---|---|
+| Absturz beim Start | Fehlende Master-Dateien oder ungepatchte EXE | 4GB Patcher ausführen und Ladereihenfolge im Mod-Manager prüfen |
+| Fehlende Texturen | Archive Invalidation deaktiviert | Archive Invalidation in Vortex/MO2 aus- und wieder einschalten |
+| Starkes Ruckeln | Overhead durch hochauflösende Texturen | Leistungsfreundliche LOD-Dateien installieren oder Texturauflösung reduzieren |
+| Unendlicher Ladebildschirm | Speicherstand-Korruption oder Engine-Limit | Die Mods „Infinite Loading Screen Fix“ und „Tick Fix“ installieren |
+
+<Callout type="info" title="Installations-Tipp">
+Wenn Sie automatisierte Installer wie WabbitJack verwenden, wird der Kauf eines temporären Nexus Premium-Abonnements dringend empfohlen. Dies automatisiert den Download-Prozess und erspart Ihnen das hunderte Male Klicken auf einzelne Download-Buttons.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Visuelle Verbesserungen und Gameplay-Überarbeitungen">
+
+Moderne Mod-Pakete machen mehr als nur Texturen hochzuskalieren; sie überarbeiten die Atmosphäre der Mojave komplett. Durch die Integration von Tools wie New Vegas Reloaded führen diese Sammlungen Echtzeitschatten, Umgebungsverdeckung, volumetrischen Nebel und voll funktionsfähiges Parallax-Terrain ein. Diese Änderungen lassen das Ödland geerdet und physisch präsent wirken.
+
+Auch die Gameplay-Mechaniken erhalten umfassende Updates. Das ursprüngliche New Vegas litt unter einem Mangel an echtem Waffenrückstoß und starren Charakterbewegungen. Moderne Mod-Pakete lösen dies durch prozeduralen Rückstoß, benutzerdefinierte Waffenhandhabungs-Animationen und konfigurierbare Third-Person-Kameras. Zusätzlich überarbeiten Mods wie das „Character Kit Remake“ die Gesichter der NPCs, um sicherzustellen, dass sie realistisch aussehen und dennoch dem ursprünglichen Kunststil treu bleiben.
+
+| Kategorie | Enthaltene Haupt-Mod | Visuelle / Gameplay-Auswirkung |
+|---|---|---|
+| Beleuchtung & Wetter | Desert Natural Weathers | Klarerer Himmel, realistische Nachtansichten, atmosphärische Innenräume |
+| NPC-Überarbeitungen | Character Kit Remake | Hochwertige Gesichtsmodelle, die das ursprüngliche Charakterdesign bewahren |
+| Kampfanimationen | B42 Weapon Inertia | Prozedurales Waffenschwanken, realistischer Rückstoß und flüssiges Nachladen |
+| Welterweiterung | The Living Desert | Dynamische NPC-Interaktionen, reisende Händler und reaktive Fraktionen |
+
+<Callout type="tip" title="Profi-Tipp">
+Passen Sie die Tiefenschärfe-Einstellungen (Depth of Field) in New Vegas Reloaded nach Ihrem Geschmack an. Während sie cineastisch wirken, kann eine starke Tiefenschärfe manchmal das Snipen auf große Entfernungen in offenen Wüstengebieten behindern.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Checkliste nach der Installation und Stabilitätsziele">
+
+Sobald Ihre Installation abgeschlossen ist, ist es wichtig, die Stabilität zu überprüfen, bevor Sie einen langen Spieldurchgang beginnen. Modding-Engines können sich unvorhersehbar verhalten, und ein paar Minuten Testen können später Stunden an verlorenem Fortschritt verhindern. Nutzen Sie diese Checkliste, um sicherzustellen, dass Ihr Spiel vollständig optimiert und bereit für die Mojave ist.
+
+<Checklist
+  id="stability-checklist"
+  title="Checkliste für die Einsatzbereitschaft im Ödland:"
+  items={[
+    "4GB-Patch-Installation via Konsolenbefehl überprüfen",
+    "Alt-Tab-Funktionalität im rahmenlosen Fenstermodus testen",
+    "Auf visuelle Fehler bei NPC-Gesichtern in Goodsprings prüfen",
+    "Bestätigen, dass benutzerdefinierte Waffen-Animationen korrekt geladen werden",
+    "Überprüfen, ob die 'Simple Open Strip'-Mod die Ladetore entfernt hat"
+  ]}
+/>
+
+<Callout type="success" title="Checkliste abgeschlossen">
+Das Abschließen dieser Stabilitätsprüfungen gewährleistet einen reibungslosen Spieldurchgang. Eine richtig konfigurierte Engine kann dutzende Stunden ohne einen einzigen Absturz laufen.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen (FAQ)">
+
+Die Komplexität des Moddings kann verschiedene Fragen aufwerfen, insbesondere für Rückkehrer. Unten finden Sie die häufigsten Anfragen bezüglich des Setups und der Wartung eines modernen Remaster-Mod-Pakets.
+
+<FAQ items={[
+  {
+    question: "Kann ich einem vorgefertigten Fallout New Vegas Remaster Mod-Paket zusätzliche Mods hinzufügen?",
+    answer: "Sie können zusätzliche Mods hinzufügen, aber dies geschieht auf eigenes Risiko. Eigene Ergänzungen können Ladereihenfolgen stören, Konflikte verursachen und dazu führen, dass Sie keinen Support mehr von den Erstellern des Mod-Pakets auf deren Discord-Kanälen erhalten."
+  },
+  {
+    question: "Ist ein Nexus Premium-Abonnement erforderlich, um diese Mod-Pakete zu installieren?",
+    answer: "Nein, Premium ist nicht zwingend erforderlich. Ohne es müssen Sie jedoch den Download-Button für jede einzelne Mod in der Sammlung manuell anklicken, was bei mehreren hundert Dateien sehr zeitaufwendig ist."
+  },
+  {
+    question: "Was soll ich tun, wenn mein Spiel häufig ruckelt?",
+    answer: "Stellen Sie sicher, dass 'New Vegas Tick Fix' installiert ist und Ihre Grafikkartentreiber auf dem neuesten Stand sind. Die Reduzierung der Texturauflösung von 4K auf 2K verbessert die Performance ebenfalls erheblich."
+  },
+  {
+    question: "Funktioniert Gopher's New Vegas Remaster mit Tale of Two Wastelands?",
+    answer: "Gopher's Remaster ist speziell für ein eigenständiges New Vegas-Erlebnis konzipiert. Für Tale of Two Wastelands-Unterstützung sollten Sie nach dedizierten kompatiblen Mod-Listen wie Wildcard suchen."
+  }
+]} />
+
+<Callout type="info" title="Community-Support">
+Für Echtzeit-Fehlerbehebung und Community-Support sollten Sie in Erwägung ziehen, den offiziellen Discord-Servern der jeweiligen Mod-Pakete beizutreten. Die Community ist sehr aktiv und aktualisiert regelmäßig die Installationsanleitungen.
+</Callout>
+
+</Section>

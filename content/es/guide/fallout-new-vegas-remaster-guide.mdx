@@ -1,0 +1,206 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de Fallout New Vegas Remasterizado: Configuración de Mods y Estabilidad 2026",
+  description: "Sigue esta guía paso a paso de Fallout New Vegas remasterizado para instalar mods de estabilidad esenciales, mejoras gráficas y ajustes de jugabilidad en 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=New+Vegas+Remaster+Guide",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Fallout New Vegas",
+  keywords: "fallout new vegas, remaster, mods, estabilidad, guía 2026, gráficos"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetivo principal**: Crear una configuración altamente estable y visualmente modernizada usando esta **guía de fallout new vegas remasterizado** en 2026.
+- **Requisito fundamental**: Asegúrate de tener la Ultimate Edition de Steam o GOG; evita la versión de Microsoft Store.
+- **Paso esencial**: Ejecuta el 4GB Patcher y repara los archivos maestros ESM del juego antes de añadir mejoras visuales.
+- **Advertencia crítica**: Evita los mods antiguos como New Vegas Stutter Remover (NVSR) para prevenir cierres frecuentes del juego.
+- **Mejor práctica**: Usa los perfiles de Vortex Mod Manager para alternar fácilmente entre configuraciones con mods y la versión original (vanilla).
+</Callout>
+
+<Section icon={Shield} title="Requisitos Previos Esenciales y Configuración del Juego">
+
+Modificar un RPG clásico requiere una base sólida para evitar cierres constantes. Esta **guía de fallout new vegas remasterizado** te guiará a través de los pasos esenciales previos a la instalación, asegurando que tu directorio esté optimizado para los sistemas operativos modernos en 2026.
+
+**Puntos destacados del video:**
+- **Compatibilidad de plataforma**: Descubre por qué las versiones de Steam o GOG son obligatorias, mientras que las de Microsoft Store deben evitarse.
+- **Reglas del directorio**: Entiende por qué instalar el juego dentro de la carpeta estándar de Program Files causa errores de permisos.
+- **Ejecución inicial**: Descubre la importancia de iniciar el juego original una vez para generar los archivos de inicialización esenciales.
+- **Configuración de Vortex**: Obtén instrucciones paso a paso sobre cómo configurar perfiles para mantener separados tus archivos originales de los modificados.
+
+<YouTubeEmbed videoId="ob2KvoEz8E4" title="Guía completa para principiantes para moddear FALLOUT: New Vegas en 2026" />
+
+Antes de descargar cualquier mod, debes preparar el entorno de tu sistema. Las funciones de seguridad de Windows a menudo restringen la modificación de archivos dentro de los directorios predeterminados, lo que puede bloquear los extensores de scripts y los recursos personalizados.
+
+| Requisito | Versión GOG | Versión Steam | Microsoft Store |
+| :--- | :--- | :--- | :--- |
+| **Compatibilidad de Mods** | Excelente | Excelente | Pobre (restringida) |
+| **Parche de 4GB** | Pre-parcheado | Requiere parche manual | Incompatible |
+| **Requisito de DLC** | Ultimate Edition | Ultimate Edition | Estándar/Ultimate |
+| **Ruta de Instalación** | Carpeta personalizada | Carpeta personalizada | Windows por defecto |
+
+Para garantizar una configuración sin problemas, crea una carpeta dedicada fuera del directorio de programas de tu unidad de sistema principal (por ejemplo, `D:\Games\SteamLibrary`). Una vez instalado, inicia el lanzador del juego al menos una vez. Esta ejecución inicial es crítica porque detecta automáticamente el hardware de tu sistema, configura la resolución de pantalla y genera los archivos de configuración `.ini` necesarios en tu carpeta de Documentos.
+
+<Callout type="warning" title="Advertencia de Plataforma">
+No intentes moddear la versión de Microsoft Store del juego. Bloquea los permisos del directorio, lo que hace increíblemente difícil ejecutar extensores de scripts esenciales y parches de estabilidad personalizados.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Guía Paso a Paso de Fallout New Vegas Remasterizado">
+
+Implementar las correcciones del motor y los extensores de scripts principales requiere una secuencia precisa de instalaciones. Sigue estos pasos para construir un entorno altamente estable usando Vortex Mod Manager.
+
+<Steps>
+  <Step num="1" title="Configuración del Gestor de Mods">
+    Descarga e instala Vortex Mod Manager. Inicia sesión en tu cuenta de Nexus Mods, navega a la pestaña de juegos, busca New Vegas y haz clic en gestionar. Ve a ajustes, interfaz, y activa la gestión de perfiles. Crea un nuevo perfil llamado "Modded" con sus propios ajustes de juego y archivos de guardado.
+  </Step>
+  <Step num="2" title="Invalidación de Archivos (Archive Invalidation)">
+    En Vortex, navega a ajustes y selecciona la pestaña de Soluciones (Workarounds). Marca la casilla de BSA Redirection bajo Archive Invalidation. Esto obliga al motor del juego a priorizar los archivos sueltos modificados sobre los archivos comprimidos originales del juego.
+  </Step>
+  <Step num="3" title="La Colección Estable (The Stable Collection)">
+    Busca la "Stable New Vegas Collection" en Nexus Mods. Haz clic en añadir colección para abrir Vortex. Selecciona tu perfil modificado y comienza la descarga. Esta colección implementa automáticamente correcciones de errores, optimizaciones del motor y mejoras de rendimiento.
+  </Step>
+  <Step num="4" title="Ejecutar el Parche de 4GB">
+    Abre la carpeta de tu juego a través de Vortex (Mods -> Abrir -> Abrir carpeta del juego). Busca el archivo llamado `FNVpatch.exe` y haz doble clic para ejecutarlo. Una ventana de comandos confirmará que el ejecutable ha sido parcheado con éxito para utilizar más memoria del sistema.
+  </Step>
+  <Step num="5" title="Reparar Archivos Maestros del Juego">
+    Ejecuta la herramienta Ultimate Edition ESM Fixes Remastered. Copia la dirección de la carpeta del mod desde Vortex, ejecuta la herramienta de instalación, pega la ruta del directorio y ejecuta la instalación. Una vez terminado, activa todos los archivos ESM corregidos en tu lista de plugins de Vortex.
+  </Step>
+</Steps>
+
+| Nombre de la Utilidad | Función Principal | Método de Instalación |
+| :--- | :--- | :--- |
+| **4GB Patcher** | Expande el espacio de direcciones de memoria virtual | Ejecución manual del ejecutable |
+| **ESM Fixes** | Repara archivos maestros originales dañados | Despliegue de herramienta automatizada |
+| **BSA Redirection** | Obliga al motor a cargar recursos modificados | Ajuste en Vortex |
+| **NVSE** | Expande las capacidades de script para mods avanzados | Automatizado mediante Colecciones |
+
+<Callout type="success" title="Consejo del Parche">
+Aún se recomienda ejecutar el 4GB Patcher en la versión de GOG. Aunque GOG pre-parchea el ejecutable para el uso de memoria, ejecutar el parcheador configura el motor para cargar el New Vegas Script Extender automáticamente.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Remasterización Visual y Mejora de Gráficos">
+
+Una vez que el motor esté estabilizado, puedes transformar el paisaje visual anticuado. La New Vegas Remaster Collection renueva la iluminación, las texturas y la generación de terreno distante para llevar el juego a los estándares modernos de 2026.
+
+<CardGrid cols={3}>
+  <Card title="Iluminación Atmosférica">
+    - **Dispersión realista**
+    - Iluminación nocturna corregida
+    - Patrones climáticos dinámicos
+  </Card>
+  <Card title="Texturas de Alta Fidelidad">
+    - **Recursos optimizados para el rendimiento**
+    - Texturas de paisaje renovadas
+    - Modelos de armas detallados
+  </Card>
+  <Card title="Terreno Distante (LOD)">
+    - **Tierra distante pre-generada**
+    - Sin aparición repentina de objetos en el horizonte
+    - Cadenas montañosas nítidas
+  </Card>
+</CardGrid>
+
+Las grandes mejoras visuales requieren una configuración cuidadosa para equilibrar la fidelidad visual con el rendimiento del sistema. Asegúrate de configurar tus ajustes de pantalla para que coincidan con las capacidades de tu hardware.
+
+| Ajuste | Valor Recomendado | Impacto en el Rendimiento |
+| :--- | :--- | :--- |
+| **Modo de Ventana** | Ventana sin bordes | Bajo (mejora la estabilidad) |
+| **Calidad de Texturas** | Alta / Ultra | Moderado (depende de la VRAM) |
+| **LOD Distante** | Pre-generado | Alto (requiere Parche de 4GB) |
+| **Archive Invalidation** | Activado | Ninguno (esencial para texturas) |
+
+Estos ajustes gráficos dan nueva vida al Yermo de Mojave, proporcionando una estética cohesiva sin alejarse demasiado de la atmósfera post-apocalíptica original.
+
+<Callout type="tip" title="Consejo de Pantalla">
+Ejecuta el juego en modo ventana sin bordes. Ejecutar el motor en pantalla completa nativa en sistemas modernos con Windows 10 u 11 frecuentemente provoca errores de asignación de memoria y cierres al usar Alt-Tab.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Interfaz de Usuario y Mejoras de Jugabilidad">
+
+La interfaz de usuario predeterminada del Yermo de Mojave fue diseñada para monitores CRT de baja resolución y se siente increíblemente tosca en pantallas modernas. Modernizar tu HUD e integrar mecánicas de juego contemporáneas mejorará drásticamente tu experiencia.
+
+| Característica | Vanilla UI Plus | Darnified UI |
+| :--- | :--- | :--- |
+| **Filosofía de Diseño** | Preserva la estética retro original | Diseño modernizado y minimalista |
+| **Tamaño de Fuente** | Texto estándar legible | Fuentes compactas para altas resoluciones |
+| **Espacio en Pantalla** | Densidad de información equilibrada | Máximo espacio real de pantalla |
+| **Personalización de HUD** | Opciones moderadas | Menú de configuración extenso |
+
+Además de los ajustes visuales de la interfaz, la colección de mejoras de jugabilidad y calidad de vida añade mecánicas que los jugadores esperan de los shooters modernos. Estas características hacen que la exploración y el combate se sientan mucho más fluidos.
+
+- **Sprintar**: Movimiento dinámico basado en estamina para atravesar el desierto más rápido.
+- **Saqueo Rápido**: Un menú emergente de saqueo en tiempo real inspirado en Fallout 4.
+- **Acceso Rápido a Granadas**: Lanza explosivos instantáneamente sin tener que equiparlos manualmente.
+- **Rueda de Compañeros**: Una interfaz optimizada para gestionar tácticas e inventarios de los seguidores.
+
+<Callout type="info" title="Compatibilidad de UI">
+No instales ambas colecciones de interfaz al mismo tiempo. Elige entre Vanilla UI Plus o Darnified UI, despliégala vía Vortex y pruébala en el juego para ver qué diseño se adapta mejor a tu preferencia.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Lista de Verificación y Mejores Prácticas">
+
+Antes de partir hacia el Mojave, realiza esta comprobación previa para asegurar que tu configuración con mods se mantenga estable durante toda la partida.
+
+<Checklist
+  id="pre-flight-check"
+  title="Lista de Verificación previa al Mojave:"
+  items={[
+    "Verificar la ejecución del Parche de 4GB en la carpeta del juego",
+    "Confirmar que Archive Invalidation está activo en Vortex",
+    "Desactivar todos los autoguardados al viajar rápido en las opciones del juego",
+    "Asegurar que solo una colección de UI esté activa a la vez",
+    "Iniciar el juego a través de Vortex para verificar los extensores de scripts"
+  ]}
+/>
+
+Seguir estas mejores prácticas evitará la corrupción de archivos de guardado y minimizará la tensión del motor durante las sesiones de juego prolongadas.
+
+<Callout type="warning" title="Alerta de Estabilidad">
+Evita instalar el mod antiguo New Vegas Stutter Remover (NVSR). En los sistemas operativos modernos, el NVSR causa una grave inestabilidad del motor y cierres frecuentes al escritorio (CTD). Usa correcciones modernas de tics (tick fixes) en su lugar.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Preguntas Frecuentes">
+
+Encuentra respuestas a preguntas comunes sobre solución de problemas con mods, estabilidad e instalación.
+
+<FAQ items={[
+  {
+    question: "¿Puedo usar esta guía de fallout new vegas remasterizado con una cuenta gratuita de Nexus?",
+    answer: "Sí. Aunque una cuenta Premium automatiza el proceso de descarga, los usuarios gratuitos pueden descargar cada mod manualmente con facilidad. Vortex te guiará a través de cada página de descarga paso a paso."
+  },
+  {
+    question: "¿Por qué mi juego se cierra cuando viajo rápido?",
+    answer: "Los autoguardados del motor durante el viaje rápido son altamente inestables. Desactiva el autoguardado al viajar, esperar y dormir en las opciones de jugabilidad, y confía en los guardados manuales en su lugar."
+  },
+  {
+    question: "¿Cómo sé si el parche de 4GB funcionó correctamente?",
+    answer: "Abre la consola dentro del juego usando la tecla de tilde (~) y escribe 'GetIsLAA'. Si la consola devuelve '2', el juego está reconociendo correctamente el parche de 4GB y funcionando con conciencia de direcciones grandes (large address awareness)."
+  },
+  {
+    question: "¿Es seguro desactivar una colección a mitad de una partida?",
+    answer: "Aunque las colecciones de interfaz y cosméticas suelen desactivarse de forma segura, desactivar colecciones de estabilidad principal o de jugabilidad a mitad del juego puede corromper tus archivos de guardado. Prueba siempre tu configuración en un perfil nuevo."
+  }
+]} />
+
+<Callout type="tip" title="Gestión de Guardados">
+Haz siempre una copia de seguridad de tus archivos de guardado antes de actualizar cualquier colección. Mantener guardados manuales regulares garantiza que minimices el riesgo de perder progreso debido a un conflicto de mods.
+</Callout>
+
+</Section>

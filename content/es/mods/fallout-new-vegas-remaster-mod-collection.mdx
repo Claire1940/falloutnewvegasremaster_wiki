@@ -1,0 +1,201 @@
+import { Map, Shield, Sparkles, Swords, Trophy, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Colección de Mods de Fallout New Vegas Remaster: Guía de Instalación",
+  description: "Consigue la mejor configuración visual y de estabilidad para Fallout New Vegas en 2026. Guía de instalación paso a paso para la colección de más de 100 mods de Gopher.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Mod+Collection+Guide",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Fallout New Vegas",
+  keywords: "fallout new vegas, remaster, colección de mods, guía de instalación, estabilidad, gopher, 2026"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Palabra clave principal**: Crea una colección de mods estable para Fallout New Vegas Remaster en 2026.
+- **Base fundamental**: Aplica siempre el parche de 4 GB (4GB Patcher) para usuarios de Steam para evitar cuelgues relacionados con la memoria.
+- **Rediseño visual**: La colección Remaster de Gopher cuenta con más de 100 mods que mejoran las texturas, la iluminación y el LOD.
+- **Recomendaciones de interfaz**: Combina las mejoras visuales con Darnified UI o Vanilla UI Plus para obtener interfaces de usuario (HUD) más limpias.
+- **Consejo de rendimiento**: Combina las colecciones visuales con mods dedicados a la estabilidad para mantener una tasa de fotogramas alta.
+</Callout>
+
+<Section icon={Map} title="Descripción general de la colección de mods de Fallout New Vegas Remaster">
+
+Transformar el Mojave en una obra maestra visual moderna requiere un conjunto de modificaciones cuidadosamente seleccionadas. Utilizar una **colección de mods para Fallout New Vegas Remaster** preempaquetada es la forma más eficiente de renovar la iluminación, las texturas, los modelos y el terreno distante sin tener que resolver manualmente cientos de conflictos entre mods. Esta guía detalla cómo configurar la colección seleccionada por Gopher junto con utilidades de rendimiento esenciales para lograr una experiencia de juego estable y moderna en 2026.
+
+**Puntos destacados del vídeo:**
+- **Mejoras visuales**: Texturas detalladas e iluminación mejorada tanto para interiores como para exteriores.
+- **Mejoras de LOD**: Mejoras drásticas en el terreno distante para eliminar horizontes vacíos y de bajo detalle.
+- **Diseño independiente**: Creado para funcionar perfectamente por sí solo o junto con colecciones de estabilidad fundamentales.
+- **Compatibilidad de interfaz**: Diseñado para integrarse a la perfección con Darnified UI y Vanilla UI Plus.
+
+<YouTubeEmbed videoId="RA6AsbGGSZk" title="'Unofficial' FALLOUT: NEW VEGAS Remaster - A 100+ Mod Collection" />
+
+Esta colección visual seleccionada se centra por completo en la estética y en corregir pequeños errores. Sirve como un excelente punto de partida para los jugadores que desean conservar la jugabilidad original mientras elevan la presentación visual a los estándares modernos. Para garantizar que el juego funcione con fluidez con más de 100 mods visuales activos, es obligatorio establecer una base sólida de rendimiento.
+
+<Callout type="tip" title="Instalación desde cero">
+Comienza con una instalación completamente limpia de Fallout: New Vegas antes de instalar cualquier colección de mods. Los archivos residuales de intentos de modding anteriores pueden causar conflictos graves y cuelgues del juego.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Rendimiento y elementos esenciales de estabilidad de la base">
+
+Antes de instalar mods visuales exigentes, debes asegurar el motor del juego. Fallout: New Vegas se lanzó en 2010 y está intrínsecamente limitado por sistemas antiguos de gestión de memoria. Los sistemas modernos requieren parches específicos a nivel de motor para utilizar el hardware actual de manera eficaz.
+
+Los requisitos de estabilidad difieren ligeramente según la tienda digital donde hayas comprado el juego. Los usuarios de GOG disfrutan de un ejecutable ya parcheado, mientras que los usuarios de Steam deben realizar ajustes manuales.
+
+| Característica | Versión de Steam | Versión de GOG |
+| :--- | :--- | :--- |
+| **Parche de 4 GB (4GB Patch)** | Requerido (Instalación manual) | Parcheado por defecto |
+| **Compatibilidad de mods** | Alta (Requiere NVSE) | Alta (Requiere NVSE) |
+| **Estabilidad de fábrica** | Moderada | Alta |
+| **Dificultad de configuración** | Baja (Requiere ejecutar el parcheador) | Muy baja |
+
+Para preparar tu juego para la colección de remasterización visual de Gopher, sigue este proceso de configuración básico.
+
+<Steps>
+  <Step num="1" title="Instalación limpia">
+    Instala Fallout: New Vegas a través de Steam o GOG. Asegúrate de que el directorio del juego esté ubicado fuera de las carpetas protegidas del sistema, como Program Files (Archivos de programa), para evitar errores de permisos de escritura.
+  </Step>
+  <Step num="2" title="Aplicar el parcheador de 4 GB">
+    Para usuarios de Steam, descarga el Fallout 4GB Patcher de Nexus Mods. Coloca el ejecutable en la carpeta del juego y ejecútalo una vez. Esto permite que el juego acceda a 4 GB de memoria virtual en lugar de 2 GB.
+  </Step>
+  <Step num="3" title="Instalar la base de estabilidad">
+    Descarga e instala una colección dedicada a la estabilidad. Esta debe incluir NVSE (New Vegas Script Extender), New Vegas Anti-Crash (NVAC) y New Vegas Tick Fix (NVTF) para eliminar los microtirones (micro-stuttering).
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Requisito crítico del parcheador">
+Para los usuarios de Steam, el parche de 4 GB es innegociable. Omitir este paso provocará cuelgues inmediatos por falta de memoria al cargar texturas de alta resolución en zonas muy pobladas como el Strip de New Vegas.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mejoras visuales y personalización de la interfaz">
+
+Una vez que el motor esté estabilizado, puedes aplicar de forma segura la renovación visual. La colección de remasterización de Gopher contiene más de 100 mods que apuntan a diferentes aspectos de la presentación del juego. En lugar de cambiar la dirección artística del Mojave, estos mods mejoran los recursos existentes para que el mundo se sienta más detallado e inmersivo.
+
+<CardGrid cols={3}>
+  <Card title="Mejoras de texturas y modelos">
+    - **Texturas detalladas**: Texturas de alta resolución para el entorno y los objetos.
+    - **Mejoras de modelos**: Reemplaza las mallas de pocos polígonos con modelos más detallados y suaves.
+    - **Corrección de errores**: Corrige problemas de clipping y anomalías visuales en los elementos originales.
+  </Card>
+  <Card title="Iluminación y atmósfera">
+    - **Iluminación dinámica**: Proyección de luz mejorada tanto para espacios interiores como exteriores.
+    - **Ciclos de día y noche**: Transiciones más realistas y oscuridad atmosférica.
+    - **Ajustes climáticos**: Sutiles modificaciones ambientales para adaptarse al entorno desértico.
+  </Card>
+  <Card title="Terreno distante (LOD)">
+    - **Detalles del horizonte**: Genera paisajes distantes realistas (nivel de detalle o LOD).
+    - **Reducción de la aparición repentina (Pop-in)**: Minimiza la carga abrupta de objetos mientras exploras.
+    - **Horizontes detallados**: Mantiene los puntos de referencia visibles desde distancias extremas.
+  </Card>
+</CardGrid>
+
+Además de los gráficos del entorno, se recomienda encarecidamente actualizar la interfaz de usuario. El HUD predeterminado se diseñó para televisores de baja resolución y se ve demasiado grande en los monitores modernos.
+
+| Colección de interfaz | Enfoque principal | Ideal para |
+| :--- | :--- | :--- |
+| **Darnified UI** | Fuentes más pequeñas y limpias con elementos HUD personalizables | Pantallas de alta resolución (1440p y 4K) |
+| **Vanilla UI Plus** | Estilo original mejorado, corrigiendo alineaciones y errores | Estética purista con resoluciones modernas |
+| **Vanilla HUD Cleaned** | Reducción de elementos en pantalla y menús optimizados | Jugabilidad inmersiva y entusiastas de las capturas de pantalla |
+
+<Callout type="info" title="Guía de integración de interfaz">
+La colección de remasterización visual de Gopher está diseñada para ser totalmente compatible con las colecciones Darnified UI y Vanilla UI Plus. Elige una base de interfaz e instálala después de configurar la estabilidad, pero antes de los mods visuales principales.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Comparación de colecciones de Nexus para Fallout New Vegas">
+
+La plataforma Nexus Mods ofrece varias colecciones seleccionadas para Fallout: New Vegas. Dependiendo de las capacidades de tu hardware y tus preferencias de juego, es posible que desees combinar elementos o elegir una base de partida completamente diferente.
+
+| Nombre de la colección | Cantidad de mods | Tamaño de archivo | Enfoque principal |
+| :--- | :--- | :--- | :--- |
+| **Gopher's Remaster** | 102 | 8.9 GB | Renovación visual pura, iluminación y terreno distante |
+| **Viva New Vegas** | 78 | 386.9 MB | Estabilidad, corrección de errores y rendimiento básico |
+| **VeryLastKiss's TTW** | 915 | 41.9 GB | Combina Fallout 3 y New Vegas en un solo juego |
+| **New Vegas Essentials** | 43 | 382.5 MB | Experiencia original modernizada con cambios mínimos |
+| **Gameplay Overhaul** | 23 | 67.1 MB | Mecánicas modernas (esprintar, teclas de acceso rápido, botín rápido) |
+
+Para los jugadores que desean abordar elementos específicos como modelos de personajes o elementos de la interfaz, se pueden superponer colecciones de utilidades más pequeñas sobre tu configuración visual principal.
+
+| Nombre de la colección | Cantidad de mods | Área de enfoque | Beneficio clave |
+| :--- | :--- | :--- | :--- |
+| **Colección Darnified UI** | 24 | Interfaz de usuario | Menús y HUD elegantes y escalables |
+| **NPC Overhaul** | 9 | Modelos de personajes | Elimina mallas faciales obsoletas y de bajo detalle |
+| **PC Overhaul** | 13 | Personaje del jugador | Recursos mejorados para la creación de personajes femeninos |
+
+<Callout type="success" title="Estrategia de acumulación de mods">
+La estrategia de configuración óptima es modular. Instala primero una colección de estabilidad (como Viva New Vegas o la de estabilidad de Gopher), añade la colección Remaster para los gráficos y finaliza con una colección de interfaz de usuario. Este enfoque por capas minimiza los errores de instalación.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Hitos y lista de verificación de modding">
+
+Para realizar un seguimiento de tu progreso y asegurarte de no omitir ningún paso crítico durante la instalación de tu **colección de mods para Fallout New Vegas Remaster**, utiliza esta lista de verificación sistemática.
+
+<Checklist
+  id="fnv-modding-checklist"
+  title="Pasos esenciales de instalación:"
+  items={[
+    "Realizar una instalación limpia de Fallout: New Vegas fuera de la carpeta Program Files",
+    "Instalar el parcheador de 4 GB (4GB Patcher) y verificarlo mediante el comando de consola",
+    "Descargar e instalar la colección de estabilidad de Gopher a través de Vortex o MO2",
+    "Instalar la colección de remasterización de New Vegas de Gopher (más de 100 mods)",
+    "Seleccionar e instalar una colección de interfaz de usuario (Darnified o Vanilla UI Plus)",
+    "Ejecutar la generación de LOD para asegurar que el terreno distante se renderice correctamente"
+  ]}
+/>
+
+Once the installation is complete, verify that the game is running optimally by performing these quick checks in-game.
+
+| Paso | Acción | Resultado esperado |
+| :--- | :--- | :--- |
+| **1. Prueba de inicio** | Ejecuta el juego a través de tu gestor de mods | El juego se inicia hasta el menú principal sin bloquearse |
+| **2. Carga de texturas** | Camina fuera de la casa de Doc Mitchell en Goodsprings | Las texturas de alta resolución y la iluminación se cargan limpiamente |
+| **3. Prueba de rendimiento** | Controla los fotogramas por segundo mientras miras al horizonte | Tasa de fotogramas estable sin tirones importantes ni aparición repentina de objetos (pop-in) |
+
+<Callout type="warning" title="Pruebas incrementales">
+No instales todas las colecciones simultáneamente. Ejecuta el juego después de instalar la base de estabilidad para asegurarte de que todo funciona antes de añadir modificaciones visuales pesadas. Esto facilita mucho la resolución de problemas.
+</Callout>
+
+</Section>
+
+<Section icon={HelpCircle} title="Resolución de problemas y preguntas frecuentes">
+
+Incluso con colecciones seleccionadas, modificar motores antiguos puede presentar desafíos ocasionalmente. A continuación se presentan soluciones a los problemas más comunes que se encuentran al configurar estas colecciones.
+
+<FAQ items={[
+  {
+    question: "¿Por qué mi juego se cuelga al iniciar después de instalar la colección de mods de Fallout New Vegas Remaster?",
+    answer: "Esto suele debido a la falta del parcheador de 4 GB (4GB Patcher) en la versión de Steam, o a un conflicto entre mods de interfaz. Asegúrate de ejecutar el 4GB Patcher y de haber instalado una colección de estabilidad dedicada antes de cargar mods visuales."
+  },
+  {
+    question: "¿Puedo usar la colección Remaster de Gopher con Tale of Two Wastelands (TTW)?",
+    answer: "Sí, pero es posible que necesites parches de compatibilidad específicos para la iluminación y el LOD. Para una experiencia pura de TTW, colecciones como la de VeryLastKiss's TTW están preconfiguradas para ser compatibles por defecto."
+  },
+  {
+    question: "¿Está incluido New Vegas Reloaded en la colección de Gopher?",
+    answer: "No, New Vegas Reloaded requiere una instalación manual compleja y pruebas, lo que dificulta su empaquetado en colecciones automatizadas de Nexus en esta etapa. Debe instalarse manualmente si se desea."
+  },
+  {
+    question: "¿Cómo mejoro el rendimiento si mi tasa de fotogramas cae en zonas con mucha carga gráfica?",
+    answer: "Asegúrate de haber instalado la colección de estabilidad junto con la de remasterización. También puedes desactivar los mods de LOD más pesados o reducir el tamaño de las texturas en tu gestor de mods si tu hardware tiene dificultades."
+  }
+]} />
+
+<Callout type="info" title="Contribuciones de la comunidad">
+La colección Remaster de Gopher se mantiene y actualiza activamente. Revisa la página de la colección en Nexus Mods con regularidad para ver actualizaciones recientes, comentarios de usuarios y reportes de errores específicos de otros jugadores.
+</Callout>
+
+</Section>

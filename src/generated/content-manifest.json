@@ -20,6 +20,10 @@
       {
         "slug": "Fallout-New-Vegas-traits",
         "file": "Fallout-New-Vegas-traits"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-builds",
+        "file": "fallout-new-vegas-remaster-builds"
       }
     ],
     "characters": [
@@ -42,6 +46,10 @@
       {
         "slug": "Fallout-New-Vegas-veronica",
         "file": "Fallout-New-Vegas-veronica"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-characters",
+        "file": "fallout-new-vegas-remaster-characters"
       }
     ],
     "dlc": [
@@ -56,6 +64,10 @@
       {
         "slug": "Fallout-New-Vegas-old-world-blues",
         "file": "Fallout-New-Vegas-old-world-blues"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-dlc",
+        "file": "fallout-new-vegas-remaster-dlc"
       }
     ],
     "guide": [
@@ -82,6 +94,14 @@
       {
         "slug": "Fallout-New-Vegas-walkthrough",
         "file": "Fallout-New-Vegas-walkthrough"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-gameplay",
+        "file": "fallout-new-vegas-remaster-gameplay"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-guide",
+        "file": "fallout-new-vegas-remaster-guide"
       }
     ],
     "mods": [
@@ -112,6 +132,42 @@
       {
         "slug": "Fallout-New-Vegas-script-extender",
         "file": "Fallout-New-Vegas-script-extender"
+      },
+      {
+        "slug": "fallout-new-vegas-4k-remaster-mod",
+        "file": "fallout-new-vegas-4k-remaster-mod"
+      },
+      {
+        "slug": "fallout-new-vegas-ai-remaster",
+        "file": "fallout-new-vegas-ai-remaster"
+      },
+      {
+        "slug": "fallout-new-vegas-best-remaster-mod",
+        "file": "fallout-new-vegas-best-remaster-mod"
+      },
+      {
+        "slug": "fallout-new-vegas-hd-remaster-mod",
+        "file": "fallout-new-vegas-hd-remaster-mod"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-best-mod",
+        "file": "fallout-new-vegas-remaster-best-mod"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-mod-collection",
+        "file": "fallout-new-vegas-remaster-mod-collection"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-mod-list",
+        "file": "fallout-new-vegas-remaster-mod-list"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-mod-pack",
+        "file": "fallout-new-vegas-remaster-mod-pack"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-mods",
+        "file": "fallout-new-vegas-remaster-mods"
       }
     ],
     "quests": [
@@ -126,6 +182,10 @@
       {
         "slug": "Fallout-New-Vegas-should-i-take-over-vegas",
         "file": "Fallout-New-Vegas-should-i-take-over-vegas"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-quests",
+        "file": "fallout-new-vegas-remaster-quests"
       }
     ],
     "remaster": [
@@ -152,6 +212,54 @@
       {
         "slug": "Fallout-New-Vegas-ultimate-edition",
         "file": "Fallout-New-Vegas-ultimate-edition"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-announcement",
+        "file": "fallout-new-vegas-remaster-announcement"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-bundle",
+        "file": "fallout-new-vegas-remaster-bundle"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-cancelled",
+        "file": "fallout-new-vegas-remaster-cancelled"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-collector-s-edition",
+        "file": "fallout-new-vegas-remaster-collector's-edition"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-engine",
+        "file": "fallout-new-vegas-remaster-engine"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-iron-galaxy",
+        "file": "fallout-new-vegas-remaster-iron-galaxy"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-leak",
+        "file": "fallout-new-vegas-remaster-leak"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-platforms",
+        "file": "fallout-new-vegas-remaster-platforms"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-price",
+        "file": "fallout-new-vegas-remaster-price"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-release-date-countdown",
+        "file": "fallout-new-vegas-remaster-release-date-countdown"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-release-date",
+        "file": "fallout-new-vegas-remaster-release-date"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-unreal-engine-5",
+        "file": "fallout-new-vegas-remaster-unreal-engine-5"
       }
     ],
     "weapons": [
@@ -174,6 +282,10 @@
       {
         "slug": "Fallout-New-Vegas-weapons",
         "file": "Fallout-New-Vegas-weapons"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-weapons",
+        "file": "fallout-new-vegas-remaster-weapons"
       }
     ]
   },
@@ -198,6 +310,10 @@
       {
         "slug": "Fallout-New-Vegas-traits",
         "file": "Fallout-New-Vegas-traits"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-builds",
+        "file": "fallout-new-vegas-remaster-builds"
       }
     ],
     "characters": [
@@ -220,6 +336,10 @@
       {
         "slug": "Fallout-New-Vegas-veronica",
         "file": "Fallout-New-Vegas-veronica"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-characters",
+        "file": "fallout-new-vegas-remaster-characters"
       }
     ],
     "dlc": [
@@ -234,6 +354,10 @@
       {
         "slug": "Fallout-New-Vegas-old-world-blues",
         "file": "Fallout-New-Vegas-old-world-blues"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-dlc",
+        "file": "fallout-new-vegas-remaster-dlc"
       }
     ],
     "guide": [
@@ -260,6 +384,14 @@
       {
         "slug": "Fallout-New-Vegas-walkthrough",
         "file": "Fallout-New-Vegas-walkthrough"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-gameplay",
+        "file": "fallout-new-vegas-remaster-gameplay"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-guide",
+        "file": "fallout-new-vegas-remaster-guide"
       }
     ],
     "mods": [
@@ -290,6 +422,42 @@
       {
         "slug": "Fallout-New-Vegas-script-extender",
         "file": "Fallout-New-Vegas-script-extender"
+      },
+      {
+        "slug": "fallout-new-vegas-4k-remaster-mod",
+        "file": "fallout-new-vegas-4k-remaster-mod"
+      },
+      {
+        "slug": "fallout-new-vegas-ai-remaster",
+        "file": "fallout-new-vegas-ai-remaster"
+      },
+      {
+        "slug": "fallout-new-vegas-best-remaster-mod",
+        "file": "fallout-new-vegas-best-remaster-mod"
+      },
+      {
+        "slug": "fallout-new-vegas-hd-remaster-mod",
+        "file": "fallout-new-vegas-hd-remaster-mod"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-best-mod",
+        "file": "fallout-new-vegas-remaster-best-mod"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-mod-collection",
+        "file": "fallout-new-vegas-remaster-mod-collection"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-mod-list",
+        "file": "fallout-new-vegas-remaster-mod-list"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-mod-pack",
+        "file": "fallout-new-vegas-remaster-mod-pack"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-mods",
+        "file": "fallout-new-vegas-remaster-mods"
       }
     ],
     "quests": [
@@ -304,6 +472,10 @@
       {
         "slug": "Fallout-New-Vegas-should-i-take-over-vegas",
         "file": "Fallout-New-Vegas-should-i-take-over-vegas"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-quests",
+        "file": "fallout-new-vegas-remaster-quests"
       }
     ],
     "remaster": [
@@ -330,6 +502,54 @@
       {
         "slug": "Fallout-New-Vegas-ultimate-edition",
         "file": "Fallout-New-Vegas-ultimate-edition"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-announcement",
+        "file": "fallout-new-vegas-remaster-announcement"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-bundle",
+        "file": "fallout-new-vegas-remaster-bundle"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-cancelled",
+        "file": "fallout-new-vegas-remaster-cancelled"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-collector-s-edition",
+        "file": "fallout-new-vegas-remaster-collector's-edition"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-engine",
+        "file": "fallout-new-vegas-remaster-engine"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-iron-galaxy",
+        "file": "fallout-new-vegas-remaster-iron-galaxy"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-leak",
+        "file": "fallout-new-vegas-remaster-leak"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-platforms",
+        "file": "fallout-new-vegas-remaster-platforms"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-price",
+        "file": "fallout-new-vegas-remaster-price"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-release-date-countdown",
+        "file": "fallout-new-vegas-remaster-release-date-countdown"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-release-date",
+        "file": "fallout-new-vegas-remaster-release-date"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-unreal-engine-5",
+        "file": "fallout-new-vegas-remaster-unreal-engine-5"
       }
     ],
     "weapons": [
@@ -352,6 +572,10 @@
       {
         "slug": "Fallout-New-Vegas-weapons",
         "file": "Fallout-New-Vegas-weapons"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-weapons",
+        "file": "fallout-new-vegas-remaster-weapons"
       }
     ]
   },
@@ -376,6 +600,10 @@
       {
         "slug": "Fallout-New-Vegas-traits",
         "file": "Fallout-New-Vegas-traits"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-builds",
+        "file": "fallout-new-vegas-remaster-builds"
       }
     ],
     "characters": [
@@ -398,6 +626,10 @@
       {
         "slug": "Fallout-New-Vegas-veronica",
         "file": "Fallout-New-Vegas-veronica"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-characters",
+        "file": "fallout-new-vegas-remaster-characters"
       }
     ],
     "dlc": [
@@ -412,6 +644,10 @@
       {
         "slug": "Fallout-New-Vegas-old-world-blues",
         "file": "Fallout-New-Vegas-old-world-blues"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-dlc",
+        "file": "fallout-new-vegas-remaster-dlc"
       }
     ],
     "guide": [
@@ -438,6 +674,14 @@
       {
         "slug": "Fallout-New-Vegas-walkthrough",
         "file": "Fallout-New-Vegas-walkthrough"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-gameplay",
+        "file": "fallout-new-vegas-remaster-gameplay"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-guide",
+        "file": "fallout-new-vegas-remaster-guide"
       }
     ],
     "mods": [
@@ -468,6 +712,42 @@
       {
         "slug": "Fallout-New-Vegas-script-extender",
         "file": "Fallout-New-Vegas-script-extender"
+      },
+      {
+        "slug": "fallout-new-vegas-4k-remaster-mod",
+        "file": "fallout-new-vegas-4k-remaster-mod"
+      },
+      {
+        "slug": "fallout-new-vegas-ai-remaster",
+        "file": "fallout-new-vegas-ai-remaster"
+      },
+      {
+        "slug": "fallout-new-vegas-best-remaster-mod",
+        "file": "fallout-new-vegas-best-remaster-mod"
+      },
+      {
+        "slug": "fallout-new-vegas-hd-remaster-mod",
+        "file": "fallout-new-vegas-hd-remaster-mod"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-best-mod",
+        "file": "fallout-new-vegas-remaster-best-mod"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-mod-collection",
+        "file": "fallout-new-vegas-remaster-mod-collection"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-mod-list",
+        "file": "fallout-new-vegas-remaster-mod-list"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-mod-pack",
+        "file": "fallout-new-vegas-remaster-mod-pack"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-mods",
+        "file": "fallout-new-vegas-remaster-mods"
       }
     ],
     "quests": [
@@ -482,6 +762,10 @@
       {
         "slug": "Fallout-New-Vegas-should-i-take-over-vegas",
         "file": "Fallout-New-Vegas-should-i-take-over-vegas"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-quests",
+        "file": "fallout-new-vegas-remaster-quests"
       }
     ],
     "remaster": [
@@ -508,6 +792,54 @@
       {
         "slug": "Fallout-New-Vegas-ultimate-edition",
         "file": "Fallout-New-Vegas-ultimate-edition"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-announcement",
+        "file": "fallout-new-vegas-remaster-announcement"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-bundle",
+        "file": "fallout-new-vegas-remaster-bundle"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-cancelled",
+        "file": "fallout-new-vegas-remaster-cancelled"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-collector-s-edition",
+        "file": "fallout-new-vegas-remaster-collector's-edition"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-engine",
+        "file": "fallout-new-vegas-remaster-engine"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-iron-galaxy",
+        "file": "fallout-new-vegas-remaster-iron-galaxy"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-leak",
+        "file": "fallout-new-vegas-remaster-leak"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-platforms",
+        "file": "fallout-new-vegas-remaster-platforms"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-price",
+        "file": "fallout-new-vegas-remaster-price"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-release-date-countdown",
+        "file": "fallout-new-vegas-remaster-release-date-countdown"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-release-date",
+        "file": "fallout-new-vegas-remaster-release-date"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-unreal-engine-5",
+        "file": "fallout-new-vegas-remaster-unreal-engine-5"
       }
     ],
     "weapons": [
@@ -530,6 +862,10 @@
       {
         "slug": "Fallout-New-Vegas-weapons",
         "file": "Fallout-New-Vegas-weapons"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-weapons",
+        "file": "fallout-new-vegas-remaster-weapons"
       }
     ]
   },
@@ -554,6 +890,10 @@
       {
         "slug": "Fallout-New-Vegas-traits",
         "file": "Fallout-New-Vegas-traits"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-builds",
+        "file": "fallout-new-vegas-remaster-builds"
       }
     ],
     "characters": [
@@ -576,6 +916,10 @@
       {
         "slug": "Fallout-New-Vegas-veronica",
         "file": "Fallout-New-Vegas-veronica"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-characters",
+        "file": "fallout-new-vegas-remaster-characters"
       }
     ],
     "dlc": [
@@ -590,6 +934,10 @@
       {
         "slug": "Fallout-New-Vegas-old-world-blues",
         "file": "Fallout-New-Vegas-old-world-blues"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-dlc",
+        "file": "fallout-new-vegas-remaster-dlc"
       }
     ],
     "guide": [
@@ -616,6 +964,14 @@
       {
         "slug": "Fallout-New-Vegas-walkthrough",
         "file": "Fallout-New-Vegas-walkthrough"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-gameplay",
+        "file": "fallout-new-vegas-remaster-gameplay"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-guide",
+        "file": "fallout-new-vegas-remaster-guide"
       }
     ],
     "mods": [
@@ -646,6 +1002,42 @@
       {
         "slug": "Fallout-New-Vegas-script-extender",
         "file": "Fallout-New-Vegas-script-extender"
+      },
+      {
+        "slug": "fallout-new-vegas-4k-remaster-mod",
+        "file": "fallout-new-vegas-4k-remaster-mod"
+      },
+      {
+        "slug": "fallout-new-vegas-ai-remaster",
+        "file": "fallout-new-vegas-ai-remaster"
+      },
+      {
+        "slug": "fallout-new-vegas-best-remaster-mod",
+        "file": "fallout-new-vegas-best-remaster-mod"
+      },
+      {
+        "slug": "fallout-new-vegas-hd-remaster-mod",
+        "file": "fallout-new-vegas-hd-remaster-mod"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-best-mod",
+        "file": "fallout-new-vegas-remaster-best-mod"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-mod-collection",
+        "file": "fallout-new-vegas-remaster-mod-collection"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-mod-list",
+        "file": "fallout-new-vegas-remaster-mod-list"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-mod-pack",
+        "file": "fallout-new-vegas-remaster-mod-pack"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-mods",
+        "file": "fallout-new-vegas-remaster-mods"
       }
     ],
     "quests": [
@@ -660,6 +1052,10 @@
       {
         "slug": "Fallout-New-Vegas-should-i-take-over-vegas",
         "file": "Fallout-New-Vegas-should-i-take-over-vegas"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-quests",
+        "file": "fallout-new-vegas-remaster-quests"
       }
     ],
     "remaster": [
@@ -686,6 +1082,54 @@
       {
         "slug": "Fallout-New-Vegas-ultimate-edition",
         "file": "Fallout-New-Vegas-ultimate-edition"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-announcement",
+        "file": "fallout-new-vegas-remaster-announcement"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-bundle",
+        "file": "fallout-new-vegas-remaster-bundle"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-cancelled",
+        "file": "fallout-new-vegas-remaster-cancelled"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-collector-s-edition",
+        "file": "fallout-new-vegas-remaster-collector's-edition"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-engine",
+        "file": "fallout-new-vegas-remaster-engine"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-iron-galaxy",
+        "file": "fallout-new-vegas-remaster-iron-galaxy"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-leak",
+        "file": "fallout-new-vegas-remaster-leak"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-platforms",
+        "file": "fallout-new-vegas-remaster-platforms"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-price",
+        "file": "fallout-new-vegas-remaster-price"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-release-date-countdown",
+        "file": "fallout-new-vegas-remaster-release-date-countdown"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-release-date",
+        "file": "fallout-new-vegas-remaster-release-date"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-unreal-engine-5",
+        "file": "fallout-new-vegas-remaster-unreal-engine-5"
       }
     ],
     "weapons": [
@@ -708,6 +1152,10 @@
       {
         "slug": "Fallout-New-Vegas-weapons",
         "file": "Fallout-New-Vegas-weapons"
+      },
+      {
+        "slug": "fallout-new-vegas-remaster-weapons",
+        "file": "fallout-new-vegas-remaster-weapons"
       }
     ]
   }

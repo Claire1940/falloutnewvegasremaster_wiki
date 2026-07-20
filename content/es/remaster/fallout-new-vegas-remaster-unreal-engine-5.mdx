@@ -1,0 +1,190 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fallout New Vegas Remaster Unreal Engine 5: Estado del desarrollo y análisis técnico",
+  description: "Explora los últimos informes sobre el remaster de Fallout New Vegas en Unreal Engine 5, con detalles sobre la arquitectura técnica, rumores de desarrolladores y proyecciones de lanzamiento para 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a1a/e5e7eb?text=New+Vegas+UE5+Remaster",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Fallout New Vegas"
+}
+
+<Callout type="info" title="Guía rápida">
+- Se informa que **Fallout New Vegas Remaster Unreal Engine 5** está en desarrollo tras el éxito del proyecto Oblivion Remastered.
+- Es probable que se utilice una **arquitectura híbrida**, superponiendo los elementos visuales de Unreal Engine 5 sobre la lógica de juego original de Gamebryo.
+- La **renovación visual** incluye iluminación moderna, recursos de alta fidelidad y animaciones actualizadas, al tiempo que preserva los sistemas RPG principales.
+- El **momento estratégico** se alinea con el resurgimiento de la franquicia tras el éxito de la serie de televisión de Fallout en Amazon Prime.
+- Entre los **equipos de desarrollo** que se rumorea que están involucrados se encuentran Virtuos o socios internos de Xbox Game Studios, en lugar del equipo principal de Bethesda.
+</Callout>
+
+<Section icon={Sparkles} title="La visión de Fallout New Vegas en Unreal Engine 5">
+
+La perspectiva de un **remaster de Fallout New Vegas en Unreal Engine 5** ha pasado de ser tráileres conceptuales hechos por fans a reportes creíbles de la industria. A principios de 2026, fuentes internas indicaron que Microsoft y Bethesda están avanzando con un proyecto diseñado para modernizar el Mojave para los sistemas de la generación actual. A diferencia de un remake completo, que reconstruiría el juego desde cero, este proyecto tiene como objetivo proporcionar un lavado de cara visual masivo mientras garantiza que las complejas narrativas ramificadas y las mecánicas de RPG permanezcan intactas.
+
+**Puntos destacados del video:**
+- **Fidelidad visual**: Presentación del desierto de Mojave con iluminación global en tiempo real y texturas de alta resolución.
+- **Iluminación atmosférica**: Mejoras dramáticas en las luces de neón de New Vegas Strip y el entorno nocturno.
+- **Modernización de recursos**: Modelos de personajes y conjuntos de entornos reimaginados que aprovechan las tecnologías Nanite y Lumen de UE5.
+
+<YouTubeEmbed videoId="kr22fKNUVxQ" title="Fallout New Vegas Remake - Unreal Engine 5 Incredible Showcase" />
+
+<Callout type="tip" title="Consejo profesional">
+Aunque los tráileres de los fans muestran lo que es posible, el remaster oficial probablemente se centrará en la estabilidad y la compatibilidad con las instalaciones modernas de Windows 11/12, solucionando los frecuentes cuelgues asociados con el lanzamiento original de 2010.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Arquitectura técnica: El modelo de Oblivion">
+
+La conclusión más significativa de los informes recientes es el enfoque "estilo Oblivion" para el **remaster de Fallout New Vegas en Unreal Engine 5**. Este método implica una configuración de motor híbrido donde Unreal Engine 5 maneja el renderizado, la iluminación y la transmisión de recursos, mientras que una capa "delgada" del motor original Gamebryo ejecuta la lógica de las misiones, los scripts de los NPC y los cálculos de combate en segundo plano.
+
+| Aspecto técnico | Original (2010) | Remaster (2026) |
+| :--- | :--- | :--- |
+| **Motor primario** | Gamebryo (NetImmerse) | **Unreal Engine 5** (Renderizado) |
+| **Sistema de iluminación** | Iluminación estática/por vértices | Iluminación global dinámica **Lumen** |
+| **Tecnología de geometría** | Mallas estándar | Geometría virtualizada **Nanite** |
+| **Física** | Havok (Heredado) | Integración de middleware modernizado |
+| **Compatibilidad** | Inestable en sistemas operativos modernos | Soporte nativo para **Windows 11/12** |
+
+Se prefiere esta arquitectura porque evita el "riesgo canónico" de reescribir miles de scripts complejos que definen la reactividad del juego. Al mantener la lógica original, los desarrolladores se aseguran de que la "sensación" de New Vegas siga siendo auténtica con respecto al original de Obsidian Entertainment.
+
+<Callout type="info">
+El uso de UE5 como un "contenedor" permite ciclos de desarrollo significativamente más rápidos en comparación con un remake completo como *Final Fantasy VII Rebirth*, lo que hace que una ventana de lanzamiento en 2026 o 2027 sea muy plausible.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Candidatos de desarrollo y roles de los estudios">
+
+Determinar qué estudio lidera el proyecto del **remaster de Fallout New Vegas en Unreal Engine 5** es objeto de intensas especulaciones. Mientras que Bethesda Game Studios se centra actualmente en el DLC de *Starfield* y *The Elder Scrolls VI*, Microsoft tiene varias otras opciones dentro de su red de estudios propios y socios.
+
+<CardGrid cols={3}>
+  <Card title="Obsidian Entertainment">
+    - **Desarrollador original**
+    - Alta confianza de la comunidad
+    - Actualmente ocupado con *Avowed* y *The Outer Worlds 2*
+  </Card>
+  <Card title="Virtuos Games">
+    - **Especialistas en remasterizaciones**
+    - Se rumorea que se encargaron del remaster de *Oblivion*
+    - Experiencia en adaptaciones de "motores híbridos"
+  </Card>
+  <Card title="In-house Xbox Team">
+    - **Nuevo estudio de soporte**
+    - Enfoque en la preservación de IP heredadas
+    - Acceso directo a la integración con Game Pass
+  </Card>
+</CardGrid>
+
+Los informes de Windows Central sugieren que, aunque Obsidian tiene una conexión histórica, el trabajo pesado probablemente lo esté realizando un socio externo especializado. Esto permite a Microsoft revitalizar su catálogo sin desviar recursos de las nuevas producciones AAA importantes.
+
+<Callout type="warning" title="Nota importante">
+No se ha proporcionado ninguna confirmación oficial sobre la participación directa de Obsidian. Los fans deben moderar sus expectativas con respecto al contenido nuevo; esto es principalmente una actualización técnica y visual.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mejoras clave y cambios en la calidad de vida">
+
+La transición a un entorno de **remaster de Fallout New Vegas en Unreal Engine 5** trae consigo algo más que mejores gráficos. Modernizar el juego requiere abordar varios "puntos de fricción" que han molestado a los jugadores durante más de una década.
+
+<Steps>
+  <Step num="1" title="Estabilidad y gestión de memoria">
+    El juego original sufría de "inflado de partidas guardadas" y fugas de memoria a nivel de motor. La versión de UE5 utilizará E/S moderna y arquitectura de 64 bits para eliminar estos cuelgues.
+  </Step>
+  <Step num="2" title="Renovación de la interfaz de usuario">
+    UI/UX actualizada para pantallas 4K, incluyendo una mejor escala de fuentes y recursos de Pip-Boy en alta resolución que no se difuminan en monitores más grandes.
+  </Step>
+  <Step num="3" title="Manejo de entrada moderno">
+    Soporte nativo para mandos de generación actual (DualSense/Xbox Series) con una gestión mejorada de la zona muerta e integración de retroalimentación háptica.
+  </Step>
+  <Step num="4" title="DLC integrado">
+    El remaster servirá como una "Definitive Edition", agrupando *Dead Money*, *Honest Hearts*, *Old World Blues* y *Lonesome Road* en una experiencia sin interrupciones.
+  </Step>
+</Steps>
+
+| Categoría de característica | Descripción de la mejora | Nivel de impacto |
+| :--- | :--- | :--- |
+| **Tiempos de carga** | Optimización para SSD / DirectStorage | **Alto** |
+| **Distancia de dibujado** | Incremento masivo a través de Nanite | **Medio** |
+| **Animación** | Limpieza de captura de movimiento para NPCs | **Medio** |
+| **Audio** | Audio espacial / Banda sonora remasterizada | **Bajo** |
+
+<Callout type="success" title="Objetivo de rendimiento">
+El objetivo para consolas es 4K/60FPS en Xbox Series X y PS5, con un modo "desbloqueado" para monitores de PC con alta tasa de refresco.
+</Callout>
+
+</Section>
+
+<Section icon={Map} title="Estrategia de mercado: ¿Por qué ahora?">
+
+La estrategia de Microsoft para el **remaster de Fallout New Vegas en Unreal Engine 5** está impulsada por el éxito masivo de la serie de televisión de Fallout. El programa atrajo a millones de nuevos jugadores a la franquicia, muchos de los cuales encontraron que los títulos más antiguos eran difíciles de jugar debido a su antigüedad técnica.
+
+**Objetivos estratégicos para 2026:**
+- **Capitalizar la sinergia mediática**: Lanzar el remaster junto con la Temporada 2 de la serie de televisión o poco después.
+- **Retención de Game Pass**: Proporcionar un título de gran valor disponible desde el primer día ("Day One") para mantener el interés de los suscriptores entre los grandes lanzamientos.
+- **Preservación de la IP**: Garantizar que el juego de Fallout más querido siga siendo jugable a medida que Windows continúa evolucionando y dejando de dar soporte a middleware más antiguo.
+
+<Callout type="info" title="Perspectiva del mercado">
+El lanzamiento sorpresa ("shadow drop") de *Oblivion Remastered* en 2025 demostró que hay un apetito masivo por estos remasters híbridos, incluso sin una campaña de marketing de varios años.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Objetivos de la comunidad y hoja de ruta">
+
+A medida que avanzamos en 2026, la comunidad busca hitos específicos para confirmar el estado del **remaster de Fallout New Vegas en Unreal Engine 5**.
+
+<Checklist
+  id="remaster-milestones"
+  title="Qué tener en cuenta:"
+  items={[
+    "Teaser oficial en el Xbox Summer Showcase",
+    "Diario de desarrollo que explique el puente de Gamebryo a UE5",
+    "Confirmación de soporte para mods e integración con Bethesda.net",
+    "Detalles de preventa para las 'Ediciones de Coleccionista' físicas",
+    "Estado de verificación para Steam Deck"
+  ]}
+/>
+
+| Fecha potencial | Evento / Hito | Probabilidad |
+| :--- | :--- | :--- |
+| **Q3 2026** | Primer tráiler oficial / Gameplay | **Alta** |
+| **Q4 2026** | Ventana de lanzamiento (Navidad) | **Media** |
+| **Q1 2027** | Parche post-lanzamiento / Herramientas de mods | **Alta** |
+
+<Callout type="tip" title="Evaluación final">
+El **remaster de Fallout New Vegas en Unreal Engine 5** representa el mejor compromiso posible para los fans. Preserva la narrativa y la construcción de mundo de Obsidian, al tiempo que proporciona una experiencia visual que cumple con las expectativas modernas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Es el remaster de Fallout New Vegas en Unreal Engine 5 un remake completo?",
+    answer: "No, se informa que es un remaster que utiliza Unreal Engine 5 para el apartado visual mientras conserva la lógica del motor Gamebryo original para las misiones y los sistemas de juego."
+  },
+  {
+    question: "¿Funcionarán mis mods originales con el remaster de UE5?",
+    answer: "Es poco probable. Debido a que el motor de renderizado y los formatos de los recursos están cambiando a UE5, la comunidad tendrá que actualizar la mayoría de los mods visuales y de scripts complejos."
+  },
+  {
+    question: "¿Quién está desarrollando el remaster de New Vegas?",
+    answer: "Aunque no está confirmado oficialmente, las filtraciones de la industria apuntan a socios externos como Virtuos Games, que tienen experiencia con remasterizaciones de alta gama y el enfoque de motor híbrido."
+  },
+  {
+    question: "¿Estará disponible en Game Pass?",
+    answer: "Sí, al ser un título propio de Microsoft, es casi seguro que estará disponible en Xbox Game Pass y PC Game Pass desde el día de su lanzamiento."
+  }
+]} />
+
+</Section>

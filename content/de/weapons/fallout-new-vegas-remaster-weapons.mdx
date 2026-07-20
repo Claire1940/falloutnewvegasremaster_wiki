@@ -1,0 +1,187 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fallout New Vegas Remaster Waffen: Modding-Guide & Waffen-Showcase",
+  description: "Erfahren Sie, wie Sie Ihr Arsenal mit den besten Fallout New Vegas Remaster Waffen-Mods, visuellen Upgrades und klassischen Waffenintegrationen komplett überarbeiten und erweitern.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1e1e1c/e2d6b5?text=Remaster+Weapons+Guide",
+  date: "2026-07-21",
+  author: "Fallout New Vegas Wiki-Team",
+  keywords: "Fallout New Vegas, Remaster, Waffen, Mods, WAP, CFWR, Guide"
+}
+
+<Callout type="info" title="Schnellzugriff">
+- **Visuelle Überarbeitung**: Das Remastering der **Fallout New Vegas Remaster Waffen** gelingt am besten durch die Kombination des WAP Year One Packs mit gezielten AWO-Overrides.
+- **Klassische Integration**: Die Mod "Classic Fallout Weapons Remastered" (CFWR) fügt legendäre Waffen aus den Originalspielen nahtlos via Skript ein.
+- **ESP-loser Vorteil**: Moderne Waffen-Replacer nutzen skriptbasierte Injektionen, was bedeutet, dass sie keine wertvollen Plugin-Slots in Ihrer Ladereihenfolge verbrauchen.
+- **Sound-Synergie**: Kombinieren Sie Ihre visuellen Mods mit dem "All Weapon Sounds Overhaul Modern Edition" (AWSOME) für knackiges, realistisches Audio-Feedback.
+</Callout>
+
+<Section icon={Swords} title="Modernisierung der Fallout New Vegas Remaster Waffen">
+
+Die ballistischen Standardwaffen im Mojave-Ödland sind in die Jahre gekommen. Niedrig aufgelöste Texturen, blockige Modelle und veraltete Animationen können die immersive postapokalyptische Atmosphäre stören. Glücklicherweise hat die Modding-Community hochentwickelte Werkzeuge entwickelt, um die Schusswaffen, Energiewaffen und Nahkampfwerkzeuge des Spiels komplett zu remastern.
+
+Durch die Nutzung moderner Skripte und High-Fidelity-Assets können Sie den klobigen Vanilla-Kampf in ein modernes First-Person-Shooter-Erlebnis verwandeln. Die Grundlage dieser Transformation bilden skriptbasierte Waffen-Replacer, die visuelle Modelle und Texturen überarbeiten, ohne Ihre Ladereihenfolge aufzublähen.
+
+**Video-Highlights:**
+- **Visuelle Transformation**: Sehen Sie den dramatischen Unterschied zwischen veralteten Vanilla-Modellen und hochauflösenden Remaster-Texturen.
+- **ESP-lose Implementierung**: Erfahren Sie, wie skriptbasiertes Modding Ihre Ladereihenfolge sicher und stabil hält.
+- **Animations-Synergie**: Entdecken Sie, wie Sie Textur-Overhauls mit modernen Animationssets für eine flüssige Handhabung kombinieren.
+- **Scharfschützen-Anpassung**: Erkunden Sie einzigartige visuelle Identitäten für spezialisierte Präzisionsgewehre.
+
+<YouTubeEmbed videoId="dnEyxQrpecA" title="Remastering Fallout New Vegas' Weapons with Mods" />
+
+Das WAP (Weapon Animation Replacer / Weapon Enhancement Pack) Year One Pack von Anon X ist die erste Wahl für ballistische Überarbeitungen. Diese Mod ersetzt die Modelle und Texturen für 30 verschiedene Waffen, darunter das ikonische Jagdgewehr, die 10mm-MP und das schwere Anti-Material-Gewehr. Da diese Änderungen über Skripte statt über Standard-ESP-Dateien implementiert werden, belegen sie keinen Plugin-Slot, was Ihr Spiel extrem stabil hält.
+
+Für Spieler, die alternative Designs bevorzugen, bietet die AWO-Serie (Alternative Weapon Overhaul) hochwertige Ersetzungen für Waffen wie die 10mm-Pistole und die Jagdschrotflinte. Wenn Sie sich entscheiden, WAP- und AWO-Mods zu kombinieren, müssen Sie die widersprüchlichen WAP-Skripte für diese spezifischen Waffen in Ihrem Mod-Manager (wie Mod Organizer 2) verstecken, um sicherzustellen, dass die korrekten Modelle im Spiel geladen werden.
+
+| Mod-Name | Visuelles Hauptmerkmal | Kompatibilitätshinweise | Plugin-Auswirkung |
+| :--- | :--- | :--- | :--- |
+| WAP Year One Pack | Ersetzt 30 ballistische Waffenmodelle | Benötigt Hitman-Animations-Patches | ESP-los (Skriptbasiert) |
+| AWO-Serie | Stilisierte Alternativen für ausgewählte Waffen | Konfliktbehaftete WAP-Skripte in MO2 verstecken | Gering bis keine |
+| DKS and Friends | Visuelle Überarbeitung der Scharfschützengewehre | Funktioniert mit Basisspiel, DLCs und TTW | Vernachlässigbar |
+| AWSOME | Hochwertiger Audio-Ersatz | Kompatibel mit allen visuellen Replacern | Optionales Plugin für Unikate |
+
+<Callout type="tip" title="Vorteil des ESP-losen Moddings">
+Priorisieren Sie beim Überarbeiten der Waffenoptik immer ESP-lose Mods. Da sie vollständig auf Skripten basieren, umgehen sie das harte Plugin-Limit der Engine, sodass Sie hunderte von visuellen Verbesserungen gleichzeitig ausführen können.
+</Callout>
+
+Für Präzisionsschützen-Builds ist die Mod *DKS and Friends* eine unverzichtbare Ergänzung. Während die Standard-WAP-Packs keine Scharfschützengewehre abdecken, überarbeitet diese spezialisierte Mod das Basis-Scharfschützengewehr, seine DLC-Varianten und einzigartigen Versionen. Sie verleiht einzigartigen Waffen eine unverwechselbare visuelle Identität; zum Beispiel erhält Christines CoS-Scharfschützengewehr ein High-Tech-Aufklärungsvisier, während das Anchorage-Scharfschützengewehr ein spezielles Schneetarnmuster aufweist.
+
+Um die sensorische Überarbeitung zu vervollständigen, sollten Sie diese visuellen Upgrades mit *All Weapon Sounds Overhaul Modern Edition* (AWSOME) kombinieren. Diese Mod ersetzt die flachen, synthetischen Schussgeräusche des Originalspiels durch schwere, realistische Audioprofile, die jedem Schuss einen befriedigenden Punch verleihen.
+
+</Section>
+
+<Section icon={Map} title="Integration klassischer Waffen via CFWR">
+
+Während visuelle Overhauls das bestehende Arsenal verbessern, erweitert die Mod *Classic Fallout Weapons Remastered* (CFWR) Ihre Optionen, indem sie ikonische Waffen aus Fallout 1 und Fallout 2 in den 3D-Raum von New Vegas bringt. Dieses gewaltige Projekt integriert klassische Waffen direkt in die Beutelisten, Händler und NPC-Inventare des Mojave-Ödlands mittels sicherer, nicht-destruktiver skriptbasierter Injektion.
+
+CFWR fügt dutzende legendäre Waffen hinzu, vom High-Tech-Pulsgewehr bis zum robusten Pancor Jackhammer. Diese Waffen sind sorgfältig ausbalanciert, um in die Progressionskurve des Basisspiels zu passen, sodass sie Inhalte nicht trivialisieren, sich aber dennoch lohnend anfühlen.
+
+| Klassische Waffe | Waffentyp | Optimaler Spielstil | Wichtigster Balancing-Faktor |
+| :--- | :--- | :--- | :--- |
+| Glock 86 | Plasmapistole | Energie (Frühes Spiel) | Kleine Magazingröße, exzellente Präzision |
+| Rangemaster | 5.56mm Gewehr | Präzisionsschütze (Mittleres Spiel) | Hohe Reichweite, moderater Schaden |
+| Pancor Jackhammer | 12 Gauge Schrotflinte | Nahkampf | Hohe Stärkeanforderung, hohe DPS |
+| 14mm Pistole | Schwere Handfeuerwaffe | Revolverheld / Krit | Hoher Gliedmaßenschaden, niedrige Feuerrate |
+| Wattz Lasergewehr | Lasergewehr | Energie (Mittleres Spiel) | Hoher Schaden, doppelter Munitionsverbrauch |
+
+<Callout type="info" title="Sicherheit durch skriptbasierte Integration">
+Da CFWR skriptbasierte Leveled-List-Injektionen verwendet, kommt es nicht zu Konflikten mit anderen Mods, die Händlerinventare oder Gegner-Spawns ändern. Dies macht es hochgradig kompatibel mit großen Overhaul-Setups, einschließlich Tale of Two Wastelands (TTW).
+</Callout>
+
+Für Spieler, die gerne seltene Beute jagen, platziert CFWR mehrere einzigartige klassische Waffen an handverlesenen Orten im gesamten Ödland. Das Finden dieser Waffen erfordert das Erkunden gefährlicher, hochstufiger Gebiete, aber die Belohnung ist ein unglaublich mächtiges Werkzeug aus der Vergangenheit.
+
+| Einzigartige Waffe | Basistyp | Genauer Fundort | Bewacht von / Gefahr |
+| :--- | :--- | :--- | :--- |
+| Pulspistole | Energie | Todeskrallen-Vorgebirge | Hochstufige Todeskrallen |
+| Pulsgewehr | Energie | Enklave-Bunker | Eingeschränkter Zugang |
+| Vindicator Minigun | Schwere Ballistik | Abgestürzter Vertibird | Feindliche Militärroboter |
+| Unique Desert Eagle | Pistole | Camp-Guardian-Höhlen | Gefährliches Höhlensystem |
+| The Rattler | 4.7mm MP | Lakelurk-Bucht | Feindliche Lakelurks |
+| Solar Scorcher | Energie | Repconn HQ (Oberste Etage) | Sicherheitsroboter und Schlösser |
+
+</Section>
+
+<Section icon={Shield} title="Schritt-für-Schritt Installation & Kompatibilitäts-Setup">
+
+Das Einrichten eines stark gemoddeten Waffen-Setups in New Vegas erfordert eine präzise Installationsreihenfolge, um Abstürze, fehlende Texturen oder fehlerhafte Animationen zu vermeiden. Folgen Sie dieser strukturierten Anleitung, um ein stabiles Fundament für Ihr Remaster-Arsenal zu schaffen.
+
+<Steps>
+  <Step num="1" title="Kern-Skript-Erweiterungen installieren">
+    Bevor Sie Waffen-Mods installieren, müssen Sie die grundlegenden Skript-Erweiterungen installieren. Laden Sie **xNVSE**, **JIP LN NVSE Plugin**, **Johnny Guitar NVSE**, **kNVSE** und **ISControl Enabler** über Ihren Mod-Manager herunter und installieren Sie diese. Diese Dienstprogramme ermöglichen es modernen Skripten und benutzerdefinierten Animationen, reibungslos in der Game-Engine zu laufen.
+  </Step>
+  <Step num="2" title="Waffenmodell-Überarbeitungen bereitstellen">
+    Installieren Sie Ihre gewählten visuellen Replacer, beginnend mit dem **WAP Year One Pack**. Wenn Sie alternative Modelle aus der **AWO-Serie** (wie die AWO 10mm-Pistole) verwenden möchten, installieren Sie diese unmittelbar danach. Öffnen Sie Ihren Mod-Manager, suchen Sie den WAP-Ordner und verstecken oder löschen Sie die spezifischen Skripte für alle Waffen, die durch die AWO-Mod ersetzt werden sollen.
+  </Step>
+  <Step num="3" title="Classic Fallout Weapons Remastered installieren">
+    Laden Sie die Haupt-Mod **Classic Fallout Weapons Remastered** herunter und installieren Sie diese. Stellen Sie sicher, dass Sie auch alle optionalen Konfigurationsdateien herunterladen. Wenn Sie "Tale of Two Wastelands" (TTW) spielen, erkennt die Mod Ihr Setup automatisch und wendet die erforderlichen Integrations-Patches ohne zusätzliche Dateien an.
+  </Step>
+  <Step num="4" title="Animations-Patches und Sound-Überarbeitungen anwenden">
+    Installieren Sie Animationssets wie **Hitman's Seasons**, um Ihren neuen Waffenmodellen eine realistische Handhabung, Nachlade- und Schussbewegungen zu verleihen. Installieren Sie schließlich **All Weapon Sounds Overhaul Modern Edition (AWSOME)**, um die Audiodateien zu ersetzen. Lassen Sie Ihr Tool zur Sortierung der Ladereihenfolge (LOOT) laufen, um Ihre aktiven Plugins zu finalisieren.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Konfliktlösung erforderlich">
+Wenn Sie unsichtbare Waffen, rote Ausrufezeichen oder schnelle Spielabstürze beim Ziehen einer Waffe erleben, bedeutet dies, dass Sie widersprüchliche Animationssets oder fehlende Voraussetzungen haben. Überprüfen Sie doppelt, ob kNVSE und ISControl Enabler vollständig aktualisiert und in Ihrem Mod-Manager aktiv sind.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Optimierte Remaster-Loadouts">
+
+Um Ihnen bei der Navigation durch diese riesige Auswahl an modernisierten und klassischen Waffen zu helfen, haben wir drei hochoptimierte Charakter-Loadouts entworfen. Diese Builds nutzen die visuellen Overhauls, benutzerdefinierten Animationen und klassischen Waffenintegrationen voll aus, um ein stimmiges und kraftvolles Spielerlebnis zu bieten.
+
+<CardGrid cols={3}>
+  <Card title="Der moderne Revolverheld">
+    Dieser Build konzentriert sich auf hochpräzise, schnellfeuernde ballistische Handfeuerwaffen und Schrotflinten.
+    - **Primär**: AWO 10mm Pistole (mit benutzerdefiniertem knbrc-Set)
+    - **Sekundär**: WAP Unterhebel-Schrotflinte
+    - **Backup**: Einzigartige Desert Eagle (aus den Camp-Guardian-Höhlen)
+    - **Wichtiger Perk**: Cowboy & Run 'n Gun
+  </Card>
+  <Card title="Der klassische Energiespezialist">
+    Ein High-Tech-Build, der mächtige Energiewaffen aus der klassischen Fallout-Ära nutzt.
+    - **Primär**: Wattz Lasergewehr (remasterte Optik)
+    - **Sekundär**: Glock 86 Plasmapistole
+    - **Schwer**: Pulsgewehr (zu finden im Enklave-Bunker)
+    - **Wichtiger Perk**: Laser-Kommandant & Kernschmelze
+  </Card>
+  <Card title="Der schwere Ödland-Schütze">
+    Ein verheerender Build, der darauf ausgelegt ist, Ziele mit hoher Bedrohung durch schweres Geschütz zu zermalmen.
+    - **Primär**: Vindicator Minigun (Abgestürzter Vertibird)
+    - **Sekundär**: WAP LMG (mit deaktiviertem Visier-Overlay)
+    - **Backup**: Rockwell BigBazooka
+    - **Wichtiger Perk**: Schwergewicht & Spray and Pray
+  </Card>
+</CardGrid>
+
+Um sicherzustellen, dass Ihr Charakter voll vorbereitet ist, das Mojave-Ödland mit diesen remasterten Werkzeugen zu dominieren, nutzen Sie die folgende Checkliste, um Ihren Fortschritt und Ihre Mod-Ziele zu verfolgen.
+
+<Checklist
+  id="remaster-weapons-goals"
+  title="Ödland-Arsenal Checkliste:"
+  items={[
+    "Überprüfen, ob alle Kern-Skript-Erweiterungen (xNVSE, JIP LN, kNVSE) aktiv sind",
+    "Das einzigartige Pulsgewehr aus dem Enklave-Bunker beschaffen",
+    "Skriptkonflikte zwischen WAP- und AWO-Mods in Mod Organizer 2 lösen",
+    "Die CFWR Config.ini Datei konfigurieren, um Munitions-Dropraten anzupassen",
+    "Einen hochstufigen Run abschließen, um das Vindicator-Minigun beim abgestürzten Vertibird zu sichern"
+  ]}
+/>
+
+<Callout type="success" title="Synergie erreicht">
+Sobald Ihre visuellen Overhauls, Sound-Ersetzungen und klassischen Integrationen zusammenlaufen, wird sich der Kampf im Mojave-Ödland unglaublich reaktionsschnell, modern und visuell beeindruckend anfühlen.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Häufig gestellte Fragen (FAQ)">
+
+<FAQ items={[
+  {
+    question: "Sind diese Fallout New Vegas Remaster Waffen-Mods kompatibel mit Tale of Two Wastelands (TTW)?",
+    answer: "Ja. Sowohl die WAP-Serie als auch Classic Fallout Weapons Remastered (CFWR) verfügen über eine integrierte Kompatibilität mit Tale of Two Wastelands. CFWR erkennt Ihre TTW-Installation automatisch und passt die Leveled-Lists an, um Waffen nahtlos sowohl im Mojave- als auch im Hauptstadt-Ödland zu verteilen."
+  },
+  {
+    question: "Beeinflussen diese Waffen-Replacer die Spielleistung oder verursachen sie FPS-Einbrüche?",
+    answer: "Im Allgemeinen nein. Da moderne Replacer wie die WAP-Serie skriptbasierte Injektionen verwenden (wodurch sie ESP-los sind), verursachen sie nicht den Engine-Lag, der oft mit hohen Plugin-Zahlen verbunden ist. Wenn Sie jedoch extrem hochauflösende Texturen (4K) auf älterer Hardware verwenden, kann es beim Ziehen der Waffen zu leichten Rucklern kommen."
+  },
+  {
+    question: "Kann ich klassische Waffen-Mods zusammen mit Standard-Overhauls verwenden?",
+    answer: "Ja, aber Sie müssen Konflikte verwalten. Wenn Sie beispielsweise das WAP-Pack und einen AWO-Replacer für dieselbe Waffe verwenden, kommt es zu einem Konflikt. Sie müssen Ihren Mod-Manager (wie Mod Organizer 2) öffnen und die WAP-Skripte für die spezifische Waffe verstecken, die die AWO-Mod ersetzen soll."
+  },
+  {
+    question: "Wo finde ich die einzigartigen Waffen, die durch das klassische Waffenpaket hinzugefügt wurden?",
+    answer: "Einzigartige Waffen befinden sich an spezifischen, Lore-freundlichen Orten. Die Pulspistole befindet sich am Todeskrallen-Vorgebirge, das Pulsgewehr im Enklave-Bunker, das Vindicator-Minigun neben dem abgestürzten Vertibird und der Solar Scorcher im Tresor der obersten Etage des Repconn-Hauptquartiers."
+  }
+]} />
+
+</Section>

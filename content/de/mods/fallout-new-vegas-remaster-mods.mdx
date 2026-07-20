@@ -1,0 +1,214 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles, Settings, Eye, Zap } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fallout New Vegas Remaster Mods: Visueller Setup-Leitfaden für 2026",
+  description: "Verwandeln Sie Ihr Ödland mit den besten Fallout New Vegas Remaster Mods. Erfahren Sie, wie Sie über 100 Mods für bessere Texturen, Beleuchtung und Stabilität installieren.",
+  category: "Leitfaden",
+  image: "https://placehold.co/800x400/1a1a1a/ffb641?text=New+Vegas+Remaster+Guide",
+  date: "2026-07-21",
+  author: "Fallout New Vegas Wiki-Team"
+}
+
+<Callout type="info" title="Schnellanleitung">
+- **Fallout New Vegas Remaster Mods**: Konzentrieren Sie sich auf visuelle Überarbeitungen wie **Texturen, Beleuchtung und LOD**, ohne das Kern-Gameplay zu verändern.
+- **Zwingende Voraussetzung**: Steam-Nutzer müssen den **4GB Patcher** anwenden; bei GOG-Nutzern ist dieser bereits integriert.
+- **Stabilität zuerst**: Installieren Sie immer eine **Stabilitäts-Sammlung**, bevor Sie hochauflösende visuelle Mods hinzufügen, um Abstürze zu vermeiden.
+- **Wichtiges Tool**: Verwenden Sie **Vortex** für eine einfache Sammlungsverwaltung und stellen Sie sicher, dass **Archive Invalidation** aktiviert ist.
+- **Vanilla-Plus-Philosophie**: Dieses Setup zielt auf einen „modernisierten Klassiker“-Look ab und nicht auf eine vollständige Transformation des Gameplays.
+</Callout>
+
+<Section icon={Sparkles} title="Das ultimative visuelle Upgrade für 2026">
+
+Um einem Spiel aus dem Jahr 2010 ein modernes Aussehen zu verleihen, ist eine sorgfältig kuratierte Auswahl an **Fallout New Vegas Remaster Mods** erforderlich, die harmonisch zusammenarbeiten. Das bekannteste von der Community getragene Projekt im Jahr 2026 ist Gophers „New Vegas Remaster“-Sammlung, die über 100 einzelne Modifikationen bündelt. Diese Sammlung ist als „Facelift“ konzipiert und konzentriert sich ausschließlich auf Grafik, Beleuchtung und Umgebungsdetails. Durch die Nutzung dieser Mods können Spieler hochauflösende Texturen und verbesserte Sichtweiten genießen, die das Mojave-Ödland weitläufig statt leer wirken lassen.
+
+**Video-Highlights:**
+- Übersicht über die **Sammlung aus über 100 Mods**, die für ein visuelles Remaster entwickelt wurde.
+- Vergleich zwischen der Standardbeleuchtung und den neuen atmosphärischen Wettersystemen.
+- Die Bedeutung des **4GB Patchers** für Nutzer der Steam-Version.
+- Demonstration von verbessertem **LOD (Level of Detail)** und entfernter Landschaft.
+
+<YouTubeEmbed videoId="RA6AsbGGSZk" title="'Inoffizielles' FALLOUT: NEW VEGAS Remaster - Eine Sammlung aus über 100 Mods" />
+
+Das Hauptziel dieses Setups ist es, das „Vanilla-Plus“-Gefühl beizubehalten. Das bedeutet, dass das Spiel zwar deutlich besser aussieht, die Waffen, Charaktere und die Geschichte jedoch unberührt bleiben. Es ist der perfekte Ausgangspunkt für Spieler, die das ursprüngliche Erlebnis mit den visuellen Standards von 2026 genießen möchten.
+
+| Feature | Originales Spielerlebnis (Vanilla) | Gemoddetes Remaster (2026) |
+| :--- | :--- | :--- |
+| **Texturauflösung** | Niedrig/Verschwommen (512p-1k) | Hochauflösend (2k-4k) |
+| **Beleuchtungssystem** | Statisch/Flach | Dynamisch/Atmosphärisch |
+| **Entfernte Landschaft** | Leer/Nebelig | Detailliert/Generiertes LOD |
+| **Stabilität** | Häufige Abstürze | Optimierte Leistung |
+| **Wetter** | Einfache Zyklen | Immersive Wettereffekte |
+
+<Callout type="tip" title="Empfehlung der Redaktion">
+Wenn Sie nach dem stabilsten Spielerlebnis suchen, sollten Sie Gophers „Stability Collection“ (Stabilitäts-Sammlung) immer als Grundlage priorisieren, bevor Sie diese leistungshungrigen visuellen Mods installieren.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Grundlegende Voraussetzungen und Stabilität">
+
+Bevor Sie sich mit den ästhetischen Verbesserungen befassen, müssen Sie sicherstellen, dass die Spiel-Engine die erhöhte Last bewältigen kann. Die Engine aus dem Jahr 2010 ist bekanntlich stark in der Speichernutzung eingeschränkt, weshalb der **4GB Patcher** die wichtigste Komponente jeder Liste von **Fallout New Vegas Remaster Mods** ist. Ohne ihn wird das Spiel wahrscheinlich innerhalb weniger Minuten nach dem Laden hochauflösender Texturen abstürzen.
+
+| Voraussetzung | Zweck | Wichtigkeit |
+| :--- | :--- | :--- |
+| **4GB Patcher** | Ermöglicht dem Spiel die Nutzung von 4 GB RAM statt 2 GB | Erforderlich (Steam) |
+| **NVSE (Script Extender)** | Ermöglicht erweiterte Mod-Funktionen | Essenziell |
+| **Stabilitäts-Mods** | Behebt Fehler auf Engine-Ebene und Speicherlecks | Kritisch |
+| **Archive Invalidation** | Zwingt das Spiel, lose Mod-Dateien anstelle der Standarddateien zu verwenden | Erforderlich |
+| **Ultimate Edition** | Erforderlich für die Kompatibilität mit den meisten modernen Mods | Empfohlen |
+
+Steam-Nutzer stehen vor einer besonderen Hürde: Die Standard-Ausführungsdatei (.exe) ist gesperrt. Sie müssen den Patcher einmal ausführen, um das Speicherpotenzial freizuschalten. Bei der GOG-Version ist dieser Patch standardmäßig bereits integriert, was sie zur besseren Version für umfangreiches Modding im Jahr 2026 macht.
+
+<Callout type="warning" title="Wichtige Warnung">
+Wenn Sie **Archive Invalidation** in Ihrem Mod-Manager (Vortex oder MO2) nicht aktivieren, führt dies zu „roten Ausrufezeichen“ oder unsichtbaren Texturen. Überprüfen Sie diese Einstellung nach der Installation immer doppelt.
+</Callout>
+
+</Section>
+
+<Section icon={Eye} title="Kategorien der visuellen Verbesserungen">
+
+Das Remaster-Erlebnis ist in mehrere visuelle Hauptkategorien unterteilt. Indem Sie Ihre **Fallout New Vegas Remaster Mods** kategorisieren, können Sie die Auswirkungen auf die Leistung besser steuern und gezielt visuelle Fehler beheben.
+
+<CardGrid cols={3}>
+  <Card title="Beleuchtung & Wetter">
+    - **Dynamische Schatten**
+    - Verbesserte Innenbeleuchtung
+    - Realistische Nachtansichten
+    - Atmosphärischer Nebel
+  </Card>
+  <Card title="Textur-Überarbeitungen">
+    - **2K-Umgebungstexturen**
+    - Scharfe Waffen-Skins
+    - Hochauflösende Architektur
+    - Detaillierte Bodenbedeckung
+  </Card>
+  <Card title="LOD & Sichtweite">
+    - **Generierte entfernte Landschaft**
+    - Reduziertes Pop-in-Verhalten
+    - Detaillierte Horizonte
+    - Verbessertes Baum-LOD
+  </Card>
+</CardGrid>
+
+Eine der auffälligsten Verbesserungen in der Modding-Szene von 2026 ist die Generierung von entferntem Terrain (LOD). Im Originalspiel offenbarte der Blick zum Horizont oft leere, niedrig aufgelöste Landmassen. Moderne LOD-Mods füllen diese Entfernungen mit Gebäuden, Felsen und Vegetation, die zuvor unsichtbar waren, bis man direkt davor stand.
+
+| Mod-Kategorie | Auswirkung auf FPS | Visueller Gewinn |
+| :--- | :--- | :--- |
+| **Beleuchtung** | Niedrig | Hoch |
+| **4K-Texturen** | Hoch (VRAM-abhängig) | Mittel |
+| **LOD-Generierung** | Moderat | Extrem |
+| **Modell-Ersetzungen** | Moderat | Hoch |
+
+<Callout type="success" title="Leistungstipp">
+Für Spieler mit Mittelklasse-Hardware bietet die Beschränkung auf 2K-Texturen anstelle von 4K einen massiven visuellen Schub bei fast vernachlässigbarem Leistungsverlust auf modernen GPUs.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Schritt-für-Schritt-Installationsanleitung">
+
+Das Installieren einer Sammlung von **Fallout New Vegas Remaster Mods** ist im Jahr 2026 dank automatisierter Tools erheblich einfacher geworden. Befolgen Sie diese Schritte, um eine saubere und funktionstüchtige Installation zu gewährleisten.
+
+<Steps>
+  <Step num="1" title="Saubere Neuinstallation">
+    Beginnen Sie mit einer frischen Installation der Fallout: New Vegas Ultimate Edition. Löschen Sie alle alten Ordner in Ihrer SteamLibrary, um sicherzustellen, dass keine Rückstände früherer Modding-Versuche verbleiben.
+  </Step>
+  <Step num="2" title="Den 4GB Patcher anwenden">
+    Laden Sie den Patcher von Nexus Mods herunter, legen Sie die .exe-Datei in Ihren Spielordner und führen Sie sie als Administrator aus. Sie sollten eine Bestätigungsmeldung erhalten, dass die „FalloutNV.exe“ erfolgreich gepatcht wurde.
+  </Step>
+  <Step num="3" title="Mod-Manager einrichten">
+    Installieren Sie **Vortex** oder **Mod Organizer 2**. Verknüpfen Sie Ihr Nexus-Mods-Konto und legen das „Basisverzeichnis“ auf den Installationspfad von New Vegas fest.
+  </Step>
+  <Step num="4" title="Stabilitäts-Basis installieren">
+    Suchen und installieren Sie vor den Remaster-Mods eine „Stabilitäts-Sammlung“. Diese enthält unter anderem New Vegas Anti-Crash (NVAC) und den Tick Fix.
+  </Step>
+  <Step num="5" title="Die Remaster-Sammlung installieren">
+    Laden Sie Gophers „New Vegas Remaster“-Sammlung herunter. Lassen Sie den Manager die über 100 Mods verarbeiten. Stellen Sie nach Abschluss sicher, dass **Archive Invalidation** im Workarounds-Menü auf AN geschaltet ist.
+  </Step>
+</Steps>
+
+Nach der Installation wird empfohlen, das Spiel im **rahmenlosen Fenstermodus (Borderless Windowed Mode)** auszuführen. Dies verringert das Risiko von Abstürzen bei der Verwendung von Alt-Tab erheblich – ein häufiges Problem bei der ursprünglichen Vollbild-Implementierung des Spiels.
+
+<Callout type="info" title="Wichtiger Schritt">
+Stellen Sie sicher, dass **HDR** in den Einstellungen des Spiel-Launchers aktiviert ist. Dies ist für verschiedene moderne Beleuchtungs- und LOD-Flacker-Fixes erforderlich, die im Remaster-Setup für 2026 enthalten sind.
+</Callout>
+
+</Section>
+
+<Section icon={Settings} title="Kompatibilität und Benutzeroberfläche">
+
+Ein visuelles Remaster ist unvollständig ohne eine modernisierte Benutzeroberfläche (UI). Standardmäßige **Fallout New Vegas Remaster Mods** kollidieren oft mit dem ursprünglichen HUD, das für 720p-Konsolen entwickelt wurde.
+
+| UI-Mod | Funktion | Kompatibilität |
+| :--- | :--- | :--- |
+| **Vanilla UI Plus** | Behält den klassischen Look bei, fügt hochauflösende Symbole hinzu | Hervorragend |
+| **Darnified UI** | Kleinere Schriftarten, mehr Platz auf dem Bildschirm | Erfordert Anpassungen |
+| **MTUI** | Einfache Schrift- und Menüskalierung | Gut |
+| **HUD Editor** | Ermöglicht das Verschieben aller HUD-Elemente | Hervorragend |
+
+Wenn Sie Gophers Sammlung verwenden, haben Sie die Wahl zwischen verschiedenen UI-Pfaden. „Vanilla UI Plus“ wird im Allgemeinen für die stabilste Erfahrung empfohlen. Es behebt viele der Ausrichtungsprobleme des Originalspiels und sorgt dafür, dass die hochauflösenden Texturen zur Geltung kommen, ohne von klobigen Menüs minderwertiger Qualität verdeckt zu werden.
+
+<Callout type="warning" title="Konfliktlösung">
+Wenn Sie mehrere UI-Mods installieren, stellen Sie immer sicher, dass der „UI Organizer“ oder „The Mod Configuration Menu“ (MCM) ganz unten in Ihrer Ladefolge (Load Order) steht, um Menü-Überlappungen zu vermeiden.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Abschließende Checkliste und Optimierung">
+
+Bevor Sie ins Mojave-Ödland aufbrechen, gehen Sie diese abschließende Checkliste durch, um sicherzustellen, dass Ihre **Fallout New Vegas Remaster Mods** ordnungsgemäß funktionieren. Einige Minuten Überprüfung können Ihnen später stundenlange Fehlersuche ersparen.
+
+<Checklist
+  id="final-verification"
+  title="Checkliste vor dem Start:"
+  items={[
+    "Überprüfen, ob der 4GB Patcher aktiv ist (Speichernutzung im Task-Manager kontrollieren)",
+    "Bestätigen, dass Archive Invalidation in Vortex auf AN geschaltet ist",
+    "Spiel über den Launcher oder die .ini-Datei auf den rahmenlosen Fenstermodus einstellen",
+    "Sicherstellen, dass HDR für LOD-Flacker-Fixes aktiviert ist",
+    "MCM-Menü im Spiel überprüfen, um sicherzustellen, dass alle Mod-Skripte ausgeführt werden"
+  ]}
+/>
+
+| Optimierungs-Tweak | Empfohlene Einstellung | Nutzen |
+| :--- | :--- | :--- |
+| **iNumHWThreads** | Entspricht der Anzahl Ihrer CPU-Kerne (max. 4) | Besseres Multi-Threading |
+| **bUseThreadedAI** | 1 | Verhindert KI-bedingte Ruckler |
+| **iFPSClamp** | 0 (außer bei Verwendung spezifischer Fixes) | Verhindert Probleme mit der Spielgeschwindigkeit |
+| **bFull Screen** | 0 (Rahmenlos verwenden) | Stabilität bei der Verwendung von Alt-Tab |
+
+<Callout type="success" title="Letzter Profi-Tipp">
+Wenn Sie beim Bewegen Ruckler („Stuttering“) bemerken, überprüfen Sie die Einstellungen des **New Vegas Tick Fix**. Moderne Hardware im Jahr 2026 lässt das Spiel oft mit hohen Bildraten laufen, was spezifische Anpassungen des Engine-Timings erfordert.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Häufig gestellte Fragen (FAQs)">
+
+<FAQ items={[
+  {
+    question: "Funktionieren diese Fallout New Vegas Remaster Mods auch mit der Version aus dem Epic Games Store?",
+    answer: "Die Epic-Games-Version ist bekanntermaßen schwer zu modden, da sie eine andere Struktur der ausführbaren Datei verwendet. Es wird dringend empfohlen, die Steam- oder GOG-Versionen zu verwenden, um die beste Kompatibilität mit dem 4GB Patcher und NVSE."
+  },
+  {
+    question: "Benötige ich im Jahr 2026 einen High-End-PC, um über 100 Mods auszuführen?",
+    answer: "Nicht unbedingt. Die meisten dieser Mods folgen dem „Vanilla-Plus“-Prinzip, was bedeutet, dass sie das Spiel ebenso sehr optimieren wie verbessern. Eine Mittelklasse-Grafikkarte aus den letzten 5 Jahren kann 2K-Texturen und eine verbesserte Beleuchtung problemlos mit 60 FPS bewältigen."
+  },
+  {
+    question: "Was ist Archive Invalidation und warum ist es zwingend erforderlich?",
+    answer: "Fallout: New Vegas speichert seine Assets in BSA-Dateien. Archive Invalidation teilt der Spiel-Engine mit, die internen Dateien zu ignorieren und stattdessen die neuen, hochauflösenden Texturen zu laden, die Sie im „Data“-Ordner installiert haben."
+  },
+  {
+    question: "Kann ich zusätzlich zu diesem visuellen Remaster auch Gameplay-Mods installieren?",
+    answer: "Ja. Diese Sammlung ist als visuelle Basis konzipiert. Sobald Ihr Spiel stabil ist und gut aussieht, können Sie problemlos Quest-Mods, Waffenpakete oder Gameplay-Überarbeitungen hinzufügen, sofern Sie auf Kompatibilität achten."
+  }
+]} />
+
+</Section>

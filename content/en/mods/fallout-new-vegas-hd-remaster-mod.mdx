@@ -1,0 +1,222 @@
+import { Settings, Layout, Mountain, Sun, User, ListChecks, HelpCircle } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Fallout New Vegas HD Remaster Mod: 2026 Visual Setup Guide",
+  description: "Transform your wasteland experience with the ultimate Fallout New Vegas HD remaster mod guide. Enhance textures, lighting, and UI while maintaining stability.",
+  category: "Guide",
+  image: "https://placehold.co/800x400/1a1a1a/fcd34d?text=New+Vegas+HD+Remaster+Guide",
+  date: "2026-07-21",
+  author: "Fallout New Vegas Wiki Team"
+}
+
+<Callout type="info" title="Quick Guide">
+- **Fallout New Vegas HD Remaster Mod**: Focus on **Vanilla-Plus** enhancements rather than over-saturated overhauls to preserve the game's iconic atmosphere.
+- **Core Stability**: You must install the **4GB Patcher** and **NVSE** before applying any high-resolution texture packs.
+- **Texture Priority**: Use a combination of **NMC's Texture Pack** and **Ojo Bueno** for world objects, but prioritize **Char's FMV HD** for landscape files.
+- **Lighting Meta**: Remove the "yellow filter" using **Yellow Goodbye** and pair it with **General Lighting Overhaul** for realistic day/night cycles.
+- **Performance Tip**: Stick to **2K textures** for gameplay; 4K textures offer diminishing returns and can lead to engine-level instability in the Mojave.
+</Callout>
+
+<Section icon={Settings} title="Foundations: Stability and Engine Preparation">
+
+Before diving into any **fallout new vegas hd remaster mod** list, you must ensure the underlying engine can handle the increased memory load. Fallout: New Vegas is a 32-bit application by default, meaning it cannot utilize more than 2GB of RAM without modification. This limitation is the primary cause of crashes when using high-definition textures.
+
+**Video Highlights:**
+- **Visual Philosophy**: Why vanilla-friendly enhancements often look better than total overhauls.
+- **Interface Scaling**: The importance of high-resolution loading screens and main menus.
+- **NPC Overhauls**: Using character kit remakes to improve models without losing their recognizable faces.
+- **Lighting Synergy**: How simple lighting tweaks can be more impactful than heavy ENB presets.
+
+<YouTubeEmbed videoId="xSnucXCUCaE" title="How GRAPHICS Should've Been in Fallout New Vegas" />
+
+To begin your remaster journey, the following core utilities are non-negotiable. These tools fix engine bugs and allow for the modern scripting required by advanced visual mods.
+
+| Utility Name | Primary Function | Requirement Level |
+| :--- | :--- | :--- |
+| **4GB Patcher** | Enables the game to use 4GB of Virtual Address Space | **Mandatory** |
+| **NVSE (New Vegas Script Extender)** | Expands scripting capabilities for modern mods | **Mandatory** |
+| **Archive Invalidation** | Forces the game to use modded files over original BSAs | **Mandatory** |
+| **New Vegas Anti-Crash (NVAC)** | Reduces structured exceptions and engine hangs | Recommended |
+| **NVTF (New Vegas Tick Fix)** | Fixes micro-stuttering and high refresh rate issues | Recommended |
+
+<Callout type="warning" title="Critical Requirement">
+Most modern mod collections, such as Gopher's New Vegas Remaster, require the **Ultimate Edition** of the game. Ensure you have all DLCs installed, as many texture and lighting patches rely on assets found in Old World Blues and Lonesome Road.
+</Callout>
+
+</Section>
+
+<Section icon={Layout} title="Interface and UI: A Modern Perspective">
+
+The original user interface was designed for 720p resolutions. On modern 1440p or 4K monitors, the HUD and menus appear blurry and pixelated. A true **fallout new vegas hd remaster mod** setup must include an interface upscale to ensure readability and aesthetic quality.
+
+<CardGrid cols={3}>
+  <Card title="Vanilla UI Plus">
+    - **Original Style**: Retains the iconic green/amber aesthetic.
+    - **HD Scaling**: Fixes font blurriness on high-resolution displays.
+    - **Bug Fixes**: Cleans up menu alignment issues.
+  </Card>
+  <Card title="Consistent Pip-Boy Icons">
+    - **High Fidelity**: Replaces every icon with HD versions.
+    - **Visual Clarity**: Makes inventory management significantly faster.
+    - **Complete Set**: Covers all items, perks, and map markers.
+  </Card>
+  <Card title="HD Main Menu">
+    - **AI Upscaled**: Replaces the dusty, low-res intro screens.
+    - **60 FPS Intro**: Re-renders the opening cinematic at higher frame rates.
+    - **Customizable**: Allows for new pause menu features like real-time clocks.
+  </Card>
+</CardGrid>
+
+Beyond just looks, the UI can be improved with functional additions. Consider the **All-in-One Interface Upscale** as your base layer. This mod ensures that every button, slider, and dialogue box is crisp.
+
+| UI Component | Recommended Mod | Key Benefit |
+| :--- | :--- | :--- |
+| **Pip-Boy Model** | **MOLON CLOUD'S Pip-Boy 2000** | Higher poly model that fits the New Vegas era |
+| **Terminals** | **High Resolution Screens** | Makes terminal text sharp and easy to read |
+| **Map Markers** | **HD Map Markers** | Prevents the world map from looking cluttered and blurry |
+| **Crosshair** | **Simple HUD** | Provides a cleaner, more modern aiming reticle |
+
+<Callout type="tip" title="Pro Tip">
+When installing UI mods, always ensure **Archive Invalidation** is toggled 'ON' in your mod manager (Vortex or MO2). Without this, the game will continue to pull the old, low-resolution textures from the base game files.
+</Callout>
+
+</Section>
+
+<Section icon={Mountain} title="World Textures: Remastering the Mojave">
+
+The core of any visual overhaul is the environment. The Mojave Wasteland is vast, and the original textures are often muddy. To achieve a remaster-level look, you need a layered approach to texture replacement.
+
+**Texture Pack Comparison**
+
+| Pack Name | Focus Area | Recommended Version |
+| :--- | :--- | :--- |
+| **NMC's Texture Pack** | Roads, buildings, and large structures | Large or Medium (2K) |
+| **Ojo Bueno** | Clutter, vending machines, and vehicles | High (2K) |
+| **Char's FMV HD** | Landscape and specific architecture | Landscape Only |
+| **Landscape Texture Improvements** | Ground seams and transition textures | Standard |
+
+For the best results, install **NMC's Texture Pack** first. It covers roughly 90% of the game's world. However, some of its landscape textures can feel "off" compared to the original art style. By overwriting the landscape files with **Char's FMV HD**, you maintain the vanilla color palette while gaining incredible detail.
+
+<Steps>
+  <Step num="1" title="Base Layer Installation">
+    Install **NMC's Texture Pack (Large or Medium)**. This provides the foundation for all buildings and roads.
+  </Step>
+  <Step num="2" title="Clutter and Objects">
+    Overlay **Ojo Bueno**. This mod excels at small details like the Nuka-Cola machines and wooden crates that NMC might miss.
+  </Step>
+  <Step num="3" title="Landscape Refinement">
+    Install the landscape files from **Char's FMV HD**. This fixes the blurry ground textures seen in the distance.
+  </Step>
+  <Step num="4" title="LOD Generation">
+    Use **Vanilla Generated LOD** to ensure that buildings and terrain don't "pop in" as you walk toward them.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Technical Note">
+While 4K texture packs exist, the New Vegas engine often struggles with them, leading to "Purple Texture" bugs where the engine runs out of video memory. For 2026 hardware, **2K textures** provide the perfect balance of visual fidelity and stability.
+</Callout>
+
+</Section>
+
+<Section icon={Sun} title="Lighting and Atmosphere: Beyond the Yellow Filter">
+
+One of the most defining (and controversial) aspects of New Vegas is its yellow tint. While it adds to the "heat" of the desert, it often crushes the color depth of the remastered textures we've just installed.
+
+To modernize the atmosphere, we recommend a script-based lighting approach rather than a heavy ENB. ENBs often break shadows and cause transparency issues with water and steam.
+
+| Lighting Mod | Primary Effect | Atmosphere Impact |
+| :--- | :--- | :--- |
+| **Yellow Goodbye** | Removes the aggressive yellow color grading | Clean, natural daylight |
+| **General Lighting Overhaul** | Brightens days and darkens nights realistically | High immersion |
+| **Atmospheric Lighting Tweaks** | Fixes interior image spaces and templates | Better interior depth |
+| **Lumen Ambient Lighting** | Makes light-emitting objects actually cast light | Realistic night scenes |
+| **Afterglow** | Adds ambient glow to neon signs in Vegas | Essential for the Strip |
+
+<Callout type="success" title="Visual Breakthrough">
+By combining **General Lighting Overhaul** with **Lumen**, you create a world where light feels physical. Walking into the Prospector Saloon at night will feel significantly more atmospheric as the fireplace actually illuminates the room and the NPCs within it.
+</Callout>
+
+Don't forget the sky. **Cloud Upgrade NVSE** adds pseudo-animated clouds that move across the horizon, while **Heat Haze** emulates the shimmering effect of desert heat on distant objects. These small details sell the "Remaster" feeling more than high-res rocks ever could.
+
+</Section>
+
+<Section icon={User} title="Characters and NPCs: Bringing the Wasteland to Life">
+
+With a beautiful world and sharp UI, the last piece of the puzzle is the inhabitants of the Mojave. The original character models suffer from "potato face" syndrome and low-poly hair.
+
+**Character Enhancement Strategy**
+
+| Category | Recommended Mod | Effect |
+| :--- | :--- | :--- |
+| **Skin/Faces** | **Hollow of Face** | Upscales skin, hair, and eye textures |
+| **Hair** | **Character Kit Remake - Hair** | Recreates vanilla styles with modern meshes |
+| **Body** | **Improved Vanilla Male Body** | Removes neck seams and improves muscle definition |
+| **Armor** | **MOLON Upscaled Vanilla Armors** | Makes fabrics and metals look like real materials |
+| **Robots** | **Robots HD / Fried Turkeys Pack** | Drastically improves Securitrons and Protectrons |
+
+<Steps>
+  <Step num="1" title="NPC Texture Base">
+    Apply **Hollow of Face** or **Character Kit Remake**. This ensures all NPCs benefit from higher resolution facial features.
+  </Step>
+  <Step num="2" title="Clothing Overhaul">
+    Install **Chillo Kicks HD Clothing**. This replaces the blurry textures on civilian outfits and faction uniforms.
+  </Step>
+  <Step num="3" title="Creature Updates">
+    Use **Creatures HD** to remaster the textures of Deathclaws, Geckos, and Cazadores.
+  </Step>
+</Steps>
+
+<Callout type="warning" title="Compatibility Warning">
+Mods that change facial structures (like FCO) often require complex patching for every NPC in the game. To keep your **fallout new vegas hd remaster mod** list stable, we recommend sticking to texture-based overhauls like **Hollow of Face**, which work out of the box with almost any other mod.
+</Callout>
+
+</Section>
+
+<Section icon={ListChecks} title="Installation Checklist and Final Steps">
+
+Once you have selected your mods, follow this checklist to ensure a smooth launch. Modding New Vegas in 2026 is easier than ever, but order still matters.
+
+<Checklist
+  id="remaster-final-check"
+  title="Final Setup Checklist:"
+  items={[
+    "Run the 4GB Patcher on your FalloutNV.exe",
+    "Install NVSE and verify it works by typing 'GetNVSEVersion' in the console",
+    "Toggle Archive Invalidation 'OFF' then 'ON' in your mod manager",
+    "Install Texture Packs in order: World -> Clutter -> Landscape",
+    "Apply Lighting and Weather mods last to ensure they override vanilla settings",
+    "Generate LOD using xLODGen if you notice distant object flickering"
+  ]}
+/>
+
+<Callout type="info" title="Final Stability Tip">
+Always launch the game through your mod manager (Vortex or MO2) using the **nvse_loader.exe**. Launching through Steam will often bypass your mods and the 4GB patch, leading to immediate crashes.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "Will these mods tank my FPS?",
+    answer: "Most of these mods are texture and lighting based. On 2026 hardware, you should maintain a locked 60 FPS or higher. The biggest performance hit comes from 4K textures; sticking to 2K ensures smooth gameplay."
+  },
+  {
+    question: "Do I need a new save game for the HD remaster?",
+    answer: "Generally, no. Visual mods like textures and lighting can be installed or uninstalled mid-playthrough without corrupting your save. However, major UI overhauls are best installed before starting a new journey."
+  },
+  {
+    question: "What is the best way to manage a 100+ mod list?",
+    answer: "Use Mod Organizer 2 (MO2). It uses a virtual file system that keeps your actual game folder clean, making it much easier to troubleshoot conflicts in your fallout new vegas hd remaster mod setup."
+  },
+  {
+    question: "Is there a 'one-click' way to get this look?",
+    answer: "Yes, you can use Nexus Mods Collections. Gopher's New Vegas Remaster is a highly curated collection that implements many of the mods discussed in this guide with pre-configured settings."
+  }
+]} />
+
+</Section>

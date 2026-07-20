@@ -1,0 +1,208 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Misiones de Fallout New Vegas Remaster: Guía y Caminos",
+  description: "Domina las narrativas ramificadas y las alineaciones de facciones de las misiones de Fallout New Vegas Remaster con esta guía completa.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1a1a2e/fff?text=New+Vegas+Remaster+Quests",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Fallout New Vegas",
+  keywords: "fallout new vegas remaster, misiones, guía, facciones, finales, walkthrough"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Enfoque Principal**: Navegar por las complejas opciones ramificadas de las **misiones de Fallout New Vegas Remaster** para asegurar el final deseado en el yermo.
+- **Mecánica Clave**: Gestionar la reputación entre las facciones principales como la RNC (República de Nueva California), la Legión de César y el Sr. House.
+- **Mejor Estrategia**: Completar las misiones de tutorial al inicio del juego para asegurar equipo inicial único antes de enfrentarse a Benny.
+- **Consejo Crítico**: Prestar atención a los puntos de no retorno que te bloquean permanentemente de las historias de facciones específicas.
+- **Opción Recomendada**: Utilizar el camino de Servibot (Comodín) para una independencia total y el control definitivo sobre la Presa Hoover.
+</Callout>
+
+<Section icon={Map} title="Misiones de Fallout New Vegas Remaster: Guía Inicial">
+
+El viaje del Mensajero comienza en el tranquilo pueblo de Goodsprings. Después de ser rescatado por Victor y curado por el Dr. Mitchell, te introduces inmediatamente en las mecánicas centrales de supervivencia y combate del juego. La progresión al inicio del juego está diseñada para guiarte naturalmente hacia el sur, presentándote el conflicto creciente entre la República de Nueva California (RNC) y la Legión de César.
+
+Se recomienda encarecidamente completar las misiones de tutorial iniciales. Aunque la mayoría de estas misiones son técnicamente opcionales, proporcionan recursos invaluables, puntos de experiencia y reputación de facción que facilitarán significativamente tu viaje hacia el Strip de New Vegas.
+
+| Nombre de la Misión | Ubicación | Emisor | Recompensas Clave | ID de la Misión |
+| :--- | :--- | :--- | :--- | :--- |
+| **¡Qué patada en la cabeza!** | Goodsprings | Dr. Mitchell | Traje del Refugio 21, Pip-Boy 3000, 18 chapas | 00104C1C |
+| **De vuelta a la acción** | Goodsprings | Sunny Smiles | Rifle de alimañas, munición de 5.56mm, 50 PE | 0010A214 |
+| **Se fueron por allí** | Primm, Novac, Boulder City | Dr. Mitchell | 1000 PE, pistas sobre la ubicación de Benny | 000842DD |
+| **¡Ring-a-Ding-Ding!** | Casino The Tops | Jessup / Benny | 900-1200 PE, Ficha de Platino, reinicio de reputación | 0011345D |
+
+<Callout type="info" title="Consejo de Progresión Temprana">
+La misión "¡Ring-a-Ding-Ding!" es el punto de inflexión definitivo de la historia principal. Entrar en el Lucky 38 o enfrentarse a Benny en The Tops activará un reinicio completo de tus reputaciones negativas tanto con la RNC como con la Legión de César, permitiéndote elegir libremente tu alineación de facción final.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Alineación de Facciones y Caminos Principales Ramificados">
+
+Una vez que llegues al Strip de New Vegas y adquieras la Ficha de Platino, la historia principal se divide en cuatro caminos de facciones distintos. Cada camino presenta un conjunto único de misiones que culminan en la Batalla de la Presa Hoover. Tus elecciones a lo largo de estas misiones determinarán el futuro político del Yermo de Mojave.
+
+Para ayudarte a decidir a qué facción apoyar, considera las filosofías centrales y las ventajas de juego de cada historia principal:
+
+<CardGrid cols={4}>
+  <Card title="Servibot (Comodín)">
+    - **Camino independiente**
+    - Neutralizar al Sr. House
+    - Libertad total de elección
+    - Controlar el ejército de Securitrones
+  </Card>
+  <Card title="Sr. House">
+    - **Camino autocrático**
+    - Preservar el status quo del Strip
+    - Pagos altamente lucrativos
+    - Mejorar la red de Securitrones
+  </Card>
+  <Card title="RNC (Por la República)">
+    - **Camino democrático**
+    - Enfoque en alta diplomacia
+    - Acceso a refugios de la RNC
+    - Gran apoyo militar
+  </Card>
+  <Card title="Legión de César">
+    - **Camino imperial**
+    - Objetivos de combate despiadados
+    - Refugio con armadura única
+    - Erradicar el liderazgo de la RNC
+  </Card>
+</CardGrid>
+
+Cada camino de facción requiere que trates con tribus menores en todo el Mojave, como los Boomers, los Grandes Khan y la Sociedad Guante Blanco. Puedes elegir solicitar su ayuda, ignorarlos o eliminarlos por completo dependiendo de la construcción de tu personaje y tu alineación moral.
+
+| Camino de Facción | Misión Clave | Objetivo Principal | Recompensa Mayor |
+| :--- | :--- | :--- | :--- |
+| **Independiente** | Comodín: Cambio de administración | Instalar a Servibot en la unidad central del Lucky 38 | Control total de la Presa Hoover |
+| **Sr. House** | La casa siempre gana I | Entregar la Ficha de Platino al Sr. House | Vivienda en la Suite Presidencial del Lucky 38 |
+| **RNC** | ¡Bombas fuera! | Asegurar una alianza con los Boomers en Nellis | Fama en la RNC, apoyo aéreo táctico |
+| **Legión de César** | Al César lo que es del César | Destruir o mejorar el búnker bajo El Fuerte | Fama en la Legión, favor de César |
+
+<Callout type="warning" title="Punto de No Retorno">
+Progresar demasiado en cualquier camino de facción activará misiones de advertencia como "¡No pises al oso!" (RNC) o "¡Cuidado con la ira del César!" (Legion). Completar más objetivos para facciones rivales después de recibir estas advertencias fallará permanentemente tu relación con el bando opuesto.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Misiones Secundarias de Alto Valor y Objetivos No Marcados">
+
+Más allá de la lucha política principal, el Yermo de Mojave está lleno de docenas de misiones secundarias altamente gratificantes y objetivos no marcados. Estas misiones ofrecen armas únicas, cantidades masivas de puntos de experiencia y recetas poderosas que pueden cambiar el rumbo de encuentros de combate difíciles.
+
+Por ejemplo, rastrear las Chapas de Estrella de Sunset Sarsaparilla desbloquea uno de los tesoros ocultos más famosos del juego. Sigue los pasos a continuación para reclamar esta recompensa legendaria:
+
+<Steps>
+  <Step num="1" title="Recolectar Chapas de Estrella">
+    Explora el Mojave para encontrar 50 Chapas de Estrella de Sunset Sarsaparilla. Se pueden encontrar en mesas al azar o adquirir al beber Sunset Sarsaparilla estándar.
+  </Step>
+  <Step num="2" title="Hablar con Festus">
+    Dirígete a la Sede de Sunset Sarsaparilla y habla con Festus, la mascota robótica, para entregar las chapas de estrella recolectadas.
+  </Step>
+  <Step num="3" title="Desbloquear el Tesoro">
+    Escucha la historia de Festus para completar "La leyenda de la estrella" e inmediatamente desbloquear la misión de seguimiento, "Una lección valiosa".
+  </Step>
+  <Step num="4" title="Reclamar tu Recompensa">
+    Entra en el almacén desbloqueado para reclamar la pistola láser única **Pew Pew**, junto con 1,500 chapas y valiosa munición de combate.
+  </Step>
+</Steps>
+
+Además, completar misiones para facciones menores como los Grandes Khan puede otorgar una gran utilidad en combate. La misión "Luna de miel en el Aba Daba" es muy valorada por los jugadores que buscan optimizar sus capacidades de elaboración de productos químicos.
+
+| Nombre de la Misión | Ubicación de Inicio | Emisor de la Misión | Recompensa Única |
+| :--- | :--- | :--- | :--- |
+| **Luna de miel en el Aba Daba** | Laboratorio de drogas de Red Rock | Diane | Receta de Turbo, movimiento desarmado Truco Khan |
+| **Una lección valiosa** | Sede de Sunset Sarsaparilla | Festus | Pistola láser única Pew Pew, 1500 chapas |
+| **Todos mis amigos tienen interruptores** | La Pila (Big MT) | Unidad Central de la Pila | Vivienda para el jugador funcional, servicios de comerciante |
+
+<Callout type="success" title="Consejo de Combate">
+El "Truco Khan" adquirido en "Luna de miel en el Aba Daba" permite a los luchadores desarmados lanzar tierra a los ojos de los oponentes, cegándolos temporalmente y creando una ventana perfecta para ataques de seguimiento de alto daño.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Misiones de Expansión DLC y Recompensas de Fin de Juego">
+
+El remaster incluye las cuatro expansiones legendarias de DLC: *Dead Money*, *Honest Hearts*, *Old World Blues* y *Lonesome Road*. Estas expansiones presentan espacios de mundo completamente separados, mecánicas de juego únicas y algunas de las líneas de misiones más desafiantes de toda la franquicia.
+
+Para abordar estas expansiones con éxito, debes planificar el nivel y el equipo de tu personaje en consecuencia. Cada expansión tiene un nivel de inicio recomendado para asegurar una experiencia de juego equilibrada.
+
+| Expansión DLC | Ubicación de Inicio | Nivel Recomendado | Recompensas Únicas Clave |
+| :--- | :--- | :--- | :--- |
+| **Dead Money** | Búnker abandonado de la HdAc | Nivel 20+ | Holorifle, Traje de Dead Money, Lingotes de oro de Sierra Madre |
+| **Honest Hearts** | Paso del Norte | Nivel 15+ | Pistola automática .45, Macana de guerra, Armadura de Joshua Graham |
+| **Old World Blues** | Autocine de Mojave | Nivel 25+ | Emisor sónico, Pistola ciberperro K9000, LAER de Elijah |
+| **Lonesome Road** | Restos del cañón | Nivel 30+ | Armadura de antidisturbios de élite, Lanzacohetes Gran Brillo, Punto de S.P.E.C.I.A.L. |
+
+Para asegurarte de experimentar todo lo que estas expansiones tienen para ofrecer, realiza un seguimiento de tu progreso utilizando esta lista de verificación esencial:
+
+<Checklist
+  id="dlc-completion-goals"
+  title="Hitos de la Expansión DLC:"
+  items={[
+    "Completar '¡Gran inauguración del Sierra Madre!' y escapar de la cámara con los lingotes de oro.",
+    "Decidir el destino del valle de Zion en Honest Hearts y reclamar el equipo de Joshua Graham.",
+    "Encontrar todos los chips de personalidad en 'Todos mis amigos tienen interruptores' para mejorar completamente La Pila.",
+    "Enfrentar a Ulysses en la Divisoria en Lonesome Road y asegurar tu punto de atributo S.P.E.C.I.A.L. adicional."
+  ]}
+/>
+
+<Callout type="tip" title="Estrategia de DLC">
+En *Dead Money*, tu inventario estándar es despojado por completo. Concéntrate en mejorar tus habilidades de Armas Cuerpo a Cuerpo o Armas de Energía de antemano, ya que el Holorifle y el cuchillo cósmico son las armas más confiables disponibles en el Sierra Madre.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Mejoras del Motor del Remaster y Modding de Misiones">
+
+Con la reestructuración moderna de Bethesda Game Studios y los esfuerzos de codesarrollo junto con Obsidian Entertainment, los cimientos técnicos del Yermo de Mojave han recibido una revisión masiva. Funcionando en Creation Engine 3, la misma plataforma tecnológica compartida utilizada para *The Elder Scrolls 6* y *Fallout 5*, el remaster elimina muchas de las limitaciones del motor que plagaron el lanzamiento original de 2010.
+
+Estas mejoras técnicas mejoran directamente el funcionamiento de las misiones, ofreciendo una estabilidad sin precedentes y una exploración sin interrupciones.
+
+| Mejora de Característica | Limitación del Juego Original | Beneficio del Motor del Remaster | Impacto en las Misiones |
+| :--- | :--- | :--- | :--- |
+| **Carga de Mundo sin Interrupciones** | Pantallas de carga frecuentes entre Freeside y el Strip | Las grandes ciudades se cargan como un espacio de mundo único e ininterrumpido | Elimina los retrasos de carga durante misiones urbanas de varias etapas |
+| **Scripting de Creation Engine 3** | Indicadores de misión frágiles propensos a romperse y congelarse | Sistemas de datos robustos con procesamiento avanzado en segundo plano | Progresión de misiones altamente estable con menos scripts rotos |
+| **Asignación de Memoria Ampliada** | Límites estrictos del motor que causan bloqueos con mods pesados | Soporte nativo para activos de alto detalle y mundos masivos | Integración impecable de expansiones de misiones creadas por la comunidad |
+
+Estas mejoras también allanan el camino para un entorno de modding revolucionario. Los mods de misiones complejos y de múltiples etapas que anteriormente causaban que el motor original fallara ahora pueden ejecutarse con absoluta estabilidad, permitiendo a los jugadores expandir su viaje a través del Mojave indefinidamente.
+
+<Callout type="info" title="Información Técnica">
+La transición a Creation Engine 3 significa que las transiciones de mundo abierto se manejan dinámicamente cerca de la cámara, renderizando ciudades de alto detalle sin requerir puertas de carga. Esto hace que navegar por las áreas densamente pobladas de New Vegas se sienta completamente fluido.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+Para ayudarte a aprovechar al máximo tu viaje, aquí tienes respuestas a las preguntas más comunes sobre los sistemas de misiones en el remaster.
+
+<Callout type="tip" title="Respuesta Destacada">
+Mantén siempre múltiples archivos de guardado manual antes de comenzar misiones importantes de facción. Esto te permite explorar diferentes resultados narrativos sin perder docenas de horas de progreso de juego.
+</Callout>
+
+<FAQ items={[
+  {
+    question: "¿Puedo completar todas las misiones de Fallout New Vegas Remaster en una sola partida?",
+    answer: "No. Debido a que la historia principal se ramifica en cuatro caminos de facciones mutuamente excluyentes (RNC, Legión de César, Sr. House y Servibot), tendrás que crear varias partidas o cargar guardados anteriores para experimentar cada misión y final."
+  },
+  {
+    question: "¿En qué punto debería comenzar las misiones de expansión DLC?",
+    answer: "Se recomienda encarecidamente comenzar Honest Hearts alrededor del nivel 15, Dead Money al nivel 20, Old World Blues al nivel 25 y Lonesome Road al nivel 30 o superior. Debes completar todos los DLC antes de terminar la historia principal, ya que el juego termina después de la Batalla de la Presa Hoover."
+  },
+  {
+    question: "¿Qué sucede si vuelvo hostil a una facción durante una misión?",
+    answer: "Si tu reputación con una facción cae a 'Vilipendiado', sus tropas te atacarán al verte, fallando inmediatamente cualquier misión activa otorgada por esa facción. Sin embargo, entrar al Strip de New Vegas por primera vez reinicia tu reputación negativa con la RNC y la Legión una vez."
+  },
+  {
+    question: "¿Vale la pena completar las misiones no marcadas en el remaster?",
+    answer: "Sí. Las misiones no marcadas no aparecen en el registro de misiones de tu Pip-Boy, pero ofrecen recompensas sustanciales, interacciones únicas con personajes y valiosos ajustes de karma que influyen en las diapositivas finales del juego."
+  }
+]} />
+
+</Section>
